@@ -8,3 +8,4 @@ __pycache__/
 .DS_Store
 *.log
 !provenance/logs/.gitkeep
+sdg_queries/composed/_pre_clean_archive/
