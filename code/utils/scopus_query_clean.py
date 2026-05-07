@@ -4,17 +4,18 @@ Sanitise Aurora SDG composed queries for the current Scopus parser.
 
 Scopus (2024+) rejects wildcards (*) inside quoted strings, which
 causes the entire TITLE-ABS-KEY clause to return zero results.
-This module provides clean_for_scopus() which applies four rules in
+This module provides clean_for_scopus() which applies five rules in
 sequence to remove or unquote problematic wildcard patterns while
 preserving all Boolean operators, proximity operators, country names,
 year/doctype filters, and unquoted trailing wildcards.
 
 Rules applied in order:
-  A  - "word*"     -> word*        (unquote single-token wildcard)
-  B  - "w1 w2*"   -> "w1 w2"     (strip trailing wildcard from phrase)
-  C  - {phrase*}   -> {phrase}     (strip wildcard from exact-match braces)
-  D  - *word       -> word         (remove unsupported leading wildcard)
-  B+ - "w1* w2"   -> "w1 w2"     (cleanup: infix wildcard in quoted phrase)
+  A  - "word*"       -> word*          (unquote single-token wildcard)
+  B  - "w1 w2*"     -> "w1 w2"       (strip trailing wildcard from phrase)
+  C  - {phrase*}     -> {phrase}       (strip wildcard from exact-match braces)
+  D  - *word         -> word           (remove unsupported leading wildcard)
+  B+ - "w1* w2"     -> "w1 w2"       (cleanup: infix wildcard in quoted phrase)
+  E  - "w1* w2*"    -> (w1* W/1 w2*) (multi-wildcard phrase -> proximity)
 
 Root cause of B+ restriction:
   The naive r'"([^"]*)\\*([^"]*)"' pattern is intentionally NOT used for B+.
@@ -25,6 +26,13 @@ Root cause of B+ restriction:
   only matches genuine multi-word quoted phrases by requiring all characters
   inside the quotes to be word chars, spaces, hyphens, or apostrophes --
   never Scopus operator chars like W, /, (, ), etc.
+
+Rule E motivation:
+  After B and B+ run, quoted phrases with multiple wildcards (e.g.
+  "develop* countr*", "myocard* infarct*") remain unhandled because B+
+  cannot consume WORDS_AFTER when it contains a second asterisk.  Rule E
+  converts these to W/1 proximity expressions so both wildcards stay valid
+  and the adjacency constraint is preserved.
 """
 
 import re
@@ -64,6 +72,13 @@ _RE_BPLUS = re.compile(
     + r"(" + _WORDS_AFTER  + r")"   # group 2: optional continuation after wildcard
     + r'"'
 )
+
+# Rule E: remaining quoted phrases with multiple wildcards,
+#   e.g. "develop* countr*" -> (develop* W/1 countr*)
+# Applied after B+ so that single-infix-wildcard phrases are already cleaned.
+# Character class excludes Scopus operators (W, /, (, ), etc.) -- same
+# restriction as _RE_BPLUS but allows * in the interior.
+_RE_E = re.compile(r'"([A-Za-z][A-Za-z0-9\- ]*\*[A-Za-z0-9\- *]*)"')
 
 # Final normalisation: collapse multiple spaces to one
 _RE_SPACES = re.compile(r' {2,}')
@@ -111,9 +126,10 @@ def clean_for_scopus(query: str) -> Tuple[str, List[Dict]]:
     result = _apply("C", _RE_C, r'{\1}', result)
     result = _apply("D", _RE_D, r"\1",   result)
 
-    # B+ cleanup: strip infix wildcards from remaining genuine quoted phrases.
+    # B+ cleanup: strip single infix wildcard from remaining genuine quoted phrases.
     # Counted under rule "B" since it is the same semantic operation.
-    # Loop until stable in case a phrase has multiple infix wildcards.
+    # Loop until stable in case a phrase has multiple infix wildcards that can
+    # be handled one at a time (only possible when WORDS_AFTER has no trailing *).
     prev = None
     while prev != result:
         prev = result
@@ -123,6 +139,14 @@ def clean_for_scopus(query: str) -> Tuple[str, List[Dict]]:
             lambda m: f'"{m.group(1)}{m.group(2)}"',
             result,
         )
+
+    # Rule E: any still-quoted phrase containing * (multi-wildcard patterns
+    # that B+ cannot reach) -> W/1 proximity expression.
+    def _e_repl(m: re.Match) -> str:
+        tokens = m.group(1).strip().split()
+        return "(" + " W/1 ".join(tokens) + ")"
+
+    result = _apply("E", _RE_E, _e_repl, result)
 
     result = _RE_SPACES.sub(" ", result)
 
