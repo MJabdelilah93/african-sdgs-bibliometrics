@@ -1,0 +1,10 @@
+.venv/
+data/raw/
+data/interim/
+data/processed/
+data/external/
+*.pyc
+__pycache__/
+.DS_Store
+*.log
+!provenance/logs/.gitkeep

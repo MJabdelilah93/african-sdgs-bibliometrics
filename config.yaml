@@ -1,0 +1,22 @@
+paths:
+  raw_data: data/raw
+  interim_data: data/interim
+  processed_data: data/processed
+  external_data: data/external
+  provenance: provenance
+  results: results
+  figures: figures
+  country_list: country_lists/au54_countries.csv
+  sdg_queries_elsevier: sdg_queries/elsevier_2025
+  sdg_queries_composed: sdg_queries/composed
+cleaning:
+  dedup_doi_lowercase: true
+  dedup_title_threshold: 0.95
+  dedup_year_window: 1
+  affiliation_fuzzy_threshold: 0.92
+corpus:
+  year_min: 2015
+  year_max: 2025
+  doc_types:
+    - ar
+    - re
