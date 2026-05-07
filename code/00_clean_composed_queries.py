@@ -37,6 +37,7 @@ CSV_COLS = [
     "rule_C_count",
     "rule_D_count",
     "rule_E_count",
+    "rule_F_count",
     "total_transformations",
 ]
 
@@ -44,8 +45,8 @@ records = []
 all_logs = {}   # sdg_number -> log list
 
 print(f"{'SDG':>4}  {'Orig':>8}  {'Clean':>8}  {'Delta':>6}  "
-      f"{'A':>4}  {'B':>4}  {'C':>4}  {'D':>4}  {'E':>4}  {'Total':>6}")
-print("-" * 70)
+      f"{'A':>4}  {'B':>4}  {'C':>4}  {'D':>4}  {'E':>4}  {'F':>4}  {'Total':>6}")
+print("-" * 75)
 
 for n in range(1, 18):
     nn  = f"{n:02d}"
@@ -79,6 +80,7 @@ for n in range(1, 18):
         "rule_C_count":       by_rule.get("C", 0),
         "rule_D_count":       by_rule.get("D", 0),
         "rule_E_count":       by_rule.get("E", 0),
+        "rule_F_count":       by_rule.get("F", 0),
         "total_transformations": sum(by_rule.values()),
     }
     records.append(rec)
@@ -87,10 +89,10 @@ for n in range(1, 18):
           f"{rec['length_delta']:>+6,}  "
           f"{rec['rule_A_count']:>4}  {rec['rule_B_count']:>4}  "
           f"{rec['rule_C_count']:>4}  {rec['rule_D_count']:>4}  "
-          f"{rec['rule_E_count']:>4}  "
+          f"{rec['rule_E_count']:>4}  {rec['rule_F_count']:>4}  "
           f"{rec['total_transformations']:>6}")
 
-print("-" * 70)
+print("-" * 75)
 
 # 4. Write CSV
 with open(PROV_DIR / "stage1_query_cleaning_log.csv", "w", newline="", encoding="utf-8") as f:
@@ -104,6 +106,7 @@ total_B = sum(r["rule_B_count"]          for r in records)
 total_C = sum(r["rule_C_count"]          for r in records)
 total_D = sum(r["rule_D_count"]          for r in records)
 total_E = sum(r["rule_E_count"]          for r in records)
+total_F = sum(r["rule_F_count"]          for r in records)
 total   = sum(r["total_transformations"] for r in records)
 
 print(f"\nAggregate transformations across all 17 SDGs:")
@@ -112,12 +115,13 @@ print(f"  Rule B (strip wildcard from phrase)     : {total_B:>4}")
 print(f"  Rule C (curly-brace wildcard)           : {total_C:>4}")
 print(f"  Rule D (remove leading wildcard)        : {total_D:>4}")
 print(f"  Rule E (multi-wildcard -> W/1 proximity): {total_E:>4}")
+print(f"  Rule F (unhyphenate wildcard compound)  : {total_F:>4}")
 print(f"  Total                                   : {total:>4}")
 print()
 
-most_common = max(["A", "B", "C", "D", "E"],
+most_common = max(["A", "B", "C", "D", "E", "F"],
                   key=lambda r: {"A": total_A, "B": total_B, "C": total_C,
-                                 "D": total_D, "E": total_E}[r])
+                                 "D": total_D, "E": total_E, "F": total_F}[r])
 print(f"Most common rule: {most_common}")
 
 sdgs_with_transforms = [r["sdg_number"] for r in records if r["total_transformations"] > 0]

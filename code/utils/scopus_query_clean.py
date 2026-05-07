@@ -16,6 +16,7 @@ Rules applied in order:
   D  - *word         -> word           (remove unsupported leading wildcard)
   B+ - "w1* w2"     -> "w1 w2"       (cleanup: infix wildcard in quoted phrase)
   E  - "w1* w2*"    -> (w1* W/1 w2*) (multi-wildcard phrase -> proximity)
+  F  - prefix-suffix* -> prefixsuffix* (unhyphenate wildcard compound)
 
 Root cause of B+ restriction:
   The naive r'"([^"]*)\\*([^"]*)"' pattern is intentionally NOT used for B+.
@@ -79,6 +80,15 @@ _RE_BPLUS = re.compile(
 # Character class excludes Scopus operators (W, /, (, ), etc.) -- same
 # restriction as _RE_BPLUS but allows * in the interior.
 _RE_E = re.compile(r'"([A-Za-z][A-Za-z0-9\- ]*\*[A-Za-z0-9\- *]*)"')
+
+# Rule F: unquoted hyphenated wildcard compound -> concatenated wildcard
+#   e.g. socio-economic* -> socioeconomic*, micro-financ* -> microfinanc*
+# Scopus treats hyphens as spaces, so prefix-suffix* becomes two tokens
+# "prefix" and "suffix*"; but the hyphenated form itself triggers the
+# unsupported-wildcard parser error (same class as the (fire-*) example).
+# Lookbehind (?<![A-Za-z0-9"]) prevents matching inside already-quoted strings
+# or inside a longer word that happens to contain a hyphen mid-token.
+_RE_F = re.compile(r'(?<![A-Za-z0-9"])([A-Za-z][A-Za-z0-9]+)-([A-Za-z][A-Za-z0-9]*\*)')
 
 # Final normalisation: collapse multiple spaces to one
 _RE_SPACES = re.compile(r' {2,}')
@@ -147,6 +157,9 @@ def clean_for_scopus(query: str) -> Tuple[str, List[Dict]]:
         return "(" + " W/1 ".join(tokens) + ")"
 
     result = _apply("E", _RE_E, _e_repl, result)
+
+    # Rule F: unhyphenate unquoted wildcard compounds.
+    result = _apply("F", _RE_F, lambda m: m.group(1) + m.group(2), result)
 
     result = _RE_SPACES.sub(" ", result)
 
