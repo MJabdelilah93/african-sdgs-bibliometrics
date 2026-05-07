@@ -1,18 +1,18 @@
-﻿sdg_number,original_length_chars,composed_length_chars,warning_over_25k_chars
-01,65917,67708,yes
-02,195265,197056,yes
-03,225778,227569,yes
-04,101037,102828,yes
-05,88876,90667,yes
-06,216075,217866,yes
-07,277508,279299,yes
-08,86316,88107,yes
-09,340803,342594,yes
-10,250046,251837,yes
-11,134979,136770,yes
-12,95157,96948,yes
-13,147765,149556,yes
-14,360831,362622,yes
-15,172381,174172,yes
-16,84838,86629,yes
-17,47406,49197,yes
+sdg_number,sdg_title,source_xml_file,n_query_definitions,n_query_lines,aurora_content_length_chars,composed_length_chars,warning_over_25k_chars
+01,SDG-01 no poverty,query_SDG1.xml,7,19,1630,3414,no
+02,SDG-02 zero hunger,query_SDG2.xml,8,16,1854,3638,no
+03,SDG-03 good health and well-being,query_SDG3.xml,13,28,4628,6412,no
+04,SDG-04 quality education,query_SDG4.xml,10,18,2076,3860,no
+05,SDG-05 gender equality,query_SDG5.xml,9,26,3043,4827,no
+06,SDG-06 clean water and sanitation,query_SDG6.xml,8,17,1460,3244,no
+07,SDG-07 affordable and clean energy,query_SDG7.xml,5,10,1130,2914,no
+08,SDG-08 decent work and economic growth,query_SDG8.xml,12,34,2677,4461,no
+09,"SDG-09 industry, innovation and infrastructure",query_SDG9.xml,8,24,2811,4595,no
+10,SDG-10 reduce inequalities,query_SDG10.xml,10,17,2093,3877,no
+11,SDG-11 sustainable cities and communities,query_SDG11.xml,10,20,2180,3964,no
+12,SDG-12 responsible consumption and production,query_SDG12.xml,11,20,1900,3684,no
+13,SDG-13 climate action,query_SDG13.xml,6,9,2167,3951,no
+14,SDG-14 life below water,query_SDG14.xml,10,14,2529,4313,no
+15,SDG-15 life on land,query_SDG15.xml,12,28,3402,5186,no
+16,"SDG-16 peace, justice and strong institutions",query_SDG16.xml,12,34,3378,5162,no
+17,SDG-17 partnerships for the goals,query_SDG17.xml,19,44,5133,6917,no

@@ -8,6 +8,7 @@ paths:
   figures: figures
   country_list: country_lists/au54_countries.csv
   sdg_queries_elsevier: sdg_queries/elsevier_2025
+  sdg_queries_aurora: sdg_queries/aurora
   sdg_queries_composed: sdg_queries/composed
 cleaning:
   dedup_doi_lowercase: true

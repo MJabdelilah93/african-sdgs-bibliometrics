@@ -1,0 +1,185 @@
+Aurora SDG Search Query Framework – Composition Provenance
+==============================================================
+
+Citation:
+  Vanderfeesten, M., Otten, R., & Spielberg, E. (2020).
+  Search queries for "mapping research output to the SDGs" v5.0.3.
+  Zenodo. https://doi.org/10.5281/zenodo.4883250
+
+Composition date : 2026-05-07
+Parser used      : lxml
+Countries        : 54 AU member states
+Year window      : PUBYEAR > 2014 AND PUBYEAR < 2026
+Document types   : ar (article), re (review)
+
+Per-SDG details:
+--------------------------------------------------------------
+SDG 01 – SDG-01 no poverty
+  Source XML         : query_SDG1.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 7
+  Query lines        : 19
+  Aurora content len : 1,630 chars
+  Composed length    : 3,414 chars
+  Over 25k warning   : no
+
+SDG 02 – SDG-02 zero hunger
+  Source XML         : query_SDG2.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 8
+  Query lines        : 16
+  Aurora content len : 1,854 chars
+  Composed length    : 3,638 chars
+  Over 25k warning   : no
+
+SDG 03 – SDG-03 good health and well-being
+  Source XML         : query_SDG3.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 13
+  Query lines        : 28
+  Aurora content len : 4,628 chars
+  Composed length    : 6,412 chars
+  Over 25k warning   : no
+
+SDG 04 – SDG-04 quality education
+  Source XML         : query_SDG4.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 10
+  Query lines        : 18
+  Aurora content len : 2,076 chars
+  Composed length    : 3,860 chars
+  Over 25k warning   : no
+
+SDG 05 – SDG-05 gender equality
+  Source XML         : query_SDG5.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 9
+  Query lines        : 26
+  Aurora content len : 3,043 chars
+  Composed length    : 4,827 chars
+  Over 25k warning   : no
+
+SDG 06 – SDG-06 clean water and sanitation
+  Source XML         : query_SDG6.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 8
+  Query lines        : 17
+  Aurora content len : 1,460 chars
+  Composed length    : 3,244 chars
+  Over 25k warning   : no
+
+SDG 07 – SDG-07 affordable and clean energy
+  Source XML         : query_SDG7.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 5
+  Query lines        : 10
+  Aurora content len : 1,130 chars
+  Composed length    : 2,914 chars
+  Over 25k warning   : no
+
+SDG 08 – SDG-08 decent work and economic growth
+  Source XML         : query_SDG8.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 12
+  Query lines        : 34
+  Aurora content len : 2,677 chars
+  Composed length    : 4,461 chars
+  Over 25k warning   : no
+
+SDG 09 – SDG-09 industry, innovation and infrastructure
+  Source XML         : query_SDG9.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 8
+  Query lines        : 24
+  Aurora content len : 2,811 chars
+  Composed length    : 4,595 chars
+  Over 25k warning   : no
+
+SDG 10 – SDG-10 reduce inequalities
+  Source XML         : query_SDG10.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 10
+  Query lines        : 17
+  Aurora content len : 2,093 chars
+  Composed length    : 3,877 chars
+  Over 25k warning   : no
+
+SDG 11 – SDG-11 sustainable cities and communities
+  Source XML         : query_SDG11.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 10
+  Query lines        : 20
+  Aurora content len : 2,180 chars
+  Composed length    : 3,964 chars
+  Over 25k warning   : no
+
+SDG 12 – SDG-12 responsible consumption and production
+  Source XML         : query_SDG12.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 11
+  Query lines        : 20
+  Aurora content len : 1,900 chars
+  Composed length    : 3,684 chars
+  Over 25k warning   : no
+
+SDG 13 – SDG-13 climate action
+  Source XML         : query_SDG13.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 6
+  Query lines        : 9
+  Aurora content len : 2,167 chars
+  Composed length    : 3,951 chars
+  Over 25k warning   : no
+
+SDG 14 – SDG-14 life below water
+  Source XML         : query_SDG14.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 10
+  Query lines        : 14
+  Aurora content len : 2,529 chars
+  Composed length    : 4,313 chars
+  Over 25k warning   : no
+
+SDG 15 – SDG-15 life on land
+  Source XML         : query_SDG15.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 12
+  Query lines        : 28
+  Aurora content len : 3,402 chars
+  Composed length    : 5,186 chars
+  Over 25k warning   : no
+
+SDG 16 – SDG-16 peace, justice and strong institutions
+  Source XML         : query_SDG16.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 12
+  Query lines        : 34
+  Aurora content len : 3,378 chars
+  Composed length    : 5,162 chars
+  Over 25k warning   : no
+
+SDG 17 – SDG-17 partnerships for the goals
+  Source XML         : query_SDG17.xml
+  Aurora version     : 5.0
+  Aurora DOI         : https://doi.org/10.5281/zenodo.3817445
+  Query definitions  : 19
+  Query lines        : 44
+  Aurora content len : 5,133 chars
+  Composed length    : 6,917 chars
+  Over 25k warning   : no
