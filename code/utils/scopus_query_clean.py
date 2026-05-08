@@ -20,6 +20,8 @@ Rules applied in order:
   G  - (wc*) W/n (y) -> (wc*) AND (y) (proximity+wildcard -> AND)
   G2a- (wc*) W/n    -> (wc*) AND      (wildcard group before W/n, complex right side)
   G2b- W/n (wc*)    -> AND (wc*)      (W/n before wildcard group, complex left side)
+  G3a- (deep*) W/n  -> (deep*) AND    (deep nested left group containing wildcard)
+  G3b- W/n (deep*)  -> AND (deep*)    (W/n before deep nested right group with wildcard)
 
 Root cause of B+ restriction:
   The naive r'"([^"]*)\\*([^"]*)"' pattern is intentionally NOT used for B+.
@@ -64,6 +66,16 @@ Rules G2a / G2b motivation:
     G2b fires when the RIGHT operand is a wildcard paren group _WC_G,
         replacing "W/n (wc*)" with "AND (wc*)" regardless of left side.
   Both are run in a joint loop until stable; they are logged under rule G.
+
+Rules G3a / G3b motivation:
+  G2b can introduce a new invalid pattern: when it converts an INNER W/n
+  to AND (e.g. "maternal" W/3 ("mortality" OR death*) -> "maternal" AND ...),
+  the OUTER W/n's operand now contains AND, which Scopus rejects as a
+  proximity operand ("Unexpected input at position N").  G3a and G3b use
+  a deeper _G3 pattern (handles up to 3 levels of nested parens) together
+  with a programmatic wildcard check so they fire on any wildcard-containing
+  group regardless of nesting depth.  They run after G2a/G2b in a joint
+  loop until stable; logged under rule G.
 """
 
 import re
@@ -146,6 +158,33 @@ _RE_G2A = re.compile(r'(' + _WC_G + r')\s*(W/\d+)')
 
 # G2b: W/n immediately BEFORE a wildcard paren group; left side unconstrained.
 _RE_G2B = re.compile(r'(W/\d+)\s*(' + _WC_G + r')')
+
+# G3 character-scanner helpers: balanced-paren search, O(n), no regex.
+# Used instead of a regex-based _G3 pattern because Python's `re` module
+# lacks possessive quantifiers; any nested (?:A|B)* on long strings risks
+# catastrophic backtracking that cannot be tamed without atomic groups.
+
+def _g3_find_close(s: str, pos: int) -> int:
+    """Return index of ')' matching '(' at pos, or -1 if unmatched."""
+    depth = 0
+    for i in range(pos, len(s)):
+        if s[i] == '(':   depth += 1
+        elif s[i] == ')':
+            depth -= 1
+            if depth == 0: return i
+    return -1
+
+def _g3_find_open(s: str, pos: int) -> int:
+    """Return index of '(' matching ')' at pos, or -1 if unmatched."""
+    depth = 0
+    for i in range(pos, -1, -1):
+        if s[i] == ')':   depth += 1
+        elif s[i] == '(':
+            depth -= 1
+            if depth == 0: return i
+    return -1
+
+_RE_WN = re.compile(r'W/\d+')   # locates W/n tokens for the G3 scanner
 
 # Final normalisation: collapse multiple spaces to one
 _RE_SPACES = re.compile(r' {2,}')
@@ -238,6 +277,63 @@ def clean_for_scopus(query: str) -> Tuple[str, List[Dict]]:
         prev = result
         result = _apply("G", _RE_G2A, lambda m: f"{m.group(1)} AND", result)
         result = _apply("G", _RE_G2B, lambda m: f"AND {m.group(2)}", result)
+
+    # G3 scanner: G2b can create a new invalid pattern — when it converts an
+    # inner W/n to AND the OUTER W/n's operand now contains AND, which Scopus
+    # rejects as a proximity operand ("Unexpected input at position N").
+    # A regex-based fix would need nested (?:A|B)* patterns that cause
+    # catastrophic backtracking in Python's re module (no possessive quantifiers).
+    # The character scanner avoids that entirely: O(n) per W/n, guaranteed.
+    # Logged under rule G, loop until stable.
+    g3_changed = True
+    while g3_changed:
+        g3_changed = False
+        idx = 0
+        while idx < len(result):
+            m = _RE_WN.match(result, idx)
+            if m is None:
+                idx += 1
+                continue
+            ws, we, wn = m.start(), m.end(), m.group(0)
+            replaced = False
+
+            # RIGHT: paren group immediately after W/n (skip spaces)
+            j = we
+            while j < len(result) and result[j] == ' ':
+                j += 1
+            if j < len(result) and result[j] == '(':
+                rend = _g3_find_close(result, j)
+                if rend != -1 and '*' in result[j:rend + 1]:
+                    right = result[j:rend + 1]
+                    orig  = result[ws:rend + 1]
+                    rep   = 'AND ' + right
+                    key   = ("G", orig, rep)
+                    counts[key] = counts.get(key, 0) + 1
+                    result = result[:ws] + rep + result[rend + 1:]
+                    g3_changed = True
+                    idx = ws
+                    replaced = True
+
+            # LEFT: paren group immediately before W/n (skip spaces)
+            if not replaced:
+                k = ws - 1
+                while k >= 0 and result[k] == ' ':
+                    k -= 1
+                if k >= 0 and result[k] == ')':
+                    lstart = _g3_find_open(result, k)
+                    if lstart != -1 and '*' in result[lstart:k + 1]:
+                        left  = result[lstart:k + 1]
+                        orig  = result[lstart:we]
+                        rep   = left + ' AND '
+                        key   = ("G", orig, rep)
+                        counts[key] = counts.get(key, 0) + 1
+                        result = result[:lstart] + rep + result[we:]
+                        g3_changed = True
+                        idx = lstart
+                        replaced = True
+
+            if not replaced:
+                idx = we
 
     result = _RE_SPACES.sub(" ", result)
 

@@ -7,6 +7,7 @@ Splits chosen based on actual Scopus result counts retrieved 2026-05-07.
 Adjust year_ranges below and re-run if counts differ on a later retrieval.
 
 SDGs requiring splits:
+  SDG 1  : >24,000 results  → 2-way split  [2015-2020, 2021-2025]
   SDG 6  : ~22,000 results  → 2-way split  [2015-2020, 2021-2025]
   SDG 13 : ~50,000 results  → 3-way split  [2015-2018, 2019-2022, 2023-2025]
   SDG 15 : ~23,000 results  → 2-way split  [2015-2020, 2021-2025]
@@ -20,12 +21,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "utils"))
 from year_split_query import split_query_by_years
 
 SPLITS = {
+    1:  [(2015, 2020), (2021, 2025)],
     6:  [(2015, 2020), (2021, 2025)],
     13: [(2015, 2018), (2019, 2022), (2023, 2025)],
     15: [(2015, 2020), (2021, 2025)],
 }
 
-expected_files = 7   # 2 + 3 + 2
+expected_files = 9   # 2 + 2 + 3 + 2
 created_all = []
 
 for sdg_num, ranges in SPLITS.items():
