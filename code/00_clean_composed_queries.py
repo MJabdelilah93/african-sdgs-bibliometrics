@@ -38,6 +38,7 @@ CSV_COLS = [
     "rule_D_count",
     "rule_E_count",
     "rule_F_count",
+    "rule_G_count",
     "total_transformations",
 ]
 
@@ -45,8 +46,8 @@ records = []
 all_logs = {}   # sdg_number -> log list
 
 print(f"{'SDG':>4}  {'Orig':>8}  {'Clean':>8}  {'Delta':>6}  "
-      f"{'A':>4}  {'B':>4}  {'C':>4}  {'D':>4}  {'E':>4}  {'F':>4}  {'Total':>6}")
-print("-" * 75)
+      f"{'A':>4}  {'B':>4}  {'C':>4}  {'D':>4}  {'E':>4}  {'F':>4}  {'G':>4}  {'Total':>6}")
+print("-" * 80)
 
 for n in range(1, 18):
     nn  = f"{n:02d}"
@@ -56,10 +57,17 @@ for n in range(1, 18):
         print(f"  SDG{nn}: NOT FOUND — skipping")
         continue
 
-    original = src.read_text(encoding="utf-8")
+    archive_path = ARCHIVE / f"SDG{nn}_full_original.txt"
 
-    # 1. Archive original
-    (ARCHIVE / f"SDG{nn}_full_original.txt").write_text(original, encoding="utf-8")
+    # 1. Archive original (first run) or restore from archive (re-runs).
+    # Re-runs always start from the pre-cleaning original so rules are
+    # applied idempotently from a known baseline.
+    if archive_path.exists():
+        original = archive_path.read_text(encoding="utf-8")
+        src.write_text(original, encoding="utf-8")
+    else:
+        original = src.read_text(encoding="utf-8")
+        archive_path.write_text(original, encoding="utf-8")
 
     # 2. Clean
     cleaned, log = clean_for_scopus(original)
@@ -81,6 +89,7 @@ for n in range(1, 18):
         "rule_D_count":       by_rule.get("D", 0),
         "rule_E_count":       by_rule.get("E", 0),
         "rule_F_count":       by_rule.get("F", 0),
+        "rule_G_count":       by_rule.get("G", 0),
         "total_transformations": sum(by_rule.values()),
     }
     records.append(rec)
@@ -90,9 +99,10 @@ for n in range(1, 18):
           f"{rec['rule_A_count']:>4}  {rec['rule_B_count']:>4}  "
           f"{rec['rule_C_count']:>4}  {rec['rule_D_count']:>4}  "
           f"{rec['rule_E_count']:>4}  {rec['rule_F_count']:>4}  "
+          f"{rec['rule_G_count']:>4}  "
           f"{rec['total_transformations']:>6}")
 
-print("-" * 75)
+print("-" * 80)
 
 # 4. Write CSV
 with open(PROV_DIR / "stage1_query_cleaning_log.csv", "w", newline="", encoding="utf-8") as f:
@@ -107,6 +117,7 @@ total_C = sum(r["rule_C_count"]          for r in records)
 total_D = sum(r["rule_D_count"]          for r in records)
 total_E = sum(r["rule_E_count"]          for r in records)
 total_F = sum(r["rule_F_count"]          for r in records)
+total_G = sum(r["rule_G_count"]          for r in records)
 total   = sum(r["total_transformations"] for r in records)
 
 print(f"\nAggregate transformations across all 17 SDGs:")
@@ -116,12 +127,14 @@ print(f"  Rule C (curly-brace wildcard)           : {total_C:>4}")
 print(f"  Rule D (remove leading wildcard)        : {total_D:>4}")
 print(f"  Rule E (multi-wildcard -> W/1 proximity): {total_E:>4}")
 print(f"  Rule F (unhyphenate wildcard compound)  : {total_F:>4}")
+print(f"  Rule G (W/n+wildcard -> AND)            : {total_G:>4}")
 print(f"  Total                                   : {total:>4}")
 print()
 
-most_common = max(["A", "B", "C", "D", "E", "F"],
+most_common = max(["A", "B", "C", "D", "E", "F", "G"],
                   key=lambda r: {"A": total_A, "B": total_B, "C": total_C,
-                                 "D": total_D, "E": total_E, "F": total_F}[r])
+                                 "D": total_D, "E": total_E, "F": total_F,
+                                 "G": total_G}[r])
 print(f"Most common rule: {most_common}")
 
 sdgs_with_transforms = [r["sdg_number"] for r in records if r["total_transformations"] > 0]

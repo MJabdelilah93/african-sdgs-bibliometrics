@@ -17,6 +17,9 @@ Rules applied in order:
   B+ - "w1* w2"     -> "w1 w2"       (cleanup: infix wildcard in quoted phrase)
   E  - "w1* w2*"    -> (w1* W/1 w2*) (multi-wildcard phrase -> proximity)
   F  - prefix-suffix* -> prefixsuffix* (unhyphenate wildcard compound)
+  G  - (wc*) W/n (y) -> (wc*) AND (y) (proximity+wildcard -> AND)
+  G2a- (wc*) W/n    -> (wc*) AND      (wildcard group before W/n, complex right side)
+  G2b- W/n (wc*)    -> AND (wc*)      (W/n before wildcard group, complex left side)
 
 Root cause of B+ restriction:
   The naive r'"([^"]*)\\*([^"]*)"' pattern is intentionally NOT used for B+.
@@ -34,6 +37,33 @@ Rule E motivation:
   cannot consume WORDS_AFTER when it contains a second asterisk.  Rule E
   converts these to W/1 proximity expressions so both wildcards stay valid
   and the adjacency constraint is preserved.
+
+Rule G motivation:
+  Scopus rejects W/n when either adjacent operand group contains an
+  unquoted wildcard (same error class as the documented unsupported
+  example "{nitrous oxide} W/2 emission*").  Rule G replaces the W/n
+  with AND, preserving the Boolean relationship while sacrificing
+  proximity precision -- acceptable for continental-scale thematic mapping.
+
+  The pattern uses TWO alternating sub-patterns so the engine only
+  advances past a W/n match when at least one side HAS a wildcard.
+  If neither side has a wildcard the engine fails at that position and
+  continues scanning, so downstream wildcard W/n pairs in the same
+  (or chained) expression are still found in the same pass.
+  A loop repeats until stable because a chain (a*) W/n (b) W/n (c*)
+  may need two passes: the first replaces (a*) W/n (b), exposing
+  (b) W/n (c*) for the second pass.
+
+Rules G2a / G2b motivation:
+  Rule G requires BOTH operands to be simple parenthesised groups with
+  no nested parens ([^()]*).  Eleven SDGs contain W/n where one side
+  is either a complex nested group (e.g. (("neonatal" OR ...) W/3 (...)))
+  or a bare quoted term.  G2a and G2b each check only ONE side:
+    G2a fires when the LEFT operand is a wildcard paren group _WC_G,
+        replacing "(wc*) W/n" with "(wc*) AND" regardless of right side.
+    G2b fires when the RIGHT operand is a wildcard paren group _WC_G,
+        replacing "W/n (wc*)" with "AND (wc*)" regardless of left side.
+  Both are run in a joint loop until stable; they are logged under rule G.
 """
 
 import re
@@ -89,6 +119,33 @@ _RE_E = re.compile(r'"([A-Za-z][A-Za-z0-9\- ]*\*[A-Za-z0-9\- *]*)"')
 # Lookbehind (?<![A-Za-z0-9"]) prevents matching inside already-quoted strings
 # or inside a longer word that happens to contain a hyphen mid-token.
 _RE_F = re.compile(r'(?<![A-Za-z0-9"])([A-Za-z][A-Za-z0-9]+)-([A-Za-z][A-Za-z0-9]*\*)')
+
+# Rule G: W/n proximity operator adjacent to a wildcard-bearing group -> AND
+# _WC_G matches a parenthesised group that CONTAINS *  (wildcard group)
+# _NW_G matches a parenthesised group that does NOT contain * (no-wildcard group)
+#   [^()*] excludes (, ), and * from the interior character class.
+# Two-alternative pattern so the regex engine FAILS (rather than consuming
+# and returning unchanged) when neither side has a wildcard:
+#   Alt 1 – left group has *; right group can be anything.
+#   Alt 2 – left group has NO *; right group has *.
+# This failure-on-no-wildcard property means (a) W/n (b) W/n (c*) is
+# handled correctly in one pass: the engine skips (a) W/n (b) without
+# advancing past (b), then matches (b) W/n (c*) immediately after.
+_WC_G = r'\([^()]*\*[^()]*\)'    # paren group containing  *
+_NW_G = r'\([^()*]*\)'            # paren group without     *
+_RE_G = re.compile(
+    r'(' + _WC_G + r')\s*(W/\d+)\s*(' + _WC_G + r'|' + _NW_G + r')'  # Alt 1
+    + r'|'
+    + r'(' + _NW_G + r')\s*(W/\d+)\s*(' + _WC_G + r')'                # Alt 2
+)
+
+# G2a: wildcard paren group immediately BEFORE W/n; right side unconstrained.
+# Fires after the main Rule G loop to catch cases where the right operand
+# is a complex nested group that _RE_G's [^()]* could not consume.
+_RE_G2A = re.compile(r'(' + _WC_G + r')\s*(W/\d+)')
+
+# G2b: W/n immediately BEFORE a wildcard paren group; left side unconstrained.
+_RE_G2B = re.compile(r'(W/\d+)\s*(' + _WC_G + r')')
 
 # Final normalisation: collapse multiple spaces to one
 _RE_SPACES = re.compile(r' {2,}')
@@ -160,6 +217,27 @@ def clean_for_scopus(query: str) -> Tuple[str, List[Dict]]:
 
     # Rule F: unhyphenate unquoted wildcard compounds.
     result = _apply("F", _RE_F, lambda m: m.group(1) + m.group(2), result)
+
+    # Rule G: W/n adjacent to wildcard group -> AND.
+    # Alt 1 matched when group 1 is set; Alt 2 when group 4 is set.
+    def _g_repl(m: re.Match) -> str:
+        if m.group(1) is not None:          # Alt 1: left has wildcard
+            return f"{m.group(1)} AND {m.group(3)}"
+        return f"{m.group(4)} AND {m.group(6)}"  # Alt 2: only right has wildcard
+
+    prev = None
+    while prev != result:
+        prev = result
+        result = _apply("G", _RE_G, _g_repl, result)
+
+    # G2a / G2b: catch remaining W/n+wildcard cases where one operand is
+    # a complex nested group that _RE_G could not consume.
+    # Both are counted under rule G and looped until stable.
+    prev = None
+    while prev != result:
+        prev = result
+        result = _apply("G", _RE_G2A, lambda m: f"{m.group(1)} AND", result)
+        result = _apply("G", _RE_G2B, lambda m: f"AND {m.group(2)}", result)
 
     result = _RE_SPACES.sub(" ", result)
 
