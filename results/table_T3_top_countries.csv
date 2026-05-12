@@ -1,0 +1,31 @@
+iso2,country,subregion,total_pubs,total_citations,cpp,h_index
+ZA,South Africa,Southern Africa,82536,2244431.0,27.19,434
+EG,Egypt,North Africa,51051,1443141.0,28.27,311
+NG,Nigeria,West Africa,39065,948304.0,24.28,281
+ET,Ethiopia,East Africa,31037,779347.0,25.11,242
+GH,Ghana,West Africa,19901,566023.0,28.44,216
+KE,Kenya,East Africa,16736,617615.0,36.9,253
+UG,Uganda,East Africa,11242,344074.0,30.61,190
+TZ,United Republic of Tanzania,East Africa,10710,367372.0,34.3,178
+TN,Tunisia,North Africa,10274,290764.0,28.3,165
+MA,Morocco,North Africa,10185,209873.0,20.61,153
+MW,Malawi,East Africa,6486,334218.0,51.53,176
+DZ,Algeria,North Africa,5826,187830.0,32.24,119
+CM,Cameroon,Central Africa,4934,256700.0,52.03,142
+ZW,Zimbabwe,Southern Africa,4330,90448.0,20.89,113
+ZM,Zambia,Southern Africa,3613,192466.0,53.27,139
+RW,Rwanda,East Africa,3048,114057.0,37.42,97
+SD,Sudan,North Africa,3025,167983.0,55.53,116
+BW,Botswana,Southern Africa,2491,121236.0,48.67,111
+BF,Burkina Faso,West Africa,2422,51763.0,21.37,83
+BJ,Benin,West Africa,2353,91335.0,38.82,92
+CI,Cote d'Ivoire,West Africa,1890,51109.0,27.04,85
+MZ,Mozambique,East Africa,1760,155640.0,88.43,109
+SN,Senegal,West Africa,1741,46531.0,26.73,95
+CD,Democratic Republic of the Congo,Central Africa,1690,89926.0,53.21,80
+NA,Namibia,Southern Africa,1634,65909.0,40.34,81
+TG,Togo,West Africa,1312,83136.0,63.37,68
+SL,Sierra Leone,West Africa,1067,138720.0,130.01,104
+MU,Mauritius,East Africa,1001,44071.0,44.03,85
+LY,Libya,North Africa,974,75007.0,77.01,94
+SO,Somalia,East Africa,908,27969.0,30.8,50

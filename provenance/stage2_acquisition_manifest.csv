@@ -1,0 +1,42 @@
+sdg_number,sdg_name,export_date,raw_record_count,query_string_file,export_filename,split_reason,framework,notes
+1,No Poverty,2026-05-08,9263,SDG01_full_2015-2020.txt,SDG01_AU54_2026-05-08_2015-2020.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 2
+1,No Poverty,2026-05-08,14678,SDG01_full_2021-2025.txt,SDG01_AU54_2026-05-08_2021-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 2
+2,Zero Hunger,2026-05-08,11879,SDG02_full_2015-2021.txt,SDG02_AU54_2026-05-08_2015-2021.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 2
+2,Zero Hunger,2026-05-08,12062,SDG02_full_2022-2025.txt,SDG02_AU54_2026-05-08_2022-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 2
+3,Good Health and Well-being,2026-05-08,10878,SDG03_full_2015-2018.txt,SDG03_AU54_2026-05-08_2015-2018.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 4
+3,Good Health and Well-being,2026-05-08,19851,SDG03_full_2019-2021.txt,SDG03_AU54_2026-05-08_2019-2021.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 4
+3,Good Health and Well-being,2026-05-08,19431,SDG03_full_2022-2023.txt,SDG03_AU54_2026-05-08_2022-2023.csv,year_split_20k_cap,Aurora_v5.0.3,part 3 of 4
+3,Good Health and Well-being,2026-05-08,19200,SDG03_full_2024-2025.txt,SDG03_AU54_2026-05-08_2024-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 4 of 4
+4,Quality Education,2026-05-08,9347,SDG04_full_2015-2020.txt,SDG04_AU54_2026-05-08_2015-2020.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 2
+4,Quality Education,2026-05-08,18257,SDG04_full_2021-2025.txt,SDG04_AU54_2026-05-08_2021-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 2
+5,Gender Equality,2026-05-08,14857,SDG05_full.txt,SDG05_AU54_2026-05-08.csv,,Aurora_v5.0.3,
+6,Clean Water and Sanitation,2026-05-08,14890,SDG06_full_2015-2020.txt,SDG06_AU54_2026-05-08_2015-2020.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 3
+6,Clean Water and Sanitation,2026-05-08,15432,SDG06_full_2021-2023.txt,SDG06_AU54_2026-05-08_2021-2023.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 3
+6,Clean Water and Sanitation,2026-05-08,15047,SDG06_full_2024-2025.txt,SDG06_AU54_2026-05-08_2024-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 3 of 3
+7,Affordable and Clean Energy,2026-05-08,19932,SDG07_full.txt,SDG07_AU54_2026-05-08.csv,,Aurora_v5.0.3,
+8,Decent Work and Economic Growth,2026-05-08,18189,SDG08_full.txt,SDG08_AU54_2026-05-08.csv,,Aurora_v5.0.3,
+9,"Industry, Innovation and Infrastructure",2026-05-08,8940,SDG09_full_2015-2020.txt,SDG09_AU54_2026-05-08_2015-2020.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 3
+9,"Industry, Innovation and Infrastructure",2026-05-08,11376,SDG09_full_2021-2023.txt,SDG09_AU54_2026-05-08_2021-2023.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 3
+9,"Industry, Innovation and Infrastructure",2026-05-08,17222,SDG09_full_2024-2025.txt,SDG09_AU54_2026-05-08_2024-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 3 of 3
+10,Reduced Inequalities,2026-05-08,14160,SDG10_full.txt,SDG10_AU54_2026-05-08.csv,,Aurora_v5.0.3,
+11,Sustainable Cities and Communities,2026-05-08,9059,SDG11_full_2015-2020.txt,SDG11_AU54_2026-05-08_2015-2020.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 2
+11,Sustainable Cities and Communities,2026-05-08,18353,SDG11_full_2021-2025.txt,SDG11_AU54_2026-05-08_2021-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 2
+12,Responsible Consumption and Production,2026-05-08,18649,SDG12_full_2015-2020.txt,SDG12_AU54_2026-05-08_2015-2020.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 5
+12,Responsible Consumption and Production,2026-05-08,14382,SDG12_full_2021-2022.txt,SDG12_AU54_2026-05-08_2021-2022.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 5
+12,Responsible Consumption and Production,2026-05-08,8706,SDG12_full_2023-2023.txt,SDG12_AU54_2026-05-08_2023-2023.csv,year_split_20k_cap,Aurora_v5.0.3,part 3 of 5
+12,Responsible Consumption and Production,2026-05-08,11494,SDG12_full_2024-2024.txt,SDG12_AU54_2026-05-08_2024-2024.csv,year_split_20k_cap,Aurora_v5.0.3,part 4 of 5
+12,Responsible Consumption and Production,2026-05-08,16217,SDG12_full_2025-2025.txt,SDG12_AU54_2026-05-08_2025-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 5 of 5
+13,Climate Action,2026-05-08,8761,SDG13_full_2015-2018.txt,SDG13_AU54_2026-05-08_2015-2018.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 4
+13,Climate Action,2026-05-08,18750,SDG13_full_2019-2022.txt,SDG13_AU54_2026-05-08_2019-2022.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 4
+13,Climate Action,2026-05-08,15305,SDG13_full_2023-2024.txt,SDG13_AU54_2026-05-08_2023-2024.csv,year_split_20k_cap,Aurora_v5.0.3,part 3 of 4
+13,Climate Action,2026-05-08,11374,SDG13_full_2025-2025.txt,SDG13_AU54_2026-05-08_2025-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 4 of 4
+14,Life Below Water,2026-05-08,18187,SDG14_full.txt,SDG14_AU54_2026-05-08.csv,,Aurora_v5.0.3,
+15,Life on Land,2026-05-08,17439,SDG15_full_2015-2020.txt,SDG15_AU54_2026-05-08_2015-2020.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 4
+15,Life on Land,2026-05-08,12623,SDG15_full_2021-2022.txt,SDG15_AU54_2026-05-08_2021-2022.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 4
+15,Life on Land,2026-05-08,18197,SDG15_full_2023-2024.txt,SDG15_AU54_2026-05-08_2023-2024.csv,year_split_20k_cap,Aurora_v5.0.3,part 3 of 4
+15,Life on Land,2026-05-08,15871,SDG15_full_2025-2025.txt,SDG15_AU54_2026-05-08_2025-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 4 of 4
+16,"Peace, Justice and Strong Institutions",2026-05-08,10614,SDG16_full_2015-2020.txt,SDG16_AU54_2026-05-08_2015-2020.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 2
+16,"Peace, Justice and Strong Institutions",2026-05-08,19872,SDG16_full_2021-2025.txt,SDG16_AU54_2026-05-08_2021-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 2
+17,Partnerships for the Goals,2026-05-08,15087,SDG17_full_2015-2020.txt,SDG17_AU54_2026-05-08_2015-2020.csv,year_split_20k_cap,Aurora_v5.0.3,part 1 of 3
+17,Partnerships for the Goals,2026-05-08,13123,SDG17_full_2021-2023.txt,SDG17_AU54_2026-05-08_2021-2023.csv,year_split_20k_cap,Aurora_v5.0.3,part 2 of 3
+17,Partnerships for the Goals,2026-05-08,12416,SDG17_full_2024-2025.txt,SDG17_AU54_2026-05-08_2024-2025.csv,year_split_20k_cap,Aurora_v5.0.3,part 3 of 3

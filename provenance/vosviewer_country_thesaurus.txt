@@ -1,0 +1,68 @@
+south africa	Africa
+kenya	Africa
+nigeria	Africa
+ethiopia	Africa
+ghana	Africa
+uganda	Africa
+tanzania	Africa
+egypt	Africa
+morocco	Africa
+algeria	Africa
+tunisia	Africa
+cameroon	Africa
+senegal	Africa
+burkina faso	Africa
+benin	Africa
+madagascar	Africa
+mozambique	Africa
+zimbabwe	Africa
+zambia	Africa
+rwanda	Africa
+namibia	Africa
+botswana	Africa
+congo	Africa
+democratic republic	Africa
+cote d'ivoire	Africa
+sudan	Africa
+united kingdom	Europe
+france	Europe
+germany	Europe
+netherlands	Europe
+sweden	Europe
+belgium	Europe
+spain	Europe
+italy	Europe
+portugal	Europe
+switzerland	Europe
+norway	Europe
+denmark	Europe
+finland	Europe
+ireland	Europe
+austria	Europe
+czech republic	Europe
+poland	Europe
+greece	Europe
+united states	North America
+canada	North America
+china	Asia-Pacific
+india	Asia-Pacific
+australia	Asia-Pacific
+japan	Asia-Pacific
+south korea	Asia-Pacific
+hong kong	Asia-Pacific
+malaysia	Asia-Pacific
+indonesia	Asia-Pacific
+thailand	Asia-Pacific
+vietnam	Asia-Pacific
+bangladesh	Asia-Pacific
+pakistan	Asia-Pacific
+new zealand	Asia-Pacific
+iran	Asia-Pacific
+turkey	Asia-Pacific
+saudi arabia	Middle East
+united arab emirates	Middle East
+jordan	Middle East
+iraq	Middle East
+brazil	Latin America
+mexico	Latin America
+russian federation	Other

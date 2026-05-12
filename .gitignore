@@ -1,11 +1,70 @@
-.venv/
+# Raw and processed data (large files, proprietary Scopus exports)
 data/raw/
 data/interim/
 data/processed/
 data/external/
-*.pyc
+
+# R data objects (large binary files)
+*.rds
+*.RData
+*.Rhistory
+
+# Python cache
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment files
+.env
+*.env
+.Renv
+
+# OS files
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/settings.json
+*.swp
+*.swo
+.idea/
+
+# Internal project management files
+memory/
+instructions/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Log files (keep only manifests, not runtime logs)
 *.log
-!provenance/logs/.gitkeep
+
+# Large network files from VOSviewer (raw)
+figures/network_*_network.txt
+figures/network_*_map.txt
+
+# Temporary files
+*.tmp
+*.temp
+
+# R htmlwidget dependency folders (self-contained HTML used instead)
+figures/F8_three_field_files/
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Query pre-clean archive (intermediate working files)
 sdg_queries/composed/_pre_clean_archive/
+
+# Large provenance logs (>100 MB, exceed GitHub file size limit)
+provenance/stage3_affiliation_log.csv
