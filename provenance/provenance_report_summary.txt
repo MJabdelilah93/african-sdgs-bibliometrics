@@ -1,0 +1,81 @@
+PIPELINE PROVENANCE SUMMARY
+============================================================
+Generated   : 2026-05-18 13:40 UTC
+Article     : Africa's Scientific Contribution to the SDGs (2015-2025)
+Author      : El Majjaoui, A. (ENSAH, Abdelmalek Essaadi University)
+
+STAGE 1 — QUERY SPECIFICATION
+------------------------------------------------------------
+Framework   : Aurora Network SDG Queries v5.0.3
+              DOI: 10.5281/zenodo.4883250
+17 SDG queries processed with wildcard cleaning rules A-G.
+Total characters after cleaning : 72,525
+Total transformations applied   : 1507
+
+STAGE 2 — DATA ACQUISITION
+------------------------------------------------------------
+Source      : Scopus Advanced Search (institutional access)
+Date        : 2026-05-08 (all 17 SDGs)
+Scope       : 54 African Union member states (AFFILCOUNTRY filter)
+Raw records : 599,370 across 41 CSV export files
+
+  Per-SDG record counts:
+    SDG01  No Poverty                                      23,941
+    SDG02  Zero Hunger                                     23,941
+    SDG03  Good Health and Well-being                      69,360
+    SDG04  Quality Education                               27,604
+    SDG05  Gender Equality                                 14,857
+    SDG06  Clean Water and Sanitation                      45,369
+    SDG07  Affordable and Clean Energy                     19,932
+    SDG08  Decent Work and Economic Growth                 18,189
+    SDG09  Industry, Innovation and Infrastructure         37,538
+    SDG10  Reduced Inequalities                            14,160
+    SDG11  Sustainable Cities and Communities              27,412
+    SDG12  Responsible Consumption and Production          69,448
+    SDG13  Climate Action                                  54,190
+    SDG14  Life Below Water                                18,187
+    SDG15  Life on Land                                    64,130
+    SDG16  Peace, Justice and Strong Institutions          30,486
+    SDG17  Partnerships for the Goals                      40,626
+
+STAGE 3 — CLEANING
+------------------------------------------------------------
+  Input records             : 599,370
+  Removed (DOI exact match) : 254,171 (42.41%)
+  Removed (fuzzy title)     : 6,790 (1.13%)
+  Unique records retained   : 338,409
+
+STAGE 4 — ENRICHMENT
+------------------------------------------------------------
+  Thesaurus entries total   : 169
+  Multi-SDG keywords flagged: 8
+
+SOFTWARE ENVIRONMENT
+------------------------------------------------------------
+  Python : 3.12.6
+  pandas              : 2.2.2
+  numpy               : 1.26.4
+  scipy               : 1.13.1
+  matplotlib          : 3.9.2
+  seaborn             : 0.13.2
+  plotly              : 5.24.1
+  kaleido             : 0.2.1
+  rapidfuzz           : 3.10.1
+  openpyxl            : 3.1.5
+  requests            : 2.32.3
+  pyyaml              : 6.0.2
+  tqdm                : 4.66.5
+  adjustText          : 1.3.0
+  R      : not detected
+  bibliometrix : see session_info()
+  ROR data     : v2.6-2026-04 (10.5281/zenodo.19576723)
+
+REPRODUCIBILITY STATEMENT
+------------------------------------------------------------
+With authorised Scopus access and the versioned rule sets archived
+in this repository, the deterministic stages of this pipeline are
+designed to produce identical outputs. SHA-256 checksums for all
+raw data files are recorded in provenance/stage2_checksums.txt.
+
+============================================================
+Generated: 2026-05-18 13:40 UTC
