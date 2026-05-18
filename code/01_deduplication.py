@@ -1,8 +1,10 @@
 """01_deduplication.py
 Stage 3A – Deduplicate the raw Scopus corpus.
 
-Pass 1: DOI exact match (vectorised).
-Pass 2: Fuzzy title match on no-DOI records, year-windowed (rapidfuzz).
+Three-pass cascade:
+  Pass 1: EID exact match  (Scopus Electronic Item Identifier, vectorised).
+  Pass 2: DOI exact match  (records not resolved by Pass 1, vectorised).
+  Pass 3: Fuzzy title match (records with neither EID nor DOI, rapidfuzz).
 
 Run from article08/:
     python code/01_deduplication.py
@@ -32,6 +34,10 @@ from utils.checksums import sha256_file
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+# pandas 3.x defaults to Arrow-backed strings; revert to numpy object dtype
+# to avoid ArrowMemoryError on large corpora and stay compatible with 2.x code.
+pd.options.future.infer_string = False
 
 # ── logging ───────────────────────────────────────────────────────────────────
 TODAY  = date.today().isoformat()
@@ -79,6 +85,7 @@ def clean_title(s):
 
 
 def merge_sdg_tags(*tag_strings):
+    """Merge one or more comma-separated SDG-number strings into a sorted string."""
     nums = set()
     for ts in tag_strings:
         if pd.notna(ts):
@@ -122,7 +129,7 @@ class UnionFind:
 # STEP 1 – CONCATENATION
 # ─────────────────────────────────────────────────────────────────────────────
 log("=" * 62)
-log("STAGE 3A – DEDUPLICATION")
+log("STAGE 3A – DEDUPLICATION  (three-pass: EID → DOI → fuzzy)")
 log("=" * 62)
 t0_total = time.time()
 
@@ -133,15 +140,35 @@ manifest = pd.read_csv(MANIFEST_PATH)
 manifest_total = int(manifest["raw_record_count"].sum())
 log(f"Manifest total : {manifest_total:,}")
 
-frames = []
+# Discover key column names from the first file (all Scopus exports share the same schema)
+_first_f = csv_files[0]
+for _enc in ("utf-8-sig", "utf-8", "latin-1"):
+    try:
+        _hdr = pd.read_csv(_first_f, nrows=0, encoding=_enc, dtype=object)
+        break
+    except Exception:
+        continue
+_all_hdr_cols = _hdr.columns.tolist()
+del _hdr
+_doi_key   = find_col(_all_hdr_cols, "doi",   "DOI")
+_title_key = find_col(_all_hdr_cols, "title", "Title")
+_year_key  = find_col(_all_hdr_cols, "year",  "Year")
+_eid_key   = find_col(_all_hdr_cols, "eid",   "EID", "Scopus EID")
+_usecols   = [c for c in [_eid_key, _doi_key, _title_key, _year_key] if c]
+log(f"Phase 1 key columns ({len(_usecols)}): {_usecols}")
+
+frames          = []
+partial_dfs     = []
+BATCH_SIZE      = 8          # concat every 8 files to cap peak memory
 per_file_counts = {}
+row_id_start    = 0          # global row counter for Phase 2 cross-reference
 
 for f in csv_files:
     m = FILE_RE.match(f.name)
     sdg_num = int(m.group(1))
     for enc in ("utf-8-sig", "utf-8", "latin-1"):
         try:
-            df_f = pd.read_csv(f, encoding=enc, dtype=str, low_memory=False)
+            df_f = pd.read_csv(f, encoding=enc, dtype=object, usecols=_usecols)
             break
         except Exception:
             continue
@@ -149,32 +176,45 @@ for f in csv_files:
         log(f"ERROR: cannot decode {f.name}")
         sys.exit(1)
 
-    df_f["sdg_number"]  = sdg_num
+    n_f = len(df_f)
+    df_f["sdg_number"]  = str(sdg_num)
     df_f["source_file"] = f.name
-    per_file_counts[f.name] = len(df_f)
+    df_f["_row_id"]     = list(range(row_id_start, row_id_start + n_f))
+    row_id_start += n_f
+    per_file_counts[f.name] = n_f
     frames.append(df_f)
-    log(f"  {f.name:<55} {len(df_f):>7,}")
+    log(f"  {f.name:<55} {n_f:>7,}")
+    if len(frames) >= BATCH_SIZE:
+        partial_dfs.append(pd.concat(frames, ignore_index=True, sort=False))
+        frames = []
 
-df = pd.concat(frames, ignore_index=True, sort=False)
+if frames:
+    partial_dfs.append(pd.concat(frames, ignore_index=True, sort=False))
+
+df = pd.concat(partial_dfs, ignore_index=True, sort=False)
+del partial_dfs, frames
 total_raw = len(df)
 log(f"\nTotal concatenated : {total_raw:,}  (manifest {manifest_total:,})")
 if total_raw != manifest_total:
     warn(f"  Row count mismatch: {total_raw} vs {manifest_total}")
 
 # ─────────────────────────────────────────────────────────────────────────────
-# STEP 2 – COLUMN DISCOVERY & DOI STANDARDISATION
+# STEP 2 – COLUMN DISCOVERY, DOI STANDARDISATION & EID STANDARDISATION
 # ─────────────────────────────────────────────────────────────────────────────
 doi_col   = find_col(df.columns, "doi", "DOI")
 title_col = find_col(df.columns, "title", "Title")
 year_col  = find_col(df.columns, "year", "Year")
+eid_col   = find_col(df.columns, "eid", "EID", "Scopus EID")
 
 if not doi_col:
     log("ERROR: DOI column not found"); sys.exit(1)
 if not title_col:
     log("ERROR: Title column not found"); sys.exit(1)
 
-log(f"\nColumns: DOI='{doi_col}'  Title='{title_col}'  Year='{year_col}'")
+log(f"\nColumns: DOI='{doi_col}'  Title='{title_col}'  "
+    f"Year='{year_col}'  EID='{eid_col}'")
 
+# DOI standardisation
 doi_std = (
     df[doi_col]
     .astype(str)
@@ -187,33 +227,123 @@ doi_std = doi_std.replace({"": pd.NA, "-": pd.NA, "none": pd.NA,
                             "nan": pd.NA, "n/a": pd.NA, "#name?": pd.NA})
 df["_doi_std"] = doi_std
 
+# EID standardisation (format: "2-s2.0-XXXXXXXXXX")
+if eid_col:
+    eid_std = (
+        df[eid_col]
+        .astype(str)
+        .str.strip()
+    )
+    eid_std = eid_std.replace({"": pd.NA, "-": pd.NA, "none": pd.NA,
+                               "nan": pd.NA, "n/a": pd.NA})
+else:
+    warn("EID column not found – Pass 1 will be skipped")
+    eid_std = pd.Series(pd.NA, index=df.index, dtype=object)
+
+df["_eid_std"] = eid_std
+
 valid_doi = df["_doi_std"].notna()
-n_valid   = int(valid_doi.sum())
-n_missing = int((~valid_doi).sum())
-log(f"\nDOI valid   : {n_valid:,}  ({100*n_valid/total_raw:.1f}%)")
-log(f"DOI missing : {n_missing:,} ({100*n_missing/total_raw:.1f}%)")
+valid_eid = df["_eid_std"].notna()
+
+n_valid_doi  = int(valid_doi.sum())
+n_missing_doi = int((~valid_doi).sum())
+n_valid_eid  = int(valid_eid.sum())
+n_missing_eid = int((~valid_eid).sum())
+
+log(f"\nDOI valid   : {n_valid_doi:,}  ({100*n_valid_doi/total_raw:.1f}%)")
+log(f"DOI missing : {n_missing_doi:,} ({100*n_missing_doi/total_raw:.1f}%)")
+log(f"EID valid   : {n_valid_eid:,}  ({100*n_valid_eid/total_raw:.1f}%)")
+log(f"EID missing : {n_missing_eid:,} ({100*n_missing_eid/total_raw:.1f}%)")
 
 # Initial sdg_tags = single sdg_number as string
 df["sdg_tags"] = df["sdg_number"].astype(str)
 
 # ─────────────────────────────────────────────────────────────────────────────
-# STEP 3 – PASS 1: DOI EXACT DEDUPLICATION  (vectorised)
+# STEP 3 – PASS 1: EID EXACT DEDUPLICATION  (vectorised)
 # ─────────────────────────────────────────────────────────────────────────────
 log("\n" + "-" * 62)
-log("PASS 1 – DOI exact deduplication")
+log("PASS 1 – EID exact deduplication")
 log("-" * 62)
 t0_p1 = time.time()
 
-doi_df = df[valid_doi].copy()
+eid_df = df[valid_eid].copy()
 
-# Merged sdg_tags per DOI group (sorted unique integers)
+# Merge sdg_tags per EID group (use existing sdg_tags, which are single ints here)
+sdg_by_eid = (
+    eid_df.groupby("_eid_std", sort=False)["sdg_tags"]
+    .apply(lambda tags: merge_sdg_tags(*tags.tolist()))
+)
+eid_df["sdg_tags"] = eid_df["_eid_std"].map(sdg_by_eid)
+
+# Non-null count for tie-breaking
+eid_df["_nonnull"] = eid_df.notna().sum(axis=1)
+eid_df["_pos"]     = range(len(eid_df))
+
+# Sort: eid_std asc, _nonnull desc, _pos asc → first row per group = best
+eid_sorted = eid_df.sort_values(
+    ["_eid_std", "_nonnull", "_pos"],
+    ascending=[True, False, True],
+)
+is_eid_keeper = ~eid_sorted.duplicated(subset="_eid_std", keep="first")
+eid_kept      = eid_sorted[is_eid_keeper].copy()
+eid_dropped   = eid_sorted[~is_eid_keeper].copy()
+
+eid_dup_groups = int(eid_df[eid_df["_eid_std"].duplicated(keep=False)]["_eid_std"].nunique())
+n_p1_removed   = len(eid_dropped)
+log(f"Duplicate EID groups    : {eid_dup_groups:,}")
+log(f"Rows removed (EID)      : {n_p1_removed:,}  ({100*n_p1_removed/total_raw:.2f}% of raw)")
+log(f"Rows retained after P1  : {len(eid_kept):,}")
+log(f"Pass 1 time             : {time.time()-t0_p1:.1f}s")
+
+# Lookup: EID → kept record's EID and DOI (for log)
+eid_to_kept_doi = eid_kept.set_index("_eid_std")["_doi_std"].to_dict()
+
+# Build dedup log for Pass 1
+ts = datetime.now().isoformat()
+p1_log = eid_dropped[[title_col, "_eid_std", "_doi_std", "sdg_tags"]].copy()
+p1_log.columns = ["_t", "_eid", "_doi", "_sdg"]
+p1_log["pass_number"]        = 1
+p1_log["removed_title"]      = p1_log["_t"].fillna("").str[:80]
+p1_log["removed_eid"]        = p1_log["_eid"]
+p1_log["removed_doi"]        = p1_log["_doi"]
+p1_log["kept_eid"]           = p1_log["_eid"]   # same EID = exact match
+p1_log["kept_doi"]           = p1_log["_eid"].map(eid_to_kept_doi)
+p1_log["reason"]             = "eid_exact_match"
+p1_log["sdg_numbers_merged"] = p1_log["_sdg"]
+p1_log["timestamp"]          = ts
+dedup_log_p1 = p1_log[["pass_number", "removed_title", "removed_eid", "removed_doi",
+                         "kept_eid", "kept_doi", "reason", "sdg_numbers_merged", "timestamp"]]
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Pool entering Pass 2: EID keepers + records that had no EID
+# ─────────────────────────────────────────────────────────────────────────────
+no_eid_df = df[~valid_eid].copy()
+pool_p2 = pd.concat([eid_kept, no_eid_df], ignore_index=True, sort=False)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# STEP 4 – PASS 2: DOI EXACT DEDUPLICATION  (vectorised, on pool_p2)
+# ─────────────────────────────────────────────────────────────────────────────
+log("\n" + "-" * 62)
+log("PASS 2 – DOI exact deduplication")
+log("-" * 62)
+t0_p2 = time.time()
+
+valid_doi_p2 = pool_p2["_doi_std"].notna()
+n_valid_p2   = int(valid_doi_p2.sum())
+n_missing_p2 = int((~valid_doi_p2).sum())
+log(f"DOI valid in pool   : {n_valid_p2:,}")
+log(f"DOI missing in pool : {n_missing_p2:,}")
+
+doi_df = pool_p2[valid_doi_p2].copy()
+
+# Merge sdg_tags per DOI group, preserving any already-merged tags from P1
 sdg_by_doi = (
-    doi_df.groupby("_doi_std", sort=False)["sdg_number"]
-    .apply(lambda s: ",".join(str(x) for x in sorted(s.dropna().unique().astype(int))))
+    doi_df.groupby("_doi_std", sort=False)["sdg_tags"]
+    .apply(lambda tags: merge_sdg_tags(*tags.tolist()))
 )
 doi_df["sdg_tags"] = doi_df["_doi_std"].map(sdg_by_doi)
 
-# Non-null count for tie-breaking (all columns)
+# Non-null count for tie-breaking
 doi_df["_nonnull"] = doi_df.notna().sum(axis=1)
 doi_df["_pos"]     = range(len(doi_df))
 
@@ -222,52 +352,54 @@ doi_sorted = doi_df.sort_values(
     ["_doi_std", "_nonnull", "_pos"],
     ascending=[True, False, True],
 )
-is_keeper   = ~doi_sorted.duplicated(subset="_doi_std", keep="first")
-doi_kept    = doi_sorted[is_keeper].copy()
-doi_dropped = doi_sorted[~is_keeper].copy()
+is_doi_keeper = ~doi_sorted.duplicated(subset="_doi_std", keep="first")
+doi_kept      = doi_sorted[is_doi_keeper].copy()
+doi_dropped   = doi_sorted[~is_doi_keeper].copy()
 
-# Identify how many distinct DOI groups had duplicates
-dup_groups = int(doi_df["_doi_std"].duplicated(keep=False).sum() > 0 and
-                 doi_df[doi_df["_doi_std"].duplicated(keep=False)]["_doi_std"].nunique())
-dup_groups = int(doi_df[doi_df["_doi_std"].duplicated(keep=False)]["_doi_std"].nunique())
+doi_dup_groups = int(doi_df[doi_df["_doi_std"].duplicated(keep=False)]["_doi_std"].nunique())
+n_p2_removed   = len(doi_dropped)
+log(f"Duplicate DOI groups    : {doi_dup_groups:,}")
+log(f"Rows removed (DOI)      : {n_p2_removed:,}  ({100*n_p2_removed/total_raw:.2f}% of raw)")
+log(f"Rows retained after P2  : {len(doi_kept):,}")
+log(f"Pass 2 time             : {time.time()-t0_p2:.1f}s")
 
-n_p1_removed = len(doi_dropped)
-log(f"Duplicate DOI groups    : {dup_groups:,}")
-log(f"Rows removed (DOI)      : {n_p1_removed:,}  ({100*n_p1_removed/total_raw:.2f}% of raw)")
-log(f"Rows retained after P1  : {len(doi_kept):,}")
-log(f"Pass 1 time             : {time.time()-t0_p1:.1f}s")
+# Lookup: DOI → kept record's EID and DOI (for log)
+doi_to_kept_eid = doi_kept.set_index("_doi_std")["_eid_std"].to_dict()
 
-# Build dedup log for Pass 1 (vectorised)
+# Build dedup log for Pass 2
 ts = datetime.now().isoformat()
-p1_log = doi_dropped[[title_col, "_doi_std", "sdg_tags"]].copy()
-p1_log.columns = ["_t", "_doi", "_sdg"]
-p1_log["removed_title"]      = p1_log["_t"].fillna("").str[:80]
-p1_log["removed_doi"]        = p1_log["_doi"]
-p1_log["kept_doi"]           = p1_log["_doi"]   # same doi = exact match
-p1_log["reason"]             = "doi_exact_match"
-p1_log["sdg_numbers_merged"] = p1_log["_sdg"]
-p1_log["timestamp"]          = ts
-dedup_log_p1 = p1_log[["removed_title", "removed_doi", "kept_doi",
-                         "reason", "sdg_numbers_merged", "timestamp"]]
+p2_log = doi_dropped[[title_col, "_eid_std", "_doi_std", "sdg_tags"]].copy()
+p2_log.columns = ["_t", "_eid", "_doi", "_sdg"]
+p2_log["pass_number"]        = 2
+p2_log["removed_title"]      = p2_log["_t"].fillna("").str[:80]
+p2_log["removed_eid"]        = p2_log["_eid"]
+p2_log["removed_doi"]        = p2_log["_doi"]
+p2_log["kept_eid"]           = p2_log["_doi"].map(doi_to_kept_eid)
+p2_log["kept_doi"]           = p2_log["_doi"]   # same DOI = exact match
+p2_log["reason"]             = "doi_exact_match"
+p2_log["sdg_numbers_merged"] = p2_log["_sdg"]
+p2_log["timestamp"]          = ts
+dedup_log_p2 = p2_log[["pass_number", "removed_title", "removed_eid", "removed_doi",
+                         "kept_eid", "kept_doi", "reason", "sdg_numbers_merged", "timestamp"]]
 
 # ─────────────────────────────────────────────────────────────────────────────
-# STEP 4 – PASS 2: FUZZY TITLE DEDUP ON NO-DOI RECORDS
+# STEP 5 – PASS 3: FUZZY TITLE DEDUP ON NO-DOI RECORDS
 # ─────────────────────────────────────────────────────────────────────────────
 log("\n" + "-" * 62)
-log("PASS 2 – Fuzzy title dedup (no-DOI records)")
+log("PASS 3 – Fuzzy title dedup (no-DOI records)")
 log("-" * 62)
-t0_p2 = time.time()
+t0_p3 = time.time()
 
-no_doi_df = df[~valid_doi].copy().reset_index(drop=True)
+no_doi_df = pool_p2[~valid_doi_p2].copy().reset_index(drop=True)
 no_doi_df["_title_clean"] = no_doi_df[title_col].apply(clean_title)
 no_doi_df["_year"] = (
     pd.to_numeric(no_doi_df[year_col], errors="coerce")
     if year_col else pd.Series(dtype=float, index=no_doi_df.index)
 )
 
-has_title       = no_doi_df["_title_clean"].str.len() > 0
-matchable       = no_doi_df[has_title].reset_index(drop=True)
-unmatchable     = no_doi_df[~has_title]
+has_title   = no_doi_df["_title_clean"].str.len() > 0
+matchable   = no_doi_df[has_title].reset_index(drop=True)
+unmatchable = no_doi_df[~has_title]
 
 n_match = len(matchable)
 log(f"No-DOI total          : {len(no_doi_df):,}")
@@ -281,13 +413,12 @@ year_to_idx = defaultdict(list)
 for i, yr in enumerate(matchable["_year"].values):
     if pd.notna(yr):
         year_to_idx[int(yr)].append(i)
-    # Records without year can't participate in year-windowed matching
 
-years_sorted   = sorted(year_to_idx.keys())
-total_pairs    = 0
-matched_pairs  = 0
+years_sorted  = sorted(year_to_idx.keys())
+total_pairs   = 0
+matched_pairs = 0
 
-# ---- 4a. Same-year comparisons ----
+# ---- 5a. Same-year comparisons ----
 log(f"\nSame-year comparisons (threshold={FUZZY_THRESHOLD}):")
 for yr in years_sorted:
     idxs = year_to_idx[yr]
@@ -308,7 +439,7 @@ for yr in years_sorted:
     if pairs_found:
         log(f"  {yr}: {len(idxs):,} records → {pairs_found:,} match pairs")
 
-# ---- 4b. Cross-year comparisons (Y vs Y+1 only) ----
+# ---- 5b. Cross-year comparisons (Y vs Y+1 only) ----
 log(f"\nCross-year comparisons (window={YEAR_WINDOW}):")
 for i in range(len(years_sorted) - 1):
     yr_a, yr_b = years_sorted[i], years_sorted[i + 1]
@@ -329,20 +460,20 @@ for i in range(len(years_sorted) - 1):
     if len(ri):
         log(f"  {yr_a}-{yr_b}: {len(ri):,} cross-year match pairs")
 
-# ---- 4c. Determine keepers via clusters ----
+# ---- 5c. Determine keepers via clusters ----
 nonnull_counts = matchable.notna().sum(axis=1).values
 sdg_tags_arr   = matchable["sdg_tags"].values
+eid_arr        = matchable["_eid_std"].values if "_eid_std" in matchable.columns else None
 
-fuzzy_keeper_idxs   = []
-fuzzy_dropped_idxs  = []
-fuzzy_kept_map      = {}   # dropped_local_idx -> kept_local_idx
-fuzzy_merged_tags   = {}   # kept_local_idx -> merged sdg_tags string
+fuzzy_keeper_idxs  = []
+fuzzy_dropped_idxs = []
+fuzzy_kept_map     = {}   # dropped_local_idx -> kept_local_idx
+fuzzy_merged_tags  = {}   # kept_local_idx -> merged sdg_tags string
 
 for members in uf.clusters().values():
     if len(members) == 1:
         fuzzy_keeper_idxs.append(members[0])
         continue
-    # Keep row with most non-null; tiebreak by earliest position (lower idx = first loaded)
     best = max(members, key=lambda p: (nonnull_counts[p], -p))
     fuzzy_keeper_idxs.append(best)
     merged = merge_sdg_tags(*[sdg_tags_arr[m] for m in members])
@@ -359,39 +490,43 @@ for ki, mtags in fuzzy_merged_tags.items():
 fuzzy_kept    = matchable.iloc[sorted(fuzzy_keeper_idxs)].copy()
 fuzzy_dropped = matchable.iloc[sorted(fuzzy_dropped_idxs)].copy()
 
-n_p2_removed = len(fuzzy_dropped_idxs)
-elapsed_p2   = time.time() - t0_p2
+n_p3_removed = len(fuzzy_dropped_idxs)
+elapsed_p3   = time.time() - t0_p3
 log(f"\nFuzzy pairs matched     : {matched_pairs:,}  (of {total_pairs:,} checked)")
-log(f"Rows removed (fuzzy)    : {n_p2_removed:,}  ({100*n_p2_removed/total_raw:.2f}% of raw)")
-log(f"Pass 2 time             : {elapsed_p2:.1f}s")
+log(f"Rows removed (fuzzy)    : {n_p3_removed:,}  ({100*n_p3_removed/total_raw:.2f}% of raw)")
+log(f"Pass 3 time             : {elapsed_p3:.1f}s")
 
-# Build dedup log for Pass 2
+# Build dedup log for Pass 3
 ts = datetime.now().isoformat()
-p2_log_rows = []
+p3_log_rows = []
 for di in fuzzy_dropped_idxs:
-    ki      = fuzzy_kept_map[di]
-    merged  = fuzzy_merged_tags.get(ki, sdg_tags_arr[ki])
+    ki         = fuzzy_kept_map[di]
+    merged     = fuzzy_merged_tags.get(ki, sdg_tags_arr[ki])
     dropped_row = matchable.iloc[di]
-    p2_log_rows.append({
+    kept_row    = matchable.iloc[ki]
+    p3_log_rows.append({
+        "pass_number":        3,
         "removed_title":      str(dropped_row[title_col])[:80] if pd.notna(dropped_row[title_col]) else "",
+        "removed_eid":        dropped_row.get("_eid_std", pd.NA),
         "removed_doi":        pd.NA,
+        "kept_eid":           kept_row.get("_eid_std", pd.NA),
         "kept_doi":           pd.NA,
         "reason":             "fuzzy_title_match",
         "sdg_numbers_merged": merged,
         "timestamp":          ts,
     })
 
-dedup_log_p2 = (
-    pd.DataFrame(p2_log_rows,
-                 columns=["removed_title", "removed_doi", "kept_doi",
-                          "reason", "sdg_numbers_merged", "timestamp"])
-    if p2_log_rows else
-    pd.DataFrame(columns=["removed_title", "removed_doi", "kept_doi",
-                           "reason", "sdg_numbers_merged", "timestamp"])
+LOG_COLS = ["pass_number", "removed_title", "removed_eid", "removed_doi",
+            "kept_eid", "kept_doi", "reason", "sdg_numbers_merged", "timestamp"]
+
+dedup_log_p3 = (
+    pd.DataFrame(p3_log_rows, columns=LOG_COLS)
+    if p3_log_rows else
+    pd.DataFrame(columns=LOG_COLS)
 )
 
 # ─────────────────────────────────────────────────────────────────────────────
-# STEP 5 – FINALISE
+# STEP 6 – FINALISE
 # ─────────────────────────────────────────────────────────────────────────────
 log("\n" + "-" * 62)
 log("FINALISE")
@@ -402,12 +537,17 @@ final_df = pd.concat(
     ignore_index=True, sort=False,
 )
 
-# Compute sdg_tag_count
+# Compute sdg_tag_count on lightweight frame (used for reporting)
 final_df["sdg_tag_count"] = (
     final_df["sdg_tags"].fillna("").str.split(",").apply(len)
 )
 
-# Drop all helper columns (_xxx)
+# Extract dedup decisions before dropping helper columns
+kept_row_ids       = set(final_df["_row_id"].values)
+sdg_tags_by_row_id = dict(zip(final_df["_row_id"].values,
+                               final_df["sdg_tags"].values))
+
+# Drop all helper columns (_xxx) from lightweight frame
 helper_cols = [c for c in final_df.columns if c.startswith("_")]
 final_df.drop(columns=helper_cols, inplace=True)
 
@@ -417,9 +557,48 @@ pct_removed = 100 * n_removed / total_raw
 log(f"Unique records after dedup : {n_unique:,}")
 log(f"Total removed              : {n_removed:,}  ({pct_removed:.2f}% of raw)")
 
+# ─────────────────────────────────────────────────────────────────────────────
+# STEP 6b – PHASE 2: RE-READ SOURCE FILES WITH FULL COLUMNS
+# ─────────────────────────────────────────────────────────────────────────────
+log("\n" + "-" * 62)
+log("PHASE 2 – re-reading with full columns (one file at a time)")
+log("-" * 62)
+t0_p2io     = time.time()
+_row_start2 = 0
+_out_frames = []
+for f in csv_files:
+    _sdg_num = int(FILE_RE.match(f.name).group(1))
+    for _enc in ("utf-8-sig", "utf-8", "latin-1"):
+        try:
+            _df_f = pd.read_csv(f, encoding=_enc, dtype=object, low_memory=False)
+            break
+        except Exception:
+            continue
+    else:
+        log(f"ERROR (Phase 2): cannot decode {f.name}")
+        sys.exit(1)
+    _n = len(_df_f)
+    _df_f["sdg_number"]  = str(_sdg_num)
+    _df_f["source_file"] = f.name
+    _df_f["_row_id"]     = list(range(_row_start2, _row_start2 + _n))
+    _row_start2 += _n
+    _df_kept = _df_f[_df_f["_row_id"].isin(kept_row_ids)].copy()
+    del _df_f
+    _df_kept["sdg_tags"]      = _df_kept["_row_id"].map(sdg_tags_by_row_id)
+    _df_kept["sdg_tag_count"] = (
+        _df_kept["sdg_tags"].fillna("").str.split(",").apply(len)
+    )
+    _out_frames.append(_df_kept)
+
+final_output = pd.concat(_out_frames, ignore_index=True, sort=False)
+del _out_frames
+_p2_helpers = [c for c in final_output.columns if c.startswith("_")]
+final_output.drop(columns=_p2_helpers, inplace=True)
+log(f"Phase 2 time : {time.time()-t0_p2io:.1f}s")
+
 # Write deduplicated CSV
-log(f"\nWriting {DEDUP_OUT} …")
-final_df.to_csv(DEDUP_OUT, index=False, encoding="utf-8-sig")
+log(f"\nWriting {DEDUP_OUT} ...")
+final_output.to_csv(DEDUP_OUT, index=False, encoding="utf-8-sig")
 log(f"Written: {n_unique:,} rows")
 
 # SHA-256 and append to checksums
@@ -428,18 +607,18 @@ with open(CHECKSUMS_TXT, "a", encoding="utf-8") as fh:
     fh.write(f"{cksum}  {DEDUP_OUT.name}\n")
 log(f"SHA-256 appended to {CHECKSUMS_TXT.name}")
 
-# Write combined dedup log
-dedup_log = pd.concat([dedup_log_p1, dedup_log_p2], ignore_index=True)
+# Write combined dedup log (all three passes)
+dedup_log = pd.concat([dedup_log_p1, dedup_log_p2, dedup_log_p3], ignore_index=True)
 dedup_log.to_csv(DEDUP_LOG, index=False, encoding="utf-8-sig")
 log(f"Dedup log written : {len(dedup_log):,} rows → {DEDUP_LOG.name}")
 
 # ─────────────────────────────────────────────────────────────────────────────
 # TERMINAL REPORT
 # ─────────────────────────────────────────────────────────────────────────────
-SEP  = "─" * 62
+SEP  = "-" * 62
 SEP2 = "=" * 62
 print(f"\n{SEP2}")
-print(" STAGE 3A – DEDUPLICATION REPORT")
+print(" STAGE 3A – DEDUPLICATION REPORT  (three-pass: EID / DOI / fuzzy)")
 print(SEP2)
 
 # A. Concatenation
@@ -453,31 +632,43 @@ print("   Last 5 files:")
 for fn, ct in files_sorted[-5:]:
     print(f"     {ct:>7,}   {fn}")
 
-# B. DOI stats
-print(f"\n{SEP}\nB. DOI STATISTICS\n{SEP}")
-print(f"   Valid DOI   : {n_valid:,}  ({100*n_valid/total_raw:.1f}%)")
-print(f"   Missing DOI : {n_missing:,} ({100*n_missing/total_raw:.1f}%)")
+# B. Key identifier stats
+print(f"\n{SEP}\nB. KEY IDENTIFIER STATISTICS\n{SEP}")
+print(f"   EID valid   : {n_valid_eid:,}  ({100*n_valid_eid/total_raw:.1f}%)")
+print(f"   EID missing : {n_missing_eid:,} ({100*n_missing_eid/total_raw:.1f}%)")
+print(f"   DOI valid   : {n_valid_doi:,}  ({100*n_valid_doi/total_raw:.1f}%)")
+print(f"   DOI missing : {n_missing_doi:,} ({100*n_missing_doi/total_raw:.1f}%)")
 
-# C. Pass 1
-print(f"\n{SEP}\nC. PASS 1 – DOI DEDUPLICATION\n{SEP}")
-print(f"   Duplicate DOI groups : {dup_groups:,}")
+# C. Pass 1 – EID
+print(f"\n{SEP}\nC. PASS 1 – EID EXACT MATCH\n{SEP}")
+print(f"   Duplicate EID groups : {eid_dup_groups:,}")
 print(f"   Rows removed         : {n_p1_removed:,}  ({100*n_p1_removed/total_raw:.2f}% of raw)")
+print(f"   Rows retained        : {len(eid_kept):,}")
+
+# D. Pass 2 – DOI
+print(f"\n{SEP}\nD. PASS 2 – DOI EXACT MATCH\n{SEP}")
+print(f"   Pool entering P2     : {len(pool_p2):,}")
+print(f"   Duplicate DOI groups : {doi_dup_groups:,}")
+print(f"   Rows removed         : {n_p2_removed:,}  ({100*n_p2_removed/total_raw:.2f}% of raw)")
 print(f"   Rows retained        : {len(doi_kept):,}")
 
-# D. Pass 2
-print(f"\n{SEP}\nD. PASS 2 – FUZZY TITLE MATCH\n{SEP}")
+# E. Pass 3 – Fuzzy
+print(f"\n{SEP}\nE. PASS 3 – FUZZY TITLE MATCH\n{SEP}")
 print(f"   No-DOI eligible      : {n_match:,}")
 print(f"   Fuzzy pairs found    : {matched_pairs:,}")
-print(f"   Rows removed         : {n_p2_removed:,}  ({100*n_p2_removed/total_raw:.2f}% of raw)")
-print(f"   Fuzzy time           : {elapsed_p2:.1f}s")
+print(f"   Rows removed         : {n_p3_removed:,}  ({100*n_p3_removed/total_raw:.2f}% of raw)")
+print(f"   Fuzzy time           : {elapsed_p3:.1f}s")
 
-# E. Final
-print(f"\n{SEP}\nE. FINAL DEDUP OUTPUT\n{SEP}")
+# F. Final
+print(f"\n{SEP}\nF. FINAL DEDUP OUTPUT\n{SEP}")
 print(f"   Unique records       : {n_unique:,}")
 print(f"   Total reduction      : {n_removed:,}  ({pct_removed:.2f}% of {total_raw:,} raw)")
+print(f"                          P1 (EID)   : {n_p1_removed:,}")
+print(f"                          P2 (DOI)   : {n_p2_removed:,}")
+print(f"                          P3 (fuzzy) : {n_p3_removed:,}")
 
-# F. sdg_tags distribution
-print(f"\n{SEP}\nF. SDG_TAGS DISTRIBUTION\n{SEP}")
+# G. sdg_tags distribution
+print(f"\n{SEP}\nG. SDG_TAGS DISTRIBUTION\n{SEP}")
 tag_counts = final_df["sdg_tag_count"]
 for k in [1, 2, 3]:
     ct = int((tag_counts == k).sum())
@@ -491,19 +682,32 @@ combo_counts = final_df["sdg_tags"].value_counts().head(10)
 for combo, ct in combo_counts.items():
     print(f"     {combo:<25}  {ct:>7,}")
 
-# G. Dedup log sample
-print(f"\n{SEP}\nG. DEDUP LOG SAMPLE\n{SEP}")
+# H. Dedup log sample
+print(f"\n{SEP}\nH. DEDUP LOG SAMPLE\n{SEP}")
 
 def trunc(s, n=55):
     s = str(s) if pd.notna(s) else "(missing)"
-    return s[:n] + "…" if len(s) > n else s
+    return s[:n] + "..." if len(s) > n else s
 
-# 5 random DOI-duplicate removals
+# 5 random EID-duplicate removals
+if len(eid_dropped) > 0:
+    print("   EID duplicate removals (5 random):")
+    sample_eid = eid_dropped.sample(min(5, len(eid_dropped)), random_state=42)
+    for _, row in sample_eid.iterrows():
+        kept_rows = eid_kept[eid_kept["_eid_std"] == row["_eid_std"]] if "_eid_std" in eid_kept.columns else pd.DataFrame()
+        kept_title = trunc(kept_rows.iloc[0][title_col]) if len(kept_rows) > 0 else "(unknown)"
+        print(f"     REMOVED : {trunc(row[title_col])}")
+        print(f"     KEPT    : {kept_title}")
+        print(f"     REASON  : eid_exact_match  ({row['_eid_std']})")
+        print()
+else:
+    print("   No EID duplicates found.")
+
+# 5 random DOI-duplicate removals (Pass 2)
 if len(doi_dropped) > 0:
     print("   DOI duplicate removals (5 random):")
     sample_doi = doi_dropped.sample(min(5, len(doi_dropped)), random_state=42)
     for _, row in sample_doi.iterrows():
-        # find kept row title
         kept_rows = doi_kept[doi_kept["_doi_std"] == row["_doi_std"]] if "_doi_std" in doi_kept.columns else pd.DataFrame()
         kept_title = trunc(kept_rows.iloc[0][title_col]) if len(kept_rows) > 0 else "(unknown)"
         print(f"     REMOVED : {trunc(row[title_col])}")
@@ -511,13 +715,13 @@ if len(doi_dropped) > 0:
         print(f"     REASON  : doi_exact_match  ({row['_doi_std']})")
         print()
 else:
-    print("   No DOI duplicates found.")
+    print("   No DOI duplicates found after Pass 1.")
 
-# 5 random fuzzy-match removals
+# 5 random fuzzy-match removals (Pass 3)
 if fuzzy_dropped_idxs:
     print("   Fuzzy-match removals (5 random):")
-    sample_idxs = random.sample(fuzzy_dropped_idxs, min(5, len(fuzzy_dropped_idxs)))
     random.seed(42)
+    sample_idxs = random.sample(fuzzy_dropped_idxs, min(5, len(fuzzy_dropped_idxs)))
     for di in sample_idxs:
         ki = fuzzy_kept_map[di]
         drec = matchable.iloc[di]
@@ -535,5 +739,5 @@ print(f"   {DEDUP_LOG.relative_to(ARTICLE)}")
 print(f"   SHA-256 appended to {CHECKSUMS_TXT.relative_to(ARTICLE)}")
 print(f"\n   Total runtime: {time.time()-t0_total:.1f}s")
 print(f"\n{SEP2}")
-print(" STAGE 3A COMPLETE – DO NOT COMMIT YET")
+print(" STAGE 3A COMPLETE")
 print(f"{SEP2}\n")
