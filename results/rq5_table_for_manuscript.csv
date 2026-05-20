@@ -1,0 +1,48 @@
+Country,Sub-region,Spearman rho,95% CI lower,95% CI upper,CI excludes zero,Dominant quadrant
+Mauritius,East Africa,0.179,-0.413,0.667,no,LL
+Guinea-Bissau,West Africa,0.092,-0.461,0.637,no,HH
+Sierra Leone,West Africa,0.08,-0.437,0.624,no,LH
+Guinea,West Africa,0.043,-0.536,0.573,no,LH
+Ethiopia,East Africa,0.019,-0.492,0.543,no,HH
+Algeria,North Africa,-0.007,-0.57,0.576,no,LL
+Eswatini,Southern Africa,-0.007,-0.558,0.464,no,LH
+Gambia,West Africa,-0.052,-0.513,0.44,no,LL
+Liberia,West Africa,-0.07,-0.593,0.497,no,HH
+Egypt,North Africa,-0.105,-0.596,0.429,no,LL
+Somalia,East Africa,-0.132,-0.651,0.43,no,HH
+Sudan,North Africa,-0.147,-0.62,0.438,no,LH
+Cameroon,Central Africa,-0.151,-0.628,0.452,no,HL
+Malawi,East Africa,-0.154,-0.649,0.433,no,HL
+Tunisia,North Africa,-0.174,-0.67,0.38,no,LL
+Kenya,East Africa,-0.176,-0.612,0.362,no,HL
+Gabon,Central Africa,-0.18,-0.638,0.317,no,LH
+Congo,Central Africa,-0.197,-0.608,0.275,no,LH
+South Africa,Southern Africa,-0.202,-0.708,0.352,no,HL
+Uganda,East Africa,-0.219,-0.625,0.254,no,HH
+Burundi,East Africa,-0.232,-0.66,0.377,no,HH
+Central African Republic,Central Africa,-0.247,-0.769,0.305,no,LH
+Madagascar,East Africa,-0.292,-0.757,0.218,no,LH
+Senegal,West Africa,-0.296,-0.724,0.277,no,LL
+Nigeria,West Africa,-0.297,-0.754,0.227,no,HH
+Niger,West Africa,-0.297,-0.784,0.312,no,LH
+Tanzania,East Africa,-0.302,-0.716,0.223,no,HL
+Togo,West Africa,-0.307,-0.71,0.203,no,HL
+Lesotho,Southern Africa,-0.314,-0.791,0.274,no,HH
+Cabo Verde,West Africa,-0.326,-0.845,0.229,no,HL
+Djibouti,East Africa,-0.343,-0.696,0.152,no,HH
+Benin,West Africa,-0.354,-0.76,0.222,no,LH
+Morocco,North Africa,-0.359,-0.818,0.218,no,LL
+Angola,Southern Africa,-0.362,-0.778,0.2,no,HH
+Rwanda,East Africa,-0.383,-0.751,0.157,no,HL
+Chad,Central Africa,-0.393,-0.824,0.07,no,HH
+Mali,West Africa,-0.394,-0.852,0.167,no,LH
+Cote d'Ivoire,West Africa,-0.396,-0.776,0.117,no,LL
+Burkina Faso,West Africa,-0.4,-0.836,0.162,no,HH
+Mozambique,East Africa,-0.402,-0.762,0.117,no,LH
+Namibia,Southern Africa,-0.45,-0.881,0.072,no,HL
+Zimbabwe,Southern Africa,-0.464,-0.818,0.123,no,HH
+Mauritania,West Africa,-0.48,-0.869,0.058,no,LH
+Ghana,West Africa,-0.493,-0.858,0.004,no,HL
+South Sudan,East Africa,-0.524,-0.812,-0.079,yes,LH
+Botswana,Southern Africa,-0.553,-0.911,-0.024,yes,HL
+Zambia,Southern Africa,-0.598,-0.812,-0.182,yes,HH
