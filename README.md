@@ -2,7 +2,7 @@
 
 ## An Auditable Bibliometric Analysis of Research Output, Thematic Coverage, and Collaboration Across 54 Countries
 
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.20273419  
+**Zenodo DOI:** https://zenodo.org/records/20311455  
 **Related article DOI:** [JOURNAL DOI TO BE ADDED]  
 **Licence:** CC BY 4.0
 
@@ -177,7 +177,7 @@ If you use this code or data, please cite:
 ```
 El Majjaoui, A. (2026). Africa's Scientific Contribution to the
 Sustainable Development Goals (2015–2025): An Auditable Bibliometric
-Analysis. Journal of Cleaner Production. https://doi.org/10.5281/zenodo.20273419
+Analysis. Journal of Cleaner Production. https://zenodo.org/records/20311455
 ```
 
 ---
