@@ -3,6 +3,7 @@ message: "If you use this package, please cite it using the metadata below."
 type: software
 title: "African SDG Bibliometric Analysis (2015–2025): Reproducibility Package"
 version: 2.0.0
+doi: 10.5281/zenodo.23346426
 date-released: 2026-10-13
 license: CC-BY-4.0
 authors:
@@ -10,6 +11,9 @@ authors:
     given-names: "Abdelilah"
 repository-code: "https://github.com/MJabdelilah93/african-sdgs-bibliometrics"
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23346426
+    description: "Version 2.0.0"
   - type: doi
     value: 10.5281/zenodo.20272149
     description: "Concept DOI (all versions)"

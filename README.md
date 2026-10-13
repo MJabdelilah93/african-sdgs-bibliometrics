@@ -130,8 +130,9 @@ Queries (Vanderfeesten, Otten & Spielberg, 2020; CC BY 4.0) and ROR data (CC0 1.
 ## Citation
 
 EL MAJJAOUI, A. (2026). *African SDG Bibliometric Analysis (2015–2025): Reproducibility Package* (Version 2.0.0)
-[Software]. Zenodo. Concept DOI (all versions): https://doi.org/10.5281/zenodo.20272149. The DOI of version 2.0.0
-is added here after publication. Citation metadata: `CITATION.cff`.
+[Software]. Zenodo. https://doi.org/10.5281/zenodo.23346426
+
+Concept DOI (all versions): https://doi.org/10.5281/zenodo.20272149. Citation metadata: `CITATION.cff`.
 
 References for the reused resources:
 
