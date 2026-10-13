@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/">
+    <dc:identifier type="sdg">7</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/7</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-07.jpg</icon>
+    <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg7</dc:subject>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
+    <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+    <dc:title>SDG-07 affordable and clean energy</dc:title>
+    <dc:description>
+        Energy is central to nearly every major challenge and opportunity the world faces today. Be it for
+        jobs, security, climate change, food production or increasing incomes, access to energy for all is essential.
+        Working towards this goal is especially important as it interlinks with other Sustainable Development Goals.
+        Focusing on universal access to energy, increased energy efficiency and the increased use of renewable energy
+        through new economic and job opportunities is crucial to creating more sustainable and inclusive communities and
+        resilience to environmental issues like climate change.
+        At the current time, there are approximately 3 billion people who lack access to clean-cooking solutions and are
+        exposed to dangerous levels of air pollution. Additionally, slightly less than 1 billion people are functioning
+        without electricity and 50% of them are found in Sub-Saharan Africa alone. Fortunately, progress has been made
+        in the past decade regarding the use of renewable electricity from water, solar and wind power and the ratio of
+        energy used per unit of GDP is also declining.
+        However, the challenge is far from being solved and there needs to be more access to clean fuel and technology
+        and more progress needs to be made regarding integrating renewable energy into end-use applications in
+        buildings, transport and industry. Public and private investments in energy also need to be increased and there
+        needs to be more focus on regulatory frameworks and innovative business models to transform the world’s energy
+        systems.
+    </dc:description>
+    <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
+    </dc:contributor>
+    <dc:date>2020-06-30</dc:date>
+    <aqd:query-definitions syntax="SCOPUS">
+        <aqd:query-definition>
+            <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/7.1</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, ensure universal access to affordable, reliable and modern energy services
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    7.1.1
+                    Proportion of population with access to electricity
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    7.1.2
+                    Proportion of population with primary reliance on clean fuels and technology
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "access" )  W/3  ( "affordable"  OR  "reliable"  OR  "modern" )  W/3  ( "energy"  OR  "electricity" ) )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition>
+            <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/7.2</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, increase substantially the share of renewable energy in the global energy mix
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    7.2.1
+                    Renewable energy share in the total final energy consumption
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "share"  OR  "increas*"  OR  "promot*" )  W/3  ( ( "renewable"  OR  "alternative"  OR  "clean" )  W/3  ( "energy"  OR  "fuel" ) )
+				</aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "share"  OR  "increas*"  OR  "promot*" )  W/3  ( ( "energy" )  W/3  ( "conversion"  OR  "transition" ) )
+				</aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "share"  OR  "increas*"  OR  "promot*" )  W/3
+				( "Biofuel*"  OR  "Biogas*"  OR  "Heat pump*"  OR  "Hybrid power"  OR  "Solar energy"  OR  "Solar power"  OR  "Wind energy"  OR  "Wind farm*"  
+				OR  "Wind power"  OR  "Wind turbine*" )  
+				</aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/7.3</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, double the global rate of improvement in energy efficiency
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    7.3.1
+                    Energy intensity measured in terms of primary energy and GDP
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">( ( "improv*" )  W/3  ( "energy" )  W/3  ( "efficiency" ) )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">( ( "reduc*" )  W/3  ( "energy consumption" ) )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">( ( "energy intensity"  OR  "energy consumption" )  W/3  ( "primary"  OR  "GDP" ) )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/7.a</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, enhance international cooperation to facilitate access to clean
+                    energy research and technology, including renewable energy, energy efficiency and advanced and
+                    cleaner fossil-fuel technology, and promote investment in energy infrastructure and clean energy
+                    technology
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    7.a.1
+                    Mobilized amount of United States dollars per year starting in 2020 accountable towards the $100
+                    billion commitment
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ("energy") AND ("international" W/3 "cooperation")
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/7.b</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, expand infrastructure and upgrade technology for supplying modern and
+                    sustainable energy services for all in developing countries, in particular least developed
+                    countries, small island developing States, and land-locked developing countries, in accordance with
+                    their respective programmes of support
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    7.b.1
+                    Investments in energy efficiency as a percentage of GDP and the amount of foreign direct investment
+                    in financial transfer for infrastructure and technology to sustainable development services
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                     ( ( ( "modern"  OR  "sustainable" )  W/3  "energy" )  AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" ) )
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+				 ( ( "investment" )  W/3  ( "energy" ) )  AND  ( "GDP" )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:filters>
+            <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
+            <aqd:timerange field="PUBYEAR">
+                <aqd:start>2009</aqd:start>
+                <aqd:end>2020</aqd:end>
+            </aqd:timerange>
+        </aqd:filters>
+    </aqd:query-definitions>
+</aqd:query>

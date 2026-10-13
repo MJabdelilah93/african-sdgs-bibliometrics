@@ -1,0 +1,10 @@
+research_min,implementation_min,primary_rule,n_eligible,median_rho,q1_rho,q3_rho,n_negative,n_ci_below_zero,countries_added_vs_primary,countries_removed_vs_primary,common_country_rho_ci_identical_to_primary,relative_order_of_common_countries
+8,12,False,50,-0.2514705882352941,-0.3466911764705882,-0.07757352941176471,44,2,,,True,unchanged (identical per-country values)
+8,14,False,50,-0.2514705882352941,-0.3466911764705882,-0.07757352941176471,44,2,,,True,unchanged (identical per-country values)
+8,16,False,50,-0.2514705882352941,-0.3466911764705882,-0.07757352941176471,44,2,,,True,unchanged (identical per-country values)
+10,12,False,50,-0.2514705882352941,-0.3466911764705882,-0.07757352941176471,44,2,,,True,unchanged (identical per-country values)
+10,14,True,50,-0.2514705882352941,-0.3466911764705882,-0.07757352941176471,44,2,,,True,unchanged (identical per-country values)
+10,16,False,50,-0.2514705882352941,-0.3466911764705882,-0.07757352941176471,44,2,,,True,unchanged (identical per-country values)
+12,12,False,50,-0.2514705882352941,-0.3466911764705882,-0.07757352941176471,44,2,,,True,unchanged (identical per-country values)
+12,14,False,50,-0.2514705882352941,-0.3466911764705882,-0.07757352941176471,44,2,,,True,unchanged (identical per-country values)
+12,16,False,50,-0.2514705882352941,-0.3466911764705882,-0.07757352941176471,44,2,,,True,unchanged (identical per-country values)

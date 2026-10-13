@@ -1,0 +1,51 @@
+Country,ISO3,Sub-region,Paired SDGs (n),Zero research shares,Spearman rho,95% CI lower,95% CI upper,CI position,Bootstrap valid replicates,Pairs HH,Pairs HL,Pairs LH,Pairs LL
+Liberia,LBR,West Africa,17,0,0.191,-0.331,0.615,includes zero,1000,6,1,5,5
+Mauritius,MUS,East Africa,17,0,0.189,-0.371,0.67,includes zero,1000,3,4,1,9
+Malawi,MWI,East Africa,16,0,0.138,-0.404,0.617,includes zero,1000,3,6,2,5
+Algeria,DZA,North Africa,17,0,0.118,-0.503,0.668,includes zero,1000,3,4,3,7
+The Gambia,GMB,West Africa,17,0,0.113,-0.357,0.529,includes zero,1000,5,2,4,6
+Guinea,GIN,West Africa,17,0,0.061,-0.472,0.539,includes zero,1000,2,0,6,9
+Sierra Leone,SLE,West Africa,17,0,-0.007,-0.531,0.52,includes zero,1000,2,3,6,6
+Uganda,UGA,East Africa,16,0,-0.056,-0.513,0.438,includes zero,1000,8,3,2,3
+Egypt,EGY,North Africa,17,0,-0.061,-0.612,0.476,includes zero,1000,4,3,1,9
+Ethiopia,ETH,East Africa,16,0,-0.062,-0.548,0.46,includes zero,1000,9,3,2,2
+Eswatini,SWZ,Southern Africa,16,0,-0.062,-0.613,0.422,includes zero,1000,5,2,3,6
+Gabon,GAB,Central Africa,17,0,-0.071,-0.628,0.496,includes zero,1000,2,3,5,7
+Somalia,SOM,East Africa,16,0,-0.076,-0.591,0.436,includes zero,1000,9,1,3,3
+Tunisia,TUN,North Africa,17,0,-0.081,-0.637,0.465,includes zero,1000,4,3,2,8
+Kenya,KEN,East Africa,17,0,-0.1,-0.577,0.488,includes zero,1000,3,9,1,4
+Guinea-Bissau,GNB,West Africa,17,1,-0.11,-0.577,0.424,includes zero,1000,3,1,9,4
+Sudan,SDN,North Africa,17,0,-0.135,-0.645,0.47,includes zero,1000,6,2,8,1
+Lesotho,LSO,Southern Africa,16,0,-0.147,-0.611,0.408,includes zero,1000,6,3,4,3
+Burundi,BDI,East Africa,16,0,-0.156,-0.608,0.381,includes zero,1000,5,5,2,4
+South Africa,ZAF,Southern Africa,17,0,-0.176,-0.686,0.354,includes zero,1000,4,9,0,4
+Cameroon,CMR,Central Africa,17,0,-0.201,-0.703,0.385,includes zero,1000,5,5,3,4
+Mali,MLI,West Africa,16,0,-0.203,-0.68,0.385,includes zero,1000,5,3,3,5
+Djibouti,DJI,East Africa,16,0,-0.218,-0.586,0.237,includes zero,1000,6,0,4,6
+Nigeria,NGA,West Africa,17,0,-0.25,-0.69,0.325,includes zero,1000,5,5,5,2
+Chad,TCD,Central Africa,16,0,-0.25,-0.709,0.313,includes zero,1000,7,4,5,0
+South Sudan,SSD,East Africa,16,0,-0.253,-0.62,0.237,includes zero,1000,6,1,7,2
+Madagascar,MDG,East Africa,17,0,-0.27,-0.695,0.297,includes zero,1000,2,1,10,4
+Cabo Verde,CPV,West Africa,17,1,-0.279,-0.734,0.19,includes zero,1000,3,3,5,6
+Morocco,MAR,North Africa,17,0,-0.289,-0.79,0.333,includes zero,1000,2,6,2,7
+Rwanda,RWA,East Africa,16,0,-0.294,-0.731,0.32,includes zero,1000,3,9,1,3
+Central African Republic,CAF,Central Africa,16,0,-0.297,-0.702,0.218,includes zero,1000,7,2,6,1
+Democratic Republic of the Congo,COD,Central Africa,17,0,-0.306,-0.712,0.207,includes zero,1000,5,1,7,4
+Togo,TGO,West Africa,17,0,-0.306,-0.698,0.26,includes zero,1000,3,6,5,3
+United Republic of Tanzania,TZA,East Africa,17,0,-0.319,-0.712,0.165,includes zero,1000,5,7,2,3
+Mauritania,MRT,West Africa,17,0,-0.328,-0.821,0.283,includes zero,1000,3,2,7,5
+Senegal,SEN,West Africa,17,0,-0.343,-0.76,0.197,includes zero,1000,2,6,3,6
+Republic of the Congo,COG,Central Africa,17,0,-0.346,-0.707,0.197,includes zero,1000,4,3,7,3
+Niger,NER,West Africa,16,0,-0.347,-0.828,0.226,includes zero,1000,4,3,6,3
+Angola,AGO,Southern Africa,17,0,-0.353,-0.747,0.167,includes zero,1000,8,2,4,3
+Mozambique,MOZ,East Africa,17,0,-0.365,-0.739,0.128,includes zero,1000,5,4,5,3
+Zambia,ZMB,Southern Africa,16,0,-0.418,-0.71,0.085,includes zero,1000,6,4,2,4
+Zimbabwe,ZWE,Southern Africa,16,0,-0.426,-0.767,0.154,includes zero,1000,8,6,1,1
+Sao Tome and Principe,STP,Central Africa,17,1,-0.446,-0.766,0.053,includes zero,1000,1,3,4,9
+Benin,BEN,West Africa,17,0,-0.451,-0.819,0.15,includes zero,1000,3,4,6,4
+Namibia,NAM,Southern Africa,17,0,-0.478,-0.858,0.093,includes zero,1000,3,6,2,6
+Cote d'Ivoire,CIV,West Africa,17,0,-0.48,-0.834,0.117,includes zero,1000,2,7,4,4
+Ghana,GHA,West Africa,17,0,-0.495,-0.83,0.017,includes zero,1000,3,8,2,4
+Burkina Faso,BFA,West Africa,16,0,-0.509,-0.847,0.03,includes zero,1000,5,7,3,1
+Botswana,BWA,Southern Africa,16,0,-0.529,-0.893,-0.036,entirely below zero,1000,4,8,1,3
+Comoros,COM,East Africa,17,0,-0.569,-0.897,-0.108,entirely below zero,1000,5,2,4,6

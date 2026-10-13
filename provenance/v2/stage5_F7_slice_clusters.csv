@@ -1,0 +1,99 @@
+"slice","period","groups","words","name_full","n","centrality","density","rcentrality","rdensity","name","color","freq"
+1,"(2014,2018]",1,"climate change 8.1
+sustainability 3.7
+food security 3.3
+conservation 2.8","climate change
+sustainability
+food security",4,0.000383843512952329,0.16995612725976,3,1,"climate change","#E41A1C80",2853
+1,"(2014,2018]",2,"human immunodeficiency virus 5.8
+children 3.5
+malaria 2.7
+adolescent 2.2
+pregnancy 2.2
+prevalence 2.1
+epidemiology 1.8
+women 1.8
+hiv/aids 1.7
+tuberculosis 1.7","human immunodeficiency virus
+children
+malaria",11,0.000226974319545194,0.275444125883867,2,3,"human immunodeficiency virus","#377EB880",5226
+1,"(2014,2018]",3,"poverty 3.1
+gender 3","poverty
+gender",2,0.00045986037282682,0.239290843904525,4,2,"poverty","#4DAF4A80",855
+1,"(2014,2018]",4,"heavy metal 3.3
+adsorption 3
+wastewater 2.5","heavy metal
+adsorption
+wastewater",3,1.22362622362622e-05,0.278520416994712,1,4,"heavy metal","#984EA380",1180
+2,"(2018,2022]",1,"covid19 23.2
+sars-cov-2 4.6
+pandemic 3.7
+coronavirus 2.6","covid19
+sars-cov-2
+pandemic",4,0.00045365392090373,0.096870305916001,5,1,"covid19","#E41A1C80",10318
+2,"(2018,2022]",2,"climate change 5.6
+sustainability 3.2
+food security 2.3
+gender 1.5
+conservation 1.5
+renewable energy 1.5
+sustainable development 1.4
+remote sensing 1.3
+education 1.3
+poverty 1.3","climate change
+sustainability
+food security",11,0.000247289432420307,0.120774688405593,3,2,"climate change","#377EB880",12105
+2,"(2018,2022]",3,"human immunodeficiency virus 3.5
+public health 2.9
+children 2.5
+adolescent 2.2
+epidemiology 2
+prevalence 1.8
+women 1.8
+pregnancy 1.6
+malaria 1.5","human immunodeficiency virus
+public health
+children",9,0.000416695476364861,0.129550024283666,4,4,"human immunodeficiency virus","#4DAF4A80",8303
+2,"(2018,2022]",4,"adsorption 3.7
+heavy metal 3.6
+wastewater 3.2","adsorption
+heavy metal
+wastewater",3,4.81993427076966e-06,0.137978377981412,1,5,"adsorption","#984EA380",2394
+2,"(2018,2022]",5,"knowledge 14.5","knowledge",1,0.000105826537787641,0.122399020807834,2,3,"knowledge","#FF7F0080",817
+3,"(2022,2025]",1,"covid19 7.7
+public health 2.2
+human immunodeficiency virus 2
+knowledge 1.7
+mental health 1.6
+children 1.6
+adolescent 1.6
+prevalence 1.5","covid19
+public health
+human immunodeficiency virus",8,0.000250950458426343,0.102441937580568,4,4,"covid19","#E41A1C80",11594
+3,"(2022,2025]",2,"climate change 13
+food security 5.5
+gender 2.5
+conservation 2.5
+resilience 2.4","climate change
+food security
+gender",5,0.000213027956397223,0.0932311153369541,2,3,"climate change","#377EB880",8616
+3,"(2022,2025]",3,"sustainability 7.3
+renewable energy 3.4
+sustainable development 3.4
+economic growth 2.2
+sustainable development goal 1.8","sustainability
+renewable energy
+sustainable development",5,0.000274062058448651,0.0855419569206449,5,1,"sustainability","#4DAF4A80",7793
+3,"(2022,2025]",4,"machine learning 12.2
+artificial intelligence 8
+deep learning 5.9
+remote sensing 5.8","machine learning
+artificial intelligence
+deep learning",4,0.000216354126413618,0.0904472992650853,3,2,"machine learning","#984EA380",5411
+3,"(2022,2025]",5,"adsorption 4.7
+heavy metal 3.1
+optimization 2.9
+wastewater treatment 2.6
+wastewater 2.6","adsorption
+heavy metal
+optimization",5,2.13458241907251e-05,0.111316827482586,1,5,"adsorption","#FF7F0080",5157

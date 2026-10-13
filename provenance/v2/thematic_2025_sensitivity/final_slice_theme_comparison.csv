@@ -1,0 +1,6 @@
+"frozen_theme_2023_2025","frozen_freq","sensitivity_theme_2023_2024","sensitivity_freq","shared_keywords","share_of_frozen_keywords","share_of_sensitivity_keywords","jaccard","same_label"
+"covid19",11594,"covid19",8938,8,1,0.8,0.8,TRUE
+"climate change",8616,"climate change",4661,4,0.8,1,0.8,TRUE
+"sustainability",7793,"sustainability",4023,4,0.8,1,0.8,TRUE
+"machine learning",5411,"machine learning",2688,4,1,1,1,TRUE
+"adsorption",5157,"adsorption",3140,5,1,1,1,TRUE

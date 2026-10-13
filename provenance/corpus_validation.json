@@ -1,0 +1,37 @@
+{
+ "description": "Reference values of the published analysis for code/01c_validate_corpus.py",
+ "field_digest": "SHA-256 over all records in file order; each record = its cells in header order (read as text, UTF-8, no missing-value conversion) joined by U+001F and terminated by U+001E",
+ "consolidated": {
+  "file": "data/interim/consolidated.csv",
+  "rows": 345069,
+  "field_digest": "f8b746b21af4252009df5a316abecadaefbdfaa9cb3c2c0a193351233b528c67"
+ },
+ "analytical": {
+  "file": "data/interim/scoped_2015_2025.csv",
+  "rows": 345025,
+  "field_digest": "3544243b1673b1cba54a193d4a4d5f2e54953ce795d1d5c32144fdae1c15cd1b",
+  "records_per_sdg": {
+   "1": 23919,
+   "2": 31189,
+   "3": 69290,
+   "4": 27567,
+   "5": 14842,
+   "6": 45337,
+   "7": 19917,
+   "8": 18172,
+   "9": 37499,
+   "10": 14146,
+   "11": 27385,
+   "12": 69367,
+   "13": 54139,
+   "14": 18177,
+   "15": 64056,
+   "16": 30451,
+   "17": 40587
+  }
+ },
+ "reference_file_sha256": {
+  "data/interim/deduplicated.csv (Stage 01 output)": "c6977ca7e46a7862708dde54eca2024970d5bc2a0c25cb368717e957e8b0001b",
+  "data/processed/bibliometrix_input.csv (Stage 04 output, 345,025 records)": "ee84782940134fb5f638ade9c457a6492c2b570571b8ac25a91acc81e80727b9"
+ }
+}

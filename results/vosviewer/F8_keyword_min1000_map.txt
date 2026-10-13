@@ -1,0 +1,68 @@
+id	label	weight<Occurrences>
+1	covid19	11839
+2	climate change	8792
+3	sustainability	5501
+4	human immunodeficiency virus	3729
+5	food security	3522
+6	adsorption	2752
+7	public health	2712
+8	machine learning	2701
+9	children	2679
+10	renewable energy	2522
+11	sustainable development	2504
+12	heavy metal	2264
+13	adolescent	2232
+14	conservation	2196
+15	sars-cov-2	2051
+16	gender	2040
+17	prevalence	2034
+18	remote sensing	2028
+19	knowledge	1985
+20	economic growth	1892
+21	wastewater	1890
+22	malaria	1869
+23	epidemiology	1840
+24	women	1777
+25	mental health	1692
+26	pregnancy	1681
+27	artificial intelligence	1675
+28	education	1642
+29	optimization	1630
+30	poverty	1620
+31	agriculture	1583
+32	pandemic	1560
+33	wastewater treatment	1560
+34	resilience	1559
+35	risk factors	1490
+36	gis	1472
+37	perception	1445
+38	biodiversity	1439
+39	mortality	1416
+40	attitude	1366
+41	environment	1362
+42	deep learning	1320
+43	sustainable development goal	1316
+44	water quality	1286
+45	energy efficiency	1284
+46	adaptation	1282
+47	tuberculosis	1276
+48	urbanisation	1246
+49	covid-19 pandemic	1232
+50	global health	1220
+51	antioxidant	1219
+52	depression	1198
+53	policy	1186
+54	drought	1180
+55	malnutrition	1169
+56	governance	1150
+57	pollution	1140
+58	systematic review	1129
+59	management	1095
+60	livelihood	1071
+61	higher education	1064
+62	nutrition	1060
+63	groundwater	1059
+64	solar energy	1009
+65	health	1005
+66	biomass	1004
+67	vulnerability	1003

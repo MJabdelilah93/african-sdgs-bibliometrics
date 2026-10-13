@@ -1,0 +1,51 @@
+node_id,ror_id,full_label,short_label,character_count_full,character_count_short,abbreviation_rules_applied,ambiguity_note,unique_label_check
+1,https://ror.org/03p74gp79,University of Cape Town,Univ. of Cape Town,23,18,University->Univ.,,PASS
+2,https://ror.org/04qzfn040,University of KwaZulu-Natal,Univ. of KwaZulu-Natal,27,22,University->Univ.,,PASS
+3,https://ror.org/03rp50x72,University of the Witwatersrand,Univ. of the Witwatersrand,31,26,University->Univ.,,PASS
+4,https://ror.org/05bk57929,Stellenbosch University,Stellenbosch Univ.,23,18,University->Univ.,,PASS
+5,https://ror.org/038b8e254,Addis Ababa University,Addis Ababa Univ.,22,17,University->Univ.,,PASS
+6,https://ror.org/03wx2rr30,University of Ibadan,Univ. of Ibadan,20,15,University->Univ.,,PASS
+7,https://ror.org/03q21mh05,Cairo University,Cairo Univ.,16,11,University->Univ.,,PASS
+8,https://ror.org/00g0p6g84,University of Pretoria,Univ. of Pretoria,22,17,University->Univ.,,PASS
+9,https://ror.org/00cb9w016,Ain Shams University,Ain Shams Univ.,20,15,University->Univ.,,PASS
+10,https://ror.org/0595gz585,University of Gondar,Univ. of Gondar,20,15,University->Univ.,,PASS
+11,https://ror.org/03dmz0111,Makerere University,Makerere Univ.,19,14,University->Univ.,,PASS
+12,https://ror.org/00mzz1w90,Alexandria University,Alexandria Univ.,21,16,University->Univ.,,PASS
+13,https://ror.org/05q60vz69,South African Medical Research Council,South African Med. Res. Council,38,31,Research->Res.; Medical->Med.,South Africa (ROR country ZA),PASS
+14,https://ror.org/01r22mr83,University of Ghana,Univ. of Ghana,19,14,University->Univ.,,PASS
+15,https://ror.org/01670bg46,Bahir Dar University,Bahir Dar Univ.,20,15,University->Univ.,,PASS
+16,https://ror.org/01k8vtd75,Mansoura University,Mansoura Univ.,19,14,University->Univ.,,PASS
+17,https://ror.org/05rk03822,University of Lagos,Univ. of Lagos,19,14,University->Univ.,,PASS
+18,https://ror.org/05eer8g02,Jimma University,Jimma Univ.,16,11,University->Univ.,,PASS
+19,https://ror.org/059yk7s89,Haramaya University,Haramaya Univ.,19,14,University->Univ.,,PASS
+20,https://ror.org/019apvn83,Ahmadu Bello University,Ahmadu Bello Univ.,23,18,University->Univ.,,PASS
+21,https://ror.org/00cb23x68,Kwame Nkrumah University of Science and Technology,Kwame Nkrumah Univ. of Sci. & Tech.,50,35,University->Univ.; Science(s)->Sci.; Technology->Tech.; and->&,,PASS
+22,https://ror.org/02y9nww90,University of Nairobi,Univ. of Nairobi,21,16,University->Univ.,,PASS
+23,https://ror.org/04z6c2n17,University of Johannesburg,Univ. of Johannesburg,26,21,University->Univ.,,PASS
+24,https://ror.org/01sn1yx84,University of Nigeria,Univ. of Nigeria,21,16,University->Univ.,Nigeria (ROR country NG); distinct from other Nigerian universities in the network,PASS
+25,https://ror.org/05fnp1145,Al-Azhar University,Al-Azhar Univ.,19,14,University->Univ.,,PASS
+26,https://ror.org/022yvqh08,"University College Hospital, Ibadan","Univ. Coll. Hosp., Ibadan",35,25,University->Univ.; Hospital->Hosp.; College->Coll.,"teaching hospital in Ibadan, Nigeria; distinct from Univ. of Ibadan (node 6)",PASS
+27,https://ror.org/00ssp9h11,Arba Minch University,Arba Minch Univ.,21,16,University->Univ.,,PASS
+28,https://ror.org/04snhqa82,Obafemi Awolowo University,Obafemi Awolowo Univ.,26,21,University->Univ.,,PASS
+29,https://ror.org/04bpyvy69,Mekelle University,Mekelle Univ.,18,13,University->Univ.,,PASS
+30,https://ror.org/016jp5b92,Tanta University,Tanta Univ.,16,11,University->Univ.,,PASS
+31,https://ror.org/00h2vm590,University of the Western Cape,Univ. of the Western Cape,30,25,University->Univ.,,PASS
+32,https://ror.org/04sbsx707,Debre Markos University,Debre Markos Univ.,23,18,University->Univ.,,PASS
+33,https://ror.org/054tfvs49,University of Health and Allied Sciences,Univ. of Health & Allied Sci.,40,29,University->Univ.; Science(s)->Sci.; and->&,Ghana (ROR country GH); unique among the 50 nodes,PASS
+34,https://ror.org/053g6we49,Zagazig University,Zagazig Univ.,18,13,University->Univ.,,PASS
+35,https://ror.org/010f1sq29,North-West University,North-West Univ.,21,16,University->Univ.,,PASS
+36,https://ror.org/04e72vw61,Debre Berhan University,Debre Berhan Univ.,23,18,University->Univ.,,PASS
+37,https://ror.org/048cwvf49,University of South Africa,Univ. of South Africa,26,21,University->Univ.,,PASS
+38,https://ror.org/0492nfe34,University of Cape Coast,Univ. of Cape Coast,24,19,University->Univ.,,PASS
+39,https://ror.org/01ktt8y73,Wollo University,Wollo Univ.,16,11,University->Univ.,,PASS
+40,https://ror.org/022zbs961,Université de Yaoundé I,Univ. de Yaoundé I,23,18,Université->Univ.,"'I' is the Roman numeral of the official name, not an acronym",PASS
+41,https://ror.org/00316zc91,Wollega University,Wollega Univ.,18,13,University->Univ.,,PASS
+42,https://ror.org/032kdwk38,University of Ilorin,Univ. of Ilorin,20,15,University->Univ.,,PASS
+43,https://ror.org/009xwd568,University of the Free State,Univ. of the Free State,28,23,University->Univ.,,PASS
+44,https://ror.org/02m82p074,Suez Canal University,Suez Canal Univ.,21,16,University->Univ.,,PASS
+45,https://ror.org/04r15fz20,Hawassa University,Hawassa Univ.,18,13,University->Univ.,,PASS
+46,https://ror.org/03gh19d69,University of Zambia,Univ. of Zambia,20,15,University->Univ.,,PASS
+47,https://ror.org/04zte5g15,Madda Walabu University,Madda Walabu Univ.,23,18,University->Univ.,,PASS
+48,https://ror.org/00xytbp33,Ethiopian Public Health Institute,Ethiopian Public Health Inst.,33,29,Institute->Inst.,,PASS
+49,https://ror.org/04r1cxt79,Kenya Medical Research Institute,Kenya Med. Res. Inst.,32,21,Institute->Inst.; Research->Res.; Medical->Med.,,PASS
+50,https://ror.org/02n85j827,National Research Centre,Natl. Res. Ctr.,24,15,Centre->Ctr.; Research->Res.; National->Natl.,generic institutional name; Egypt (ROR country EG); unique among the 50 nodes,PASS

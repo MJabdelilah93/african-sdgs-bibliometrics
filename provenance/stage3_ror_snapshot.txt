@@ -1,0 +1,9 @@
+zenodo_record_id     : 19576723
+zenodo_doi           : 10.5281/zenodo.19576723
+ror_version          : v2.6-2026-04
+release_date         : 2026-04-14
+sha256_json          : 8ae38a071b8b16349ea06b9f389c3b30917206838749a3ffaa9315a98a21abb3
+json_size_mb         : 280.70
+zip_size_mb          : 32.48
+download_timestamp   : 2026-05-08T18:01:27.755024+00:00
+source_url           : https://zenodo.org/api/records/19576723/files/v2.6-2026-04-14-ror-data.zip/content

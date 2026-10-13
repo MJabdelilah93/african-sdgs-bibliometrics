@@ -1,0 +1,51 @@
+id	label	weight<Documents>
+1	Univ. of Cape Town	11052
+2	Univ. of KwaZulu-Natal	9983
+3	Univ. of the Witwatersrand	10365
+4	Stellenbosch Univ.	9091
+5	Addis Ababa Univ.	6361
+6	Univ. of Ibadan	4709
+7	Cairo Univ.	7552
+8	Univ. of Pretoria	8667
+9	Ain Shams Univ.	4460
+10	Univ. of Gondar	3888
+11	Makerere Univ.	5874
+12	Alexandria Univ.	4723
+13	South African Med. Res. Council	1985
+14	Univ. of Ghana	6038
+15	Bahir Dar Univ.	3463
+16	Mansoura Univ.	4269
+17	Univ. of Lagos	2206
+18	Jimma Univ.	3045
+19	Haramaya Univ.	2199
+20	Ahmadu Bello Univ.	1532
+21	Kwame Nkrumah Univ. of Sci. & Tech.	4937
+22	Univ. of Nairobi	3168
+23	Univ. of Johannesburg	9669
+24	Univ. of Nigeria	4257
+25	Al-Azhar Univ.	3179
+26	Univ. Coll. Hosp., Ibadan	624
+27	Arba Minch Univ.	1588
+28	Obafemi Awolowo Univ.	2203
+29	Mekelle Univ.	1871
+30	Tanta Univ.	3020
+31	Univ. of the Western Cape	3269
+32	Debre Markos Univ.	1456
+33	Univ. of Health & Allied Sci.	1091
+34	Zagazig Univ.	3426
+35	North-West Univ.	5588
+36	Debre Berhan Univ.	940
+37	Univ. of South Africa	6006
+38	Univ. of Cape Coast	2787
+39	Wollo Univ.	1347
+40	Univ. de Yaoundé I	1949
+41	Wollega Univ.	835
+42	Univ. of Ilorin	1971
+43	Univ. of the Free State	4052
+44	Suez Canal Univ.	2035
+45	Hawassa Univ.	2218
+46	Univ. of Zambia	1600
+47	Madda Walabu Univ.	458
+48	Ethiopian Public Health Inst.	730
+49	Kenya Med. Res. Inst.	1809
+50	Natl. Res. Ctr.	4466

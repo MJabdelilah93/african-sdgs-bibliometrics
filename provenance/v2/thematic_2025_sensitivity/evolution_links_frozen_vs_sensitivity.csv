@@ -1,0 +1,23 @@
+"corpus","seed","from_theme","from_period","to_theme","to_period","inclusion","inc_weighted"
+"frozen_2015_2025",1234,"climate change","2015-2018","climate change","2019-2022",0.25,1
+"frozen_2015_2025",1234,"heavy metal","2015-2018","adsorption","2019-2022",0.333333333333333,1
+"frozen_2015_2025",1234,"human immunodeficiency virus","2015-2018","human immunodeficiency virus","2019-2022",0.111111111111111,0.809414466130884
+"frozen_2015_2025",1234,"poverty","2015-2018","climate change","2019-2022",0.5,1
+"frozen_2015_2025",1234,"adsorption","2019-2022","adsorption","2023-2025",0.333333333333333,1
+"frozen_2015_2025",1234,"climate change","2019-2022","climate change","2023-2025",0.2,0.695798514391829
+"frozen_2015_2025",1234,"climate change","2019-2022","machine learning","2023-2025",0.25,0.136019220107189
+"frozen_2015_2025",1234,"climate change","2019-2022","sustainability","2023-2025",0.2,0.518157320672398
+"frozen_2015_2025",1234,"covid19","2019-2022","covid19","2023-2025",0.25,0.453382438457065
+"frozen_2015_2025",1234,"human immunodeficiency virus","2019-2022","covid19","2023-2025",0.125,0.599060580513068
+"frozen_2015_2025",1234,"knowledge","2019-2022","covid19","2023-2025",1,1
+"sensitivity_2015_2024",1234,"climate change","2015-2018","climate change","2019-2022",0.25,1
+"sensitivity_2015_2024",1234,"heavy metal","2015-2018","adsorption","2019-2022",0.333333333333333,1
+"sensitivity_2015_2024",1234,"human immunodeficiency virus","2015-2018","human immunodeficiency virus","2019-2022",0.111111111111111,0.809414466130884
+"sensitivity_2015_2024",1234,"poverty","2015-2018","climate change","2019-2022",0.5,1
+"sensitivity_2015_2024",1234,"adsorption","2019-2022","adsorption","2023-2024",0.333333333333333,0.847535505430242
+"sensitivity_2015_2024",1234,"climate change","2019-2022","climate change","2023-2024",0.25,1
+"sensitivity_2015_2024",1234,"climate change","2019-2022","machine learning","2023-2024",0.25,0.199404761904762
+"sensitivity_2015_2024",1234,"climate change","2019-2022","sustainability","2023-2024",0.25,0.977380064628387
+"sensitivity_2015_2024",1234,"covid19","2019-2022","covid19","2023-2024",0.25,0.4672186171403
+"sensitivity_2015_2024",1234,"human immunodeficiency virus","2019-2022","covid19","2023-2024",0.111111111111111,0.384559797663495
+"sensitivity_2015_2024",1234,"knowledge","2019-2022","covid19","2023-2024",1,0.654834761321909

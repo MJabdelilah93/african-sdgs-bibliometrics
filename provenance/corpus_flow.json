@@ -1,0 +1,19 @@
+{
+ "description": "Record counts of corpus construction (Stages 01-01b) and country attribution (Stage 02)",
+ "query_specifications": 17,
+ "query_framework": "Aurora SDG Queries v5.0.3 (citation DOI 10.5281/zenodo.3817445)",
+ "exports": {
+  "8 May 2026": {"files": 41, "records": 599370},
+  "7 October 2026 (SDG 2; Scopus records loaded before 9 May 2026)": {"files": 2, "records": 31198}
+ },
+ "counts": {
+  "deduplicated_records": 338409,
+  "consolidated_records": 345069,
+  "eligibility_exclusions": 44,
+  "eligibility_exclusions_by_reason": {"exported year outside 2015-2025": 43, "document type not article or review": 1},
+  "final_analytical_records": 345025,
+  "articles": 312276,
+  "reviews": 32749,
+  "records_with_au_affiliation": 344020
+ }
+}

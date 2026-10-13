@@ -1,0 +1,5 @@
+variant,country_counting,zero_policy,n_eligible,n_with_rho,median_rho,q1_rho,q3_rho,n_negative,n_ci_below_zero,median_pairs,median_abs_rho_change_vs_primary,max_abs_rho_change_vs_primary,countries_ci_below_zero
+PRIMARY,fractional,retain,50,50,-0.2514705882352941,-0.3466911764705882,-0.07757352941176471,44,2,17.0,0.0,0.0,BWA;COM
+A_full_zeros_retained,full,retain,50,50,-0.24068627450980395,-0.36642156862745107,-0.08088235294117649,45,3,17.0,0.027941176470588247,0.14460784313725494,BWA;COM;STP
+B_fractional_positive_only,fractional,positive_only,50,50,-0.25,-0.3452205882352941,-0.0724264705882353,43,2,17.0,0.0,0.17794117647058824,BWA;COM
+C_full_positive_only,full,positive_only,50,50,-0.24068627450980395,-0.3535539215686275,-0.06654411764705882,45,2,17.0,0.023529411764705892,0.14460784313725494,BWA;COM

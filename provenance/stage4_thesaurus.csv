@@ -1,0 +1,459 @@
+source_term,preferred_term,rule_type,justification,multi_sdg_query_count,potentially_multi_sdg
+adolescent girls,adolescent girl,plural_singular,Plural 's' → singular,0,False
+adolescents,adolescent,plural_singular,Plural 's' → singular,0,False
+aids,acquired immunodeficiency syndrome,acronym_expansion,Acronym expansion,1,False
+antioxidants,antioxidant,plural_singular,Plural 's' → singular,0,False
+attitudes,attitude,plural_singular,Plural 's' → singular,0,False
+babies,baby,plural_singular,Plural 'ies' → singular,1,False
+caregivers,caregiver,plural_singular,Plural 's' → singular,0,False
+cities,city,plural_singular,Plural 'ies' → singular,1,False
+covid-19,covid19,hyphen,Hyphenated → unhyphenated form,1,False
+deforestation,forest loss,synonym_map,Synonym → preferred term,0,False
+desertification,land degradation,synonym_map,Synonym → preferred term,1,False
+developing countries,developing country,plural_singular,Plural 'ies' → singular,0,False
+duties,duty,plural_singular,Plural 'ies' → singular,1,False
+economics,economic,plural_singular,Plural 's' → singular,0,False
+essential oils,essential oil,plural_singular,Plural 's' → singular,0,False
+experiences,experience,plural_singular,Plural 's' → singular,0,False
+fisheries,fishery,plural_singular,Plural 'ies' → singular,1,False
+food insecurity,food security,synonym_map,Synonym → preferred term,1,False
+gdp,gross domestic product,acronym_expansion,Acronym expansion,7,True
+ghg,greenhouse gas,acronym_expansion,Acronym expansion,1,False
+global warming,climate change,synonym_map,Synonym → preferred term,1,False
+green-house effect,greenhouse effect,hyphen,Hyphenated → unhyphenated form,1,False
+green-house gas,greenhouse gas,hyphen,Hyphenated → unhyphenated form,1,False
+heavy metals,heavy metal,plural_singular,Plural 's' → singular,0,False
+hiv,human immunodeficiency virus,acronym_expansion,Acronym expansion,1,False
+human rights,human right,plural_singular,Plural 's' → singular,0,False
+ict,information and communication technology,acronym_expansion,Acronym expansion,1,False
+institutions,institution,plural_singular,Plural 's' → singular,0,False
+labor,labour,british_american,American → British spelling,1,False
+livelihoods,livelihood,plural_singular,Plural 's' → singular,0,False
+macro-econom,macroeconom,hyphen,Hyphenated → unhyphenated form,1,False
+micro-credit,microcredit,hyphen,Hyphenated → unhyphenated form,1,False
+micro-enterprise,microenterprise,hyphen,Hyphenated → unhyphenated form,1,False
+micro-financ,microfinanc,hyphen,Hyphenated → unhyphenated form,2,True
+micro-plastic,microplastic,hyphen,Hyphenated → unhyphenated form,1,False
+microplastics,microplastic,plural_singular,Plural 's' → singular,0,False
+natural resources,natural resource,plural_singular,Plural 's' → singular,0,False
+ngo,non-governmental organisation,acronym_expansion,Acronym expansion,1,False
+non-discriminat,nondiscriminat,hyphen,Hyphenated → unhyphenated form,2,True
+non-governmental organisation,nongovernmental organisation,hyphen,Hyphenated → unhyphenated form,1,False
+non-governmental organization,nongovernmental organization,hyphen,Hyphenated → unhyphenated form,1,False
+non-indigenous,nonindigenous,hyphen,Hyphenated → unhyphenated form,1,False
+non-native,nonnative,hyphen,Hyphenated → unhyphenated form,1,False
+outcomes,outcome,plural_singular,Plural 's' → singular,0,False
+perceptions,perception,plural_singular,Plural 's' → singular,0,False
+policies,policy,plural_singular,Plural 'ies' → singular,5,True
+post-harvest loss,postharvest loss,hyphen,Hyphenated → unhyphenated form,1,False
+practices,practice,plural_singular,Plural 's' → singular,0,False
+pre-primary education,preprimary education,hyphen,Hyphenated → unhyphenated form,1,False
+pre-primary school,preprimary school,hyphen,Hyphenated → unhyphenated form,1,False
+pre-school,preschool,hyphen,Hyphenated → unhyphenated form,1,False
+program,programme,british_american,American → British spelling,9,True
+sdg,sustainable development goal,acronym_expansion,Acronym expansion,1,False
+sdgs,sustainable development goals,acronym_expansion,Acronym expansion,0,False
+socio-economic,socioeconomic,hyphen,Hyphenated → unhyphenated form,1,False
+solar power,solar energy,synonym_map,Synonym → preferred term,1,False
+statistics,statistic,plural_singular,Plural 's' → singular,1,False
+strategies,strategy,plural_singular,Plural 'ies' → singular,0,False
+sustainable development goals,sustainable development goal,plural_singular,Plural 's' → singular,0,False
+urbanization,urbanisation,british_american,American → British spelling,1,False
+vaccines,vaccine,plural_singular,Plural 's' → singular,0,False
+tb,tuberculosis,acronym_expansion,Acronym expansion (always-apply),0,False
+wash,water sanitation and hygiene,acronym_expansion,Acronym expansion (always-apply),0,False
+ndc,nationally determined contribution,acronym_expansion,Acronym expansion (always-apply),0,False
+fdi,foreign direct investment,acronym_expansion,Acronym expansion (always-apply),0,False
+sme,small and medium enterprise,acronym_expansion,Acronym expansion (always-apply),0,False
+who,world health organization,acronym_expansion,Acronym expansion (always-apply),0,False
+fao,food and agriculture organization,acronym_expansion,Acronym expansion (always-apply),0,False
+cop,conference of the parties,acronym_expansion,Acronym expansion (always-apply),0,False
+climate crisis,climate change,synonym_map,Synonym mapping (always-apply),0,False
+undernourishment,malnutrition,synonym_map,Synonym mapping (always-apply),0,False
+gender gap,gender inequality,synonym_map,Synonym mapping (always-apply),0,False
+gender disparity,gender inequality,synonym_map,Synonym mapping (always-apply),0,False
+clean energy,renewable energy,synonym_map,Synonym mapping (always-apply),0,False
+green energy,renewable energy,synonym_map,Synonym mapping (always-apply),0,False
+rural electrification,energy access,synonym_map,Synonym mapping (always-apply),0,False
+Governance,governance,case_fold,Normalise to lowercase,0,False
+Inequality,inequality,case_fold,Normalise to lowercase,0,False
+Migration,migration,case_fold,Normalise to lowercase,0,False
+North Africa,north africa,case_fold,Normalise to lowercase,0,False
+Qualitative,qualitative,case_fold,Normalise to lowercase,0,False
+Uganda,uganda,case_fold,Normalise to lowercase,0,False
+Zimbabwe,zimbabwe,case_fold,Normalise to lowercase,0,False
+Cameroon,cameroon,case_fold,Normalise to lowercase,0,False
+COVID-19,covid-19,case_fold,Normalise to lowercase,1,False
+Primary Health Care,primary health care,case_fold,Normalise to lowercase,0,False
+Climate change,climate change,case_fold,Normalise to lowercase,0,False
+Ghana,ghana,case_fold,Normalise to lowercase,0,False
+Income inequality,income inequality,case_fold,Normalise to lowercase,0,False
+Financial inclusion,financial inclusion,case_fold,Normalise to lowercase,0,False
+Poverty,poverty,case_fold,Normalise to lowercase,2,True
+Dietary diversity,dietary diversity,case_fold,Normalise to lowercase,0,False
+Zambia,zambia,case_fold,Normalise to lowercase,0,False
+Adaptation,adaptation,case_fold,Normalise to lowercase,0,False
+Pandemic,pandemic,case_fold,Normalise to lowercase,1,False
+Sub-Saharan africa,sub-saharan africa,case_fold,Normalise to lowercase,1,False
+Community engagement,community engagement,case_fold,Normalise to lowercase,0,False
+Degradation,degradation,case_fold,Normalise to lowercase,0,False
+Ethiopia,ethiopia,case_fold,Normalise to lowercase,0,False
+Water,water,case_fold,Normalise to lowercase,3,True
+Africa,africa,case_fold,Normalise to lowercase,1,False
+Global health,global health,case_fold,Normalise to lowercase,0,False
+Mortality,mortality,case_fold,Normalise to lowercase,1,False
+Outcomes,outcomes,case_fold,Normalise to lowercase,0,False
+LMIC,lmic,case_fold,Normalise to lowercase,0,False
+Deforestation,deforestation,case_fold,Normalise to lowercase,0,False
+Employment,employment,case_fold,Normalise to lowercase,2,True
+Gender,gender,case_fold,Normalise to lowercase,2,True
+Soil fertility,soil fertility,case_fold,Normalise to lowercase,0,False
+Attitude,attitude,case_fold,Normalise to lowercase,0,False
+Knowledge,knowledge,case_fold,Normalise to lowercase,1,False
+Practice,practice,case_fold,Normalise to lowercase,2,True
+Livelihoods,livelihoods,case_fold,Normalise to lowercase,0,False
+Performance,performance,case_fold,Normalise to lowercase,0,False
+Corporate social responsibility,corporate social responsibility,case_fold,Normalise to lowercase,0,False
+Food,food,case_fold,Normalise to lowercase,2,True
+Health,health,case_fold,Normalise to lowercase,2,True
+Lockdown,lockdown,case_fold,Normalise to lowercase,0,False
+Culture,culture,case_fold,Normalise to lowercase,0,False
+Development,development,case_fold,Normalise to lowercase,6,True
+Nigeria,nigeria,case_fold,Normalise to lowercase,0,False
+Tourism,tourism,case_fold,Normalise to lowercase,3,True
+Tanzania,tanzania,case_fold,Normalise to lowercase,0,False
+South Africa,south africa,case_fold,Normalise to lowercase,1,False
+Benin,benin,case_fold,Normalise to lowercase,0,False
+Land degradation,land degradation,case_fold,Normalise to lowercase,0,False
+Adolescent,adolescent,case_fold,Normalise to lowercase,0,False
+Trends,trends,case_fold,Normalise to lowercase,0,False
+Economic development,economic development,case_fold,Normalise to lowercase,1,False
+Economic growth,economic growth,case_fold,Normalise to lowercase,0,False
+Systematic review,systematic review,case_fold,Normalise to lowercase,0,False
+Machine learning,machine learning,case_fold,Normalise to lowercase,0,False
+Quality of life,quality of life,case_fold,Normalise to lowercase,0,False
+Well-being,well-being,case_fold,Normalise to lowercase,0,False
+Youth,youth,case_fold,Normalise to lowercase,1,False
+Children,children,case_fold,Normalise to lowercase,0,False
+Malaria,malaria,case_fold,Normalise to lowercase,1,False
+Rwanda,rwanda,case_fold,Normalise to lowercase,0,False
+Accessibility,accessibility,case_fold,Normalise to lowercase,0,False
+Farmers,farmers,case_fold,Normalise to lowercase,0,False
+Sustainable development,sustainable development,case_fold,Normalise to lowercase,2,True
+Policy,policy,case_fold,Normalise to lowercase,5,True
+Acceptability,acceptability,case_fold,Normalise to lowercase,0,False
+Qualitative study,qualitative study,case_fold,Normalise to lowercase,0,False
+Financial development,financial development,case_fold,Normalise to lowercase,0,False
+GIS,gis,case_fold,Normalise to lowercase,0,False
+Food waste,food waste,case_fold,Normalise to lowercase,0,False
+Depression,depression,case_fold,Normalise to lowercase,0,False
+Disability,disability,case_fold,Normalise to lowercase,1,False
+Stigma,stigma,case_fold,Normalise to lowercase,0,False
+Phytochemicals,phytochemicals,case_fold,Normalise to lowercase,0,False
+Sustainability,sustainability,case_fold,Normalise to lowercase,0,False
+Cervical cancer,cervical cancer,case_fold,Normalise to lowercase,0,False
+Epidemiology,epidemiology,case_fold,Normalise to lowercase,0,False
+Incidence,incidence,case_fold,Normalise to lowercase,0,False
+Natural resources,natural resources,case_fold,Normalise to lowercase,0,False
+East Africa,east africa,case_fold,Normalise to lowercase,0,False
+Agriculture,agriculture,case_fold,Normalise to lowercase,1,False
+Food Security,food security,case_fold,Normalise to lowercase,1,False
+Associated factors,associated factors,case_fold,Normalise to lowercase,0,False
+Renewable energy,renewable energy,case_fold,Normalise to lowercase,0,False
+Cardiovascular disease,cardiovascular disease,case_fold,Normalise to lowercase,1,False
+Attitudes,attitudes,case_fold,Normalise to lowercase,0,False
+Epilepsy,epilepsy,case_fold,Normalise to lowercase,0,False
+Morocco,morocco,case_fold,Normalise to lowercase,0,False
+Environment,environment,case_fold,Normalise to lowercase,2,True
+Artificial intelligence,artificial intelligence,case_fold,Normalise to lowercase,0,False
+Kenya,kenya,case_fold,Normalise to lowercase,0,False
+Mental health,mental health,case_fold,Normalise to lowercase,0,False
+Telemedicine,telemedicine,case_fold,Normalise to lowercase,0,False
+ARDL,ardl,case_fold,Normalise to lowercase,0,False
+Energy consumption,energy consumption,case_fold,Normalise to lowercase,1,False
+Coronavirus,coronavirus,case_fold,Normalise to lowercase,1,False
+SARS-CoV-2,sars-cov-2,case_fold,Normalise to lowercase,1,False
+Awareness,awareness,case_fold,Normalise to lowercase,2,True
+Random forest,random forest,case_fold,Normalise to lowercase,0,False
+Productivity,productivity,case_fold,Normalise to lowercase,1,False
+Biodiversity,biodiversity,case_fold,Normalise to lowercase,3,True
+Conservation,conservation,case_fold,Normalise to lowercase,0,False
+Indigenous knowledge,indigenous knowledge,case_fold,Normalise to lowercase,0,False
+Food insecurity,food insecurity,case_fold,Normalise to lowercase,1,False
+HIV,hiv,case_fold,Normalise to lowercase,1,False
+Management,management,case_fold,Normalise to lowercase,3,True
+Ecosystem services,ecosystem services,case_fold,Normalise to lowercase,0,False
+Sustainable development goals,sustainable development goals,case_fold,Normalise to lowercase,0,False
+Growth,growth,case_fold,Normalise to lowercase,3,True
+Human capital,human capital,case_fold,Normalise to lowercase,0,False
+Namibia,namibia,case_fold,Normalise to lowercase,0,False
+Scoping review,scoping review,case_fold,Normalise to lowercase,0,False
+Nutrition,nutrition,case_fold,Normalise to lowercase,1,False
+Urbanisation,urbanisation,case_fold,Normalise to lowercase,1,False
+Security,security,case_fold,Normalise to lowercase,0,False
+Access,access,case_fold,Normalise to lowercase,11,True
+Global South,global south,case_fold,Normalise to lowercase,0,False
+Prediction,prediction,case_fold,Normalise to lowercase,0,False
+Contraception,contraception,case_fold,Normalise to lowercase,0,False
+Sexual violence,sexual violence,case_fold,Normalise to lowercase,0,False
+Prevalence,prevalence,case_fold,Normalise to lowercase,0,False
+Women,women,case_fold,Normalise to lowercase,4,True
+Household,household,case_fold,Normalise to lowercase,3,True
+Conflict,conflict,case_fold,Normalise to lowercase,1,False
+Capacity building,capacity building,case_fold,Normalise to lowercase,0,False
+Sexual and reproductive health,sexual and reproductive health,case_fold,Normalise to lowercase,0,False
+Students,students,case_fold,Normalise to lowercase,0,False
+Education,education,case_fold,Normalise to lowercase,3,True
+Entrepreneurship,entrepreneurship,case_fold,Normalise to lowercase,1,False
+Unemployment,unemployment,case_fold,Normalise to lowercase,0,False
+Newborn,newborn,case_fold,Normalise to lowercase,1,False
+Anemia,anemia,case_fold,Normalise to lowercase,0,False
+Overweight,overweight,case_fold,Normalise to lowercase,0,False
+Wasting,wasting,case_fold,Normalise to lowercase,1,False
+Adolescent girls,adolescent girls,case_fold,Normalise to lowercase,0,False
+Intervention,intervention,case_fold,Normalise to lowercase,0,False
+Pregnancy,pregnancy,case_fold,Normalise to lowercase,0,False
+India,india,case_fold,Normalise to lowercase,0,False
+Maternal mortality,maternal mortality,case_fold,Normalise to lowercase,0,False
+Barriers,barriers,case_fold,Normalise to lowercase,0,False
+Botswana,botswana,case_fold,Normalise to lowercase,0,False
+Malawi,malawi,case_fold,Normalise to lowercase,0,False
+Breastfeeding,breastfeeding,case_fold,Normalise to lowercase,0,False
+Willingness to pay,willingness to pay,case_fold,Normalise to lowercase,0,False
+Stability,stability,case_fold,Normalise to lowercase,1,False
+Utilization,utilization,case_fold,Normalise to lowercase,0,False
+Income,income,case_fold,Normalise to lowercase,2,True
+Intimate partner violence,intimate partner violence,case_fold,Normalise to lowercase,0,False
+Smes,smes,case_fold,Normalise to lowercase,0,False
+Water quality,water quality,case_fold,Normalise to lowercase,1,False
+One health,one health,case_fold,Normalise to lowercase,0,False
+Drinking water,drinking water,case_fold,Normalise to lowercase,1,False
+Adoption,adoption,case_fold,Normalise to lowercase,0,False
+Empowerment,empowerment,case_fold,Normalise to lowercase,0,False
+Pregnant women,pregnant women,case_fold,Normalise to lowercase,1,False
+Democracy,democracy,case_fold,Normalise to lowercase,0,False
+Antimicrobial resistance,antimicrobial resistance,case_fold,Normalise to lowercase,0,False
+Climate,climate,case_fold,Normalise to lowercase,1,False
+Review,review,case_fold,Normalise to lowercase,0,False
+Water use efficiency,water use efficiency,case_fold,Normalise to lowercase,0,False
+Mozambique,mozambique,case_fold,Normalise to lowercase,0,False
+Determinants,determinants,case_fold,Normalise to lowercase,0,False
+Egypt,egypt,case_fold,Normalise to lowercase,0,False
+Perceptions,perceptions,case_fold,Normalise to lowercase,0,False
+Infrastructure,infrastructure,case_fold,Normalise to lowercase,2,True
+HIV/AIDS,hiv/aids,case_fold,Normalise to lowercase,0,False
+Senegal,senegal,case_fold,Normalise to lowercase,0,False
+Burkina Faso,burkina faso,case_fold,Normalise to lowercase,0,False
+Community,community,case_fold,Normalise to lowercase,0,False
+Hygiene,hygiene,case_fold,Normalise to lowercase,0,False
+Sanitation,sanitation,case_fold,Normalise to lowercase,3,True
+Anxiety,anxiety,case_fold,Normalise to lowercase,0,False
+Obesity,obesity,case_fold,Normalise to lowercase,0,False
+CO<sub>2</sub> emissions,co<sub>2</sub> emissions,case_fold,Normalise to lowercase,0,False
+Smallholder farmers,smallholder farmers,case_fold,Normalise to lowercase,0,False
+Efficiency,efficiency,case_fold,Normalise to lowercase,1,False
+SDGs,sdgs,case_fold,Normalise to lowercase,0,False
+Child,child,case_fold,Normalise to lowercase,3,True
+Screening,screening,case_fold,Normalise to lowercase,0,False
+Urban planning,urban planning,case_fold,Normalise to lowercase,1,False
+Temperature,temperature,case_fold,Normalise to lowercase,0,False
+Climate change adaptation,climate change adaptation,case_fold,Normalise to lowercase,0,False
+Violence,violence,case_fold,Normalise to lowercase,2,True
+Resilience,resilience,case_fold,Normalise to lowercase,0,False
+Water resources,water resources,case_fold,Normalise to lowercase,0,False
+Biochar,biochar,case_fold,Normalise to lowercase,0,False
+Outcome,outcome,case_fold,Normalise to lowercase,0,False
+Treatment,treatment,case_fold,Normalise to lowercase,1,False
+Factors,factors,case_fold,Normalise to lowercase,0,False
+Predictors,predictors,case_fold,Normalise to lowercase,0,False
+Gender equality,gender equality,case_fold,Normalise to lowercase,0,False
+Rice,rice,case_fold,Normalise to lowercase,0,False
+Risk,risk,case_fold,Normalise to lowercase,3,True
+Challenges,challenges,case_fold,Normalise to lowercase,0,False
+Urban,urban,case_fold,Normalise to lowercase,1,False
+Quality,quality,case_fold,Normalise to lowercase,2,True
+Contamination,contamination,case_fold,Normalise to lowercase,1,False
+Energy,energy,case_fold,Normalise to lowercase,1,False
+Resistance,resistance,case_fold,Normalise to lowercase,0,False
+Vaccine,vaccine,case_fold,Normalise to lowercase,1,False
+Evaluation,evaluation,case_fold,Normalise to lowercase,0,False
+Social capital,social capital,case_fold,Normalise to lowercase,0,False
+Family planning,family planning,case_fold,Normalise to lowercase,2,True
+Perception,perception,case_fold,Normalise to lowercase,0,False
+Energy efficiency,energy efficiency,case_fold,Normalise to lowercase,0,False
+Food safety,food safety,case_fold,Normalise to lowercase,0,False
+Fish,fish,case_fold,Normalise to lowercase,1,False
+Antibiotics,antibiotics,case_fold,Normalise to lowercase,0,False
+Communication,communication,case_fold,Normalise to lowercase,1,False
+West africa,west africa,case_fold,Normalise to lowercase,1,False
+Photovoltaic,photovoltaic,case_fold,Normalise to lowercase,0,False
+Quality of care,quality of care,case_fold,Normalise to lowercase,0,False
+Anaemia,anaemia,case_fold,Normalise to lowercase,0,False
+Sudan,sudan,case_fold,Normalise to lowercase,0,False
+Spatial analysis,spatial analysis,case_fold,Normalise to lowercase,0,False
+Coping strategies,coping strategies,case_fold,Normalise to lowercase,0,False
+Madagascar,madagascar,case_fold,Normalise to lowercase,0,False
+Monitoring,monitoring,case_fold,Normalise to lowercase,0,False
+Sustainable,sustainable,case_fold,Normalise to lowercase,1,False
+Human rights,human rights,case_fold,Normalise to lowercase,0,False
+Refugees,refugees,case_fold,Normalise to lowercase,0,False
+Control,control,case_fold,Normalise to lowercase,2,True
+Pollution,pollution,case_fold,Normalise to lowercase,1,False
+Adherence,adherence,case_fold,Normalise to lowercase,0,False
+mHealth,mhealth,case_fold,Normalise to lowercase,0,False
+Mali,mali,case_fold,Normalise to lowercase,0,False
+Transformation,transformation,case_fold,Normalise to lowercase,0,False
+Outbreak,outbreak,case_fold,Normalise to lowercase,0,False
+Implementation,implementation,case_fold,Normalise to lowercase,0,False
+Surveillance,surveillance,case_fold,Normalise to lowercase,0,False
+Research,research,case_fold,Normalise to lowercase,2,True
+Circular economy,circular economy,case_fold,Normalise to lowercase,0,False
+Severe acute malnutrition,severe acute malnutrition,case_fold,Normalise to lowercase,0,False
+Ethics,ethics,case_fold,Normalise to lowercase,0,False
+Satisfaction,satisfaction,case_fold,Normalise to lowercase,0,False
+Carbon emissions,carbon emissions,case_fold,Normalise to lowercase,0,False
+Drought,drought,case_fold,Normalise to lowercase,0,False
+Healthcare,healthcare,case_fold,Normalise to lowercase,1,False
+Water scarcity,water scarcity,case_fold,Normalise to lowercase,0,False
+Maize,maize,case_fold,Normalise to lowercase,0,False
+Principal component analysis,principal component analysis,case_fold,Normalise to lowercase,0,False
+Land use,land use,case_fold,Normalise to lowercase,0,False
+Ebola,ebola,case_fold,Normalise to lowercase,1,False
+Southern Africa,southern africa,case_fold,Normalise to lowercase,0,False
+HIV prevention,hiv prevention,case_fold,Normalise to lowercase,0,False
+Effectiveness,effectiveness,case_fold,Normalise to lowercase,0,False
+Simulation,simulation,case_fold,Normalise to lowercase,0,False
+Livestock,livestock,case_fold,Normalise to lowercase,0,False
+Environmental pollution,environmental pollution,case_fold,Normalise to lowercase,0,False
+Heat stress,heat stress,case_fold,Normalise to lowercase,0,False
+Genetic diversity,genetic diversity,case_fold,Normalise to lowercase,1,False
+Sustainable agriculture,sustainable agriculture,case_fold,Normalise to lowercase,0,False
+Somalia,somalia,case_fold,Normalise to lowercase,0,False
+Nutritional status,nutritional status,case_fold,Normalise to lowercase,1,False
+Non-communicable diseases,non-communicable diseases,case_fold,Normalise to lowercase,0,False
+Diarrhea,diarrhea,case_fold,Normalise to lowercase,0,False
+Solar energy,solar energy,case_fold,Normalise to lowercase,1,False
+Validation,validation,case_fold,Normalise to lowercase,0,False
+Protected areas,protected areas,case_fold,Normalise to lowercase,0,False
+Modeling,modeling,case_fold,Normalise to lowercase,0,False
+Health literacy,health literacy,case_fold,Normalise to lowercase,0,False
+Mediterranean sea,mediterranean sea,case_fold,Normalise to lowercase,0,False
+Pesticides,pesticides,case_fold,Normalise to lowercase,0,False
+Higher education,higher education,case_fold,Normalise to lowercase,0,False
+Schistosomiasis,schistosomiasis,case_fold,Normalise to lowercase,0,False
+Economics,economics,case_fold,Normalise to lowercase,0,False
+Waste,waste,case_fold,Normalise to lowercase,2,True
+Gender-based violence,gender-based violence,case_fold,Normalise to lowercase,0,False
+AHP,ahp,case_fold,Normalise to lowercase,0,False
+Antimicrobial,antimicrobial,case_fold,Normalise to lowercase,0,False
+Risk management,risk management,case_fold,Normalise to lowercase,0,False
+China,china,case_fold,Normalise to lowercase,0,False
+Experiences,experiences,case_fold,Normalise to lowercase,0,False
+Waste management,waste management,case_fold,Normalise to lowercase,1,False
+Environmental sustainability,environmental sustainability,case_fold,Normalise to lowercase,0,False
+COVID-19 pandemic,covid-19 pandemic,case_fold,Normalise to lowercase,0,False
+Blockchain,blockchain,case_fold,Normalise to lowercase,0,False
+Inclusion,inclusion,case_fold,Normalise to lowercase,1,False
+Compliance,compliance,case_fold,Normalise to lowercase,0,False
+Integration,integration,case_fold,Normalise to lowercase,0,False
+Accountability,accountability,case_fold,Normalise to lowercase,0,False
+Rural development,rural development,case_fold,Normalise to lowercase,0,False
+Genetic algorithm,genetic algorithm,case_fold,Normalise to lowercase,0,False
+Wastewater,wastewater,case_fold,Normalise to lowercase,1,False
+Sierra Leone,sierra leone,case_fold,Normalise to lowercase,0,False
+Practices,practices,case_fold,Normalise to lowercase,0,False
+Discrimination,discrimination,case_fold,Normalise to lowercase,1,False
+Biomass,biomass,case_fold,Normalise to lowercase,0,False
+Technology,technology,case_fold,Normalise to lowercase,2,True
+Global warming,global warming,case_fold,Normalise to lowercase,1,False
+Tunisia,tunisia,case_fold,Normalise to lowercase,0,False
+Antibiotic resistance,antibiotic resistance,case_fold,Normalise to lowercase,0,False
+Curriculum,curriculum,case_fold,Normalise to lowercase,0,False
+Rainfall,rainfall,case_fold,Normalise to lowercase,0,False
+Saudi Arabia,saudi arabia,case_fold,Normalise to lowercase,0,False
+Healthcare workers,healthcare workers,case_fold,Normalise to lowercase,0,False
+Diet,diet,case_fold,Normalise to lowercase,0,False
+Biological control,biological control,case_fold,Normalise to lowercase,0,False
+Traditional medicine,traditional medicine,case_fold,Normalise to lowercase,0,False
+Safety,safety,case_fold,Normalise to lowercase,0,False
+Remote sensing,remote sensing,case_fold,Normalise to lowercase,0,False
+Groundwater,groundwater,case_fold,Normalise to lowercase,0,False
+Forecasting,forecasting,case_fold,Normalise to lowercase,0,False
+Bacteria,bacteria,case_fold,Normalise to lowercase,0,False
+ICT,ict,case_fold,Normalise to lowercase,1,False
+Conservation agriculture,conservation agriculture,case_fold,Normalise to lowercase,0,False
+Precipitation,precipitation,case_fold,Normalise to lowercase,0,False
+Pediatrics,pediatrics,case_fold,Normalise to lowercase,0,False
+Collaboration,collaboration,case_fold,Normalise to lowercase,0,False
+Seroprevalence,seroprevalence,case_fold,Normalise to lowercase,0,False
+Soil erosion,soil erosion,case_fold,Normalise to lowercase,0,False
+Restoration,restoration,case_fold,Normalise to lowercase,0,False
+Climate-smart agriculture,climate-smart agriculture,case_fold,Normalise to lowercase,0,False
+Water management,water management,case_fold,Normalise to lowercase,0,False
+Medicinal plants,medicinal plants,case_fold,Normalise to lowercase,0,False
+Ecology,ecology,case_fold,Normalise to lowercase,0,False
+Infection,infection,case_fold,Normalise to lowercase,0,False
+Distribution,distribution,case_fold,Normalise to lowercase,2,True
+Uncertainty,uncertainty,case_fold,Normalise to lowercase,0,False
+Concrete,concrete,case_fold,Normalise to lowercase,0,False
+Biodiesel,biodiesel,case_fold,Normalise to lowercase,0,False
+Algeria,algeria,case_fold,Normalise to lowercase,0,False
+Species richness,species richness,case_fold,Normalise to lowercase,0,False
+Biodiversity conservation,biodiversity conservation,case_fold,Normalise to lowercase,0,False
+Recycling,recycling,case_fold,Normalise to lowercase,0,False
+Invasive species,invasive species,case_fold,Normalise to lowercase,0,False
+Wetlands,wetlands,case_fold,Normalise to lowercase,0,False
+Wind energy,wind energy,case_fold,Normalise to lowercase,1,False
+Biomarkers,biomarkers,case_fold,Normalise to lowercase,0,False
+Antimicrobial activity,antimicrobial activity,case_fold,Normalise to lowercase,0,False
+SEM,sem,case_fold,Normalise to lowercase,0,False
+Regeneration,regeneration,case_fold,Normalise to lowercase,0,False
+Water stress,water stress,case_fold,Normalise to lowercase,1,False
+Desalination,desalination,case_fold,Normalise to lowercase,0,False
+Nutrients,nutrients,case_fold,Normalise to lowercase,0,False
+Toxicity,toxicity,case_fold,Normalise to lowercase,0,False
+Social media,social media,case_fold,Normalise to lowercase,0,False
+Life cycle assessment,life cycle assessment,case_fold,Normalise to lowercase,1,False
+Nitrogen,nitrogen,case_fold,Normalise to lowercase,0,False
+Durability,durability,case_fold,Normalise to lowercase,0,False
+Fermentation,fermentation,case_fold,Normalise to lowercase,0,False
+Cadmium,cadmium,case_fold,Normalise to lowercase,0,False
+Soil,soil,case_fold,Normalise to lowercase,3,True
+Energy transition,energy transition,case_fold,Normalise to lowercase,0,False
+Corporate governance,corporate governance,case_fold,Normalise to lowercase,0,False
+Water pollution,water pollution,case_fold,Normalise to lowercase,0,False
+Wheat,wheat,case_fold,Normalise to lowercase,0,False
+Activated carbon,activated carbon,case_fold,Normalise to lowercase,0,False
+IoT,iot,case_fold,Normalise to lowercase,0,False
+Bibliometric analysis,bibliometric analysis,case_fold,Normalise to lowercase,0,False
+Characterization,characterization,case_fold,Normalise to lowercase,0,False
+Optimization,optimization,case_fold,Normalise to lowercase,0,False
+Thermal comfort,thermal comfort,case_fold,Normalise to lowercase,0,False
+Artificial neural network,artificial neural network,case_fold,Normalise to lowercase,0,False
+Response surface methodology,response surface methodology,case_fold,Normalise to lowercase,0,False
+NDVI,ndvi,case_fold,Normalise to lowercase,0,False
+Online learning,online learning,case_fold,Normalise to lowercase,0,False
+Microplastics,microplastics,case_fold,Normalise to lowercase,0,False
+Mechanical properties,mechanical properties,case_fold,Normalise to lowercase,0,False
+Nanocomposite,nanocomposite,case_fold,Normalise to lowercase,0,False
+Wastewater Treatment,wastewater treatment,case_fold,Normalise to lowercase,0,False
+Bioaccumulation,bioaccumulation,case_fold,Normalise to lowercase,0,False
+Methane,methane,case_fold,Normalise to lowercase,0,False
+Compressive strength,compressive strength,case_fold,Normalise to lowercase,0,False
+Antioxidant activity,antioxidant activity,case_fold,Normalise to lowercase,0,False
+Adsorption,adsorption,case_fold,Normalise to lowercase,0,False
+Silver nanoparticles,silver nanoparticles,case_fold,Normalise to lowercase,0,False
+Hydrogen,hydrogen,case_fold,Normalise to lowercase,0,False
+Molecular docking,molecular docking,case_fold,Normalise to lowercase,0,False
+Energy storage,energy storage,case_fold,Normalise to lowercase,0,False
+Methylene blue,methylene blue,case_fold,Normalise to lowercase,0,False
+Essential oils,essential oils,case_fold,Normalise to lowercase,0,False
+Microstructure,microstructure,case_fold,Normalise to lowercase,0,False
+Antibacterial activity,antibacterial activity,case_fold,Normalise to lowercase,0,False
+Biodegradation,biodegradation,case_fold,Normalise to lowercase,0,False
+Bioremediation,bioremediation,case_fold,Normalise to lowercase,0,False
+Anaerobic digestion,anaerobic digestion,case_fold,Normalise to lowercase,0,False
+Sediment,sediment,case_fold,Normalise to lowercase,0,False
+Microalgae,microalgae,case_fold,Normalise to lowercase,0,False
+DFT,dft,case_fold,Normalise to lowercase,0,False
+Red Sea,red sea,case_fold,Normalise to lowercase,0,False

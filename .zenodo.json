@@ -1,0 +1,25 @@
+{
+  "title": "African SDG Bibliometric Analysis (2015–2025): Reproducibility Package",
+  "version": "2.0.0",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Abdelilah EL MAJJAOUI"}
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "description": "<p>Reproducibility materials for the bibliometric and scientometric analysis of Sustainable Development Goal-related research across all 54 African Union member states and all 17 SDGs from 2015 to 2025.</p><p>The release includes query documentation, processing and analysis code, configuration files, analytical parameters, derived results, figures and reproducibility documentation. Raw Scopus exports are not included because of third-party licensing restrictions.</p>",
+  "keywords": [
+    "bibliometrics",
+    "scientometrics",
+    "Sustainable Development Goals",
+    "Africa",
+    "African Union",
+    "Scopus",
+    "research evaluation",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.3817445", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.19576723", "relation": "references", "scheme": "doi"}
+  ]
+}

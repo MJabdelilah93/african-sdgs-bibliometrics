@@ -1,0 +1,232 @@
+id	label	weight<Documents>
+1	South Africa	86220
+2	Egypt	54139
+3	Nigeria	43034
+4	United States	51352
+5	Kenya	21003
+6	United Kingdom	38537
+7	Ethiopia	33842
+8	Ghana	22007
+9	Uganda	12595
+10	Tanzania	11968
+11	Morocco	18687
+12	Tunisia	14196
+13	Saudi Arabia	22516
+14	France	18820
+15	Cameroon	7432
+16	Algeria	13273
+17	Germany	16168
+18	India	14871
+19	China	16605
+20	Australia	14680
+21	Canada	13620
+22	Zambia	4219
+23	Malawi	5044
+24	Switzerland	9017
+25	Rwanda	3980
+26	The Netherlands	9669
+27	Italy	9771
+28	Mozambique	3092
+29	Zimbabwe	5640
+30	Benin	3308
+31	Sudan	3348
+32	Spain	8389
+33	Belgium	8154
+34	Senegal	3662
+35	Sweden	7320
+36	Botswana	2920
+37	Malaysia	7125
+38	Brazil	5598
+39	Ivory Coast	2909
+40	Burkina Faso	3745
+41	Libya	1458
+42	Pakistan	5704
+43	DR Congo	2372
+44	Congo Republic	2116
+45	Namibia	1978
+46	Japan	5305
+47	Norway	4918
+48	The Gambia	1181
+49	Portugal	4026
+50	Türkiye	4587
+51	United Arab Emirates	4415
+52	Denmark	3800
+53	Madagascar	1931
+54	South Korea	3787
+55	Mexico	2642
+56	Mali	1528
+57	Bangladesh	2585
+58	Iran	2831
+59	Indonesia	2614
+60	Finland	2843
+61	Poland	2822
+62	Russia	2743
+63	New Zealand	2535
+64	Sierra Leone	1483
+65	Colombia	1843
+66	Austria	2611
+67	Jordan	2338
+68	Togo	1215
+69	Vietnam	1881
+70	Thailand	2375
+71	Iraq	2510
+72	Mauritius	1172
+73	Ireland	2269
+74	Greece	1887
+75	Argentina	1706
+76	Chile	1656
+77	Philippines	1361
+78	Hong Kong	1903
+79	Peru	1199
+80	Liberia	777
+81	Taiwan	1794
+82	Gabon	809
+83	Singapore	1367
+84	Romania	1446
+85	Niger	1082
+86	Czechia	2069
+87	Somalia	1105
+88	Nepal	1065
+89	Lebanon	1546
+90	Qatar	1546
+91	Serbia	801
+92	Burundi	501
+93	Seychelles	472
+94	Hungary	1666
+95	Oman	1569
+96	Israel	1196
+97	Sri Lanka	763
+98	Guinea	783
+99	Croatia	696
+100	Angola	594
+101	Kuwait	1067
+102	Palestine	702
+103	Estonia	521
+104	Ukraine	623
+105	Ecuador	618
+106	Bahrain	601
+107	Yemen	733
+108	Slovakia	690
+109	Kazakhstan	497
+110	Panama	310
+111	Bulgaria	503
+112	Eswatini	389
+113	Mauritania	308
+114	Chad	381
+115	Cyprus	631
+116	Lesotho	482
+117	Slovenia	552
+118	Costa Rica	360
+119	Central African Republic	298
+120	Cambodia	385
+121	Kyrgyzstan	211
+122	Georgia	364
+123	South Sudan	324
+124	Uruguay	375
+125	Guinea-Bissau	295
+126	Iceland	285
+127	Luxembourg	362
+128	Guatemala	319
+129	Cabo Verde	78
+130	Lithuania	458
+131	Brunei	273
+132	Afghanistan	247
+133	Azerbaijan	408
+134	Albania	185
+135	Uzbekistan	508
+136	Syria	373
+137	Trinidad and Tobago	203
+138	Venezuela	240
+139	Bolivia	220
+140	Mongolia	196
+141	Bosnia and Herzegovina	218
+142	Myanmar	214
+143	Latvia	222
+144	Jamaica	226
+145	Malta	238
+146	Micronesia	72
+147	Barbados	141
+148	North Macedonia	188
+149	Haiti	161
+150	Fiji	291
+151	Paraguay	110
+152	Laos	176
+153	Eritrea	239
+154	Papua New Guinea	991
+155	Guyana	181
+156	New Caledonia	131
+157	Anguilla	48
+158	São Tomé and Príncipe	101
+159	Comoros	97
+160	Armenia	152
+161	Puerto Rico	206
+162	Cuba	178
+163	Bhutan	95
+164	Equatorial Guinea	94
+165	Djibouti	178
+166	Dominican Republic	109
+167	Belarus	140
+168	Moldova	82
+169	Macao	120
+170	Nicaragua	77
+171	Honduras	82
+172	Montenegro	84
+173	French Guiana	76
+174	Suriname	53
+175	Solomon Islands	66
+176	Réunion	49
+177	Maldives	61
+178	El Salvador	47
+179	Belize	39
+180	Kosovo	66
+181	St Kitts and Nevis	72
+182	Timor-Leste	37
+183	Saint Lucia	14
+184	Antigua and Barbuda	16
+185	Tajikistan	43
+186	Saint Martin	11
+187	Grenada	43
+188	San Marino	14
+189	Monaco	64
+190	Vanuatu	36
+191	Bahamas	35
+192	Greenland	26
+193	French Polynesia	51
+194	Martinique	12
+195	Tonga	25
+196	Guam	15
+197	Samoa	33
+198	Dominica	16
+199	Kiribati	13
+200	St Vincent and Grenadines	16
+201	Falkland Islands	38
+202	Faroe Islands	25
+203	Andorra	11
+204	Cayman Islands	13
+205	Nauru	4
+206	Bermuda	20
+207	Gibraltar	22
+208	Guadeloupe	23
+209	American Samoa	7
+210	Palau	20
+211	Turkmenistan	5
+212	Cook Islands	18
+213	Curaçao	10
+214	Saint Helena	10
+215	British Virgin Islands	11
+216	Turks and Caicos Islands	8
+217	British Indian Ocean Territory	2
+218	U.S. Virgin Islands	9
+219	Montserrat	4
+220	Liechtenstein	9
+221	Mayotte	4
+222	North Korea	7
+223	Tuvalu	6
+224	Aruba	5
+225	Jersey	3
+226	Vatican City	2
+227	Guernsey	1
+228	Northern Mariana Islands	1
+229	Antarctica	1
+230	Saint Barthelemy	1
+231	Marshall Islands	6

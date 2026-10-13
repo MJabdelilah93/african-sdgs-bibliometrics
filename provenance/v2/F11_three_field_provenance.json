@@ -1,0 +1,211 @@
+{
+ "figure": "manuscript Figure 11 (three-field: country -> author keyword -> journal)",
+ "script": "code/08c_three_field_F11.py",
+ "run": "2026-10-12T10:38:27",
+ "input_sha256": "bce69f9f6374f89dd8b44c44ec2a0c30d14bf0e65011fb8eadecaeec2272a202",
+ "plotly": "5.24.1",
+ "records": 345025,
+ "country_field": "first AU country in affiliation-segment order (direct attribution)",
+ "top_countries": [
+  [
+   "South Africa",
+   74911
+  ],
+  [
+   "Egypt",
+   51616
+  ],
+  [
+   "Nigeria",
+   37726
+  ],
+  [
+   "Ethiopia",
+   31506
+  ],
+  [
+   "Ghana",
+   18664
+  ],
+  [
+   "Morocco",
+   17481
+  ],
+  [
+   "Kenya",
+   15833
+  ],
+  [
+   "Tunisia",
+   12986
+  ],
+  [
+   "Algeria",
+   12430
+  ],
+  [
+   "Uganda",
+   9562
+  ],
+  [
+   "Tanzania",
+   9479
+  ],
+  [
+   "Cameroon",
+   5867
+  ],
+  [
+   "Zimbabwe",
+   3679
+  ],
+  [
+   "Malawi",
+   3591
+  ],
+  [
+   "Zambia",
+   2799
+  ]
+ ],
+ "top_keywords": [
+  [
+   "covid19",
+   11870
+  ],
+  [
+   "climate change",
+   8931
+  ],
+  [
+   "sustainability",
+   5504
+  ],
+  [
+   "human immunodeficiency virus",
+   3736
+  ],
+  [
+   "food security",
+   3550
+  ],
+  [
+   "public health",
+   2756
+  ],
+  [
+   "adsorption",
+   2752
+  ],
+  [
+   "machine learning",
+   2702
+  ],
+  [
+   "children",
+   2679
+  ],
+  [
+   "renewable energy",
+   2545
+  ],
+  [
+   "sustainable development",
+   2513
+  ],
+  [
+   "heavy metal",
+   2264
+  ],
+  [
+   "adolescent",
+   2237
+  ],
+  [
+   "conservation",
+   2199
+  ],
+  [
+   "sars-cov-2",
+   2054
+  ]
+ ],
+ "top_journals": [
+  [
+   "Plos One",
+   7627
+  ],
+  [
+   "Sustainability",
+   3996
+  ],
+  [
+   "Scientific Reports",
+   3865
+  ],
+  [
+   "BMC Public Health",
+   2648
+  ],
+  [
+   "Heliyon",
+   2523
+  ],
+  [
+   "BMJ Open",
+   2105
+  ],
+  [
+   "Environmental Science and Pollution Research",
+   2027
+  ],
+  [
+   "Int. J. Environmental Research and Public Health",
+   1783
+  ],
+  [
+   "Pan African Medical Journal",
+   1676
+  ],
+  [
+   "BMC Health Services Research",
+   1448
+  ],
+  [
+   "Science of the Total Environment",
+   1441
+  ],
+  [
+   "BMC Pregnancy and Childbirth",
+   1277
+  ],
+  [
+   "Water",
+   1275
+  ],
+  [
+   "Frontiers In Public Health",
+   1242
+  ],
+  [
+   "Malaria Journal",
+   1116
+  ]
+ ],
+ "flows": {
+  "country_to_keyword": 225,
+  "keyword_to_journal": 169,
+  "total_value": 58691
+ },
+ "checks": {
+  "top 15 per field (or all available)": true,
+  "flows reference top sets": true,
+  "country->keyword flow total <= keyword occurrences": true,
+  "non-empty outputs": true
+ },
+ "outputs_sha256": {
+  "figures\\F11_three_field_country_keyword_journal.png": "be8ec0cf380f4d630ee0e15d55d2294bb0335a5016c828dd83eee5e1142f09eb",
+  "figures\\F11_three_field_country_keyword_journal.html": "a41c24faf293628b8d6881709fa8411d3bfe54db9e070de05336c55223cdbcd1",
+  "results\\F11_three_field_flow_data.csv": "8290cf5c503737844f4bbdcd770ea9116b3299ee2e3586850e162af6b36026be"
+ }
+}

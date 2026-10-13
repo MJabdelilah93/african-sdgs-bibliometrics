@@ -1,0 +1,19 @@
+# Restricted source data and large intermediate files (not distributed)
+data/raw/
+data/interim/
+data/processed/
+data/external/sdg_index/
+data/external/ror/*
+!data/external/ror/ror_africa_v2.json
+
+# Logs and temporary files written by the pipeline
+provenance/logs/
+provenance/v2/logs/
+*.tmp
+
+# Python / R environments and caches
+.venv/
+__pycache__/
+*.pyc
+.Rhistory
+.RData

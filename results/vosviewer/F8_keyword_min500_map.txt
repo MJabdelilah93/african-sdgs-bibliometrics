@@ -1,0 +1,190 @@
+id	label	weight<Occurrences>
+1	covid19	11839
+2	climate change	8792
+3	sustainability	5501
+4	human immunodeficiency virus	3729
+5	food security	3522
+6	adsorption	2752
+7	public health	2712
+8	machine learning	2701
+9	children	2679
+10	renewable energy	2522
+11	sustainable development	2504
+12	heavy metal	2264
+13	adolescent	2232
+14	conservation	2196
+15	sars-cov-2	2051
+16	gender	2040
+17	prevalence	2034
+18	remote sensing	2028
+19	knowledge	1985
+20	economic growth	1892
+21	wastewater	1890
+22	malaria	1869
+23	epidemiology	1840
+24	women	1777
+25	mental health	1692
+26	pregnancy	1681
+27	artificial intelligence	1675
+28	education	1642
+29	optimization	1630
+30	poverty	1620
+31	agriculture	1583
+32	pandemic	1560
+33	wastewater treatment	1560
+34	resilience	1559
+35	risk factors	1490
+36	gis	1472
+37	perception	1445
+38	biodiversity	1439
+39	mortality	1416
+40	attitude	1366
+41	environment	1362
+42	deep learning	1320
+43	sustainable development goal	1316
+44	water quality	1286
+45	energy efficiency	1284
+46	adaptation	1282
+47	tuberculosis	1276
+48	urbanisation	1246
+49	covid-19 pandemic	1232
+50	global health	1220
+51	antioxidant	1219
+52	depression	1198
+53	policy	1186
+54	drought	1180
+55	malnutrition	1169
+56	governance	1150
+57	pollution	1140
+58	systematic review	1129
+59	management	1095
+60	livelihood	1071
+61	higher education	1064
+62	nutrition	1060
+63	groundwater	1059
+64	solar energy	1009
+65	health	1005
+66	biomass	1004
+67	vulnerability	1003
+68	family planning	994
+69	hiv/aids	993
+70	barriers	984
+71	temperature	984
+72	growth	980
+73	performance	978
+74	practice	966
+75	water	962
+76	challenges	958
+77	coronavirus	922
+78	determinants	919
+79	pregnant women	914
+80	circular economy	907
+81	oxidative stress	905
+82	maternal health	902
+83	vaccine	902
+84	development	901
+85	energy consumption	890
+86	ecosystem services	886
+87	innovation	883
+88	photocatalysis	873
+89	youth	856
+90	sustainable agriculture	841
+91	health policy	836
+92	stunting	830
+93	treatment	827
+94	low- and middle-income countries	824
+95	diversity	809
+96	environmental sustainability	808
+97	prevention	804
+98	corruption	801
+99	nanoparticles	790
+100	biochar	788
+101	energy	778
+102	antenatal care	757
+103	qualitative research	757
+104	smallholder farmers	753
+105	hypertension	747
+106	meta-analysis	731
+107	entrepreneurship	724
+108	irrigation	724
+109	inequality	723
+110	essential oil	722
+111	water treatment	721
+112	antimicrobial resistance	695
+113	mechanical properties	695
+114	waste management	695
+115	adoption	694
+116	disability	689
+117	migration	683
+118	modeling	681
+119	quality of life	681
+120	health systems	677
+121	anxiety	674
+122	maize	666
+123	obesity	666
+124	stigma	663
+125	vaccination	659
+126	intimate partner violence	646
+127	climate	639
+128	biodiesel	634
+129	land use	627
+130	quality	626
+131	risk assessment	626
+132	compressive strength	625
+133	kinetics	623
+134	yield	619
+135	cancer	618
+136	financial inclusion	615
+137	tourism	612
+138	productivity	610
+139	violence	610
+140	saudi arabia	605
+141	rural	593
+142	anaerobic digestion	592
+143	climate variability	590
+144	efficiency	589
+145	rainfall	589
+146	technology	585
+147	internet of things	584
+148	response surface methodology	582
+149	human right	580
+150	foreign direct investment	578
+151	associated factors	576
+152	community	576
+153	social media	576
+154	awareness	575
+155	equity	574
+156	antiretroviral therapy	573
+157	implementation	573
+158	economic	569
+159	universal health coverage	569
+160	chitosan	560
+161	diabetes	558
+162	salinity	558
+163	surveillance	558
+164	simulation	557
+165	contraception	555
+166	impact	554
+167	food safety	548
+168	genetic diversity	547
+169	outcome	546
+170	access	541
+171	recycling	541
+172	breast cancer	538
+173	sanitation	536
+174	diagnosis	531
+175	toxicity	530
+176	biogas	525
+177	culture	524
+178	child health	523
+179	students	522
+180	healthcare	518
+181	predictors	518
+182	adherence	517
+183	bioremediation	509
+184	desalination	508
+185	training	508
+186	characterization	503
+187	degradation	502
+188	screening	502
+189	child	501

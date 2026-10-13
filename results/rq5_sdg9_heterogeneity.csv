@@ -1,0 +1,51 @@
+iso3,country_name,subregion,sdg_number,sdg_name,research_share,research_zero,implementation_score,implementation_deficit,median_research_share,median_deficit,quadrant_median,quadrant_fixed_1_17_50,quadrant_legacy_0.08_50,research_at_median,deficit_at_median
+STP,Sao Tome and Principe,Central Africa,9,"Industry, Innovation and Infrastructure",0.0072101072800577716,False,28.93814285714286,71.06185714285714,0.03691179892919326,73.5861875,LL,LH,LH,False,False
+COM,Comoros,East Africa,9,"Industry, Innovation and Infrastructure",0.02079829448200351,False,28.67842857142858,71.32157142857142,0.03691179892919326,73.5861875,LL,LH,LH,False,False
+MDG,Madagascar,East Africa,9,"Industry, Innovation and Infrastructure",0.022591443725765034,False,9.179875,90.820125,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+NER,Niger,West Africa,9,"Industry, Innovation and Infrastructure",0.023738708992467165,False,14.422875,85.577125,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+SEN,Senegal,West Africa,9,"Industry, Innovation and Infrastructure",0.024020216828772936,False,36.63912500000001,63.36087499999999,0.03691179892919326,73.5861875,LL,LH,LH,False,False
+SSD,South Sudan,East Africa,9,"Industry, Innovation and Infrastructure",0.02450620872318574,False,1.896571428571429,98.10342857142857,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+COG,Republic of the Congo,Central Africa,9,"Industry, Innovation and Infrastructure",0.024904552250919063,False,17.76725,82.23275,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+GNB,Guinea-Bissau,West Africa,9,"Industry, Innovation and Infrastructure",0.025251976744649792,False,24.710625,75.289375,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+GIN,Guinea,West Africa,9,"Industry, Innovation and Infrastructure",0.02557058910719735,False,19.39085714285714,80.60914285714286,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+GAB,Gabon,Central Africa,9,"Industry, Innovation and Infrastructure",0.02662771968181968,False,33.85700000000001,66.14299999999999,0.03691179892919326,73.5861875,LL,LH,LH,False,False
+CIV,Cote d'Ivoire,West Africa,9,"Industry, Innovation and Infrastructure",0.027519302923166983,False,35.28749999999999,64.7125,0.03691179892919326,73.5861875,LL,LH,LH,False,False
+MLI,Mali,West Africa,9,"Industry, Innovation and Infrastructure",0.02982290740063887,False,21.57112499999999,78.428875,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+DJI,Djibouti,East Africa,9,"Industry, Innovation and Infrastructure",0.029885663849689048,False,28.84414285714286,71.15585714285714,0.03691179892919326,73.5861875,LL,LH,LH,False,False
+CAF,Central African Republic,Central Africa,9,"Industry, Innovation and Infrastructure",0.029922972152966434,False,9.932000000000002,90.068,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+COD,Democratic Republic of the Congo,Central Africa,9,"Industry, Innovation and Infrastructure",0.030633241411385233,False,20.08675,79.91325,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+GMB,The Gambia,West Africa,9,"Industry, Innovation and Infrastructure",0.030909576539487477,False,29.299875,70.700125,0.03691179892919326,73.5861875,LL,LH,LH,False,False
+MOZ,Mozambique,East Africa,9,"Industry, Innovation and Infrastructure",0.03118677811514592,False,21.250625,78.749375,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+BFA,Burkina Faso,West Africa,9,"Industry, Innovation and Infrastructure",0.03179937159531805,False,23.1385,76.8615,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+MRT,Mauritania,West Africa,9,"Industry, Innovation and Infrastructure",0.032246450022491824,False,18.9915,81.0085,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+CPV,Cabo Verde,West Africa,9,"Industry, Innovation and Infrastructure",0.03235822775452005,False,40.939,59.061,0.03691179892919326,73.5861875,LL,LH,LH,False,False
+BEN,Benin,West Africa,9,"Industry, Innovation and Infrastructure",0.032767458958347095,False,28.34357142857143,71.65642857142856,0.03691179892919326,73.5861875,LL,LH,LH,False,False
+SLE,Sierra Leone,West Africa,9,"Industry, Innovation and Infrastructure",0.03389565138791644,False,13.898125,86.101875,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+SWZ,Eswatini,Southern Africa,9,"Industry, Innovation and Infrastructure",0.03390994569417157,False,39.55114285714286,60.44885714285714,0.03691179892919326,73.5861875,LL,LH,LH,False,False
+BDI,Burundi,East Africa,9,"Industry, Innovation and Infrastructure",0.0365534091292743,False,10.9435,89.0565,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+TGO,Togo,West Africa,9,"Industry, Innovation and Infrastructure",0.03670595104721412,False,23.7115,76.2885,0.03691179892919326,73.5861875,LH,LH,LH,False,False
+CMR,Cameroon,Central Africa,9,"Industry, Innovation and Infrastructure",0.037117646811172404,False,23.17885714285714,76.82114285714286,0.03691179892919326,73.5861875,HH,LH,LH,False,False
+MWI,Malawi,East Africa,9,"Industry, Innovation and Infrastructure",0.03759769978502393,False,17.387875,82.61212499999999,0.03691179892919326,73.5861875,HH,LH,LH,False,False
+ETH,Ethiopia,East Africa,9,"Industry, Innovation and Infrastructure",0.03802107541086181,False,22.655625,77.344375,0.03691179892919326,73.5861875,HH,LH,LH,False,False
+KEN,Kenya,East Africa,9,"Industry, Innovation and Infrastructure",0.03827055310291483,False,35.87825,64.12174999999999,0.03691179892919326,73.5861875,HL,LH,LH,False,False
+NAM,Namibia,Southern Africa,9,"Industry, Innovation and Infrastructure",0.038503247374688625,False,40.68300000000001,59.31699999999999,0.03691179892919326,73.5861875,HL,LH,LH,False,False
+TCD,Chad,Central Africa,9,"Industry, Innovation and Infrastructure",0.039490598815657356,False,8.721125,91.278875,0.03691179892919326,73.5861875,HH,LH,LH,False,False
+ZWE,Zimbabwe,Southern Africa,9,"Industry, Innovation and Infrastructure",0.039719049804244344,False,34.96957142857143,65.03042857142857,0.03691179892919326,73.5861875,HL,LH,LH,False,False
+TZA,United Republic of Tanzania,East Africa,9,"Industry, Innovation and Infrastructure",0.04081546127351799,False,28.215375,71.784625,0.03691179892919326,73.5861875,HL,LH,LH,False,False
+ZMB,Zambia,Southern Africa,9,"Industry, Innovation and Infrastructure",0.042935204831858406,False,27.354125,72.645875,0.03691179892919326,73.5861875,HL,LH,LH,False,False
+LSO,Lesotho,Southern Africa,9,"Industry, Innovation and Infrastructure",0.043642632770009564,False,24.367625,75.632375,0.03691179892919326,73.5861875,HH,LH,LH,False,False
+UGA,Uganda,East Africa,9,"Industry, Innovation and Infrastructure",0.04524313536908655,False,25.4735,74.5265,0.03691179892919326,73.5861875,HH,LH,LH,False,False
+LBR,Liberia,West Africa,9,"Industry, Innovation and Infrastructure",0.046213856637272795,False,17.124,82.876,0.03691179892919326,73.5861875,HH,LH,LH,False,False
+SDN,Sudan,North Africa,9,"Industry, Innovation and Infrastructure",0.046998034093582663,False,17.342125,82.657875,0.03691179892919326,73.5861875,HH,LH,LH,False,False
+ZAF,South Africa,Southern Africa,9,"Industry, Innovation and Infrastructure",0.04831364495483754,False,65.98100000000001,34.01899999999999,0.03691179892919326,73.5861875,HL,LL,LL,False,False
+BWA,Botswana,Southern Africa,9,"Industry, Innovation and Infrastructure",0.0490750657686565,False,53.205125,46.794875,0.03691179892919326,73.5861875,HL,LL,LL,False,False
+RWA,Rwanda,East Africa,9,"Industry, Innovation and Infrastructure",0.05009321805309775,False,36.02237500000001,63.97762499999999,0.03691179892919326,73.5861875,HL,LH,LH,False,False
+AGO,Angola,Southern Africa,9,"Industry, Innovation and Infrastructure",0.05130401754623525,False,19.67625,80.32375,0.03691179892919326,73.5861875,HH,LH,LH,False,False
+MUS,Mauritius,East Africa,9,"Industry, Innovation and Infrastructure",0.05187835839708374,False,55.730875,44.269125,0.03691179892919326,73.5861875,HL,LL,LL,False,False
+GHA,Ghana,West Africa,9,"Industry, Innovation and Infrastructure",0.056343027836133056,False,42.65337500000001,57.34662499999999,0.03691179892919326,73.5861875,HL,LH,LH,False,False
+EGY,Egypt,North Africa,9,"Industry, Innovation and Infrastructure",0.05816010929813996,False,55.302125,44.697875,0.03691179892919326,73.5861875,HL,LL,LL,False,False
+NGA,Nigeria,West Africa,9,"Industry, Innovation and Infrastructure",0.058819319762344884,False,35.40775,64.59225,0.03691179892919326,73.5861875,HL,LH,LH,False,False
+TUN,Tunisia,North Africa,9,"Industry, Innovation and Infrastructure",0.0595016964924195,False,54.91250000000002,45.08749999999998,0.03691179892919326,73.5861875,HL,HL,LL,False,False
+SOM,Somalia,East Africa,9,"Industry, Innovation and Infrastructure",0.06368231445232302,False,10.990625,89.009375,0.03691179892919326,73.5861875,HH,HH,LH,False,False
+DZA,Algeria,North Africa,9,"Industry, Innovation and Infrastructure",0.06693619276722479,False,45.5275,54.4725,0.03691179892919326,73.5861875,HL,HH,LH,False,False
+MAR,Morocco,North Africa,9,"Industry, Innovation and Infrastructure",0.0715188378435216,False,55.309625,44.690375,0.03691179892919326,73.5861875,HL,HL,LL,False,False

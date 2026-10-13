@@ -1,0 +1,51 @@
+id	label	weight<Documents>
+1	University of Cape Town	11052
+2	University of KwaZulu-Natal	9983
+3	University of the Witwatersrand	10365
+4	Stellenbosch University	9091
+5	Addis Ababa University	6361
+6	University of Ibadan	4709
+7	Cairo University	7552
+8	University of Pretoria	8667
+9	Ain Shams University	4460
+10	University of Gondar	3888
+11	Makerere University	5874
+12	Alexandria University	4723
+13	South African Medical Research Council	1985
+14	University of Ghana	6038
+15	Bahir Dar University	3463
+16	Mansoura University	4269
+17	University of Lagos	2206
+18	Jimma University	3045
+19	Haramaya University	2199
+20	Ahmadu Bello University	1532
+21	Kwame Nkrumah University of Science and Technology	4937
+22	University of Nairobi	3168
+23	University of Johannesburg	9669
+24	University of Nigeria	4257
+25	Al-Azhar University	3179
+26	University College Hospital, Ibadan	624
+27	Arba Minch University	1588
+28	Obafemi Awolowo University	2203
+29	Mekelle University	1871
+30	Tanta University	3020
+31	University of the Western Cape	3269
+32	Debre Markos University	1456
+33	University of Health and Allied Sciences	1091
+34	Zagazig University	3426
+35	North-West University	5588
+36	Debre Berhan University	940
+37	University of South Africa	6006
+38	University of Cape Coast	2787
+39	Wollo University	1347
+40	Université de Yaoundé I	1949
+41	Wollega University	835
+42	University of Ilorin	1971
+43	University of the Free State	4052
+44	Suez Canal University	2035
+45	Hawassa University	2218
+46	University of Zambia	1600
+47	Madda Walabu University	458
+48	Ethiopian Public Health Institute	730
+49	Kenya Medical Research Institute	1809
+50	National Research Centre	4466

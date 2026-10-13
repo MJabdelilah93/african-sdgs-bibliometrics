@@ -1,0 +1,18 @@
+metric,value,definition,denominator,pct_of_denominator
+africa_involved_records,344020,records with >=1 AU country,345025,99.709
+single_country,144507,records with exactly one country (an AU country),344020,42.005
+international,199513,records with >=2 distinct countries,344020,57.995
+multi_au,42269,>=2 AU countries,344020,12.287
+au_and_non_au,185315,>=1 AU and >=1 non-AU country,344020,53.868
+multi_au_and_non_au,28071,>=2 AU and >=1 non-AU country,344020,8.16
+intra_african_only,14198,international: only AU countries,199513,7.116
+africa_non_africa_only,157244,international: exactly one AU country + >=1 non-AU,199513,78.814
+mixed_intra_and_external,28071,international: >=2 AU + >=1 non-AU,199513,14.07
+pair_weight_full_AA,118956.0,full pair counting,,
+pair_weight_fractional_AA,21188.067444,fractional pair counting,,
+pair_weight_full_AN,706333.0,full pair counting,,
+pair_weight_fractional_AN,145281.193687,fractional pair counting,,
+pair_weight_full_NN,1143268.0,full pair counting,,
+pair_weight_fractional_NN,33847.738869,fractional pair counting,,
+intra_african_link_share_full,0.144139,"AA/(AA+AN), full pairs",825289.0,14.414
+intra_african_link_share_fractional,0.127279,"AA/(AA+AN), fractional pairs",166469.261131,12.728

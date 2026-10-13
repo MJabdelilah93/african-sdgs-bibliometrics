@@ -1,0 +1,21 @@
+analysis,n_eligible,median_rho,q1_rho,q3_rho,n_negative,n_ci_below_zero
+counting/zero policy: PRIMARY,50,-0.251471,-0.346691,-0.0775735,44,2
+counting/zero policy: A_full_zeros_retained,50,-0.240686,-0.366422,-0.0808824,45,3
+counting/zero policy: B_fractional_positive_only,50,-0.25,-0.345221,-0.0724265,43,2
+counting/zero policy: C_full_positive_only,50,-0.240686,-0.353554,-0.0665441,45,2
+window/endpoint: primary_2015_2025_research__sdr2025,50,-0.251471,-0.346691,-0.0775735,44,2
+window/endpoint: exclude2025_2015_2024_research__sdr2025,50,-0.230637,-0.340686,-0.0931373,44,2
+window/endpoint: research_2015_2024__backdated_2015,50,-0.238235,-0.367034,-0.125368,43,4
+window/endpoint: research_2015_2024__backdated_2018,50,-0.235294,-0.367034,-0.114828,44,2
+window/endpoint: research_2015_2024__backdated_2021,50,-0.241176,-0.367034,-0.101961,43,3
+window/endpoint: research_2015_2024__backdated_2024,50,-0.230637,-0.340686,-0.0931373,44,2
+window/endpoint: research_2015_2024__backdated_2024_all_countries,54,-0.230637,-0.340686,-0.0882353,47,2
+"eligibility: research>=8, implementation>=12",50,-0.251471,-0.346691,-0.0775735,44,2
+"eligibility: research>=8, implementation>=14",50,-0.251471,-0.346691,-0.0775735,44,2
+"eligibility: research>=8, implementation>=16",50,-0.251471,-0.346691,-0.0775735,44,2
+"eligibility: research>=10, implementation>=12",50,-0.251471,-0.346691,-0.0775735,44,2
+"eligibility: research>=10, implementation>=14 (primary)",50,-0.251471,-0.346691,-0.0775735,44,2
+"eligibility: research>=10, implementation>=16",50,-0.251471,-0.346691,-0.0775735,44,2
+"eligibility: research>=12, implementation>=12",50,-0.251471,-0.346691,-0.0775735,44,2
+"eligibility: research>=12, implementation>=14",50,-0.251471,-0.346691,-0.0775735,44,2
+"eligibility: research>=12, implementation>=16",50,-0.251471,-0.346691,-0.0775735,44,2

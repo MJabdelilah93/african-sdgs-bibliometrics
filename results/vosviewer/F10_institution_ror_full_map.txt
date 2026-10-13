@@ -1,0 +1,2943 @@
+id	label	weight<Documents>
+1	University of Cape Town	11052
+2	University of KwaZulu-Natal	9983
+3	University of the Witwatersrand	10365
+4	Stellenbosch University	9091
+5	Addis Ababa University	6361
+6	University of Ibadan	4709
+7	Cairo University	7552
+8	University of Pretoria	8667
+9	Ain Shams University	4460
+10	University of Gondar	3888
+11	Makerere University	5874
+12	Alexandria University	4723
+13	South African Medical Research Council	1985
+14	University of Ghana	6038
+15	Bahir Dar University	3463
+16	Mansoura University	4269
+17	University of Lagos	2206
+18	Jimma University	3045
+19	Haramaya University	2199
+20	Ahmadu Bello University	1532
+21	Kwame Nkrumah University of Science and Technology	4937
+22	University of Nairobi	3168
+23	University of Johannesburg	9669
+24	University of Nigeria	4257
+25	Al-Azhar University	3179
+26	University College Hospital, Ibadan	624
+27	Arba Minch University	1588
+28	Obafemi Awolowo University	2203
+29	Mekelle University	1871
+30	Tanta University	3020
+31	University of the Western Cape	3269
+32	Debre Markos University	1456
+33	University of Health and Allied Sciences	1091
+34	Zagazig University	3426
+35	North-West University	5588
+36	Debre Berhan University	940
+37	University of South Africa	6006
+38	University of Cape Coast	2787
+39	Wollo University	1347
+40	Université de Yaoundé I	1949
+41	Wollega University	835
+42	University of Ilorin	1971
+43	University of the Free State	4052
+44	Suez Canal University	2035
+45	Hawassa University	2218
+46	University of Zambia	1600
+47	Madda Walabu University	458
+48	Ethiopian Public Health Institute	730
+49	Kenya Medical Research Institute	1809
+50	National Research Centre	4466
+51	Debre Tabor University	1197
+52	Dilla University	934
+53	University of Botswana	1298
+54	Mizan Tepi University	685
+55	Aksum University	447
+56	Muhimbili University of Health and Allied Sciences	1549
+57	Bayero University Kano	942
+58	Adigrat University	388
+59	African Population and Health Research Center	926
+60	University of Benin	998
+61	Nnamdi Azikiwe University	1234
+62	University of Khartoum	1036
+63	University of Tripoli	309
+64	Wolaita Sodo University	1049
+65	University of Jos	535
+66	Nelson Mandela University	2576
+67	Centre for Healthy Start Initiative	95
+68	Institute of Human Virology	255
+69	Aminu Kano Teaching Hospital	363
+70	Beni-Suef University	1748
+71	Durban University of Technology	1898
+72	University of Embu	314
+73	University of Medical Sciences, Ondo	281
+74	Kafrelsheikh University	1839
+75	University of Zimbabwe	1879
+76	University of Maiduguri	476
+77	Dire Dawa University	340
+78	Assiut University	2590
+79	Woldia University	835
+80	St. Paul's Hospital Millennium Medical College	446
+81	Wachemo University	526
+82	University Ferhat Abbas of Setif	80
+83	Olabisi Onabanjo University	614
+84	Benha University	1935
+85	University of Rwanda	1992
+86	Jos University Teaching Hospital	191
+87	Usmanu Danfodiyo University	442
+88	National Institute for Medical Research	703
+89	Rhodes University	2396
+90	Federal Ministry of Health	345
+91	October 6 University	246
+92	University of Buea	1081
+93	Africa Health Research Institute	628
+94	Menoufia University	1809
+95	Ghana Health Service	773
+96	Jigjiga University	304
+97	Samara University	402
+98	Agricultural Research Center	1822
+99	Babcock University	515
+100	Eduardo Mondlane University	1029
+101	University of Calabar	1285
+102	Aswan University	1168
+103	Nigerian Institute of Medical Research	326
+104	Komfo Anokye Teaching Hospital	471
+105	Centre Hospitalier Universitaire de Kigali	199
+106	University of the Gambia	250
+107	Université d'Abomey-Calavi	1831
+108	Human Sciences Research Council	774
+109	University of Douala	953
+110	Faculté de médecine de Tunis	423
+111	Federal Medical Centre	116
+112	Minia University	1770
+113	Ambo University	729
+114	Lagos University Teaching Hospital	388
+115	Wolkite University	585
+116	University of Namibia	929
+117	University of Sfax	2189
+118	Helwan University	1792
+119	Bowen University	485
+120	Manhiça Health Research Centre	358
+121	Mbarara University of Science and Technology	963
+122	Federal Teaching Hospital Abakaliki	124
+123	Cephas Health Research Initiative	55
+124	University of Port Harcourt	861
+125	Jomo Kenyatta University of Agriculture and Technology	1091
+126	Université de Dschang	1372
+127	Fayoum University	1086
+128	Groote Schuur Hospital	384
+129	Ministry of Health	635
+130	Mohammed V University	2451
+131	Federal University of Technology	1611
+132	Covenant University	1819
+133	University for Development Studies	1606
+134	Osun State University	490
+135	Salale University	287
+136	South African National Biodiversity Institute	743
+137	Council for Scientific and Industrial Research	910
+138	National Hospital Abuja	204
+139	University of Limpopo	1567
+140	University of Malawi	1216
+141	Walter Sisulu University	1008
+142	Benson Idahosa University	76
+143	University of Venda	1324
+144	Ifakara Health Institute	643
+145	University of Fort Hare	1614
+146	Kenyatta University	937
+147	Sohag University	876
+148	Tshwane University of Technology	1761
+149	Lagos State University	619
+150	National Institute of Oceanography and Fisheries	1436
+151	University of Hargeisa	81
+152	Ladoke Akintola University of Technology	782
+153	National Health Laboratory Service	434
+154	Ekiti State University	515
+155	National Institute for Communicable Diseases	458
+156	Sefako Makgatho Health Sciences University	876
+157	Sokoine University of Agriculture	1296
+158	University of Kinshasa	596
+159	Ahmadu Bello University Teaching Hospital	181
+160	University of Dar es Salaam	1735
+161	Ministry of Health	667
+162	Moi University	926
+163	University of Lomé	839
+164	Ministry of Public Health	242
+165	Afe Babalola University	859
+166	Université Sultan Moulay Slimane	971
+167	Egypt-Japan University of Science and Technology	707
+168	Korle Bu Teaching Hospital	509
+169	Nelson Mandela African Institution of Science and Technology	918
+170	Dambi Dollo University	118
+171	Cape Peninsula University of Technology	1272
+172	University of Energy and Natural Resources	857
+173	University of Carthage	2229
+174	Damanhour University	787
+175	Ebonyi State University	506
+176	South Valley University	967
+177	South African Institute for Aquatic Biodiversity	644
+178	University of Monastir	1278
+179	University of Bamenda	601
+180	University of Environment and Sustainable Development	358
+181	Damietta University	649
+182	Gulu University	519
+183	University of Abuja	447
+184	Arsi University	338
+185	Red Cross War Memorial Children's Hospital	296
+186	Université Félix Houphouët-Boigny	798
+187	Kaduna State University	267
+188	Kamuzu University of Health Sciences	597
+189	City of Scientific Research and Technological Applications	702
+190	Ministry of Health	463
+191	Landmark University	860
+192	Federal University of Agriculture	984
+193	International Centre of Insect Physiology and Ecology	672
+194	University of Ilorin Teaching Hospital	234
+195	Cadi Ayyad University	2113
+196	Sidi Mohamed Ben Abdellah University	1652
+197	Port Said University	861
+198	University Teaching Hospital	367
+199	International Livestock Research Institute	1040
+200	Delta State University	677
+201	Suez University	812
+202	Federal University Oye Ekiti	638
+203	Institut de Recherche Clinique du Bénin	52
+204	Michael Okpara University of Agriculture	630
+205	Kampala International University	647
+206	Lagos State University Teaching Hospital	216
+207	Edo State University Uzairue	169
+208	Tobruk University	40
+209	South African Environmental Observation Network	428
+210	University of Sadat City	566
+211	Federal Ministry of Health	228
+212	University of Gezira	271
+213	University of Nigeria Teaching Hospital	343
+214	University of Uyo	542
+215	Noguchi Memorial Institute for Medical Research	368
+216	Federal Medical Centre	162
+217	American University in Cairo	922
+218	Egyptian Petroleum Research Institute	966
+219	Delta University for Science and Technology	399
+220	King Salman International University	176
+221	Mulago Hospital	344
+222	Rwanda Biomedical Center	291
+223	Egerton University	641
+224	Federal University Dutse	323
+225	University of Abuja Teaching Hospital	154
+226	Université Joseph Ki-Zerbo	660
+227	Busitema University	424
+228	Botho University	53
+229	University of Zululand	852
+230	Université de Parakou	605
+231	Abubakar Tafawa Balewa University	426
+232	Redeemer's University	437
+233	Federal University Wukari	168
+234	Cheikh Anta Diop University	722
+235	Université Ibn-Tofail	1309
+236	Kwara State University	427
+237	University of Maroua	454
+238	Infectious Diseases Institute	340
+239	Abdelmalek Essaâdi University	1416
+240	Injibara University	404
+241	Ministry of Health and Population	200
+242	University of Liberia	163
+243	University of Sousse	1047
+244	University of Education, Winneba	529
+245	Kenyatta National Hospital	330
+246	Alex Ekwueme Federal University, Ndufu-Alike	550
+247	Mattu University	481
+248	Ministry of Health	200
+249	Egypt Center for Research and Regenerative Medicine	36
+250	Instituto Nacional de Saúde	284
+251	Menelik II Medical and Health Science College	44
+252	Midlands State University	650
+253	Centre for the AIDS Programme of Research in South Africa	210
+254	The University of Dodoma	971
+255	Arab Academy for Science, Technology, and Maritime Transport	953
+256	Kilimanjaro Christian Medical Centre	433
+257	Federal Medical Centre Abuja	18
+258	Scientific Services	299
+259	Aga Khan University Nairobi	413
+260	Malawi-Liverpool-Wellcome Trust Clinical Research Programme	303
+261	Ethiopian Institute of Agricultural Research	533
+262	University of Mpumalanga	495
+263	Centers for Disease Control and Prevention	289
+264	Addis Continental Institute of Public Health	218
+265	Uganda Virus Research Institute	279
+266	Njala University	261
+267	Botswana International University of Science and Technology	559
+268	Ministry of Health	298
+269	Nigeria Centre for Disease Control	168
+270	University of Global Health Equity	306
+271	University of Port Harcourt Teaching Hospital	147
+272	South African National Parks	255
+273	British University in Egypt	637
+274	Rivers State University	376
+275	University of Jendouba	404
+276	Centre for Infectious Disease Research in Zambia	245
+277	Future University in Egypt	774
+278	Ministry of Health and Social Welfare	78
+279	World Health Organization Regional Office for Africa	486
+280	Armauer Hansen Research Institute	304
+281	Africa Centres for Disease Control and Prevention	190
+282	Copperbelt University	453
+283	Université Nationale d'Agriculture	377
+284	Institut de Recherche en Sciences de la Santé	364
+285	Université du Burundi	221
+286	Pwani University	292
+287	Lead City University	251
+288	University of Gabès	899
+289	University of Ngaoundéré	433
+290	Badr University in Cairo	247
+291	Tunis El Manar University	648
+292	Technical University of Kenya	307
+293	University of Eldoret	270
+294	Perinatal HIV Research Unit	198
+295	Abia State University	200
+296	Johannesburg Hospital	110
+297	Chouaib Doukkali University	774
+298	West African Centre for Cell Biology of Infectious Pathogens	71
+299	Kyambogo University	455
+300	Muhimbili National Hospital	267
+301	Egyptian Atomic Energy Authority	458
+302	Federal University of Technology Owerri	403
+303	Olabisi Onabanjo University Teaching Hospital	94
+304	University of Sierra Leone	331
+305	Takoradi Technical University	317
+306	Vaal University of Technology	495
+307	Bowen University Teaching Hospital	52
+308	Elizade University	114
+309	National Authority for Remote Sensing and Space Sciences	412
+310	Kenya Marine and Fisheries Research Institute	413
+311	Kenya Agricultural and Livestock Research Organization	299
+312	Kabale University	218
+313	Ministry of Health and Sanitation	343
+314	Dignitas International	65
+315	Addis Ababa Science and Technology University	547
+316	Ambrose Alli University	204
+317	University of Antananarivo	705
+318	Kumasi Centre for Collaborative Research in Tropical Medicine	104
+319	Federal Neuro Psychiatric Hospital	106
+320	FitzPatrick Institute of African Ornithology	445
+321	Swiss Centre for Scientific Research	219
+322	Department of Forestry, Fisheries and the Environment	202
+323	Mintek	133
+324	Central University of Technology	512
+325	Berekum College of Education	26
+326	Galala University	217
+327	Central University	173
+328	Lilongwe University of Agriculture and Natural Resources	442
+329	Ministry of Health, Community Development, Gender, Elderly and Children	122
+330	Ethiopian Public Health Association	56
+331	Omdurman Islamic University	208
+332	Nnamdi Azikiwe University Teaching Hospital	139
+333	Institut Pasteur de Madagascar	192
+334	Maseno University	352
+335	Federal University of Technology Minna	324
+336	Catholic University of Health and Allied Sciences	268
+337	Adeleke University	165
+338	Desert Research Center	454
+339	Tamale Teaching Hospital	145
+340	University of Eloued	350
+341	National Museums of Kenya	383
+342	Kintampo Health Research Centre	185
+343	Arish University	301
+344	University of Mauritius	741
+345	Université Nangui Abrogoua	295
+346	Tygerberg Hospital	182
+347	Kamuzu Central Hospital	222
+348	Centre Muraz	177
+349	Aurum Institute	174
+350	Infectious Diseases Research Collaboration	200
+351	Adekunle Ajasin University	348
+352	Navrongo Health Research Centre	180
+353	Misr University for Science and Technology	226
+354	African Field Epidemiology Network	78
+355	Irrua Specialist Teaching Hospital	89
+356	Chukwuemeka Odumegwu Ojukwu University	252
+357	National Institute of Biomedical Research	139
+358	Adama Science and Technology University	638
+359	Nazi Boni University	314
+360	World Agroforestry Centre	489
+361	Queen Elizabeth Central Hospital	215
+362	Ministry of Health	75
+363	Pharos University in Alexandria	266
+364	International Livestock Research Institute	311
+365	South African Weather Service	175
+366	Enugu State University of Science and Technology	224
+367	Niger Delta University	185
+368	National Agricultural Research Organisation	218
+369	National University of Science and Technology	319
+370	University of Professional Studies	447
+371	Zambia National Public Health Institute	94
+372	Federal Ministry of Health	131
+373	Ministry of Health	279
+374	October University of Modern Sciences and Arts	277
+375	Chinhoyi University of Technology	350
+376	Botswana Harvard AIDS Institute Partnership	118
+377	Jaramogi Oginga Odinga University of Science and Technology	277
+378	National Water Research Center	443
+379	Federal Medical Centre	68
+380	Institut Pasteur de Dakar	158
+381	Masinde Muliro University of Science and Technology	248
+382	Development Research and Projects Centre	11
+383	Nile University	215
+384	Bindura University of Science Education	322
+385	Oda Bultum University	131
+386	University of Lubumbashi	252
+387	Ecole de santé publique de Kinshasa	186
+388	Kumasi Technical University	362
+389	SIMAD University	356
+390	Bells University of Technology	251
+391	University of Benin Teaching Hospital	137
+392	Kotebe University of Education	247
+393	Namibia University of Science and Technology	345
+394	Egyptian Russian University	204
+395	Koforidua Technical University	225
+396	Akenten Appiah-Menka University of Skills Training and Entrepreneurial Development	277
+397	Botswana University of Agriculture and Natural Resources	233
+398	University of Eswatini	188
+399	Kogi State University	218
+400	Technical University of Mombasa	195
+401	Frere Hospital	35
+402	Akwa Ibom State University	205
+403	Edendale Hospital	40
+404	Mangosuthu University of Technology	355
+405	Ministry of Health	69
+406	Université Abdou Moumouni	310
+407	Aga Khan University Hospital Nairobi	159
+408	Society for Family Health Nigeria	63
+409	Benue State University	142
+410	Federal University of Health Sciences Azare	9
+411	Institut Sénégalais de Recherches Agricoles	233
+412	Centre Pasteur du Cameroun	89
+413	Badji Mokhtar-Annaba University	629
+414	National Open University of Nigeria	209
+415	Ahram Canadian University	137
+416	Housing and Building National Research Center	303
+417	Gombe State University	157
+418	Biomedical Research and Training Institute	200
+419	Bule Hora University	315
+420	Centre of Biotechnology of Sfax	224
+421	International Institute of Tropical Agriculture	259
+422	Council for Scientific and Industrial Research	251
+423	Amoud University	96
+424	Institut de Recherche Agricole pour le Développement	195
+425	Mzuzu University	293
+426	Ethiopian Institute of Water Resources	179
+427	Ghana Institute of Management and Public Administration	428
+428	International Institute of Tropical Agriculture	220
+429	Pan African University Institute for Basic Sciences, Technology and Innovation	176
+430	Nile University of Nigeria	255
+431	Department of Health	123
+432	Nuclear Materials Authority	288
+433	Institut de l'Environnement et Recherches Agricoles	232
+434	Grey's Hospital	77
+435	New Valley University	236
+436	Zewail City of Science and Technology	174
+437	World Health Organization Regional Office for the Eastern Mediterranean	298
+438	Uganda Martyrs University	162
+439	Sol Plaatje University	250
+440	University of Sciences and Technology Houari Boumediene	693
+441	Aga Khan University	115
+442	Adama Hospital Medical College	94
+443	Obafemi Awolowo University Teaching Hospitals Complex	165
+444	Joint Clinical Research Centre	114
+445	Yobe State University	84
+446	C.K. Tedam University of Technology and Applied Sciences	213
+447	Imo State University	163
+448	Sudan University of Science and Technology	255
+449	University of Gafsa	253
+450	Endangered Wildlife Trust	127
+451	Bingham University	122
+452	Mount Kenya University	150
+453	Usmanu Danfodiyo University Teaching Hospital, Sokoto	65
+454	Université Alassane Ouattara	112
+455	Institut National de Recherches en Santé Publique	28
+456	Institut National de Santé Publique du Burkina Faso	61
+457	Chuka University	87
+458	Uganda Heart Institute	100
+459	Ghana Atomic Energy Commission	189
+460	Forestry Research Institute of Ghana	178
+461	Water Research Commission	119
+462	Pan-Atlantic University	276
+463	Deraya University	100
+464	Uganda Cancer Institute	141
+465	South Eastern Kenya University	194
+466	Renewable Energy Development Center	406
+467	AMPATH	212
+468	Great Zimbabwe University	212
+469	International Maize and Wheat Improvement Center	269
+470	University of Uyo Teaching Hospital	84
+471	Helen Joseph Hospital	37
+472	Theodor Bilharz Research Institute	161
+473	Mansoura University Hospital	33
+474	Rift Valley University	42
+475	MUJHU Research Collaboration	96
+476	Department of Science,Technology and Innovation	101
+477	University of Benghazi	184
+478	Institut Superieur Des Sciences De La Population	110
+479	Malawi Epidemiology and Intervention Research Unit	98
+480	African Institute for Mathematical Sciences	78
+481	Tigray Health Research Institute THRI	68
+482	International University of Africa	52
+483	German University in Cairo	277
+484	Al-Neelain University	145
+485	Abiola Ajimobi Technical University Ibadan	106
+486	Ghana College of Physicians and Surgeons	67
+487	Equator University of Science and Technology	9
+488	Africa Academy for Public Health	82
+489	Alzaiem Alazhari University	62
+490	Joseph Sarwuan Tarka University Makurdi	235
+491	Dr George Mukhari Hospital	36
+492	Institut Pasteur de Côte d'Ivoire	47
+493	Rwanda Military Hospital	94
+494	University of N'Djamena	110
+495	International Water Management Institute	202
+496	Malawi University of Business and Applied Sciences	206
+497	Water and Land Resource Centre	124
+498	Amhara Regional Health Bureau	101
+499	Ministry of Health and Social Services	71
+500	Asossa University	180
+501	Bio and Emerging Technology Institute	108
+502	Centers for Disease Control and Prevention	123
+503	Forestry Research Institute of Nigeria	125
+504	Université Jean Lorougnon Guédé	204
+505	Rakai Health Sciences Program	131
+506	Université Gaston Berger	238
+507	National University of Lesotho	246
+508	Sunyani Technical University	188
+509	International Crops Research Institute for the Semi-Arid Tropics	152
+510	Strathmore University	260
+511	National Research Institute of Astronomy and Geophysics	227
+512	Tanta University Hospital	29
+513	Ministry of Higher Education and Scientific Research	27
+514	Accra Technical University	148
+515	Indepth Network	140
+516	Sinai University	105
+517	Mountains of the Moon University	108
+518	African Institute for Mathematical Sciences	102
+519	Malawi University of Science and Technology	153
+520	Centro de Investigação em Saúde de Angola	39
+521	Marien Ngouabi University	179
+522	Institut Pasteur de Tunis	114
+523	Kenya Wildlife Service	136
+524	Tanzania Fisheries Research Institute	192
+525	National Liver Institute	96
+526	Western Cape Department of Health	89
+527	Nasarawa State University	137
+528	International Institute of Tropical Agriculture	101
+529	Bugando Medical Centre	144
+530	Auchi Polytechnic	96
+531	University of Biskra	288
+532	University of Bahri	98
+533	National Institute for Occupational Health	78
+534	Uganda Christian University	139
+535	Direction de l’Epidémiologie et de Lutte contre les Maladies	8
+536	Lira University	133
+537	International Water Management Institute	158
+538	Université Pelefero Gon Coulibaly	97
+539	Edward Francis Small Teaching Hospital	70
+540	African Society for Laboratory Medicine	35
+541	Ladoke Akintola University of Technology Teaching Hospital	70
+542	Institut d'Économie Rurale	122
+543	Nahda University	113
+544	MRC Unit the Gambia	129
+545	University of Batna 2	288
+546	Institute for Soil, Climate and Water	110
+547	Ghana Communication Technology University	178
+548	Université des Montagnes	96
+549	Fondation Congolaise Pour La Recherche Médicale	43
+550	National Veterinary Research Institute	94
+551	Cape Coast Technical University	191
+552	International Maize and Wheat Improvement Center	123
+553	Faculty of Sciences of Sfax	233
+554	Centre National Hospitalier et Universitaire Hubert Koutoukou MAGA	25
+555	Tikur Anbessa Hospital	32
+556	Institut National Polytechnique Félix Houphouët-Boigny	167
+557	National Agency for the Control of AIDS	78
+558	Université de Yaoundé II	257
+559	City of Cape Town	91
+560	Dodowa Health Research Centre	83
+561	Tanzania Food and Nutrition Center	69
+562	Federal University Dutsin-Ma	136
+563	Wellcome Centre for Infectious Diseases Research in Africa	52
+564	Kisii University	119
+565	Matrouh University	83
+566	École nationale d'Ingénieurs de Sfax	247
+567	University of Cross River State	117
+568	University Mohamed Boudiaf of M'sila	322
+569	Mbarara National Referral Hospital	103
+570	Nsambya Hospital	60
+571	Central Metallurgical Research and Development Institute	256
+572	Tanzania Wildlife Research Institute	127
+573	Institut Pasteur de Bangui	65
+574	Lighthouse Trust	62
+575	Federal University Lokoja	116
+576	Olusegun Agagu University of Science and Technology	115
+577	Ministry of Health	95
+578	Institut Régional de Santé Publique	69
+579	Université Ibn Zohr	262
+580	Ho Technical University	220
+581	Amhara Agricultural Research Institute	169
+582	Federal Medical Centre	53
+583	Institut National Agronomique de Tunisie	248
+584	Federal University of Petroleum Resource Effurun	125
+585	Manouba University	210
+586	New Giza University	89
+587	Ardhi University	306
+588	Chrisland University	80
+589	CSIR-Savanna Agricultural Research Institute	129
+590	West African Health Organisation	64
+591	Tunis University	277
+592	Mbeya University of Science and Technology	167
+593	Centre de Recherche Médicales de Lambaréné	116
+594	Botswana Institute for Technology Research and Innovation	34
+595	Somerset Hospital	23
+596	University of Kairouan	166
+597	Zvitambo Institute for Maternal and Child Health Research	116
+598	Centre National de la Recherche Scientifique et Technologique	118
+599	Federal Institute of Industrial Research Oshodi	27
+600	African Institute of Science and Technology	114
+601	Council for Geoscience	100
+602	Taraba State University	124
+603	Heliopolis University	87
+604	Bayworld	52
+605	Maputo Central Hospital	75
+606	Université Officielle de Bukavu	67
+607	Muni University	111
+608	Université Oran 1 Ahmed Ben Bella	192
+609	Okavango Research Institute	184
+610	Egyptian Drug Authority	89
+611	Academy of Scientific Research and Technology	97
+612	College of African Wildlife Management	87
+613	Larbi Ben M'hidi University of Oum El Bouaghi	180
+614	International University of Rabat	407
+615	Jinja Hospital	56
+616	National Primary Health Care Development Agency	96
+617	Public Health Institute of Malawi	28
+618	Médecins Sans Frontières	85
+619	Agricultural Engineering Research Institute	100
+620	Right to Care	59
+621	Military Technical College	159
+622	Stanger Hospital	10
+623	Modibbo Adama University of Technology	117
+624	Yaba College of Technology	96
+625	Minia University Hospital	13
+626	Nigeria Maritime University	110
+627	Institut National de la Recherche Agronomique du Niger	70
+628	Maasai Mara University	89
+629	International Center for Agricultural Research in the Dry Areas	279
+630	Mwanza Intervention Trials Unit	119
+631	St Francis’ Hospital	8
+632	Tanzania Agriculture Research Institute	95
+633	New Mansoura University	83
+634	Gamal Abdel Nasser University of Conakry	166
+635	Centre for Sexual Health and HIV AIDS Research	120
+636	Marondera University of Agricultural Sciences and Technology	109
+637	Tai Solarin University of Education	102
+638	Cecilia Makiwane Hospital	43
+639	Agostinho Neto University	90
+640	Simon Diedong Dombo University of Business and Integrated Development Studies	220
+641	Menoufia University Hospitals	9
+642	Université de Garoua	51
+643	Institut Pasteur du Maroc	70
+644	University of Juba	90
+645	Université Evangélique en Afrique	105
+646	Lúrio University	147
+647	Kenya Forestry Research Institute	89
+648	Ministry of Health and Quality of Life	18
+649	Ministry of Health	35
+650	Air Force Institute of Technology Kaduna	85
+651	Baze University	113
+652	Ethiopian Biodiversity Institute	142
+653	Federal University Otuoke	101
+654	CapeNature	45
+655	National Institute of Standards	115
+656	Centre Hospitalier Ibn Sina	40
+657	Higher Technological Institute	127
+658	Setshaba Research Centre	40
+659	37 Military Hospital	63
+660	Levy Mwanawasa Medical University	54
+661	Ministry of Agriculture Livestock and Fisheries	75
+662	Euclid University	16
+663	Debark University	104
+664	Université Catholique de Bukavu	123
+665	University of Hassan II Casablanca	283
+666	Ethiopian Civil Service University	176
+667	Institut de Recherche pour le Développement	137
+668	Namibia Institute of Pathology	10
+669	Lupane State University	108
+670	Lagos State Ministry of Health	56
+671	South African National Space Agency	98
+672	Ministy of Fisheries and Marine Resources	85
+673	Oromiyaa Regional Health Bureau	70
+674	Africa Rice Center	129
+675	Ocean Road Cancer Institute	62
+676	International Potato Center	119
+677	Ethiopian Medical Association	13
+678	Karatina University	90
+679	Zambart	86
+680	African Field Epidemiology Network	70
+681	Institut de Recherches Géologiques et Minières	79
+682	King Edward VIII Hospital	44
+683	Université d’Ébolowa	94
+684	Milpark Hospital	17
+685	Centre Pour le Développement des Vaccins-Mali	45
+686	International Institute of Tropical Agriculture	110
+687	National Engineering School of Tunis	201
+688	Catholic University of Central Africa	85
+689	Institut National de sante publique	37
+690	Federal University Birnin Kebbi	93
+691	Tenwek Hospital	30
+692	Centre de Recherche en Santé de Nouna	126
+693	Bandim Health Project	137
+694	University of Mines and Technology	162
+695	Baylor College of Medicine Children’s Foundation	56
+696	National Space Research and Development Agency	88
+697	Ahfad University for Women	94
+698	Madonna University	65
+699	Université de Kisangani	66
+700	Tropical Diseases Research Centre	67
+701	Institut National des Recherches Agricoles du Bénin	73
+702	Plasma University	1
+703	Ministère De La Santé	66
+704	University of Agriculture and Environmental Sciences, Umuagwo	57
+705	Umaru Musa Yar'adua University	95
+706	Dedan Kimathi University of Technology	130
+707	Ministry of Agriculture, Animal Industry and Fisheries	60
+708	Omar Al-Mukhtar University	77
+709	Cameroon Baptist Convention Health Services	70
+710	Nigerian Defence Academy	89
+711	Université Mohammed VI Polytechnique	166
+712	United Nations Economic Commission for Africa	76
+713	National Agency for National Parks	80
+714	Iziko Museums of South Africa	77
+715	Mbale Hospital	46
+716	Achievers University	59
+717	Soroti Hospital	45
+718	Coastal Oceans Research and Development in the Indian Ocean	84
+719	Igbinedion University	52
+720	Mpala Research Center and Wildlife Foundation	96
+721	Muhammad Abdullahi Wase Teaching Hospital	21
+722	Sudan International University	18
+723	Anchor University Lagos	79
+724	Foundation for Professional Development	63
+725	Hassiba Benbouali University of Chlef	176
+726	Department of Agriculture, Land Reform and Rural Development	60
+727	Institut Pasteur d'Algérie	20
+728	Amhara National Regional State Public Health Institute	63
+729	Mzumbe University	234
+730	Federal University Gashua	68
+731	Instituto Nacional de Investigação em Saúde	17
+732	Université Thomas SANKARA	128
+733	Lusaka Apex Medical University	36
+734	Animal Production Institute	59
+735	Oromia Agricultural Research Institute	89
+736	Canadian International College	91
+737	University of Blida	223
+738	Clarke International University	70
+739	Soroti University	45
+740	Mildmay Uganda	51
+741	Chris Hani Baragwanath Hospital	35
+742	Mekdela Amba University	143
+743	Sule Lamido University Kafin Hausa	72
+744	University of Kara	125
+745	Tamale Technical University	96
+746	Centre for Research in Infectious Diseases	46
+747	National Organization for Drug Control and Research	90
+748	National Biotechnology Development Agency	73
+749	St. Francis University College of Health and Allied Sciences	69
+750	Mountain Top University	95
+751	Misr International University	97
+752	The Childhood Acute Illness and Nutrition Network	94
+753	Cairo University hospitals	46
+754	Egyptian Chinese University	64
+755	Institut National de Santé Publique	44
+756	Eastern Technical University of Sierra Leone	22
+757	Centre de Recherche Scientifique et Technique en Analyses Physico-Chimiques	134
+758	Federal University of Health Sciences, Otukpo	58
+759	Ajayi Crowther University	78
+760	International Centre for Reproductive Health Kenya	59
+761	Muhimbili Orthopaedic Institute	60
+762	International Potato Center	59
+763	Institut National des Sciences et Technologies de la Mer	205
+764	Université de Dédougou	54
+765	Kings University	44
+766	Institute of Primate Research	55
+767	Federal Polytechnic Nekede	46
+768	Mansoura National University	55
+769	Brain Research Africa Initiative	26
+770	Valley View University	76
+771	Mohamed-Cherif Messaadia University	122
+772	Electronics Research Institute	112
+773	Partnership for Economic Policy	65
+774	Ethiopian Environment and Forest Research Institute	117
+775	École Nationale d'Agriculture de Meknès	131
+776	Nigerian Meteorological Agency	51
+777	National Centre for Research	77
+778	Kijabe Hospital	62
+779	Anova Health Institute	58
+780	Regional Universities Forum for Capacity Building in Agriculture	41
+781	National Center for Technology Management	41
+782	The AIDS Support Organization	53
+783	Central Hospital of Yaoundé	36
+784	Ethiopian Health and Nutrition Research Institute	9
+785	International Crops Research Institute for the Semi-Arid Tropics	79
+786	Higher Institute of Engineering	77
+787	South African Sugarcane Research Institute	60
+788	Ethiopian Forestry Development	137
+789	University of Seychelles	84
+790	University of Constantine 3	136
+791	Gregory University Uturu	38
+792	University of Bangui	79
+793	Université des Sciences, des Techniques et des Technologies de Bamako	100
+794	Harare Institute of Technology	57
+795	Bolgatanga Technical University	85
+796	University of Medical Sciences and Technology	51
+797	Lagos State University of Science and Technology	63
+798	Nelson Mandela Academic Hospital	15
+799	National Agricultural Research Institute	73
+800	Ministère de la Santé et de l'Hygiène Publique	25
+801	National Ribat University	54
+802	Centre Hospitalier Universitaire Yalgado Ouédraogo	50
+803	Islamic University in Uganda	60
+804	The Forestry Commission of Ghana	20
+805	Hubert Kairuki Memorial University	40
+806	National Public Health Institute of Liberia	34
+807	Zimbabwe Open University	79
+808	African Academy of Sciences	28
+809	National Research Foundation	52
+810	Institut des Régions Arides	134
+811	Programme PAC-CI	37
+812	National Museum	43
+813	St. Mary's Hospital Lacor	47
+814	Yaoundé General Hospital	37
+815	Instituto Nacional de Saúde Pública	6
+816	Mengo Hospital	37
+817	Organisation de Coordination pour la lutte contre les Endémies en Afrique Centrale	43
+818	University of Batna 1	145
+819	Joseph Ayo Babalola University	75
+820	Kassala University	15
+821	Lancet Laboratories	27
+822	Karary University	48
+823	Veritas University	58
+824	Institut National de la Recherche Agronomique	84
+825	Bayworld Centre for Research and Education	52
+826	Dennis Osadebay University	73
+827	Shendi University	36
+828	Centre international de recherche-développement sur l'elevage en zone subhumide	59
+829	University of Delta Agbor	54
+830	Al-Hikmah University	71
+831	South African Association for Marine Biological Research	38
+832	Ministry of Public Health	46
+833	Ministry of Health and Social Welfare	43
+834	Ibrahim Badamasi Babangida University	71
+835	Kalafong Hospital	19
+836	Centre de recherche en reproduction humaine et en démographie	50
+837	Open University of Tanzania	98
+838	Nigerian Institute for Oceanography and Marine Research	67
+839	University of Bamako	43
+840	State University of Zanzibar	77
+841	Al Akhawayn University	217
+842	Institut Agronomique et Vétérinaire Hassan II	183
+843	Ahmed Draia University	102
+844	Women's University in Africa	71
+845	University of Lusaka	53
+846	United Nations Children's Fund Cameroon	7
+847	eThekwini Municipality	64
+848	African Union Commission	38
+849	Botswana-Baylor Children's Clinical Center of Excellence	27
+850	Machakos University	66
+851	Centre de Recherche Médicale et Sanitaire	42
+852	Confluence University of Science and Technology, Osara	49
+853	Sa'adu Zungur University	83
+854	IGAD Climate Prediction and Applications Center	61
+855	Africa University	71
+856	Federal Ministry of Agriculture and Rural Development	50
+857	Forestry and Agricultural Biotechnology Institute	78
+858	Dyer Island Conservation Trust	20
+859	Presbyterian University, Ghana	58
+860	Ministry of Health	59
+861	University Hospital Medical Center at Treichville	47
+862	Polytechnic School of Algiers	162
+863	Africa Centre for Health and Population Studies	51
+864	Centre National de Recherche Agronomique	42
+865	Moroccan Foundation for Advanced Science, Innovation and Research	124
+866	Management and Development for Health	58
+867	Dora Nginza Hospital	16
+868	Institute of Aviation Engineering & Technology	54
+869	Cocoa Research Institute of Ghana	61
+870	Institut National d’Hygiène Publique	38
+871	South African Tuberculosis Vaccine Initiative	33
+872	Haydom Lutheran Hospital	82
+873	University of Ouargla	113
+874	National University	36
+875	Misurata University	96
+876	Association Vahatra	67
+877	Faculty of Economics and Management of Sfax	248
+878	Federal University Lafia	57
+879	Water Institute, Tanzania	49
+880	University of Béjaïa	204
+881	African Centre for Global Health and Social Transformation	13
+882	Butabika Hospital	50
+883	African Center of Meteorological Application for Development	32
+884	Higher National School of Forests	50
+885	Institute of Health Research, Epidemiological Surveillance and Training	24
+886	Ministry of Scientific Research and Innovation	33
+887	King Ceasor University	29
+888	Chadli Bendjedid El Tarf University	105
+889	Meru University of Science and Technology	85
+890	Université d'El-Oued	52
+891	Université de Diffa	46
+892	Amref Health Africa	79
+893	Delta State University of Science and Technology Ozoro	47
+894	International Foundation Against Infectious Disease in Nigeria	15
+895	Masaka Hospital	17
+896	Centre de Suivi Ecologique	66
+897	National Eye Centre	15
+898	Nairobi Hospital	21
+899	Maitama Sule University Kano	95
+900	Ministre de la Santé	28
+901	Université de Bertoua	46
+902	Raya University	47
+903	University Teaching Hospital of Butare	31
+904	Wildlife Research and Training Institute	48
+905	Bamidele Olumilua University of Education, Science and Technology	51
+906	Fountain University	46
+907	Institut Togolais de Recherche Agronomique	29
+908	Armed Forces College of Medicine	29
+909	Université Djilali de Sidi Bel Abbès	182
+910	Uganda National Meteorological Authority	61
+911	Tripoli Central Hospital	12
+912	Agricultural Research Corporation	94
+913	Amref International University	46
+914	Environmental Research Center	71
+915	DST-NRF Centre of Excellence for Invasion Biology	50
+916	Department of Fisheries	39
+917	National University of Sciences, Technologies, Engineering and Mathematics	64
+918	National Root Crops Research Institute	50
+919	Kaimosi Friends University	30
+920	Sphinx University	38
+921	Ministry of Health and the Fight against AIDS	7
+922	Gulu Hospital	30
+923	Kibabii University	39
+924	International University of Management	62
+925	Arthur Jarvis University	33
+926	Bishop Stuart University	43
+927	Ministry of Livestock and Fisheries	42
+928	Somali National University	63
+929	Center for Marine and Oceanographic Research	47
+930	West Kordofan University	3
+931	National Institute for Pharmaceutical Research and Development	44
+932	Kabale Hospital	13
+933	Université des Sciences et Techniques de Masuku	79
+934	World Health Organization - Nigeria	30
+935	Institut National de Recherche Halieutique	64
+936	Al-Qalam University Katsina	62
+937	Ministry of Health	50
+938	Gambella University	57
+939	Mogadishu University	35
+940	Centre for Integrated Health Programs	21
+941	Tropical Institute Of Community Health And Development	27
+942	Catholic University College of Ghana	49
+943	Ministère de la Santé Publique	14
+944	Novena University	39
+945	Garden City University College	42
+946	University of Bouira	86
+947	Augustine University, Ilara	44
+948	AIDS Prevention Initiative in Nigeria	11
+949	Nile Valley University	37
+950	University of Bakhtalruda	12
+951	Caleb University	37
+952	Institut National de Santé Publique	24
+953	Jamhuriya University of Science and Technology	86
+954	International Centre for Genetic Engineering and Biotechnology	40
+955	Sanyu Africa Research Institute	27
+956	Ndejje University	44
+957	Tropical Pesticides Research Institute	41
+958	William V. S. Tubman University	41
+959	University of Kabianga	47
+960	Egyptian Meteorological Authority	57
+961	National Heart Institute	33
+962	United States International University Africa	74
+963	United States Army Medical Research Directorate - Africa	17
+964	Gorongosa National Park	51
+965	Ministry of Natural Resources and Tourism	44
+966	Addington Hospital	7
+967	Uganda Wildlife Authority	53
+968	Federal Polytechnic Ede	62
+969	Agence Nationale de l'Aviation Civile et de la Météorologie	36
+970	Kenya Fisheries Service	27
+971	Gobabeb Namib Research Institute	50
+972	Tanzania National Parks	52
+973	African Institute for Development Policy	43
+974	African Governance and Development Institute	95
+975	Children Cancer Hospital	26
+976	Alvan Ikoku Federal University of Education, Owerri	40
+977	Ecole Régionale Postuniversitaire d’Aménagement et de Gestion intégrés des Forêts et Territoires tropicaux	33
+978	The Federal Polytechnic Ilaro	47
+979	Instituto Superior de Ciências da Educação da Huíla	28
+980	Centre Hospitalier Universitaire de Tokoin	25
+981	United Nations Environment Programme	105
+982	Center of Biotechnogy of Borj Cédria	58
+983	Alliance for a Green Revolution in Africa	37
+984	Nigerian Institute of Social and Economic Research	79
+985	Military Hospital of Tunis	21
+986	Tabbin Institute for Metallurgical Studies	47
+987	National Advanced School of Public Works	38
+988	National Horticultural Research Institute	44
+989	Nahda College	12
+990	Kenya Methodist University	37
+991	École Nationale Supérieure Agronomique	101
+992	Instituto de Investigação Agrária de Moçambique	50
+993	National Zoological Gardens of South Africa	32
+994	Kebbi State University of Science and Technology	62
+995	Dr. Hilla Limann Technical University	35
+996	Kenya Medical Training College	46
+997	Modern Academy for Engineering and Technology	46
+998	University of Jijel	126
+999	Project Empower	23
+1000	Ministry of Water and Environment	43
+1001	Kampala Capital City Authority	46
+1002	University of Mbuji Mayi	15
+1003	Ecole Mohammadia d'Ingénieurs	134
+1004	World Agroforestry Centre	38
+1005	Obong University	48
+1006	Dar es Salaam Institute of Technology	75
+1007	Oli Health Magazine Organization	45
+1008	Centre National de Recherche et de Formation sur le Paludisme	37
+1009	Citrus Research International	43
+1010	Moshood Abiola Polytechnic	40
+1011	Respiratory and Meningeal Pathogens Research Unit	19
+1012	Research and Technology Center of Energy	98
+1013	University Frères Mentouri Constantine 1	163
+1014	Institut Mauritanien de Recherches Océanographiques et des Pêches	54
+1015	Ministry of Food and Agriculture	48
+1016	Kogi State Polytechnic	30
+1017	The Carter Center	36
+1018	Rufus Giwa Polytechnic	49
+1019	LVCT Health	66
+1020	Ashesi University	58
+1021	Health Systems Trust	25
+1022	Mulungushi University	64
+1023	University Mohamed El Bachir El Ibrahimi of Bordj Bou Arreridj	115
+1024	Department of Research and Specialist Services	27
+1025	African Palliative Care Association	51
+1026	Centre National de la Recherche Appliquée au Developpement Rural	42
+1027	South African National Blood Service	28
+1028	West African Science Service Centre on Climate Change and Adapted Land Use	30
+1029	Island Conservation Society	34
+1030	McCord Hospital	7
+1031	Digital Research Centre of Sfax	47
+1032	National Research Institute of Rural Engineering, Water and Forests	77
+1033	University of Toliara	90
+1034	Murang'a University of Technology	46
+1035	American University of Nigeria	100
+1036	Parirenyatwa Hospital	17
+1037	Nigerian Army University Biu	38
+1038	Ghana Meteorological Agency	25
+1039	University of Science and Technology Omdurman	17
+1040	Alliance for International Medical Action	48
+1041	Kebri Dehar University	117
+1042	International Trachoma Initiative	11
+1043	Mbeya Zonal Refferal Hospital	28
+1044	ICT University	12
+1045	Precious Cornerstone University	19
+1046	University of Algiers 3	56
+1047	Federal University of Technology Ikot Abasi	24
+1048	University of Koudougou	43
+1049	Mauritian Wildlife Foundation	36
+1050	Wisconsin International University College	48
+1051	Abderrahmane Mami Hospital	36
+1052	Kingsley Ozumba Mbadiwe University	20
+1053	College of Business Education	102
+1054	Hope Africa University	17
+1055	Centre for International Forestry Research	72
+1056	Université de Nouakchott	73
+1057	Limbe Provincial Hospital	19
+1058	El Shorouk Academy	37
+1059	Makerere University Walter Reed Project	41
+1060	University of Fada N'gourma	30
+1061	Luxor University	38
+1062	University of Goma	43
+1063	Environmental Protection Agency	39
+1064	Right to Care	41
+1065	Hussaini Adamu Federal Polytechnic	36
+1066	Cape Leopard Trust	27
+1067	David Umahi Federal University of Health Sciences Uburu	21
+1068	Institute of Agricultural Research and Training	41
+1069	Ecole Nationale d'Ingénieurs de Monastir	101
+1070	Pan-African University	50
+1071	KCA University	33
+1072	Ghana Education Service	35
+1073	KCMC University	28
+1074	KolaDaisi University	32
+1075	Ministry of Water Resources and Irrigation	55
+1076	National AIDS Council	34
+1077	Centre for Plant Medicine Research	19
+1078	Centre National pour la Recherche Scientifique et Technique (CNRST)	41
+1079	National Research Institute for Chemical Technology	28
+1080	Manicaland State University of Applied Sciences	37
+1081	Shark Spotters	12
+1082	Institut National de Recherches et d'Analyses Physico-chimiques	62
+1083	Tanzania Forestry Research Institute	34
+1084	International Centre for Biotechnology	28
+1085	Central Laboratory for Agricultural Climate	31
+1086	National Cereals Research Institute	15
+1087	Addis Ababa City Administration Health Bureau	25
+1088	Federal Medical Centre Nguru	12
+1089	Université de Thiès	42
+1090	Sierra Leone Agricultural Research Institute	42
+1091	Kaduna Polytechnic	48
+1092	National Institute of Applied Science and Technology	57
+1093	Elrazi University	18
+1094	Université des Sciences de la Santé	56
+1095	Université des Sciences et de la Technologie d'Oran Mohamed Boudiaf	116
+1096	Institut Supérieur de Biotechnologie de Sfax	34
+1097	Ministry of Higher Education	42
+1098	East, Central and Southern Africa Health Community	28
+1099	Centre Hospitalier Universitaire de Yopougon	26
+1100	Université Catholique du Graben	38
+1101	Sokoto State University	71
+1102	Agricultural Genetic Engineering Research Institute	41
+1103	International Crops Research Institute for the Semi-Arid Tropics	50
+1104	Caritas University	27
+1105	Holy Family Hospital	23
+1106	National School of Computer Science	79
+1107	Department of Forestry	34
+1108	Federal Polytechnic Ohodo	29
+1109	Victoria Hospital	10
+1110	Partners for Health and Development in Africa	49
+1111	Rongo University	35
+1112	Petroleum Training Institute	26
+1113	Ministry of Agriculture and Land Reclamation	43
+1114	Moroto Hospital	11
+1115	Tanzania Commission for Science and Technology	29
+1116	First On-Call Initiative	16
+1117	Pan African University Institute of Water and Energy Science	49
+1118	Jinka University	41
+1119	Centre d'Etude Regional pour l'Amelioration de l'Adaptation a la Secheresse	40
+1120	Nyangabgwe Referral Hospital	10
+1121	Catholic University of Cameroon	26
+1122	Research Institute of Ophthalmology	30
+1123	Impact Research and Development Organization	60
+1124	Sudan Medical Specialization Board	32
+1125	Nature Uganda	18
+1126	Regional Maritime University	37
+1127	University of Kordofan	51
+1128	Kombolcha Institute of Technology	73
+1129	Centre de Recherches et des Technologies des Eaux	48
+1130	Sacred Heart Hospital	9
+1131	Azzaytuna University	24
+1132	African Health Economics and Policy Association	8
+1133	Cheetah Conservation Fund	37
+1134	Save the Elephants	69
+1135	St. John's University of Tanzania	37
+1136	Great Lakes University of Kisumu	41
+1137	General Organization For Teaching Hospitals and Institutes	29
+1138	Eden University	14
+1139	Climate Change, Agriculture and Food Security	34
+1140	R. K. Khan Hospital	5
+1141	Kirinyaga University	25
+1142	Federal Polytechnic, Bauchi	43
+1143	Ethiopian Food and Drug Authority	16
+1144	United States Agency for International Development	20
+1145	Agrhymet Regional Centre	39
+1146	African Union	13
+1147	Soweto CTC	8
+1148	Federal College of Animal Health and Production Technology Ibadan	24
+1149	Kheth’Impilo	8
+1150	Aga Khan Hospital Dar es Salaam	16
+1151	KwaZulu-Natal Museum	17
+1152	National Agency for Science and Engineering Infrastructure	25
+1153	University of Lay Adventists of Kigali	85
+1154	Institut Supérieur Pédagogique de Bukavu	21
+1155	Institut National d'Oncologie	12
+1156	Centre for Research and Information on Substance Abuse	45
+1157	African Institute for Development Policy	28
+1158	Infection Control Africa Network	22
+1159	Bomet University College	26
+1160	University of Makeni	34
+1161	International Institute of Tropical Agriculture	23
+1162	Federal University Gusau	49
+1163	Livingstone Hospital	10
+1164	Institut des Sciences Agronomiques du Burundi	22
+1165	Jazeera University	18
+1166	University of Livingstonia	38
+1167	International Institute of Tropical Agriculture	32
+1168	Kano State Polytechnic	45
+1169	Federal Medical Center, Birnin Kudu	11
+1170	Kenya Plant Health Inspectorate Services	20
+1171	Economic Research Forum	89
+1172	Food and Drugs Authority	33
+1173	Military Medical Academy	16
+1174	Lagos State Health Service Commission	12
+1175	Holetta Agricultural Research Center	30
+1176	Onderstepoort Veterinary Institute	29
+1177	Research Center in Industrial Technologies	34
+1178	University of Tamanghasset	36
+1179	The Federal Polytechnic Offa	36
+1180	Hassania School of Public Works	105
+1181	African Institute for Health and Development	17
+1182	Mukuba University	14
+1183	Université de Maradi	42
+1184	Plateau State University	18
+1185	Helix Biogen Institute	12
+1186	Mubende Hospital	17
+1187	African Institute of Biomedical Science and Technology	18
+1188	University of Ghardaia	55
+1189	Zankli Medical Centre	12
+1190	Mikocheni Agricultural Research Institute	23
+1191	Helen Keller International	14
+1192	Kimberley Hospital	10
+1193	University Teaching Hospital of Yaounde	24
+1194	Université Pédagogique Nationale	25
+1195	Christian Service University College	30
+1196	Uganda Management Institute	38
+1197	Faculty of Medicine of Sfax	63
+1198	Ethiopian Development Research Institute	51
+1199	Rwanda Polytechnic	35
+1200	Stockholm Environment Institute	40
+1201	Desmond Tutu HIV Foundation	28
+1202	Institute of Rural Development Planning	60
+1203	Blantyre Institute for Community Ophthalmology	8
+1204	The Polytechnic Ibadan	27
+1205	Mission to Save the Helpless	12
+1206	Euro-Mediterranean University of Fes	42
+1207	Ethiopian Wildlife Conservation Authority	36
+1208	Ethiopian Economic Association	33
+1209	Zithulele Hospital	19
+1210	Southern Nations, Nationalities, and Peoples' Region	25
+1211	Benha National University	19
+1212	Victoria University	25
+1213	Wangari Maathai Institute for Peace and Environmental Studies	45
+1214	Veterinary Serum and Vaccine Research Institute	23
+1215	Mahatma Gandhi Memorial Hospital	5
+1216	Institute for Deciduous Fruit, Vines and Wine	46
+1217	Moshi Co-operative University	55
+1218	Debere Berhan Health Science College	26
+1219	Clinical Research Education and Management Services	10
+1220	Scientific Research Group in Egypt	18
+1221	Université Moulay Ismail de Meknes	52
+1222	Godfrey Okoye University	30
+1223	Ministry of Environment and Tourism	24
+1224	AIMS Research and Innovation Centre	17
+1225	Food, Agriculture and Natural Resources Policy Analysis Network	19
+1226	Task Applied Science	12
+1227	Glorious Vision University	30
+1228	Thomas Adewumi University	34
+1229	Centre International de Recherches Médicales de Franceville	37
+1230	Multimedia University of Kenya	22
+1231	Cameroon Academy of Sciences	10
+1232	École Inter-États des Sciences et Médecine Vétérinaires de Dakar	20
+1233	Kenya National Bureau of Statistics	17
+1234	Accra Institute of Technology	24
+1235	Soddo Christian General Hospital	23
+1236	CHU de Bogodogo	14
+1237	Wasaaradda Caafimaadka	24
+1238	Zimbabwe Ezekiel Guti University	35
+1239	PAMO University of Medical Sciences	23
+1240	Harare Central Hospital	17
+1241	Institut de Recherche Agronomique de Guinée	8
+1242	University of Ilesa	17
+1243	Global Health Systems Solutions	14
+1244	Benadir University	25
+1245	World Health Organization - Sierra Leone	11
+1246	Radiation Protection Institute	20
+1247	National Agricultural Research Institute	4
+1248	ENSIT	49
+1249	Carnegie Mellon University Africa	37
+1250	Fort Portal Hospital	15
+1251	Topfaith University	21
+1252	International Gorilla Conservation Programme	13
+1253	Ecole Nationale Polytechnique de Constantine	68
+1254	Akwa Ibom State Polytechnic	23
+1255	Ministère de la Santé et de l'Hygiène Publique	7
+1256	Federal Polytechnic Oko	20
+1257	AlMughtaribeen University	11
+1258	Ignatius Ajuru University of Education	39
+1259	Caritas Nigeria	12
+1260	Government of Kenya	23
+1261	Gadarif University	22
+1262	Southern African Science Service Centre for Climate Change and Adaptive Land Management	19
+1263	Rwanda Agriculture Board	27
+1264	Sadat Academy for Management Sciences	48
+1265	West Africa Centre for Crop Improvement	32
+1266	Sonke Gender Justice	24
+1267	Association for Water and Rural Development	12
+1268	Churches Health Assoication Of Zambia	7
+1269	Sinnar University	19
+1270	Nile University	21
+1271	Queen Nandi Regional Hospital	7
+1272	United Nations Children's Fund Niger	6
+1273	National Aids Control Council	20
+1274	Dessie Health Science College	21
+1275	Pedagogical University	30
+1276	Wellspring University	18
+1277	Institute of Natural Resources	20
+1278	Red Sea University	63
+1279	Mouloud Mammeri University of Tizi-Ouzou	84
+1280	Boitekanelo College	16
+1281	Nigerian Stored Products Research Institute	38
+1282	International Centre for Reproductive Health	23
+1283	Kabarak University	32
+1284	Nigerian Institute of Leather and Science Technology	19
+1285	Higher Institute of Engineering and Technology, Kafrelsheikh	16
+1286	University of Guelma	53
+1287	Ghana Space Science and Technology Institute	20
+1288	Rwanda Development Board	26
+1289	University of Nyala	41
+1290	Karl Bremer Hospital	8
+1291	Centre Hospitalier Universitaire de Cocody	8
+1292	Wildlife Conservation Society Congo	29
+1293	Sebha University	68
+1294	Seychelles Fishing Authority	62
+1295	Western Delta University	21
+1296	St. Paul's University	22
+1297	Claretian University of Nigeria	4
+1298	Kenya Industrial Research and Development Institute	34
+1299	Rubaga Hospital	7
+1300	Naggalama Hospital	9
+1301	World Health Organization - Uganda	14
+1302	Lira Hospital	13
+1303	Ministry of Health and Child Welfare	24
+1304	Wadi Alshatti University	41
+1305	Kano Independent Research Centre Trust	11
+1306	Fundação Ariel Glaser Contra o SIDA Pediátrico	13
+1307	Ilembula Lutheran Hospital	3
+1308	Tanzania Wildlife Management Authority	20
+1309	Rhema University	22
+1310	Akanu Ibiam, Federal Polytechnic Unwana	20
+1311	Institut Tchadien de Recherche Agronomique pour le Développement	5
+1312	International University of Grand Bassam	13
+1313	Laikipia University	28
+1314	Oduduwa University	15
+1315	National Institute for Legislative and Democratic Studies	28
+1316	Ministry of Agriculture	25
+1317	The Catholic University of Malawi	22
+1318	Federal Polytechnic, Idah	28
+1319	Institut National de Recherche en Santé Publique	25
+1320	Tunisia Polytechnic School	33
+1321	Animal Health Institute	17
+1322	Wesley University	23
+1323	University of Laghouat	44
+1324	Daystar University	29
+1325	BirdLife International	9
+1326	Arusha Lutheran Medical Centre	10
+1327	National Metrology Institute of South Africa	20
+1328	Higher National Veterinary School	24
+1329	Catholic University of Eastern Africa	33
+1330	Lagos State University of Education	31
+1331	Excellence Community Education Welfare Scheme	11
+1332	St. Francis Referral Hospital	16
+1333	Amref Health Africa	23
+1334	Nigeria Police Academy	44
+1335	Federal Capital Territory Administration	9
+1336	École Nationale Forestière d'Ingénieurs	32
+1337	Tanzania Meteorological Agency	19
+1338	Africa International University	15
+1339	Centre for Training and Integrated Research In ASAL Development	23
+1340	Sino-Africa Joint Research Center	25
+1341	Abbès Laghrour University of Khenchela	38
+1342	Hassan II Academy of Science and Technology	32
+1343	McPherson University	22
+1344	Centre Africain de Recherche en Epidémiologie et en Santé Publique	16
+1345	Tumaini University	17
+1346	National Veterinary Institute	17
+1347	Mpilo Central Hospital	19
+1348	Radiological and Medical Sciences Research Institute	16
+1349	University of Cape Verde	10
+1350	WWF Tanzania	14
+1351	Southern African Centre for Infectious Disease Surveillance	11
+1352	Université de Mahajanga	33
+1353	Crescent University	21
+1354	Catholic University of Mozambique	47
+1355	Centre International De Reference Chantal Biya	6
+1356	Hôpital Aristide Le Dantec	17
+1357	Port Elizabeth Provincial Hospital	3
+1358	Ministry of Livestock, Fisheries and Animal Industries	14
+1359	Raising Voices	44
+1360	Ogun State Ministry of Health	10
+1361	African Conservation Centre	26
+1362	Direction de la Météorologie Nationale	20
+1363	Ethiopian Agricultural Transformation Agency	17
+1364	Tertiary Education Trust Fund	4
+1365	Policy Center for the New South	31
+1366	Ministry of Health and Public Hygiene	21
+1367	University of Kigali	21
+1368	Bayelsa Medical University	24
+1369	Salem University	15
+1370	Nkumba University	18
+1371	Ghana Standards Authority	15
+1372	Institut Polytechnique Rural de Formation et de Recherche Appliquée	22
+1373	Mogadishu Somali Turkish Training and Research Hospital	30
+1374	Ain Shams University Hospital	23
+1375	Science for Africa Foundation	10
+1376	International Institute for Water and Environmental Engineering	51
+1377	National Institute for Theoretical Physics	7
+1378	National Water and Sewerage Corporation	32
+1379	Emmanuel Alayande University of Education, Oyo	12
+1380	Ministry of Agro Industry and Food Security	26
+1381	Academy of Science of South Africa	14
+1382	Ministry of Water and Energy	16
+1383	African Centre for Technology Studies	48
+1384	Université Officielle de Ruwenzori	22
+1385	Institut Facultaire des sciences Agronomiques de Yangambi	13
+1386	Institut National de la Recherche Agronomique de Tunisie	29
+1387	Health and Human Development (2HD) Research Network	25
+1388	Africa Oral Health Network	5
+1389	Al-Ryada University for Science and Technology	15
+1390	Ditsong National Museum of Natural History	13
+1391	Malaria Consortium	29
+1392	National School of Architecture	34
+1393	Laboratoire National d'Appui au Développement Agricole	17
+1394	Albert Schweitzer Hospital	13
+1395	École Nationale Supérieure de Statistique et d'Économie Appliquée	56
+1396	Kwara State Polytechnic	19
+1397	Osun State Polytechnic, Iree	13
+1398	Ethiopian Space Science and Technology Institute	32
+1399	Wildlife Conservation Society Uganda	6
+1400	Busara Center for Behavioral Economics	30
+1401	Botswana Predator Conservation Trust	23
+1402	St. Augustine University of Tanzania	28
+1403	Steve Biko Hospital	3
+1404	Alasmarya Islamic University	25
+1405	Economic and Social Research Foundation	12
+1406	University of Boumerdes	48
+1407	Nyanza Reproductive Health Society	28
+1408	Ernest Cook University	16
+1409	African Organisation for Research and Training in Cancer	9
+1410	The Independent Institute of Education	28
+1411	Trinity University	13
+1412	Ministre de la Forêt,de la Mer et de l'Environnement	7
+1413	Centre d'Étude et de Recherche de Djibouti	42
+1414	Federal University Kashere	32
+1415	Ministry of Health and Social Welfare	34
+1416	Instituts Supérieurs des Professions Infirmières et Techniques de Santé	24
+1417	University of Kolwezi	14
+1418	Medical Laboratory Science Council of Nigeria	13
+1419	French University of Egypt	22
+1420	National Institute of Transport	23
+1421	World Health Organization - Zimbabwe	13
+1422	Ministry of Antiquities	23
+1423	École Nationale Polytechnique d'Oran	41
+1424	Conservation and Ecosystem Health Alliance	11
+1425	National Hospital Niamey	22
+1426	Bugema University	16
+1427	Sirte University	29
+1428	Centre de Recherche en Aménagement du Territoire	35
+1429	Africa Mental Health Foundation	19
+1430	Egypt University of Informatics	15
+1431	Ministry of Education	12
+1432	Health Strategy and Delivery Foundation	14
+1433	Molecular Diagnostics Services	3
+1434	Rusangu University	6
+1435	PIVOT	17
+1436	Mwenge Catholic University	26
+1437	African Agricultural Technology Foundation	12
+1438	Inqaba Biotechnical Industries	5
+1439	National Centre for Genetic Resources and Biotechnology	18
+1440	Uganda Blood Transfusion Service	7
+1441	University of El Imam El Mahdi	26
+1442	Ministère de la Santé	11
+1443	Research for Equity And Community Health Trust	19
+1444	Malawi Blood Transfusion Service	9
+1445	Open University of Sudan	9
+1446	Université Mustapha Stambouli de Mascara	75
+1447	Ministry of Community Development, Mother and Child Health	22
+1448	INES-Ruhengeri	43
+1449	Afya na Haki Institute	10
+1450	Food and Agriculture Organization of the United Nations	26
+1451	Separations (South Africa)	1
+1452	Université Amadou Mahtar Mbow	29
+1453	Université Hassan II Mohammedia	41
+1454	Sexual Violence Research Initiative	13
+1455	Ziane Achour University of Djelfa	53
+1456	Espoir Vie-Togo	15
+1457	National Centre for Nuclear Energy, Science and Technology	30
+1458	Université André Salifou	17
+1459	Mabula Ground Hornbill Project	4
+1460	Sustainable Livelihoods Foundation	22
+1461	Adeyemi Federal University of Education, Ondo, Nigeria	23
+1462	Public Health Laboratory Ivo de Carneri	33
+1463	Federal College of Education (Technical) Asaba	10
+1464	The Gambia College	12
+1465	Institut de Recherche pour le Développement	18
+1466	Abia State Polytechnic	13
+1467	Agricultural and Rural Management Training Institute	12
+1468	University of Toamasina	21
+1469	African Institute for Capacity Development	5
+1470	Madagasikara Voakajy	22
+1471	Ecole Nationale Supérieure des Sciences de la Mer et de l'Aménagement du Littoral	69
+1472	Hôpital Principal de Dakar	13
+1473	American International University West Africa	9
+1474	African Development Bank Group	32
+1475	Tanzania Industrial Research and Development Organization	17
+1476	Federal Polytechnic, Mubi	29
+1477	CABI Kenya	19
+1478	National Higher School of Technology and Engineering Annaba	28
+1479	Nigerian Building and Road Research Institute	20
+1480	Omdurman Ahlia University	5
+1481	École Nationale Supérieure d'Agriculture	17
+1482	Kenya Paediatric Research Consortium	13
+1483	National Treasury	17
+1484	Mental Health Authority	16
+1485	National HIV/AIDS/STI/TB Council	8
+1486	Centre for the Study of the Economies of Africa	35
+1487	Sports Science Institute of South Africa	14
+1488	École Normale Supérieure d'Abidjan	16
+1489	South African National AIDS Council	9
+1490	International Islamic Center for Population Studies and Research	12
+1491	Wentworth Hospital	7
+1492	Skyline University Nigeria	27
+1493	Federal University of Health Sciences, Ila-Orangun	12
+1494	Centre Universitaire Morsli Abdellah de Tipaza	28
+1495	Tygerberg Children’s Hospital	12
+1496	Bani-Waleed University	21
+1497	Adamawa State University	33
+1498	University of Media, Arts and Communication	15
+1499	Abetifi Presbyterian College of Education	6
+1500	Renaissance University	14
+1501	Community Health And Information Network	2
+1502	International University of East Africa	8
+1503	Kwame Nkrumah University	11
+1504	University of Asmara	3
+1505	Butaro Hospital	9
+1506	Gauteng Department of Agriculture and Rural Development	14
+1507	Forum for Agricultural Research in Africa	13
+1508	Institut de Recherche en Sciences Appliquées et Technologies	18
+1509	Delta State Polytechnic Otefe-Oghara	8
+1510	Imo State University Teaching Hospital	7
+1511	Uganda National Health Research Organisation	9
+1512	Ministry of Public Health	23
+1513	Federal Polytechnic, Bida	14
+1514	École Nationale Supérieure Polytechnique de Yaoundé	25
+1515	Alexandria Higher Institute of Engineering and Technology	23
+1516	National Environment Management Council	11
+1517	Centre de Recherche en Technologies Agro-Alimentaires	35
+1518	Imo State Polytechnic Omuma	21
+1519	Federal College of Wildlife Management	12
+1520	Instituto Superior Politécnico de Gaza	16
+1521	Lake Chad Research Institute	4
+1522	Botswana Open University	15
+1523	Université Mohammed VI des Sciences et de la Santé	13
+1524	Economic Policy Research Centre	26
+1525	University of Skikda	32
+1526	Gwanda State University	14
+1527	African Regional Institute for Geospatial Information Science and Technology	18
+1528	Assiut University Hospitals	26
+1529	Delta State Polytechnic Ogwashi-Uku	17
+1530	Umma University	7
+1531	AFRICSanté	25
+1532	Il’laramatak Community Concerns	1
+1533	Federal University of Allied Health Sciences, Enugu	10
+1534	Clifford University	10
+1535	National Environment Management Authority	14
+1536	Regent Business School	11
+1537	National Telecommunications Institute	22
+1538	West and Central African Council for Agricultural Research and Development	11
+1539	Yaoundé Gynaecology, Obstetrics and Pediatrics Hospital	12
+1540	Kenya Institute for Public Policy Research and Analysis	32
+1541	Al Salam University	14
+1542	Federal University of Agriculture Zuru	9
+1543	Western Indian Ocean Marine Science Association	14
+1544	Tanzania Institute of Accountancy	29
+1545	Center for Solar Energy Research and Studies	12
+1546	Federal Ministry of Innovation, Science and Technology	12
+1547	Ministry of Higher Education	1
+1548	École Normale Supérieure de l'Enseignement Technique de Mohammedia	65
+1549	Centre for African Wetlands	16
+1550	Tom Mboya University College	8
+1551	University of Oran 2 Mohamed Ben Ahmed	38
+1552	Research on Poverty Alleviation	18
+1553	Crawford University	15
+1554	Université libre des Pays des Grands Lacs	20
+1555	National Museum of Tanzania	15
+1556	African Plant Nutrition Institute	35
+1557	Instituto Superior de Ciencias de Saude	14
+1558	Forestry Commission	6
+1559	Regional Alliance for Sustainable Development	9
+1560	Future Academy	16
+1561	Banadir Hospital	11
+1562	Pharmacy and Poisons Board	9
+1563	Africa Health Sciences University	10
+1564	Ministry of Agriculture	9
+1565	Carter Center	7
+1566	Université du Sine Saloum El-Hâdj Ibrahima NIASS	17
+1567	Kigali Independent University	15
+1568	Sub-Regional Fisheries Commission	12
+1569	Government of South Africa	12
+1570	South African Population Research Infrastructure Network	8
+1571	Rwanda Diabetes Association	4
+1572	Epicentre (South Africa)	12
+1573	Centre National de Recherches en Sciences des Materiaux	23
+1574	Admiralty University of Nigeria	13
+1575	University of Technology, Mauritius	39
+1576	Arua Regional Referral Hospital	7
+1577	Baobab Health Trust	9
+1578	Summit University, Offa	13
+1579	National Commission for Science, Technology, and Innovation	10
+1580	École Normale Supérieure de Constantine	7
+1581	Centre for High Performance Computing	7
+1582	Scientific and Industrial Research and Development Centre	12
+1583	Kenya Forest Service	16
+1584	Libyan Academy	30
+1585	Higher School of Saharan Agriculture - El Oued	10
+1586	Liberian Institute for Biomedical Research	12
+1587	Université d’Antsiranana	19
+1588	Tropical Gastroenterology & Nutrition group	16
+1589	Virtual University of Tunis	16
+1590	IIE MSA	22
+1591	Achieving Health Nigeria Initiative	10
+1592	Instituto Nacional de Investigação Pesqueira	10
+1593	Gashaka Primate Project	7
+1594	Dalanj University	2
+1595	Christian Social Services Commission	3
+1596	All Africa Leprosy Tuberculosis and Rehabilitation Training Centre	11
+1597	Gollis University	11
+1598	Kenya Agricultural Research Institute	8
+1599	African Institute for Mathematical Sciences	17
+1600	École Normale Supérieure de Kouba	34
+1601	St. Monica's College of Education	7
+1602	Climate and Development Knowledge Network	7
+1603	Fondation Santé et Développement Durable	2
+1604	Institut de Recherches Médicales et d’Etudes des Plantes Médicinales	8
+1605	Projects Development Institute	8
+1606	Ministry of Water and Irrigation	8
+1607	Kogi State University, Kabba	4
+1608	Federal Polytechnic, Nasarawa	21
+1609	Offinso College of Education	9
+1610	Omar Bongo University	29
+1611	University of Djibouti	54
+1612	Centre of Excellence in Biodiversity and Natural Resources Management	13
+1613	Ecole Supérieure en Sciences Biologiques d’Oran	16
+1614	Management College of Southern Africa	14
+1615	Egyptian Ministry of Environment	11
+1616	Institut de Recherche Pour le Développement	14
+1617	Etosha Ecological Institute	17
+1618	Save the Rhino Trust	10
+1619	Sierra Leone Urban Research Centre	18
+1620	Department of Agricultural Research	3
+1621	Kampala International University	5
+1622	Centre Hospitalier Universitaire Mohammed VI	32
+1623	Ruaha Catholic University	21
+1624	The Knowledge Hub Universities	14
+1625	Association for Strengthening Agricultural Research in Eastern and Central Africa	10
+1626	Edwin Clark University	10
+1627	Centre National de Recherches sur l'Environnement	19
+1628	Université Virtuelle de Côte d'Ivoire	15
+1629	Ibis Reproductive Health	20
+1630	United Nations Human Settlements Programme	43
+1631	Waziri Umaru Federal Polytechnic, Birnin Kebbi	12
+1632	Algiers 2 University	32
+1633	Institute for Poverty, Land and Agrarian Studies	24
+1634	University of Gharyan	19
+1635	International Union for Conservation of Nature (Guinea-Bissau)	2
+1636	University of Bechar	31
+1637	Arab Open University	8
+1638	Borana University	10
+1639	University of Kalemie	5
+1640	Network for Socioeconomic Research and Advancement	30
+1641	Libyan International Medical University	16
+1642	Centre de Recherche en Technologie des Semi-conducteurs pour l’Energétique	21
+1643	Sa'adatu Rimi College of Education	13
+1644	Children's Hospital	4
+1645	Federal School of Surveying, Oyo	10
+1646	Kenya Bureau of Standards	10
+1647	Institut Supérieur de Technologie Médicale	8
+1648	Sahara and Sahel Observatory	12
+1649	Mount Kigali University	14
+1650	The Future University	7
+1651	Open University of Mauritius	25
+1652	Teofilo Kisanji University	6
+1653	Demartino Public Hospital	8
+1654	Université de Fianarantsoa	10
+1655	Office National de Sécurité Sanitaire des Produits Alimentaires	12
+1656	Holy Innocents Children's Hospital	8
+1657	Centre Africain de Recherches sur Bananiers et Plantains	10
+1658	Zamzam University of Science and Technology	18
+1659	South African Institute of International Affairs	15
+1660	Modern Academy	15
+1661	Université Privée de Fès	14
+1662	Seventh-day Adventist College of Education	9
+1663	Heritage Christian University	18
+1664	Raw Materials Research and Development Council	13
+1665	WWF Cameroon	8
+1666	Accra College of Education	8
+1667	Université Aube Nouvelle	17
+1668	Pentecost University College	15
+1669	Catholic University of Zimbabwe	17
+1670	South African National Energy Development Institute	8
+1671	Agricultural Research Council of South Africa	7
+1672	World Health Organization - Egypt	11
+1673	Surgical Society of Zambia	10
+1674	IBM Research - Africa	7
+1675	African Comprehensive HIV/AIDS Partnerships	5
+1676	ICLEI - Local Governments for Sustainability Africa	9
+1677	Nature Conservation Research Centre	16
+1678	All Nations University	15
+1679	Institute for Scientific and Technological Information	9
+1680	Université IBN Khaldoun Tiaret	23
+1681	École Normale Supérieure	19
+1682	Tissemsilt University	30
+1683	African Methodist Episcopal University	6
+1684	Miva Open University	7
+1685	Madagascar Biodiversity Partnership	15
+1686	Elsahel Teaching Hospital Cairo Egypt	3
+1687	National Sugar Institute	6
+1688	Nigerian Institute For Oil Palm Reasearch	12
+1689	Zanzibar Health Research Institute (ZAHRI)	10
+1690	University of Dongola	8
+1691	Akrofi-Christaller Institute of Theology, Mission and Culture	8
+1692	West Midlands Open University	13
+1693	World Health Organization - Malawi	7
+1694	National Blood Service Ghana	12
+1695	Nasarawa State Ministry of Health	6
+1696	State University of Medical and Applied Sciences	13
+1697	Mampong Technical College of Education	7
+1698	Bel Campus Technological University	2
+1699	African Economic Research Consortium	26
+1700	Centre d’excellence africain pour la prévention et le contrôle des maladies transmissibles	15
+1701	Nkozi Hospital	3
+1702	Al Fashir University	7
+1703	Jazeera University Hospital	4
+1704	Ministry of Education	10
+1705	Nobel International Business School	19
+1706	Ministry of Higher Education And Scientific Research	9
+1707	Malawi College of Forestry and Wildlife	5
+1708	Federal College of Forestry, Ibadan	9
+1709	Institut Supérieur de Développement Rural	9
+1710	Malawi Adventist University	7
+1711	Mission de Promotion des Materiaux Locaux	8
+1712	University of Kamina	10
+1713	Association of Gynaecologists and Obstetricians	8
+1714	Centre de Support en Santé Internationale	19
+1715	United Nations Development Programme	13
+1716	Hoima Hospital	4
+1717	Cavendish University Zambia	4
+1718	Hôpital Charles-Nicolle	17
+1719	Mauritius Oceanography Institute	16
+1720	National Office of Hydrocarbons and Mines	17
+1721	Ghana Christian University College	9
+1722	Tanzania Commission for AIDS	11
+1723	Regent University College of Science and Technology	18
+1724	National AIDS Commission	8
+1725	Mawenzi Regional Referral Hospital	12
+1726	Institute of Mathematics and Physics	10
+1727	UniMAC-GIJ	13
+1728	Centre National de Semences Forestières	5
+1729	Université de Denis Sassou N'guesso	5
+1730	Federal College of Education, Iwo	5
+1731	Libreville Hospital	14
+1732	Tigray Agricultural Research Institute (TARI)	14
+1733	Instituto Nacional de Investigação Pesqueira	8
+1734	British Institute in Eastern Africa	17
+1735	Oromia State University	16
+1736	Brooklyn Chest Hospital	3
+1737	Osun State College of Education, Ila-Orangun	4
+1738	Institut Supérieur de Gestion de Tunis	42
+1739	Ministry of Agriculture and Livestock	3
+1740	Wigwe University	9
+1741	Université Internationale Abulcasis des Sciences de la Santé	11
+1742	Tanzania Bureau of Standards	9
+1743	Nwafor Orizu College of Education	15
+1744	Grand Egyptian Museum	14
+1745	Tsimbazaza Zoo	21
+1746	Salaam University	9
+1747	Kenya Institute of Curriculum Development	5
+1748	Modern University for Information and Technology	4
+1749	National Institute for Freshwater Fisheries Research - NIFFR	13
+1750	Centre for Health Solutions	9
+1751	Ghana AIDS Commission	10
+1752	Ethiopian Policy Studies Institute	16
+1753	Hormuud University	22
+1754	South African Radio Astronomy Observatory	8
+1755	Muslim University of Morogoro	8
+1756	Southern Centre For Inequality Studies	19
+1757	Thebes Academy	12
+1758	One Percent Research Initiative	3
+1759	Sidama Regional Health Bureau	8
+1760	Supreme Council of Antiquities	7
+1761	Binyaminu Usman Polytechnic	7
+1762	Spiritan University Nneochi	6
+1763	Pan Africa Christian University	7
+1764	Regional Centre for Mapping of Resources for Development	28
+1765	Nasser Institute hospital	4
+1766	Egyptian Museum	5
+1767	Botswana Accountancy College	16
+1768	Akademia	7
+1769	Cuttington University	13
+1770	CRSTRA	20
+1771	Nakaseke Hospital	3
+1772	Somali International University	9
+1773	Regional Commissioners Office	5
+1774	Rwanda Zambia HIV Research Group	9
+1775	Data Link Institute of Business and Technology	6
+1776	Uganda Red Cross Society	8
+1777	Université Ouaga II	24
+1778	University of Abou Bekr Belkaïd	40
+1779	Ministère de la Santé	6
+1780	Université Protestante au Congo	9
+1781	University of Management and Technology	7
+1782	Giza Engineering Institute	11
+1783	Centre de Développement des Technologies Avancées	22
+1784	Université des Sciences Sociales et de Gestion de Bamako	20
+1785	Ondo State Primary Health Care Development Board	3
+1786	Aga Khan Hospital, Mombasa	4
+1787	Centre Hospitalier et Universitaire de Brazzaville	10
+1788	KwaZulu-Natal Research Institute for Tuberculosis and HIV	6
+1789	AIDS Information Centre	8
+1790	MwAPATA Institute	13
+1791	Mediterranean School of Business	22
+1792	Institut National de Nutrition et de Technologie Alimentaire	3
+1793	Zimbabwe National Water Authority	6
+1794	Akhbar El Yom Academy	10
+1795	Ecole Nationale Supérieure de Biotechnologie Taoufik Khaznadar	23
+1796	Dominion University, Ibadan	5
+1797	Centre for Coordination of Agricultural Research and Development for Southern Africa	5
+1798	Institut de Recherche pour le Développement	9
+1799	Cairo Higher Institute	11
+1800	Tharaka University	8
+1801	Government of Uganda	6
+1802	Instituto Superior Politécnico de Manica	9
+1803	Egypt Nanotechnology Center	8
+1804	Ba Isago University	12
+1805	Universidade Internacional do Cuanza	59
+1806	Nalikule College of Education	10
+1807	Hôpital du Mali	25
+1808	Ethiopian Defence University	24
+1809	Federal Polytechnic Orogun	6
+1810	Hospital Agostinho Neto	3
+1811	National Institute for Scientific and Industrial Research	9
+1812	Coordinating Office for Control of Trypanosomiasis in Uganda	10
+1813	Zuid-Afrikaans Hospital	6
+1814	Institut de Recherche pour le Développement	7
+1815	Université Saint Thomas d’Aquin	9
+1816	Middlesex University	15
+1817	National Institute of Public Administration	6
+1818	Egyptian Aviation Academy	5
+1819	Université Djilali Bounaama Khemis Miliana	26
+1820	Southern African Social Policy Research Institute	2
+1821	TB HIV Care Association	4
+1822	Institut Supérieur des Technologies de l'Information et de la Communication	12
+1823	Institute of Accountancy Arusha	18
+1824	Federal College of Education (Technical) Bichi	11
+1825	Centre for Remote Sensing and Geographic Information Services	13
+1826	Partnership for African Social & Governance Research	3
+1827	Hôpital 20 Août	10
+1828	Mwanza University	2
+1829	University of Kikwit	7
+1830	Federal Technical and Vocational Education and Training Institute	12
+1831	South African Heart Association	2
+1832	Local Government Training Institute	30
+1833	DMI St. Eugene University	24
+1834	Reformed Church University	7
+1835	Chukwuemeka Odumegwu Ojukwu University, Igbariam Campus	7
+1836	Universidade Zambeze	24
+1837	University of Zimbabwe-University of California San Francisco	2
+1838	St. Mary's University	15
+1839	Adventist University of Central Africa	6
+1840	Université de Ouahigouya	12
+1841	International Center for Advanced Research and Training	18
+1842	South African Reserve Bank	15
+1843	St. John Bosco College of Education	7
+1844	Université d'Agriculture de Kétou	10
+1845	National Radiation Protection Agency of Cameroon	2
+1846	University of Kindu	5
+1847	Lakeside University College Ghana	3
+1848	Institut des Sciences des Sociétés	17
+1849	Eye Foundation Hospital	5
+1850	Federal Neuro-Psychiatric Hospital, Calabar	5
+1851	World Health Organization - Zambia	3
+1852	Ministry of Mines, Industry and Technological Development	6
+1853	Agence Spatiale Algérienne	38
+1854	Kitovu Hospital	8
+1855	Banc d'Arguin National Park	17
+1856	Government of Mauritius	2
+1857	Université de Mostaganem	31
+1858	Methodist University College Ghana	14
+1859	St. Joseph's College of Education	9
+1860	Pamoja Tunaweza Women's Centre	7
+1861	Center for Domestic Violence Prevention	10
+1862	LMI Adaptation des Plantes et Microorganismes Associés aux Stress Environnementaux	4
+1863	Uganda National Council for Science and Technology	7
+1864	Institut Supérieur d'Informatique et des Technologies de Communication de Hammam Sousse	15
+1865	National Universities Commission	7
+1866	Centre de Recherche en Économie Appliquée pour le Développement	13
+1867	University of Health Sciences	16
+1868	Sidama Public Health Institute	2
+1869	Ministry of Agriculture and Natural Resource	4
+1870	Nigerian Nuclear Regulatory Authority	7
+1871	Fondation OCP	3
+1872	Kibi Presbyterian College of Education	5
+1873	Adventist University of Africa	15
+1874	University of Arusha	9
+1875	Borno State University	5
+1876	Family Aids Caring Trust	5
+1877	Geological Survey of Namibia	14
+1878	Community Water and Sanitation Agency	19
+1879	Africa Innovations Institute	9
+1880	Nigerian Geological Survey Agency	3
+1881	Malawi Government	3
+1882	Metabiota (Cameroon)	3
+1883	Cavendish University Uganda	10
+1884	Riara University	13
+1885	Kiwoko Hospital	8
+1886	Institut Supérieur des Sciences et de Médecine Vétérinaire	6
+1887	Federal College of Education, Eha-Amufu	7
+1888	South African Medical Association	5
+1889	Jigawa State Polytechnic, Dutse	7
+1890	Institut National Supérieur des Sciences et Techniques d'Abéché	15
+1891	Valkenberg Hospital	4
+1892	Scientific Institute of Rabat	18
+1893	Samson Institute For Ageing Research	7
+1894	Biaka University Institute of Buea	6
+1895	October High Institute For Enginnering and Technology	9
+1896	Kalongo Hospital	4
+1897	Zambia Institute for Policy Analysis and Research	3
+1898	Centre Hospitalier National Universitaire de Fann	14
+1899	South African College of Applied Psychology	6
+1900	Jordan University College	9
+1901	Nigerian Institute for Trypanosomiasis Research	13
+1902	National University of Equatorial Guinea	12
+1903	Desert Research Foundation of Namibia	8
+1904	Obour Institutes	7
+1905	Université Alioune Diop de Bambey	20
+1906	Netcare Unitas Hospital	2
+1907	University Centre of Maghnia	59
+1908	Ministère de l’Environnement et du Développement Durable	5
+1909	Institut de Formation et de Recherche Démographiques	10
+1910	Primary Health Care Institute	6
+1911	Catholic University of Angola	7
+1912	East Africa University	6
+1913	CURE Children’s Hospital of Uganda	12
+1914	REACH ETHIOPIA	12
+1915	Adventist University Cosendai	4
+1916	International Academy for Engineering and Media Science	8
+1917	Institut National des Sciences de l'Archéologie et du Patrimoine	35
+1918	Institut National de la Statistique	13
+1919	Associação Projecto Vitó	4
+1920	Institute for Natural Resources in Africa	4
+1921	Rwanda Wildlife Conservation Association	5
+1922	AfriChild Centre	8
+1923	Marine Biology Research Centre	11
+1924	University of Ajdabiya	10
+1925	Family Life Association of Swaziland	2
+1926	Cancer Association of South Africa	2
+1927	Ministry of Agriculture, Food Security and Cooperatives	3
+1928	Akrokerri College of Education	5
+1929	African Heritage Institution	7
+1930	Kuluva Hospital	5
+1931	Banque Nationale de Gènes	7
+1932	Nova Institute	5
+1933	École Normale Supérieure de Bou Saada	4
+1934	Namibian Chamber of Environment	2
+1935	Initiative Prospective Agricole et Rurale	8
+1936	Wesley Guild Hospital	6
+1937	Pan African Tsetse and Trypanosomiasis Eradication Campaign	2
+1938	ALSALAM International for Development & Agricultural Investment (Egypt)	3
+1939	Yanet Health College	4
+1940	Villa Maria Hospital	2
+1941	North-Eastern University, Gombe	14
+1942	Ministry of Science and Technology	3
+1943	Centre de Recherche en Microelectronique et Nanotechnologie	15
+1944	Delta State College of Education, Mosogar	6
+1945	Wesley College of Education	4
+1946	University of Bahr El-Ghazal	7
+1947	Parliament of Ghana	7
+1948	New and Renewable Energy Authority	4
+1949	Laboratoire d'Études et de Recherche sur les Dynamiques Sociales et le Développement Local	21
+1950	École Normale Supérieure de Nouakchott	5
+1951	Institut Supérieur des Techniques Médicales de Bukavu	5
+1952	Institut Universitaire de la Côte	4
+1953	Jembi Health Systems	6
+1954	Centre de Recherche en Astronomie Astrophysique et Géophysique	11
+1955	Pan African University Institute of Life and Earth Sciences	4
+1956	Centre Hospitalier Universitaire Ibn Rochd	13
+1957	Institut Universitaire du Golfe de Guinée	3
+1958	Federal College of Fisheries and Marine Technology	2
+1959	Office National de la Météorologie	9
+1960	Farm Africa Ethiopia	4
+1961	SouthSouthNorth	6
+1962	Gateway ICT Polytechnic Saapade	5
+1963	Egyptian e-Learning University	10
+1964	Médecins Sans Frontières	3
+1965	Maryam Abacha American University of Niger	2
+1966	Federal College of Education (Technical), Umunze	2
+1967	National Arbovirus and Vectors Research Centre	4
+1968	Virika Hospital	4
+1969	Alupe University	8
+1970	Bayan University	8
+1971	Association of Anesthesiologists of Uganda	2
+1972	Université Djibo Hamani	9
+1973	Bwaila Hospital	10
+1974	Federal Polytechnic Damaturu	8
+1975	Higher Institute of Engineering and Technology - King Marriott	6
+1976	Universidade Mandume Ya Ndemufayo	17
+1977	Anglican University College of Technology	6
+1978	Naval Medical Research Unit EURAFCENT	7
+1979	Mauritius Sugarcane Industry Research Institute	11
+1980	Lukenya University	5
+1981	Netcare Sunninghill Hospital	1
+1982	United Nations High Commissioner for Refugees	5
+1983	Federal Polytechnic, Ukana	2
+1984	Department of Correctional Services	5
+1985	Ministère de l'Agriculture et de l'Èquipement Rural	5
+1986	Dominion University College	6
+1987	FCT College of Education	5
+1988	Burkina Faso Ministry of the Environment, Green Economy, and Climate Change	3
+1989	Bamenda University of Science and Technology	7
+1990	Rare Disease Ghana Initiative	6
+1991	Senghor University	6
+1992	Institut National de la Recherche Agronomique d'Algérie	17
+1993	Cocoa Research Institute of Nigeria	8
+1994	Kampala University	6
+1995	African Forum for Agricultural Advisory Services	3
+1996	Catholic University of Madagascar	17
+1997	Institut International d’Ingénierie de l’Eau et de l’Environnement	12
+1998	École Nationale d'Ingénieurs de Gabès	8
+1999	Zintan University	4
+2000	National Podoconiosis Action Network (NaPAN)	6
+2001	National Postgraduate Medical College of Nigeria	6
+2002	Ethiopian Society of Obstetricians and Gynecologists	5
+2003	Lagos State Government	7
+2004	National School of Built and Ground Works Engineering	9
+2005	Pro Health International	3
+2006	University Yahia Fares of Medea	29
+2007	École Polytechnique d'Architecture et d'Urbanisme	67
+2008	Mathari National Teaching and Referral Hospital	4
+2009	Nurses' Training College, Ho	5
+2010	Zanzibar University	10
+2011	Centre National des Sciences et Technologies Nucléaires	9
+2012	The Egyptian IVF-ET Center	5
+2013	Université Président Joseph Kasa-Vubu	4
+2014	Uongozi Institute	2
+2015	D.S. Adegbenro ICT Polytechnic	4
+2016	École Nationale Supérieure d'Hydraulique	25
+2017	Clinvet	4
+2018	Museum of Malawi	3
+2019	National Institute of Meteorology	6
+2020	Donald Woods Foundation	4
+2021	Hillside Teachers' College	2
+2022	Centre de recherche en Agropastoralisme (CRAPast)	10
+2023	Higher National School of Renewable Energies, Environment & Sustainable Development	5
+2024	Edna Adan Maternity Hospital	10
+2025	Centre Hospitalo-Universitaire Mohammed VI d'Oujda	28
+2026	Centre for the Study of Adolescence	8
+2027	Section27	6
+2028	Ghana Tertiary Education Commission	3
+2029	Kogi State College of Education, Ankpa	8
+2030	Eastern Africa Statistical Training Centre	6
+2031	National Examinations Council	6
+2032	Institution de la Recherche et de l’Enseignement Supérieur Agricoles	8
+2033	Ishaka Adventist Hospital	1
+2034	Sudan Academy of Sciences	5
+2035	Ethiopian Roads Administration	7
+2036	Hospital Fatuma Bourguiba Monastir	9
+2037	Uganda Industrial Research Institute	8
+2038	Somalia National Bureau of Statistics	6
+2039	Université Amadou Hampaté Ba	2
+2040	The SUDD Institute	3
+2041	Haut-Commissariat aux Eaux et Forêts et à la Lutte Contre la Désertification	6
+2042	Ecole Nationale d’Ingénieurs – Abderhamane Baba Touré	10
+2043	Regenesys Business School	17
+2044	Statistics Botswana	4
+2045	Ecole Nationale Supérieure des Technologies de l'Information et de la Communication	2
+2046	Dominican University, Ibadan	5
+2047	University of Eastern Africa, Baraton	7
+2048	Institute for Security Studies	7
+2049	Hôpital La Rabta	11
+2050	Institut de Technologie Alimentaire	10
+2051	University of Derna	11
+2052	Donka Hospital	6
+2053	Tamale College of Education	3
+2054	Kenya National Blood Transfusion Services	2
+2055	Université Larbi Tébessi	9
+2056	Ethiopian Academy of Sciences	3
+2057	Dataking Consulting (Ghana)	6
+2058	Gorilla Doctors	4
+2059	Higher Institute of Food Industries of Tunis	7
+2060	Hôpital Mongi Slim	5
+2061	Institut Supérieur de Technique Médicale	4
+2062	Ministry of Education and Vocation Training	5
+2063	Espoir pour la Sante	13
+2064	International Rescue Committee	15
+2065	Institut National de Recherche Forestière	11
+2066	Mohamed I University	16
+2067	Ogun State Institute of Technology Igbesa	3
+2068	Lancaster University Ghana	9
+2069	Community Integrated Development Initiatives	5
+2070	Livingstone Center for Prevention and Translational Science	6
+2071	Agincourt Health and Socio-Demographic Surveillance System	2
+2072	Universidade Katyavala Bwila	5
+2073	École Normale Supérieure - Marrakech	5
+2074	Université Tunis Carthage	10
+2075	South African Society of Anaesthesiologists	1
+2076	Laboratoire National de Référence	4
+2077	Friends for Global Health Initiative Nigeria	2
+2078	Peki College of Education	3
+2079	Ministry of Culture	2
+2080	École Africaine des Métiers de l'Architecture et de l'Urbanisme	8
+2081	Integrated Community Based Initiatives	3
+2082	International University Bamenda	2
+2083	Midocean University	6
+2084	Evangelical Presbyterian University College	6
+2085	Université Hassan 1er	16
+2086	Ministry of Energy, Mines, Water and Environment	8
+2087	National Office of Mines	7
+2088	Université de Saida Dr.Moulay Tahar	16
+2089	École Supérieure en Sciences Appliquées de Tlemcen	17
+2090	Center for Health, Human Rights and Development	8
+2091	Stella Maris Polytechnic	3
+2092	Institute of Social Work	8
+2093	Abrar University	7
+2094	St. Mary’s Hospital	4
+2095	Jigawa State College of Education Gumel	7
+2096	Life Groenkloof Hospital	3
+2097	Christian Health Association of Malawi	4
+2098	Laboratoire de Recherches Vétérinaires et Zootechniques de Farcha	3
+2099	African Federation for Emergency Medicine	3
+2100	Zimbabwe Council For Higher Education	7
+2101	African University College of Communications	6
+2102	Wajir County Government	2
+2103	Innovations for Poverty Action	6
+2104	Radford University College	3
+2105	East African University	6
+2106	Hartebeesthoek Radio Astronomy Observatory	2
+2107	Nigerian Institute of International Affairs	8
+2108	St. Joseph University In Tanzania	15
+2109	Mama Ngina University College	4
+2110	Catholic University Institute of Buea	5
+2111	Ahmed Zabana University - Relizane	25
+2112	École Nationale Supérieure de l'Administration	16
+2113	Instituto Nacional de Desenvolvimento das Pescas	2
+2114	Bibliotheca Alexandrina	9
+2115	Université de l'Uélé	3
+2116	Sudan Meteorological Authority	12
+2117	South Ethiopia Regional State Health Bureau	6
+2118	Instituto Nacional de Meteorologia e Geofísica	4
+2119	National Agricultural Research and Development Institute	6
+2120	Integrated Rural Development And Nature Conservation	3
+2121	Methodist Hospital	3
+2122	Bagabaga College of Education	6
+2123	Evidence for Sustainable Human Development Systems in Africa (Cameroon)	6
+2124	National Nutrition Agency	8
+2125	Association of African Universities	4
+2126	Children's Hospital Mansoura University	1
+2127	Karume Institute of Science and Technology	2
+2128	Université Nouveaux Horizons	6
+2129	Direction Générale de la Météorologie	3
+2130	Kenya AIDS NGOs Consortium	8
+2131	African Ministers' Council on Water	3
+2132	Sustainability Institute	5
+2133	Rwanda Pediatric Association	2
+2134	Federal College of Education, Kano	5
+2135	Institut Supérieur d'Études Maritimes	5
+2136	Office National de l'Electricite et de l'Eau Potable	6
+2137	Chalimbana University	5
+2138	University of Algiers Benyoucef Benkhedda	10
+2139	University of the Sacred Heart Gulu	2
+2140	Ministry of Agriculture Mechanisation and Irrigation Development	4
+2141	National Blood Transfusion Service	2
+2142	University Center of Barika	5
+2143	Elsheikh Abdallah Elbadri University	3
+2144	Inter-university Institute for Data Intensive Astronomy	2
+2145	Government of Ethiopia	3
+2146	Centre National d'Études et de Recherches Intégrées du Bâtiment	5
+2147	African Center for Economic Transformation	11
+2148	Centre de Recherche sur l'Information Scientifique et Technique	3
+2149	Seychelles Public Health Authority	4
+2150	Federal Polytechnic, Ile-Oluji, Ondo State	7
+2151	National Institute for Nigerian Languages	2
+2152	Ministry of Education Science and Technology	5
+2153	École des Hautes Études de Biotechnologie et de Santé	3
+2154	Wits University Donald Gordon Medical Centre	6
+2155	Aidjan-Lagos Corridor Organization	3
+2156	Regentropfen University College	7
+2157	Turkana University College	8
+2158	Polymer Research Center	6
+2159	Philomath University	10
+2160	Egyptian Space Agency	4
+2161	Centre Régional des Métiers de l'Éducation et de la Formation Casablanca-Settat	6
+2162	Ministry of Defence	4
+2163	Centre of Research in Social and Cultural Anthropology	8
+2164	Egyptian Society of Radiology and Nuclear Medicine	5
+2165	Kisiizi Hospital	5
+2166	Ministry of Higher and Tertiary Education	3
+2167	Zambia Forestry College	3
+2168	Colleges of Medicine of South Africa	3
+2169	Public Affairs Research Institute	6
+2170	Université Libre de Kinshasa	1
+2171	The Jane Goodall Institute	10
+2172	Paul University Awka	2
+2173	Presbyterian University of East Africa	1
+2174	Inter-University Council for East Africa	5
+2175	Federal Polytechnic Ugep	4
+2176	Ministry of Higher Education and Scientific Research	2
+2177	École Polytechnique de Thiès	13
+2178	Elizabeth Glaser Pediatric AIDS Foundation	7
+2179	Centre Africain d'Études Supérieures en Gestion	6
+2180	Family Guidance Association of Ethiopia	5
+2181	National Oil Corporation of Kenya	2
+2182	Institute of Finance Management	50
+2183	Dangote Cement	2
+2184	Vétérinaires Sans Frontières Suisse	3
+2185	Centro Terra Viva	3
+2186	Lake Tanganyika Authority	1
+2187	Institut du Sahel	2
+2188	Isa Kaita College of Education	7
+2189	École supérieure polytechnique d'Antananarivo	4
+2190	International Institute of Tropical Agriculture	3
+2191	Université des Sciences, de Technologie et de Médecine	10
+2192	Institut National d'Aménagement et d'Urbanisme	14
+2193	Protestant University of Rwanda	8
+2194	Environment and Rural Development Foundation	3
+2195	Muteesa I Royal University	3
+2196	National Institute of Policy and Strategic Studies	6
+2197	Hassan Usman Katsina Polytechnic	13
+2198	Botswana Vaccine Institute (Botswana)	1
+2199	Tanzania Institute of Education (TIE)	4
+2200	African Institute for Mathematical Sciences Senegal	4
+2201	Université Adam Barka d'Abéché	2
+2202	Heritage Polytechnic	4
+2203	Eastern Deanery AIDS Relief Program	3
+2204	Actions pour l’Environnement et le Développement Durable	7
+2205	National Heritage Council	2
+2206	Zambian Open University	2
+2207	Nigerian Cardiac Society	1
+2208	Federal College of Agrioculture Ishiagu	2
+2209	Upper Nile University	4
+2210	Africa Renewal University	3
+2211	École Supérieure Multinationale des Télécommunications	2
+2212	École Marocaine des Sciences de l'Ingénieur	4
+2213	Venite University	2
+2214	Da Vinci Institute	7
+2215	Royal Centre for Remote Sensing	3
+2216	College of Electrical and Electronics Technology	17
+2217	Institute of Adult Education	5
+2218	Sebastian Kolowa Memorial University	4
+2219	National Nurses Association of Kenya	3
+2220	Hortgro Science	3
+2221	Tanzania Red Cross Society	6
+2222	Wiawso College of Education	3
+2223	Tansian University	2
+2224	Socioeconomic Institute for Advanced Studies (Rwanda)	4
+2225	Margaret Lawrence University	4
+2226	Société de Développement des Forêts	2
+2227	WorldFish	6
+2228	James Hope University	5
+2229	Université de Sarh	2
+2230	Centre d'études Alexandrines	1
+2231	Institute Malgache De Recherches Appliquées	8
+2232	Assalam International University	2
+2233	Indepth Network	4
+2234	Fezzan University	5
+2235	Fisheries Education and Training Agency	5
+2236	Sam Moyo African Institute for Agrarian Studies	6
+2237	National Directorate of Geology	1
+2238	Université Shalom de Bunia	2
+2239	Government of Ghana	3
+2240	National Blood Service Zimbabwe	4
+2241	Elizabeth Donkin Hospital	2
+2242	University of Ngozi	4
+2243	Atebubu College of Education	2
+2244	BlueCrest University College	3
+2245	Institut National de Santé Publique	3
+2246	Petroleum Technology Development Fund	2
+2247	Niger State Ministry of Health	6
+2248	Innovations for Poverty Action	1
+2249	Institute for Sustainable Development	3
+2250	AIDS Healthcare Foundation	10
+2251	Institute for Peace and Security Studies	9
+2252	Ghana Baptist University College	5
+2253	Faculté des Lettres et des Sciences Humaines de Sfax	4
+2254	Consortium pour la recherche économique et sociale	9
+2255	Africa Early Childhood Network	3
+2256	Niger State Polytechnic	15
+2257	École Nationale Supérieure de Technologie	5
+2258	Sinai Higher Institute for Tourism and Hotels	3
+2259	Maryam Abacha American University of Nigeria	5
+2260	Government of Equatorial Guinea	2
+2261	Development Bank of Southern Africa	3
+2262	École des Sciences de I'information	3
+2263	Southern Africa Nazarene University	4
+2264	Sabratha University	26
+2265	Information Technology Institute	3
+2266	Busoga University	3
+2267	Université Constantine 2	10
+2268	Zimbabwe National Defence University	2
+2269	Federal College of Medical Laboratory Science and Technology	1
+2270	National School of Nanoscience and Nanotechnology	4
+2271	Institut Supérieur de Commerce et d'Administration des Entreprises	3
+2272	Medical Research Council of Zimbabwe	2
+2273	Central Statistical Office	6
+2274	Uganda Protestant Medical Bureau	2
+2275	Africa Nazarene University	7
+2276	International Hospital Kampala	2
+2277	Columbia Global Center	7
+2278	Afro-American University of Central Africa	1
+2279	University College of Agriculture and Environmental Studies	4
+2280	South African Theological Seminary	4
+2281	National Centre for Scientific Research	7
+2282	Institut Supérieur de Technologie d'Antananarivo	5
+2283	Institut Salah-Azaïz	6
+2284	Africa Centre for Energy Policy	3
+2285	Institut Géographique du Burundi	2
+2286	Naguru General Hospital	1
+2287	Presbyterian College of Education	5
+2288	International Partnership for Human Development	4
+2289	Captain Elechi Amadi Polytechnic, Rumuola	5
+2290	Direction de la Météorologie Nationale du Niger	5
+2291	Ecole Supérieure d'Agronomie Mostaganem	7
+2292	FinMark Trust	4
+2293	National School of Business and Management in Settat	4
+2294	Flower Valley Conservation Trust	2
+2295	Karl Kumm University	4
+2296	African Technology Policy Studies Network	6
+2297	UbuntuNet Alliance for Research and Education Networking	2
+2298	Agence de Protection et d'Aménagement du Littoral	3
+2299	Atiba University	1
+2300	The National Institute of Neuromotor System	2
+2301	Government Chemist Laboratory Agency	2
+2302	Hutchinson Centre Research Institute in Uganda	1
+2303	Rumbek University	2
+2304	National HIV/AIDS Secretariat	3
+2305	Napata College	1
+2306	Methodist College of Education	1
+2307	National Sanitation Utility	4
+2308	Uganda National Academy of Sciences	3
+2309	Hôpital Razi de La Manouba	4
+2310	Uzima University College	6
+2311	Ecole Nationale Supérieure des Technologies Avancées	8
+2312	Temeke Municipal Council	1
+2313	Uganda Technology and Management University	4
+2314	Packaging Technical Centre	2
+2315	Institut National d'Hygiène du Maroc	3
+2316	Nigeria Natural Medicine Development Agency	4
+2317	Centre of Ticks and Tick-borne diseases	3
+2318	Mapungubwe Institute for Strategic Reflection	3
+2319	Action Health Incorporated	3
+2320	Al Zawiya University	10
+2321	Ministry of Environment Science Technology and Innovation	2
+2322	Action in the Community Environment	5
+2323	Evelyn Hone College	2
+2324	Institute for Justice and Reconciliation	2
+2325	Christian Health Association of Kenya	3
+2326	Population Services International	1
+2327	Zimbabwe Association of Church-Related Hospitals	5
+2328	Tanzania Natural Resource Forum	2
+2329	Network of AIDS Researchers of Eastern and Southern Africa	2
+2330	École Supérieure des Industries du Textile et de l'Habillement	6
+2331	Lukuru Foundation	1
+2332	National Food Technology Research Centre	3
+2333	Kenya AIDS Vaccine Initiative	2
+2334	African Institute for Mathematical Sciences	1
+2335	Eskom (South Africa)	6
+2336	Instituto Superior de Ciências da Educação de Benguela	3
+2337	International Medical and Technological University	2
+2338	National School of Electronics and Telecommunications of Sfax, Tunisia	6
+2339	Ghana Wildlife Society	6
+2340	Food and Agricultural Research and Extension Institute	4
+2341	Institute of Policy Analysis and Research - Rwanda	5
+2342	International Community of Women Living with HIV	6
+2343	Hensard University	4
+2344	Coffee Research Institute	2
+2345	Bureau National d’Études pour le Développement Rural	3
+2346	National Application Center for Pharmaceutical Research	1
+2347	THETA Uganda	1
+2348	Jasikan College of Education	2
+2349	Universiapolis - Université Internationale d'Agadir	3
+2350	Université numérique Cheikh Hamidou KANE	5
+2351	West African College of Physicians	2
+2352	National Committee for the Development of Technologies	1
+2353	Institut Supérieur d'Informatique de Mahdia	4
+2354	Kenule Beeson Saro-Wiwa Polytechnic, Bori	6
+2355	Lake Chad Basin Commission	3
+2356	African Capacity Building Foundation	2
+2357	Al-Arab Medical University	1
+2358	Nile University	1
+2359	Evangelical Presbyterian College of Education, Amedzofe	2
+2360	Fins Medical University	1
+2361	Presbyterian Women's College of Education	2
+2362	St. Vincent College of Education	1
+2363	Equal Education Law Centre	3
+2364	Settlers Hospital	1
+2365	Open University of Kenya	2
+2366	Magdi Yacoub Heart Foundation	2
+2367	University of Education and Entrepreneurship	2
+2368	Federal Polytechnic Ayede	2
+2369	Institut Supérieur du Sport et de l’Éducation Physique de Sfax	7
+2370	Institut Technique des Grandes Cultures	3
+2371	Monarch University	3
+2372	Ministry of Education	2
+2373	University of Zalingei	18
+2374	Medic Mobile	3
+2375	Umkhuseli Innovation and Research Management	1
+2376	Institut Supérieur Agronomique et Vétérinaire Valéry Giscard d'Estaing	3
+2377	Khanyisa Projects	3
+2378	National School of Mineral Industry	3
+2379	Waha Oil Company	4
+2380	École Nationale Supérieure d'Informatique	31
+2381	Ministry of Education and Skills Development	4
+2382	Al Fajr College of Science and Technology	1
+2383	Geological Institute of Ethiopia	5
+2384	Laboratoire Public d'Essais et d'Etudes	4
+2385	National Institute for the Humanities and Social Sciences	3
+2386	Environment for Development Kenya	4
+2387	Association Keoogo	2
+2388	Sustainable Seas Trust	7
+2389	Ministry of Agriculture and Fisheries	5
+2390	Université de Bondoukou	2
+2391	High Institute for Management Sciences	2
+2392	Anvredet	1
+2393	Institut of Research in Solar Energy and New Energies	3
+2394	Union Economique et Monétaire Ouest Africaine	2
+2395	ESCA Ecole de Management	15
+2396	École Supérieure en Informatique de Sidi Bel Abbes	5
+2397	African Export-Import Bank (Egypt)	3
+2398	Kibuye Hope Hospital	4
+2399	National Kidney Foundation of South Africa	3
+2400	Behman Hospital	2
+2401	Association de lutte contre le sida (ALCS)	13
+2402	University of Kisubi	2
+2403	Indian Ocean Tuna Commission	21
+2404	Kofi Annan International Peacekeeping Training Centre	9
+2405	Ministère de l'Équipement	4
+2406	Merowe University of Technology	4
+2407	Zambia Information and Communications Technology Authority (ZICTA)	1
+2408	Abdulrahman Al-Sumait University	10
+2409	Ministry of Communications and Information Technology	5
+2410	Botswana Bureau of Standards	1
+2411	Institut Supérieur des Métiers du Patrimoine de Tunis	3
+2412	Tumu College of Education	1
+2413	Centre for Higher Education Trust	2
+2414	Lesieur Cristal	1
+2415	AlAlamein International University	3
+2416	National Commission for Museums and Monuments	3
+2417	iThemba Laboratory	1
+2418	National Medical Stores	1
+2419	Society of Gynaecology and Obstetrics of Nigeria	1
+2420	Hôpital Farhat Hached	6
+2421	World Health Organization - Morocco	1
+2422	West and Central African Research and Education Network	2
+2423	Centre universitaire Salhi Ahmed - Naama	7
+2424	Zetech University	2
+2425	St. Teresa's College of Education	1
+2426	Solusi University	3
+2427	Civicus	2
+2428	The Medical Oncology Centre of Rosebank	3
+2429	Special Pathogens Research Network Ltd.	1
+2430	Ez-Zitouna University	15
+2431	Université Tertiaire et Technologique-Lokko	1
+2432	Development Aid from People to People	1
+2433	Elliot Provincial Hospital	1
+2434	Tunisian Institute of Competitiveness and Quantitative Studies	4
+2435	Universidade José Eduardo dos Santos	17
+2436	Agence Thématique de Recherche en Science de la Santé	1
+2437	Kamuli General Hospital	1
+2438	Wildlife Conservation Society Democratic Republic of the Congo	1
+2439	Centre Universitaire de Labé	1
+2440	Cameroon Field Epidemiology Training Programme	1
+2441	Village Health Works	8
+2442	United Nations Children's Fund Zambia	3
+2443	Dambai College of Education	4
+2444	Government of The Gambia	3
+2445	Rift Valley Technical Training Institute	2
+2446	Institut Supérieur International du Tourisme de Tanger	1
+2447	Collaborative Africa Budget Reform Initiative	2
+2448	IHub	3
+2449	Institut Supérieur d’Informatique et de Gestion de Goma	1
+2450	Ecole Supérieure de Technologie de Safi	2
+2451	National Higher School of Autonomous Systems Technology	1
+2452	Kenya School of Government	2
+2453	Julius Nyerere University of Kankan	7
+2454	Instituto Superior de Transportes e Comunicaçõe	1
+2455	Institut Technique de l'Arboriculture Fruitière et de la Vigne	2
+2456	Ministry of Environment	2
+2457	African Union Interafrican Bureau for Animal Resources	3
+2458	Agence Nationale de la Météorologie du Mali	1
+2459	Center of Research in Mechanics	3
+2460	Institut Supérieur d'Informatique et de Mathématiques de Monastir	1
+2461	Centro Nacional de Endemias	7
+2462	Sekem	1
+2463	Agence Nationale de Protection de l'Environnement	2
+2464	East African Health Research Commission	1
+2465	Blue Nile University	4
+2466	OAZIS Health	1
+2467	Ziguinchor University	3
+2468	National Office for Sanitation of Senegal	1
+2469	Stutterheim Provincial Hospital	1
+2470	École Supérieure Privée d'Ingénierie et de Technologies	2
+2471	Newgate University Minna	2
+2472	Ecole Supérieure en Génie Electrique et Energétique d'Oran	6
+2473	École Africaine de la Météorologie et de l'Aviation Civile	1
+2474	Epicentre Uganda	4
+2475	Eastern and Southern African Management Institute	3
+2476	Kenya Sea Turtle Conservation Committee	1
+2477	Pan African Institute for Development Regional Institute for West Africa	2
+2478	Centro de Pesquisa e Desenvolvimento da Sonangol, S.A.	3
+2479	Section 27	1
+2480	Mauritius Institute of Education	9
+2481	Tunisian Union of Agriculture and Fisheries	2
+2482	Pan African Institute for Development	4
+2483	Institute of Development Management	3
+2484	DMI-St. John the Baptist University	7
+2485	Uganda Clays (Uganda)	1
+2486	National School of Artificial Intelligence	5
+2487	Tanzania Women Research Foundation	2
+2488	South African Institute for Distance Education	2
+2489	Institut National de la Jeunesse et des Sports	3
+2490	Admas University	3
+2491	Southern African Research and Innovation Management Association	2
+2492	Algerian Petroleum Institute	3
+2493	John Garang Memorial University of Science and Technology	1
+2494	Methodist University of Angola	5
+2495	St. Ambrose College of Education	2
+2496	Tunisia Private University	6
+2497	Clinical Research Unit Nanoro	2
+2498	Université Arabe des Sciences	2
+2499	Kebbi State Polytechnic	2
+2500	Institut National de la Statistique de Djibouti	1
+2501	Design without Borders	3
+2502	Nigerian Institute of Science Laboratory Technology	2
+2503	Institut Sous-Régional de Statistique et d'Economie Appliquée	1
+2504	Nigerian Army College of Education	2
+2505	United Methodist University	6
+2506	Blood Transfusion Service of Namibia	2
+2507	Federal College of Education, Zaria	5
+2508	St. Francis College of Education	2
+2509	Evolutionary Engineering & Distributed Information Systems Laboratory	4
+2510	Centre National de la Cartographie et de la teledetection	3
+2511	Institut Supérieur de Statistique de Lubumbashi	1
+2512	Institute of Economic Affairs	1
+2513	Coalition on Violence Against Women	1
+2514	Women Against Rape	5
+2515	University of Southern Somalia	1
+2516	Kagando Hospital	6
+2517	Northrise University	3
+2518	Kigezi Healthcare Foundation	4
+2519	Palaeontological Scientific Trust	1
+2520	Centre for Educational Development in Health Arusha	2
+2521	South African Council for Planners	2
+2522	Ministry of Irrigation and Water Development	4
+2523	Institute for Educational Planning and Administration	4
+2524	Penda Health	1
+2525	Tengeru Institute of Community Development	5
+2526	Centre de Recherche Nucléaire d’Alger	3
+2527	African Rural University	4
+2528	Ministère de la Culture	1
+2529	Sojagnon Association	1
+2530	Ecole Centrale Casablanca	8
+2531	CenGen (Pty) Ltd	1
+2532	Puntland State University	2
+2533	Kongo University	5
+2534	Directorate General for Scientific Research and Technological Development	1
+2535	Nusrat Jahan Ahmadiyya College of Education	1
+2536	Instituto Superior Politécnico de Tecnologia e Ciências	8
+2537	National Commission on Research Science and Technology	2
+2538	Medical Access Uganda	1
+2539	Joshua Mqabuko Nkomo Polytechnic	2
+2540	Centre d'Etudes et de Recherches Economiques et Sociales	4
+2541	Our Lady of Apostles College of Education	4
+2542	Institut National des Postes et Télécommunications	8
+2543	Centre for Environmental Rights	2
+2544	University of Mkar	5
+2545	Ecole supérieure en science et technologies de l'informatique et du numérique	8
+2546	Elizabeth Glaser Pediatric AIDS Foundation	2
+2547	Nigerian Institute of Animal Science	1
+2548	Ethiopian Police University College	3
+2549	Mateur Higher School of Agriculture	2
+2550	Institut National du Bâtiment et des Travaux Publics	3
+2551	Arab League Educational, Cultural and Scientific Organization	2
+2552	Catholic University of South Sudan	2
+2553	National Smallholder Farmers Association of Malawi	2
+2554	Société Tunisienne de l'Electricité et du Gaz (Tunisia)	1
+2555	African Mathematics Millennium Science Initiative	1
+2556	Ghana Center for Democratic Development	5
+2557	Ghana Wildlife Division	3
+2558	Kumi District Local Government	1
+2559	Standards Association of Zimbabwe	2
+2560	Waves for Change	5
+2561	Pharma Health Science College	1
+2562	Association for Micro-Finance Institutions	1
+2563	Observatoire Satellital des Forêts d’Afrique Centrale	3
+2564	Centre for the Study of Violence and Reconciliation	5
+2565	Agogo Presbyterian Women's College of Education	1
+2566	Kinshasa General Hospital	3
+2567	Associação Azul Moçambique	1
+2568	Institute of Tax Administration	2
+2569	Centre International des Technologies de l'Environnement de Tunis	3
+2570	Advocates Coalition for Development and Environment	2
+2571	Uganda Institute of Information & Communications Technology	1
+2572	Regional Centre for Training in Aerospace Surveys	5
+2573	Libyan Centre for Dental Research	1
+2574	Experiential Higher Institute of Science and Technology (EXHIST)	1
+2575	Kibale Chimpanzee Project	7
+2576	University of Bagamoyo	1
+2577	Académie Nationale des Sciences et Techniques du Sénégal	3
+2578	Kalahari Meerkat Project	4
+2579	Institut Universitaire d'Abidjan	2
+2580	Ignace Deen Hospital	9
+2581	Somalia Water and Land Information	5
+2582	Instituto Nacional de Estudos e Pesquisa	6
+2583	Gaborone University College Of Law and Professional Studies	1
+2584	Institut Supérieur d'Etudes Sociales	1
+2585	Cape Town Baptist Seminary	2
+2586	Umalusi	2
+2587	Institut de Statistiques et d’Études Économiques du Burundi	2
+2588	Foresight Institute of Research and Translation (Rwanda)	1
+2589	École Normale Supérieure de Mostaganem	1
+2590	Ministério da Saúde e da Segurança Social	2
+2591	Al Nas Hospital	1
+2592	Moroccan National Railways Office	1
+2593	Arrupe Jesuit University	1
+2594	Office of Livestock and Pasture	3
+2595	Institut Supérieur des Études Technologiques de Nabeul	1
+2596	Ministry of Education, Arts and Culture	1
+2597	Federal University of Technology, Babura	2
+2598	Friends of the Earth-Ghana	1
+2599	Ministry of National Education, Vocational Training, Higher Education and Scientific Research	2
+2600	Institut de Santé et de Sécurité au Travail	1
+2601	National Science and Technology Council	1
+2602	TCC International Centre for Innovation, Manufacturing, Technology Transfer and Entrepreneurship, KNUST, Kumasi	1
+2603	Rwanda Meteorological Service	1
+2604	Netwas Uganda	2
+2605	Centre Français des Études Éthiopiennes	8
+2606	Horseed International University	1
+2607	The Nigerian Baptist Theological Seminary	5
+2608	Rwanda Forensic Institute	1
+2609	African Forum and Network on Debt and Development	2
+2610	Université des Lettres et des Sciences Humaines de Bamako	7
+2611	Department of Higher Education and Training	3
+2612	Remit Kenya (Kenya)	1
+2613	Ministry of Higher Education and Scientific Research	1
+2614	Université Ibn Khaldoun	1
+2615	Mylan (South Africa)	1
+2616	Observatório do Meio Rural	4
+2617	Soul City Institute for Health & Development Communication	1
+2618	Department of Trade, Industry and Competition	1
+2619	West African Institute of Public Health	2
+2620	AlJafara University	2
+2621	Agence du Bassin Hydraulique de Sebou	1
+2622	Geothermal Development Company	2
+2623	International Open University	4
+2624	Universidade Óscar Ribas	4
+2625	Centre for Conflict Management and Transformation	1
+2626	National Institute of Public Health	3
+2627	Information Technology Industry Development Agency	1
+2628	African Regional Centre for Ecohydrology	1
+2629	National Heritage Institute	1
+2630	Karen Hospital	2
+2631	Global Wealth University	1
+2632	African Institute for Mathematical Sciences Ghana	2
+2633	Université de l'Assomption au Congo	1
+2634	Adera Medical Center	1
+2635	Kasisi Agricultural Training Centre	1
+2636	Université Africaine de Développement Coopératif	1
+2637	Zimbabwe AIDS Network	1
+2638	Gambaga College of Education	1
+2639	Kismayo University	1
+2640	Sasol (South Africa)	1
+2641	St Augustine College of South Africa	1
+2642	Egyptian Center for Public Opinion Research Baseera	1
+2643	Research Council of Zimbabwe	1
+2644	Hôpital Militaire Avicenne	1
+2645	Edna Adan University	3
+2646	Academy of Arts	1
+2647	Mount Meru University	1
+2648	Golden Valley Agricultural Research Trust	2
+2649	The Initiative for Equal Rights	3
+2650	Basel Convention Co-Ordinating Centre	1
+2651	Loyola University of Congo	3
+2652	Phyto consulting	1
+2653	Nigerian National Petroleum Company Limited	2
+2654	National Institute of Neurology Mongi-Ben Hamida	1
+2655	Arab Studies and Research Institute	3
+2656	Mutare Polytechnic	1
+2657	Kahuzi-Biéga National Park	1
+2658	Light University of Bujumbur	1
+2659	Nyakibale Hospital	1
+2660	Instituto Superior de Ciências e Tecnologia de Moçambique	1
+2661	Al Hayah University in Cairo	1
+2662	Federal Government of Nigeria	1
+2663	Universidade Rainha Njinga a Mbande	2
+2664	Instituto Superior de Ciências de Educação à Distância	1
+2665	Ethiopian Environment Protection Authority	1
+2666	Mountcrest University College	2
+2667	Universidade Save	9
+2668	Gardo General Hospital	1
+2669	École Normale Supérieure de Fès	4
+2670	Johannesburg Wildlife Vet	1
+2671	Department of Arts and Culture	1
+2672	Department of International Relations and Cooperation	4
+2673	Aga Khan Hospital, Kisumu	3
+2674	Ada College of Education	2
+2675	Arab Academy for Management, Banking and Financial Sciences	1
+2676	Institute of Women Social Workers	1
+2677	Nigerian Christian Hospital	2
+2678	Institute of Chartered Accountants of Nigeria	1
+2679	Greenside Design Center College of Design	1
+2680	Association Mitsinjo	7
+2681	Université Kofi Annan de Guinée	1
+2682	Zenith University College	3
+2683	College of Education, Akwanga	3
+2684	Laboratory of Mechanics Physics of Materials	5
+2685	Abertine Rift Conservation Society	2
+2686	Midrand Graduate Institute	1
+2687	Botswana Institute for Development Policy Analysis	16
+2688	Nugaal University	1
+2689	École Nationale de Commerce et de Gestion de Tanger	1
+2690	African Development Bank Group	1
+2691	Association de Recherche de Communication et d’Accompagnement à Domicile de personnes Vivant avec le VIH	2
+2692	Central Agency for Public Mobilization & Statistics	4
+2693	Consortium of Christian Relief and Development Associations	1
+2694	Manhyia Palace	2
+2695	OCP Group (Morocco)	9
+2696	mHealth (Kenya)	2
+2697	Association of Ethiopian Microfinance Institutions	1
+2698	Organization for Social Science Research in Eastern and Southern Africa	1
+2699	Clinton Foundation	1
+2700	Private Sector Foundation Uganda	1
+2701	Federal College of Education, Kontagora	1
+2702	Ressources Ingénierie (Morocco)	1
+2703	Catholic University of West Africa	2
+2704	Mount Mary College of Education	2
+2705	Umgeni Water Amanzi	2
+2706	Universidade Lusófona da Guiné	2
+2707	Higher Institute of Medical Sciences and Technologies	1
+2708	Institut des Hautes Études de Management	2
+2709	Nigerian Institute of Transport Technology	8
+2710	Instituto Nacional de Estatística	1
+2711	University of Garden City	4
+2712	MICAIA Foundation	1
+2713	Weskoppies Psychiatric Hospital	1
+2714	National Drought Management Authority	5
+2715	COPESSA	1
+2716	Community Media Trust	1
+2717	Kwararafa University	1
+2718	École Normale Supérieure de Tétouan	1
+2719	Horn Economic and Social Policy Institute	4
+2720	Somali Institute for Development Research and Analysis	4
+2721	Ministry of Infrastructure	3
+2722	Desmond and Leah Tutu Legacy Foundation	1
+2723	Université Polytechnique de Gitega	2
+2724	Regional Inter-agency Task Team on Children and AIDS	1
+2725	Instituto Nacional de Gestão do Território	1
+2726	Centre National de Lutte Antiacridienne	4
+2727	Water Resources Commission of Ghana	1
+2728	Sonangol	1
+2729	Twaweza	1
+2730	Institute of Petroleum Studies Kampala	1
+2731	Université de ain Témouchent	4
+2732	Ministry of Transport and Communications	1
+2733	Office National de l'Eau Potable	1
+2734	École des Hautes Études Commerciales	1
+2735	Universidade Kimpa Vita	7
+2736	Hodan Hospital	1
+2737	High Institute For Computers and Management Information Systems	1
+2738	Milpark Education	2
+2739	Université des Sciences et de Technologie d'Ati	2
+2740	ElSewedy University of Technology	3
+2741	Socio-Economic Rights Institute of South Africa	3
+2742	Régie Autonome Multi Services D'Agadir	1
+2743	École Supérieure de Commerce	2
+2744	Université Libre du Congo	1
+2745	National Research Fund Kenya	1
+2746	South African Institute for Medical Research	1
+2747	Progamme National Contre le Tuberculose	2
+2748	Family Health Options Kenya	3
+2749	Akatsi College of Education	1
+2750	Environmental Alert	1
+2751	College of Technical Sciences Derna	1
+2752	Zihi Institute	2
+2753	Information and Communications University	1
+2754	University of the Holy Quran and Islamic Sciences	2
+2755	Institut Supérieur de la Communication, des Affaires et du Management	2
+2756	MS Training Centre for Development Cooperation	1
+2757	Christian Bilingual University of Congo	1
+2758	University of Bandundu	2
+2759	Dambari Wildlife Trust	1
+2760	Farm Africa Kenya	1
+2761	Ecole Normale Supérieure of Laghouat	1
+2762	Institute for Security Studies	1
+2763	École Normale Supérieure Casablanca	2
+2764	Ushahidi, Inc. (Kenya)	1
+2765	Ministère de la Santé Publique	1
+2766	National Higher School of Statistics and Applied Economy	4
+2767	Instituto Superior de Comunicação e Imagem de Moçambique	1
+2768	AIDS Foundation of South Africa	1
+2769	Ministère de l'Agriculture et des Aménagements Hydrauliques	1
+2770	École Normale Supérieure de Sétif	1
+2771	Comité National de Lutte contre le SIDA	5
+2772	Escola Superior de Jornalismo	4
+2773	Ecole Supérieure d’Economie Appliquée	1
+2774	Children's AIDS Fund Uganda	1
+2775	National Oil Corporation (Libya)	2
+2776	Unité de Recherche en Génie des Procédés et en Génie de l’Environnement	1
+2777	Philanjalo	1
+2778	Usambara Field Studies Centre	1
+2779	Centre for Democracy and Development	3
+2780	Isis-WICCE	1
+2781	Universidade Politecnica	1
+2782	Institute for Global Dialogue	1
+2783	Small Enterprise Foundation	2
+2784	Université de la Formation Continue (UFC)	1
+2785	Instituto Superior de Administração e Finanças	2
+2786	Kalahari Conservation Society	1
+2787	Office National pour l'Environnement	2
+2788	Institut de Recherche sur le Maghreb Contemporain	2
+2789	Kenya National Library Service	2
+2790	Rwanda Cultural Heritage Academy	1
+2791	Gretsa University	3
+2792	Institut Supérieur des Sciences Appliquées et de Technologies de Gafsa	1
+2793	African Conservation Tillage Network	4
+2794	Center for Documentation of Cultural and Natural Heritage	1
+2795	Southern African Aids Trust	1
+2796	Universidade de Luanda	2
+2797	The Higher School of Management and Digital Economy	4
+2798	University College of Management Studies	1
+2799	Socièté Nationale de l'Electricité et du Gaz	1
+2800	Tanzania Commission for Universities	1
+2801	Centre for Research and Technology Development	2
+2802	Tostan	1
+2803	Kenya Institute of Special Education	1
+2804	Université des Grands Lacs	2
+2805	Mbuma Mission Hospital	1
+2806	National Museum Lagos	1
+2807	Université Général Lansana Conté	4
+2808	Panzi Foundation	1
+2809	National Council for Tertiary Education	1
+2810	Mozambique National Institute of Meteorology	1
+2811	South African Council for Natural Scientific Professions	1
+2812	New Cairo Academy	4
+2813	University Hospital of Oran	3
+2814	Kaleidoscopio	1
+2815	Université Catholique du Congo	2
+2816	Uro Care Hospital	1
+2817	St. Lawrence University	4
+2818	Virtual University of Uganda	1
+2819	Zimbabwe National Quality Assurance Program	2
+2820	Matany Hospital	1
+2821	Research ICT Africa	2
+2822	Université Simon Kimbangu	1
+2823	Institute and Observatory of Geophysics of Antananarivo	3
+2824	Alexandria National University	1
+2825	Institut National de Statistique et d'Economie Appliquée	2
+2826	Mali-Folkecenter	1
+2827	Helderberg College	1
+2828	Center for Environment and Development for the Arab Region and Europe	2
+2829	Université Centrale de Tunis	1
+2830	Lueji A'Nkonde University	1
+2831	Mosaic	1
+2832	Fondation Mérieux	1
+2833	Gulf of Sidra University	1
+2834	Tanzania Public health Association	1
+2835	Institut Préparatoire aux Études d'Ingénieurs de Monastir	1
+2836	Council for the Development of Social Science Research in Africa	4
+2837	South African History Archive	1
+2838	Centre for Human Rights and Policy Studies	1
+2839	Republic of Burundi	1
+2840	Hôpital Militaire Moulay Ismail	5
+2841	Tanzania Media Women's Association	1
+2842	National Higher School of Mathematics	1
+2843	McCoy College of Education	2
+2844	French Institute for Research in Africa	6
+2845	Faraja Cancer Support Trust	1
+2846	Nalut University	1
+2847	Lola ya Bonobo	2
+2848	Gbewaa College of Education	1
+2849	Egyptian Society of Cardiology	4
+2850	Aberystwyth University	1
+2851	Ministry of Technical and Higher Education	1
+2852	Escola Superior Pedagógica do Cuanza Norte	1
+2853	Observatoire Volcanologique de Goma	4
+2854	Sahelian Solutions Foundation	2
+2855	Johns Hopkins Center for Communication Programs	3
+2856	University of Somalia	4
+2857	Primate Expertise	2
+2858	Mashreq University	2
+2859	Institut Supérieur de Gestion et de Planification	1
+2860	École d'Architecture de Casablanca	1
+2861	Ethiopian Technology Authority	8
+2862	Centre Universitaire Nour Bachir El Bayadh	8
+2863	Institut Supérieur de Techniques Appliquées	2
+2864	Hospital Hédi Chaker of Sfax	1
+2865	Centre Hospitalier Universitaire Hassan II	4
+2866	Shout It Now	2
+2867	Al-Ahram Center for Political and Strategic Studies	2
+2868	Université du Lac Tanganyika	1
+2869	Institut Supérieur de Commerce de Kinshasa	1
+2870	Health Nest Uganda	1
+2871	African Explosives (South Africa)	1
+2872	Institut Supérieur des Sciences de la Santé	3
+2873	Emir Abdelkader University of Islamic Sciences	1
+2874	Effective Basic Services for Africa	1
+2875	Akademie Reformatoriese Opleiding en Studies	3
+2876	Université Protestante d'Afrique Centrale	1
+2877	Global Research and Advocacy Group	2
+2878	College of Agriculture Science and Technology	1
+2879	Southern Africa Trust	1
+2880	Universidade Técnica de Moçambique	4
+2881	Southern African Development Community	2
+2882	Ghana Armed Forces Command and Staff College	1
+2883	Hôpital Sahloul	1
+2884	Catholic University of Kabgayi	1
+2885	Universidade São Tomás de Moçambique	3
+2886	Instituto de Investigação Agronómica	5
+2887	Association Djibouti Nature	1
+2888	École Supérieure des Ingénieurs de l'Équipement Rural	1
+2889	Groupe École Supérieure de Commerce de Dakar	1
+2890	African Fertilizer and Agribusiness Partnership	1
+2891	Centre for AIDS Development, Research and Evaluation	1
+2892	French Institute for Research in Africa	2
+2893	Group For Research and Technology Exchanges	1
+2894	Centre Jacques Berque pour le Développement des Sciences Humaines et Sociales	1
+2895	Instituto Geológico de Angola	1
+2896	Africa Harvest Biotech Foundation International	2
+2897	University of Blida 2	2
+2898	Katiba Institute	1
+2899	Economic Policy Research Institute	3
+2900	Université d'Oran 2	7
+2901	Centre National de Recherches Prehistoriques, Anthropologiques et Historiques	9
+2902	École Supérieure de Management	1
+2903	Element Six (South Africa)	1
+2904	INSA Euro-Méditerranée	1
+2905	Planact	1
+2906	Universidade de São Tomé e Príncipe	9
+2907	Kenya Human Rights Commission	1
+2908	Centre for Schistosomiasis & Parasitology	2
+2909	Laboratory for Research on Enterprise and Decisions	7
+2910	The College of Industrial Technology	1
+2911	Maisha Meds	1
+2912	Molteno Institute for Language and Literacy	1
+2913	École Normale Supérieure de Bouzareah Alger	1
+2914	Eswatini Economic Policy Analysis and Research Centre	1
+2915	College of Technical Science, Bani Walid	1
+2916	African Centre for Parliamentary Affairs	3
+2917	Institut Français d'Archéologie Orientale	7
+2918	National Institute for Research in Education	1
+2919	University Center of Illizi	1
+2920	Centre Marocain des Techniques du Cuir	1
+2921	Hekima University College	2
+2922	Senegal River Basin Development Authority	1
+2923	NewEnergy	1
+2924	African Library and Information Associations and Institutions	5
+2925	Centre National de Gestion des Réserves de Faune	1
+2926	Sonatrach (Algeria)	2
+2927	Tanzania Social Action Fund	4
+2928	Environment and Development Action Third World	1
+2929	Bank of Mauritius	2
+2930	Nature Kenya The East Africa Natural History Society	1
+2931	École Royale Navale	5
+2932	École Supérieure de la Sécurité Sociale	1
+2933	Clínica Sagrada Esperança	2
+2934	Centre Hospitalo-Universitaire Bab El Oued	2
+2935	ISBAT University	3
+2936	Centre Universitaire de Mila	2
+2937	Instituto Superior Politecnico de Tete	2
+2938	Ministry of Higher Education and Scientific Research	1
+2939	Oran Graduate School of Economics	1
+2940	Ministère de l’Environnement, de la Protection de la Nature et du Développement durable	1
+2941	Islamic University College	1
+2942	Association Sahélienne de Recherche Appliquée pour le Développement Durable	1

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it using the metadata below."
+type: software
+title: "African SDG Bibliometric Analysis (2015–2025): Reproducibility Package"
+version: 2.0.0
+date-released: 2026-10-13
+license: CC-BY-4.0
+authors:
+  - family-names: "EL MAJJAOUI"
+    given-names: "Abdelilah"
+repository-code: "https://github.com/MJabdelilah93/african-sdgs-bibliometrics"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20272149
+    description: "Concept DOI (all versions)"
+abstract: >-
+  Reproducibility materials for the bibliometric and scientometric analysis of Sustainable Development
+  Goal-related research across all 54 African Union member states and all 17 SDGs from 2015 to 2025
+  (Scopus articles and reviews; 345,025 publications). Raw Scopus exports are not included because of
+  third-party licensing restrictions.
+keywords:
+  - bibliometrics
+  - scientometrics
+  - Sustainable Development Goals
+  - Africa
+  - African Union
+  - Scopus
+  - research evaluation
+  - reproducibility

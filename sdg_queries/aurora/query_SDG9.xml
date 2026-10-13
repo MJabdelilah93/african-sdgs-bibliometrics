@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/">
+    <dc:identifier type="sdg">9</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/9</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-09.jpg</icon>
+    <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg9</dc:subject>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
+    <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+    <dc:title>SDG-09 industry, innovation and infrastructure</dc:title>
+    <dc:description>
+        Investments in infrastructure – transport, irrigation, energy and information and communication
+        technology – are crucial to achieving sustainable development and empowering communities in many countries. It
+        has long been recognized that growth in productivity and incomes, and improvements in health and education
+        outcomes require investment in infrastructure
+        Manufacturing is an important driver of economic development and employment. At the current time, however,
+        manufacturing value added per capita is only US$100 in the least developed countries compared to over US$4,500
+        in Europe and Northern America. Another important factor to consider is the emission of Carbon Dioxide during
+        manufacturing processes. Emissions have decreased over the past decade in many countries but the pace of decline
+        has not been even around the world.
+        Technological progress is the foundation of efforts to achieve environmental objectives, such as increased
+        resource and energy-efficiency. Without technology and innovation, industrialization will not happen, and
+        without industrialization, development will not happen. There needs to be more investments in high-tech products
+        that dominate the manufacturing productions to increase efficiency and a focus on mobile cellular services that
+        increase connections between people.
+    </dc:description>
+    <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
+    </dc:contributor>
+    <dc:date>2020-06-30</dc:date>
+    <aqd:query-definitions syntax="SCOPUS">
+        <aqd:query-definition>
+            <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.1</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Develop quality, reliable, sustainable and resilient infrastructure, including regional and
+                    transborder infrastructure, to support economic development and human well-being, with a focus on
+                    affordable and equitable access for all
+                </aqd:subquery-description>
+                <aqd:subquery-description>9.1.1
+                    Proportion of the rural population who live within 2 km of an all-season road
+                </aqd:subquery-description>
+                <aqd:subquery-description>9.1.2
+                    Passenger and freight volumes, by mode of transport
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "quality"  OR  "reliab*"  OR  "sustainab*"  OR  "resilient" )  W/3  ( "infrastructure" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "economic development"  OR  "human well-being" )  AND  ( "afford*"  OR  "equitable" )
+                 </aqd:query-line>
+				 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "rural"  W/3  "population*"  W/3  "road*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "passenger*"  OR  "freight" )  W/3  ( "transport" ) )  AND  ( "volume*" )
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition>
+            <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.2</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Promote inclusive and sustainable industrialization and, by 2030, significantly raise
+                    industry’s share of employment and gross domestic product, in line with national circumstances, and
+                    double its share in least developed countries
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    9.2.1
+                    Manufacturing value added as a proportion of GDP and per capita
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    9.2.2
+                    Manufacturing employment as a proportion of total employment
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "inclusi*"  OR  "sustainab*" )  W/3  ( "industr*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "share" )  W/3  ( "employment"  OR  "GDP"  OR  "gross domestic product" )  W/3  ( "industr*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "manufacturing"  W/3  "value" )  W/3  ( "per capita"  OR  "GDP"  OR  "gross domestic product" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "manufacturing employment" )
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.3</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Increase the access of small-scale industrial and other enterprises, in
+                    particular in developing countries, to financial services, including affordable credit, and their
+                    integration into value chains and markets
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    9.3.1
+                    Proportion of small-scale industries in total industry value added
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    9.3.2
+                    Proportion of small-scale industries with a loan or line of credit
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "small-scale industry*"  OR  "small enterprise*"  OR  "small entrepren*"  OR  "microenterprise*"  OR  "micro-enterprise*" )
+				 AND  ( "financ*"  OR  "credit*"  OR  "microcredit*"  OR  "micro-credit*"  OR  "micro-financ*"  OR  "microfinanc*"  OR  "loan*" )
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "small-scale industry*"  OR  "small enterprise*"  OR  "small entrepren*"  OR  "microenterprise*"  OR  "micro-enterprise*" )
+				  AND  ( "share"  OR  "proportion" )
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.4</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, upgrade infrastructure and retrofit industries to make them
+                    sustainable, with increased resource-use efficiency and greater adoption of clean and
+                    environmentally sound technologies and industrial processes, with all countries taking action in
+                    accordance with their respective capabilities
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    9.4.1
+                    CO2 emission per unit of value added
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "upgrade"  OR  "retrofit*" )  AND  ( "infrastructur*"  OR  "industr*" )   AND  ( "sustainab*" )
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( "increas*" )  W/3  ( "resource*" )  W/3  ( "efficien*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "clean"  OR  "environmentally sound" )  W/3  ( "technolog*"  OR  "industr*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "CO2 emission"  AND  "per unit" )
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.5</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Enhance scientific research, upgrade the technological capabilities of
+                    industrial sectors in all countries, in particular developing countries, including, by 2030,
+                    encouraging innovation and substantially increasing the number of research and development workers
+                    per 1 million people and public and private research and development spending
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    9.5.1
+                    Research and development expenditure as a proportion of GDP
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    9.5.2
+                    Researchers (in full-time equivalent) per million inhabitants
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "enhance*"  OR  "upgrad*"  OR  "encourag*" )
+				AND  ( "research*"  OR "R-D" OR  "research and development"  OR  "innovation"  OR  "technol* capabilit*" )
+				AND  ( "develop* countr*"  OR  "least developed countr*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "enhance*"  OR  "encourag*" )  W/3  ( "innovation" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "research and development" OR "R-D")  W/3  ( "spending"  OR  "expenditure"  OR  "GDP"  OR  "gross domestic product" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "researcher*" )  AND  ( "per million inhabitant*" )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.a</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Facilitate sustainable and resilient infrastructure development in developing
+                    countries through enhanced financial, technological and technical support to African countries,
+                    least developed countries, landlocked developing countries and small island developing States
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    9.a.1
+                    Total official international support (official development assistance plus other official flows) to
+                    infrastructure
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( ( "sustainab*"  OR  "resilien*" )  AND  ( "infrastructur*" )  AND  ( "develop*" ) )
+				 AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*"  OR  "Africa*" )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.b</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Support domestic technology development, research and innovation in developing
+                    countries, including by ensuring a conducive policy environment for, inter alia, industrial
+                    diversification and value addition to commodities
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    9.b.1
+                    Proportion of medium and high-tech industry value added in total value added
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( ( "support"  OR  "assist*"  OR  "aid*" )  W/3  ( "research*"  OR  "research and development"  OR  "R-D"  OR  "innovati*" ) )  AND  ( "develop* countr*" )
+                </aqd:query-line>
+                  <aqd:query-line field="TITLE-ABS-KEY">
+				 ( "technology transfer" )  W/3  ( "develop* countr*"  OR  "least developed countr*" )  
+                </aqd:query-line> 
+				<aqd:query-line field="TITLE-ABS-KEY">
+				  ( ( "medium-tech"  OR  "high-tech" )  W/3  ( "industr*" ))  AND  ( "value*" )
+                </aqd:query-line>
+				  </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/9.c</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Significantly increase access to information and communications technology and
+                    strive to provide universal and affordable access to the Internet in least developed countries by
+                    2020
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    9.c.1
+                    Proportion of population covered by a mobile network, by technology
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "access" )  W/3  ( "ICT"  OR  "information*"  OR  "communication*"  OR  "internet"  OR  "mobile" OR "wireless" )
+				 AND  ( "develop* countr*"  OR  "least developed countr*"  OR  "small island*" )
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "proportion" )  W/3  ( "population" ) )  AND  ( ( "mobile" )  W/3  ( "network*"  OR  "technolog*" ) )
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:filters>
+            <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
+            <aqd:timerange field="PUBYEAR">
+                <aqd:start>2009</aqd:start>
+                <aqd:end>2020</aqd:end>
+            </aqd:timerange>
+        </aqd:filters>
+    </aqd:query-definitions>
+</aqd:query>

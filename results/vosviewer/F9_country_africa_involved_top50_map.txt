@@ -1,0 +1,51 @@
+id	label	weight<Documents>
+1	South Africa	86220
+2	Egypt	54139
+3	Nigeria	43034
+4	United States	51352
+5	Kenya	21003
+6	United Kingdom	38537
+7	Ethiopia	33842
+8	Ghana	22007
+9	Uganda	12595
+10	Tanzania	11968
+11	Morocco	18687
+12	Tunisia	14196
+13	Saudi Arabia	22516
+14	France	18820
+15	Cameroon	7432
+16	Algeria	13273
+17	Germany	16168
+18	India	14871
+19	China	16605
+20	Australia	14680
+21	Canada	13620
+22	Zambia	4219
+23	Malawi	5044
+24	Switzerland	9017
+25	Rwanda	3980
+26	The Netherlands	9669
+27	Italy	9771
+28	Mozambique	3092
+29	Zimbabwe	5640
+30	Benin	3308
+31	Sudan	3348
+32	Spain	8389
+33	Belgium	8154
+34	Senegal	3662
+35	Sweden	7320
+36	Botswana	2920
+37	Malaysia	7125
+38	Brazil	5598
+39	Ivory Coast	2909
+40	Burkina Faso	3745
+41	Libya	1458
+42	Pakistan	5704
+43	DR Congo	2372
+44	Congo Republic	2116
+45	Namibia	1978
+46	Japan	5305
+47	Norway	4918
+48	The Gambia	1181
+49	Portugal	4026
+50	Türkiye	4587

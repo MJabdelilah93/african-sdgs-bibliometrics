@@ -1,0 +1,244 @@
+iso2,country_name,source,au_member
+AD,Andorra,ror_geonames,False
+AE,United Arab Emirates,ror_geonames,False
+AF,Afghanistan,ror_geonames,False
+AG,Antigua and Barbuda,ror_geonames,False
+AI,Anguilla,explicit_iso3166,False
+AL,Albania,ror_geonames,False
+AM,Armenia,ror_geonames,False
+AO,Angola,ror_geonames,True
+AQ,Antarctica,ror_geonames,False
+AR,Argentina,ror_geonames,False
+AS,American Samoa,ror_geonames,False
+AT,Austria,ror_geonames,False
+AU,Australia,ror_geonames,False
+AW,Aruba,ror_geonames,False
+AX,Åland,ror_geonames,False
+AZ,Azerbaijan,ror_geonames,False
+BA,Bosnia and Herzegovina,ror_geonames,False
+BB,Barbados,ror_geonames,False
+BD,Bangladesh,ror_geonames,False
+BE,Belgium,ror_geonames,False
+BF,Burkina Faso,ror_geonames,True
+BG,Bulgaria,ror_geonames,False
+BH,Bahrain,ror_geonames,False
+BI,Burundi,ror_geonames,True
+BJ,Benin,ror_geonames,True
+BL,Saint Barthelemy,explicit_iso3166,False
+BM,Bermuda,ror_geonames,False
+BN,Brunei,ror_geonames,False
+BO,Bolivia,ror_geonames,False
+BQ,"Bonaire, Sint Eustatius, and Saba",ror_geonames,False
+BR,Brazil,ror_geonames,False
+BS,Bahamas,ror_geonames,False
+BT,Bhutan,ror_geonames,False
+BW,Botswana,ror_geonames,True
+BY,Belarus,ror_geonames,False
+BZ,Belize,ror_geonames,False
+CA,Canada,ror_geonames,False
+CD,DR Congo,ror_geonames,True
+CF,Central African Republic,ror_geonames,True
+CG,Congo Republic,ror_geonames,True
+CH,Switzerland,ror_geonames,False
+CI,Ivory Coast,ror_geonames,True
+CK,Cook Islands,ror_geonames,False
+CL,Chile,ror_geonames,False
+CM,Cameroon,ror_geonames,True
+CN,China,ror_geonames,False
+CO,Colombia,ror_geonames,False
+CR,Costa Rica,ror_geonames,False
+CU,Cuba,ror_geonames,False
+CV,Cabo Verde,ror_geonames,True
+CW,Curaçao,ror_geonames,False
+CY,Cyprus,ror_geonames,False
+CZ,Czechia,ror_geonames,False
+DE,Germany,ror_geonames,False
+DJ,Djibouti,ror_geonames,True
+DK,Denmark,ror_geonames,False
+DM,Dominica,ror_geonames,False
+DO,Dominican Republic,ror_geonames,False
+DZ,Algeria,ror_geonames,True
+EC,Ecuador,ror_geonames,False
+EE,Estonia,ror_geonames,False
+EG,Egypt,ror_geonames,True
+EH,Western Sahara,ror_geonames,False
+ER,Eritrea,ror_geonames,True
+ES,Spain,ror_geonames,False
+ET,Ethiopia,ror_geonames,True
+FI,Finland,ror_geonames,False
+FJ,Fiji,ror_geonames,False
+FK,Falkland Islands,ror_geonames,False
+FM,Micronesia,ror_geonames,False
+FO,Faroe Islands,ror_geonames,False
+FR,France,ror_geonames,False
+GA,Gabon,ror_geonames,True
+GB,United Kingdom,ror_geonames,False
+GD,Grenada,ror_geonames,False
+GE,Georgia,ror_geonames,False
+GF,French Guiana,ror_geonames,False
+GG,Guernsey,ror_geonames,False
+GH,Ghana,ror_geonames,True
+GI,Gibraltar,ror_geonames,False
+GL,Greenland,ror_geonames,False
+GM,The Gambia,ror_geonames,True
+GN,Guinea,ror_geonames,True
+GP,Guadeloupe,ror_geonames,False
+GQ,Equatorial Guinea,ror_geonames,True
+GR,Greece,ror_geonames,False
+GT,Guatemala,ror_geonames,False
+GU,Guam,ror_geonames,False
+GW,Guinea-Bissau,ror_geonames,True
+GY,Guyana,ror_geonames,False
+HK,Hong Kong,ror_geonames,False
+HN,Honduras,ror_geonames,False
+HR,Croatia,ror_geonames,False
+HT,Haiti,ror_geonames,False
+HU,Hungary,ror_geonames,False
+ID,Indonesia,ror_geonames,False
+IE,Ireland,ror_geonames,False
+IL,Israel,ror_geonames,False
+IM,Isle of Man,ror_geonames,False
+IN,India,ror_geonames,False
+IO,British Indian Ocean Territory,explicit_iso3166,False
+IQ,Iraq,ror_geonames,False
+IR,Iran,ror_geonames,False
+IS,Iceland,ror_geonames,False
+IT,Italy,ror_geonames,False
+JE,Jersey,ror_geonames,False
+JM,Jamaica,ror_geonames,False
+JO,Jordan,ror_geonames,False
+JP,Japan,ror_geonames,False
+KE,Kenya,ror_geonames,True
+KG,Kyrgyzstan,ror_geonames,False
+KH,Cambodia,ror_geonames,False
+KI,Kiribati,ror_geonames,False
+KM,Comoros,ror_geonames,True
+KN,St Kitts and Nevis,ror_geonames,False
+KP,North Korea,ror_geonames,False
+KR,South Korea,ror_geonames,False
+KW,Kuwait,ror_geonames,False
+KY,Cayman Islands,ror_geonames,False
+KZ,Kazakhstan,ror_geonames,False
+LA,Laos,ror_geonames,False
+LB,Lebanon,ror_geonames,False
+LC,Saint Lucia,ror_geonames,False
+LI,Liechtenstein,ror_geonames,False
+LK,Sri Lanka,ror_geonames,False
+LR,Liberia,ror_geonames,True
+LS,Lesotho,ror_geonames,True
+LT,Lithuania,ror_geonames,False
+LU,Luxembourg,ror_geonames,False
+LV,Latvia,ror_geonames,False
+LY,Libya,ror_geonames,True
+MA,Morocco,ror_geonames,True
+MC,Monaco,ror_geonames,False
+MD,Moldova,ror_geonames,False
+ME,Montenegro,ror_geonames,False
+MF,Saint Martin,explicit_iso3166,False
+MG,Madagascar,ror_geonames,True
+MH,Marshall Islands,explicit_iso3166,False
+MK,North Macedonia,ror_geonames,False
+ML,Mali,ror_geonames,True
+MM,Myanmar,ror_geonames,False
+MN,Mongolia,ror_geonames,False
+MO,Macao,ror_geonames,False
+MP,Northern Mariana Islands,ror_geonames,False
+MQ,Martinique,ror_geonames,False
+MR,Mauritania,ror_geonames,True
+MS,Montserrat,ror_geonames,False
+MT,Malta,ror_geonames,False
+MU,Mauritius,ror_geonames,True
+MV,Maldives,ror_geonames,False
+MW,Malawi,ror_geonames,True
+MX,Mexico,ror_geonames,False
+MY,Malaysia,ror_geonames,False
+MZ,Mozambique,ror_geonames,True
+NA,Namibia,ror_geonames,True
+NC,New Caledonia,ror_geonames,False
+NE,Niger,ror_geonames,True
+NF,Norfolk Island,explicit_iso3166,False
+NG,Nigeria,ror_geonames,True
+NI,Nicaragua,ror_geonames,False
+NL,The Netherlands,ror_geonames,False
+NO,Norway,ror_geonames,False
+NP,Nepal,ror_geonames,False
+NR,Nauru,explicit_iso3166,False
+NU,Niue,ror_geonames,False
+NZ,New Zealand,ror_geonames,False
+OM,Oman,ror_geonames,False
+PA,Panama,ror_geonames,False
+PE,Peru,ror_geonames,False
+PF,French Polynesia,ror_geonames,False
+PG,Papua New Guinea,ror_geonames,False
+PH,Philippines,ror_geonames,False
+PK,Pakistan,ror_geonames,False
+PL,Poland,ror_geonames,False
+PM,Saint Pierre and Miquelon,ror_geonames,False
+PN,Pitcairn,explicit_iso3166,False
+PR,Puerto Rico,ror_geonames,False
+PS,Palestine,ror_geonames,False
+PT,Portugal,ror_geonames,False
+PW,Palau,ror_geonames,False
+PY,Paraguay,ror_geonames,False
+QA,Qatar,ror_geonames,False
+RE,Réunion,ror_geonames,False
+RO,Romania,ror_geonames,False
+RS,Serbia,ror_geonames,False
+RU,Russia,ror_geonames,False
+RW,Rwanda,ror_geonames,True
+SA,Saudi Arabia,ror_geonames,False
+SB,Solomon Islands,ror_geonames,False
+SC,Seychelles,ror_geonames,True
+SD,Sudan,ror_geonames,True
+SE,Sweden,ror_geonames,False
+SG,Singapore,ror_geonames,False
+SH,Saint Helena,explicit_iso3166,False
+SI,Slovenia,ror_geonames,False
+SJ,Svalbard and Jan Mayen,ror_geonames,False
+SK,Slovakia,ror_geonames,False
+SL,Sierra Leone,ror_geonames,True
+SM,San Marino,ror_geonames,False
+SN,Senegal,ror_geonames,True
+SO,Somalia,ror_geonames,True
+SR,Suriname,ror_geonames,False
+SS,South Sudan,ror_geonames,True
+ST,São Tomé and Príncipe,ror_geonames,True
+SV,El Salvador,ror_geonames,False
+SX,Sint Maarten,ror_geonames,False
+SY,Syria,ror_geonames,False
+SZ,Eswatini,ror_geonames,True
+TC,Turks and Caicos Islands,ror_geonames,False
+TD,Chad,ror_geonames,True
+TG,Togo,ror_geonames,True
+TH,Thailand,ror_geonames,False
+TJ,Tajikistan,ror_geonames,False
+TK,Tokelau,explicit_iso3166,False
+TL,Timor-Leste,ror_geonames,False
+TM,Turkmenistan,ror_geonames,False
+TN,Tunisia,ror_geonames,True
+TO,Tonga,ror_geonames,False
+TR,Türkiye,ror_geonames,False
+TT,Trinidad and Tobago,ror_geonames,False
+TV,Tuvalu,ror_geonames,False
+TW,Taiwan,ror_geonames,False
+TZ,Tanzania,ror_geonames,True
+UA,Ukraine,ror_geonames,False
+UG,Uganda,ror_geonames,True
+US,United States,ror_geonames,False
+UY,Uruguay,ror_geonames,False
+UZ,Uzbekistan,ror_geonames,False
+VA,Vatican City,ror_geonames,False
+VC,St Vincent and Grenadines,ror_geonames,False
+VE,Venezuela,ror_geonames,False
+VG,British Virgin Islands,ror_geonames,False
+VI,U.S. Virgin Islands,ror_geonames,False
+VN,Vietnam,ror_geonames,False
+VU,Vanuatu,ror_geonames,False
+WF,Wallis and Futuna,explicit_iso3166,False
+WS,Samoa,ror_geonames,False
+XK,Kosovo,ror_geonames,False
+YE,Yemen,ror_geonames,False
+YT,Mayotte,ror_geonames,False
+ZA,South Africa,ror_geonames,True
+ZM,Zambia,ror_geonames,True
+ZW,Zimbabwe,ror_geonames,True

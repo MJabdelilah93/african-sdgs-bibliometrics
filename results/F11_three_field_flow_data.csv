@@ -1,0 +1,395 @@
+flow,source,target,value
+country_to_keyword,South Africa,covid19,2739
+country_to_keyword,South Africa,climate change,2277
+country_to_keyword,South Africa,sustainability,1395
+country_to_keyword,South Africa,human immunodeficiency virus,1219
+country_to_keyword,South Africa,food security,823
+country_to_keyword,South Africa,public health,577
+country_to_keyword,South Africa,adsorption,349
+country_to_keyword,South Africa,machine learning,403
+country_to_keyword,South Africa,children,531
+country_to_keyword,South Africa,renewable energy,426
+country_to_keyword,South Africa,sustainable development,647
+country_to_keyword,South Africa,heavy metal,207
+country_to_keyword,South Africa,adolescent,608
+country_to_keyword,South Africa,conservation,606
+country_to_keyword,South Africa,sars-cov-2,389
+country_to_keyword,Egypt,covid19,2285
+country_to_keyword,Egypt,climate change,956
+country_to_keyword,Egypt,sustainability,1014
+country_to_keyword,Egypt,human immunodeficiency virus,30
+country_to_keyword,Egypt,food security,176
+country_to_keyword,Egypt,public health,122
+country_to_keyword,Egypt,adsorption,833
+country_to_keyword,Egypt,machine learning,592
+country_to_keyword,Egypt,children,224
+country_to_keyword,Egypt,renewable energy,533
+country_to_keyword,Egypt,sustainable development,264
+country_to_keyword,Egypt,heavy metal,729
+country_to_keyword,Egypt,adolescent,84
+country_to_keyword,Egypt,conservation,111
+country_to_keyword,Egypt,sars-cov-2,555
+country_to_keyword,Nigeria,covid19,1505
+country_to_keyword,Nigeria,climate change,882
+country_to_keyword,Nigeria,sustainability,711
+country_to_keyword,Nigeria,human immunodeficiency virus,289
+country_to_keyword,Nigeria,food security,391
+country_to_keyword,Nigeria,public health,410
+country_to_keyword,Nigeria,adsorption,377
+country_to_keyword,Nigeria,machine learning,287
+country_to_keyword,Nigeria,children,278
+country_to_keyword,Nigeria,renewable energy,419
+country_to_keyword,Nigeria,sustainable development,391
+country_to_keyword,Nigeria,heavy metal,422
+country_to_keyword,Nigeria,adolescent,276
+country_to_keyword,Nigeria,conservation,132
+country_to_keyword,Nigeria,sars-cov-2,219
+country_to_keyword,Ethiopia,covid19,717
+country_to_keyword,Ethiopia,climate change,821
+country_to_keyword,Ethiopia,sustainability,272
+country_to_keyword,Ethiopia,human immunodeficiency virus,211
+country_to_keyword,Ethiopia,food security,450
+country_to_keyword,Ethiopia,public health,270
+country_to_keyword,Ethiopia,adsorption,124
+country_to_keyword,Ethiopia,machine learning,159
+country_to_keyword,Ethiopia,children,468
+country_to_keyword,Ethiopia,renewable energy,103
+country_to_keyword,Ethiopia,sustainable development,139
+country_to_keyword,Ethiopia,heavy metal,83
+country_to_keyword,Ethiopia,adolescent,171
+country_to_keyword,Ethiopia,conservation,182
+country_to_keyword,Ethiopia,sars-cov-2,92
+country_to_keyword,Ghana,covid19,589
+country_to_keyword,Ghana,climate change,594
+country_to_keyword,Ghana,sustainability,410
+country_to_keyword,Ghana,human immunodeficiency virus,103
+country_to_keyword,Ghana,food security,306
+country_to_keyword,Ghana,public health,251
+country_to_keyword,Ghana,adsorption,27
+country_to_keyword,Ghana,machine learning,84
+country_to_keyword,Ghana,children,147
+country_to_keyword,Ghana,renewable energy,153
+country_to_keyword,Ghana,sustainable development,248
+country_to_keyword,Ghana,heavy metal,76
+country_to_keyword,Ghana,adolescent,168
+country_to_keyword,Ghana,conservation,68
+country_to_keyword,Ghana,sars-cov-2,58
+country_to_keyword,Morocco,covid19,625
+country_to_keyword,Morocco,climate change,442
+country_to_keyword,Morocco,sustainability,321
+country_to_keyword,Morocco,human immunodeficiency virus,15
+country_to_keyword,Morocco,food security,56
+country_to_keyword,Morocco,public health,48
+country_to_keyword,Morocco,adsorption,427
+country_to_keyword,Morocco,machine learning,411
+country_to_keyword,Morocco,children,45
+country_to_keyword,Morocco,renewable energy,194
+country_to_keyword,Morocco,sustainable development,164
+country_to_keyword,Morocco,heavy metal,205
+country_to_keyword,Morocco,adolescent,33
+country_to_keyword,Morocco,conservation,82
+country_to_keyword,Morocco,sars-cov-2,128
+country_to_keyword,Kenya,covid19,435
+country_to_keyword,Kenya,climate change,549
+country_to_keyword,Kenya,sustainability,198
+country_to_keyword,Kenya,human immunodeficiency virus,349
+country_to_keyword,Kenya,food security,347
+country_to_keyword,Kenya,public health,182
+country_to_keyword,Kenya,adsorption,26
+country_to_keyword,Kenya,machine learning,88
+country_to_keyword,Kenya,children,153
+country_to_keyword,Kenya,renewable energy,42
+country_to_keyword,Kenya,sustainable development,77
+country_to_keyword,Kenya,heavy metal,31
+country_to_keyword,Kenya,adolescent,170
+country_to_keyword,Kenya,conservation,153
+country_to_keyword,Kenya,sars-cov-2,75
+country_to_keyword,Tunisia,covid19,447
+country_to_keyword,Tunisia,climate change,236
+country_to_keyword,Tunisia,sustainability,218
+country_to_keyword,Tunisia,human immunodeficiency virus,5
+country_to_keyword,Tunisia,food security,35
+country_to_keyword,Tunisia,public health,37
+country_to_keyword,Tunisia,adsorption,162
+country_to_keyword,Tunisia,machine learning,125
+country_to_keyword,Tunisia,children,43
+country_to_keyword,Tunisia,renewable energy,199
+country_to_keyword,Tunisia,sustainable development,94
+country_to_keyword,Tunisia,heavy metal,155
+country_to_keyword,Tunisia,adolescent,34
+country_to_keyword,Tunisia,conservation,51
+country_to_keyword,Tunisia,sars-cov-2,81
+country_to_keyword,Algeria,covid19,201
+country_to_keyword,Algeria,climate change,221
+country_to_keyword,Algeria,sustainability,173
+country_to_keyword,Algeria,human immunodeficiency virus,1
+country_to_keyword,Algeria,food security,30
+country_to_keyword,Algeria,public health,26
+country_to_keyword,Algeria,adsorption,272
+country_to_keyword,Algeria,machine learning,152
+country_to_keyword,Algeria,children,8
+country_to_keyword,Algeria,renewable energy,178
+country_to_keyword,Algeria,sustainable development,80
+country_to_keyword,Algeria,heavy metal,137
+country_to_keyword,Algeria,adolescent,3
+country_to_keyword,Algeria,conservation,78
+country_to_keyword,Algeria,sars-cov-2,38
+country_to_keyword,Uganda,covid19,340
+country_to_keyword,Uganda,climate change,161
+country_to_keyword,Uganda,sustainability,114
+country_to_keyword,Uganda,human immunodeficiency virus,372
+country_to_keyword,Uganda,food security,108
+country_to_keyword,Uganda,public health,124
+country_to_keyword,Uganda,adsorption,10
+country_to_keyword,Uganda,machine learning,49
+country_to_keyword,Uganda,children,149
+country_to_keyword,Uganda,renewable energy,21
+country_to_keyword,Uganda,sustainable development,31
+country_to_keyword,Uganda,heavy metal,22
+country_to_keyword,Uganda,adolescent,174
+country_to_keyword,Uganda,conservation,61
+country_to_keyword,Uganda,sars-cov-2,37
+country_to_keyword,Tanzania,covid19,160
+country_to_keyword,Tanzania,climate change,241
+country_to_keyword,Tanzania,sustainability,105
+country_to_keyword,Tanzania,human immunodeficiency virus,196
+country_to_keyword,Tanzania,food security,138
+country_to_keyword,Tanzania,public health,83
+country_to_keyword,Tanzania,adsorption,22
+country_to_keyword,Tanzania,machine learning,48
+country_to_keyword,Tanzania,children,76
+country_to_keyword,Tanzania,renewable energy,27
+country_to_keyword,Tanzania,sustainable development,67
+country_to_keyword,Tanzania,heavy metal,28
+country_to_keyword,Tanzania,adolescent,105
+country_to_keyword,Tanzania,conservation,93
+country_to_keyword,Tanzania,sars-cov-2,21
+country_to_keyword,Cameroon,covid19,148
+country_to_keyword,Cameroon,climate change,167
+country_to_keyword,Cameroon,sustainability,62
+country_to_keyword,Cameroon,human immunodeficiency virus,89
+country_to_keyword,Cameroon,food security,51
+country_to_keyword,Cameroon,public health,34
+country_to_keyword,Cameroon,adsorption,30
+country_to_keyword,Cameroon,machine learning,26
+country_to_keyword,Cameroon,children,59
+country_to_keyword,Cameroon,renewable energy,41
+country_to_keyword,Cameroon,sustainable development,57
+country_to_keyword,Cameroon,heavy metal,18
+country_to_keyword,Cameroon,adolescent,38
+country_to_keyword,Cameroon,conservation,60
+country_to_keyword,Cameroon,sars-cov-2,27
+country_to_keyword,Zimbabwe,covid19,174
+country_to_keyword,Zimbabwe,climate change,161
+country_to_keyword,Zimbabwe,sustainability,68
+country_to_keyword,Zimbabwe,human immunodeficiency virus,135
+country_to_keyword,Zimbabwe,food security,73
+country_to_keyword,Zimbabwe,public health,36
+country_to_keyword,Zimbabwe,adsorption,20
+country_to_keyword,Zimbabwe,machine learning,10
+country_to_keyword,Zimbabwe,children,51
+country_to_keyword,Zimbabwe,renewable energy,3
+country_to_keyword,Zimbabwe,sustainable development,29
+country_to_keyword,Zimbabwe,heavy metal,12
+country_to_keyword,Zimbabwe,adolescent,47
+country_to_keyword,Zimbabwe,conservation,30
+country_to_keyword,Zimbabwe,sars-cov-2,15
+country_to_keyword,Malawi,covid19,89
+country_to_keyword,Malawi,climate change,56
+country_to_keyword,Malawi,sustainability,25
+country_to_keyword,Malawi,human immunodeficiency virus,124
+country_to_keyword,Malawi,food security,53
+country_to_keyword,Malawi,public health,64
+country_to_keyword,Malawi,adsorption,2
+country_to_keyword,Malawi,machine learning,8
+country_to_keyword,Malawi,children,59
+country_to_keyword,Malawi,renewable energy,8
+country_to_keyword,Malawi,sustainable development,12
+country_to_keyword,Malawi,heavy metal,8
+country_to_keyword,Malawi,adolescent,45
+country_to_keyword,Malawi,conservation,8
+country_to_keyword,Malawi,sars-cov-2,12
+country_to_keyword,Zambia,covid19,102
+country_to_keyword,Zambia,climate change,47
+country_to_keyword,Zambia,sustainability,23
+country_to_keyword,Zambia,human immunodeficiency virus,139
+country_to_keyword,Zambia,food security,42
+country_to_keyword,Zambia,public health,45
+country_to_keyword,Zambia,adsorption,3
+country_to_keyword,Zambia,machine learning,13
+country_to_keyword,Zambia,children,30
+country_to_keyword,Zambia,renewable energy,7
+country_to_keyword,Zambia,sustainable development,14
+country_to_keyword,Zambia,heavy metal,12
+country_to_keyword,Zambia,adolescent,51
+country_to_keyword,Zambia,conservation,15
+country_to_keyword,Zambia,sars-cov-2,20
+keyword_to_journal,covid19,Sustainability,79
+keyword_to_journal,covid19,Scientific Reports,33
+keyword_to_journal,covid19,BMC Public Health,146
+keyword_to_journal,covid19,Heliyon,84
+keyword_to_journal,covid19,BMJ Open,155
+keyword_to_journal,covid19,Environmental Science and Pollution Research,32
+keyword_to_journal,covid19,Int. J. Environmental Research and Public Health,177
+keyword_to_journal,covid19,Pan African Medical Journal,254
+keyword_to_journal,covid19,BMC Health Services Research,80
+keyword_to_journal,covid19,Science of the Total Environment,19
+keyword_to_journal,covid19,BMC Pregnancy and Childbirth,10
+keyword_to_journal,covid19,Water,3
+keyword_to_journal,covid19,Frontiers In Public Health,223
+keyword_to_journal,covid19,Malaria Journal,21
+keyword_to_journal,climate change,Sustainability,253
+keyword_to_journal,climate change,Scientific Reports,48
+keyword_to_journal,climate change,BMC Public Health,18
+keyword_to_journal,climate change,Heliyon,109
+keyword_to_journal,climate change,BMJ Open,13
+keyword_to_journal,climate change,Environmental Science and Pollution Research,57
+keyword_to_journal,climate change,Int. J. Environmental Research and Public Health,67
+keyword_to_journal,climate change,Pan African Medical Journal,4
+keyword_to_journal,climate change,BMC Health Services Research,2
+keyword_to_journal,climate change,Science of the Total Environment,88
+keyword_to_journal,climate change,BMC Pregnancy and Childbirth,1
+keyword_to_journal,climate change,Water,111
+keyword_to_journal,climate change,Frontiers In Public Health,19
+keyword_to_journal,climate change,Malaria Journal,5
+keyword_to_journal,sustainability,Sustainability,450
+keyword_to_journal,sustainability,Scientific Reports,48
+keyword_to_journal,sustainability,BMC Public Health,10
+keyword_to_journal,sustainability,Heliyon,46
+keyword_to_journal,sustainability,BMJ Open,1
+keyword_to_journal,sustainability,Environmental Science and Pollution Research,28
+keyword_to_journal,sustainability,Int. J. Environmental Research and Public Health,11
+keyword_to_journal,sustainability,Pan African Medical Journal,1
+keyword_to_journal,sustainability,BMC Health Services Research,13
+keyword_to_journal,sustainability,Science of the Total Environment,21
+keyword_to_journal,sustainability,Water,22
+keyword_to_journal,sustainability,Frontiers In Public Health,8
+keyword_to_journal,sustainability,Malaria Journal,5
+keyword_to_journal,human immunodeficiency virus,Scientific Reports,10
+keyword_to_journal,human immunodeficiency virus,BMC Public Health,156
+keyword_to_journal,human immunodeficiency virus,Heliyon,6
+keyword_to_journal,human immunodeficiency virus,BMJ Open,13
+keyword_to_journal,human immunodeficiency virus,Int. J. Environmental Research and Public Health,35
+keyword_to_journal,human immunodeficiency virus,Pan African Medical Journal,54
+keyword_to_journal,human immunodeficiency virus,BMC Health Services Research,74
+keyword_to_journal,human immunodeficiency virus,BMC Pregnancy and Childbirth,25
+keyword_to_journal,human immunodeficiency virus,Water,1
+keyword_to_journal,human immunodeficiency virus,Frontiers In Public Health,45
+keyword_to_journal,human immunodeficiency virus,Malaria Journal,3
+keyword_to_journal,food security,Sustainability,134
+keyword_to_journal,food security,Scientific Reports,22
+keyword_to_journal,food security,BMC Public Health,37
+keyword_to_journal,food security,Heliyon,37
+keyword_to_journal,food security,BMJ Open,7
+keyword_to_journal,food security,Environmental Science and Pollution Research,6
+keyword_to_journal,food security,Int. J. Environmental Research and Public Health,29
+keyword_to_journal,food security,Pan African Medical Journal,6
+keyword_to_journal,food security,BMC Health Services Research,1
+keyword_to_journal,food security,Science of the Total Environment,15
+keyword_to_journal,food security,BMC Pregnancy and Childbirth,6
+keyword_to_journal,food security,Water,11
+keyword_to_journal,food security,Frontiers In Public Health,18
+keyword_to_journal,food security,Malaria Journal,1
+keyword_to_journal,public health,Sustainability,2
+keyword_to_journal,public health,Scientific Reports,9
+keyword_to_journal,public health,BMC Public Health,46
+keyword_to_journal,public health,Heliyon,49
+keyword_to_journal,public health,BMJ Open,866
+keyword_to_journal,public health,Environmental Science and Pollution Research,5
+keyword_to_journal,public health,Int. J. Environmental Research and Public Health,50
+keyword_to_journal,public health,Pan African Medical Journal,11
+keyword_to_journal,public health,BMC Health Services Research,2
+keyword_to_journal,public health,Science of the Total Environment,15
+keyword_to_journal,public health,BMC Pregnancy and Childbirth,9
+keyword_to_journal,public health,Water,10
+keyword_to_journal,public health,Frontiers In Public Health,42
+keyword_to_journal,public health,Malaria Journal,10
+keyword_to_journal,adsorption,Sustainability,23
+keyword_to_journal,adsorption,Scientific Reports,57
+keyword_to_journal,adsorption,Heliyon,18
+keyword_to_journal,adsorption,Environmental Science and Pollution Research,93
+keyword_to_journal,adsorption,Int. J. Environmental Research and Public Health,3
+keyword_to_journal,adsorption,Science of the Total Environment,17
+keyword_to_journal,adsorption,Water,27
+keyword_to_journal,machine learning,Sustainability,57
+keyword_to_journal,machine learning,Scientific Reports,94
+keyword_to_journal,machine learning,BMC Public Health,7
+keyword_to_journal,machine learning,Heliyon,22
+keyword_to_journal,machine learning,BMJ Open,6
+keyword_to_journal,machine learning,Environmental Science and Pollution Research,14
+keyword_to_journal,machine learning,Int. J. Environmental Research and Public Health,3
+keyword_to_journal,machine learning,Pan African Medical Journal,1
+keyword_to_journal,machine learning,Science of the Total Environment,11
+keyword_to_journal,machine learning,BMC Pregnancy and Childbirth,4
+keyword_to_journal,machine learning,Water,29
+keyword_to_journal,machine learning,Frontiers In Public Health,10
+keyword_to_journal,machine learning,Malaria Journal,2
+keyword_to_journal,children,Scientific Reports,22
+keyword_to_journal,children,BMC Public Health,74
+keyword_to_journal,children,Heliyon,7
+keyword_to_journal,children,BMJ Open,4
+keyword_to_journal,children,Environmental Science and Pollution Research,2
+keyword_to_journal,children,Int. J. Environmental Research and Public Health,43
+keyword_to_journal,children,Pan African Medical Journal,49
+keyword_to_journal,children,BMC Health Services Research,15
+keyword_to_journal,children,Science of the Total Environment,2
+keyword_to_journal,children,BMC Pregnancy and Childbirth,3
+keyword_to_journal,children,Frontiers In Public Health,44
+keyword_to_journal,children,Malaria Journal,37
+keyword_to_journal,renewable energy,Sustainability,106
+keyword_to_journal,renewable energy,Scientific Reports,31
+keyword_to_journal,renewable energy,Heliyon,32
+keyword_to_journal,renewable energy,Environmental Science and Pollution Research,70
+keyword_to_journal,renewable energy,Int. J. Environmental Research and Public Health,2
+keyword_to_journal,renewable energy,Science of the Total Environment,11
+keyword_to_journal,renewable energy,Water,5
+keyword_to_journal,sustainable development,Sustainability,145
+keyword_to_journal,sustainable development,Scientific Reports,8
+keyword_to_journal,sustainable development,Heliyon,31
+keyword_to_journal,sustainable development,Environmental Science and Pollution Research,24
+keyword_to_journal,sustainable development,Int. J. Environmental Research and Public Health,9
+keyword_to_journal,sustainable development,Science of the Total Environment,5
+keyword_to_journal,sustainable development,Water,13
+keyword_to_journal,heavy metal,Sustainability,29
+keyword_to_journal,heavy metal,Scientific Reports,14
+keyword_to_journal,heavy metal,BMC Public Health,1
+keyword_to_journal,heavy metal,Heliyon,33
+keyword_to_journal,heavy metal,Environmental Science and Pollution Research,93
+keyword_to_journal,heavy metal,Int. J. Environmental Research and Public Health,20
+keyword_to_journal,heavy metal,Science of the Total Environment,28
+keyword_to_journal,heavy metal,Water,21
+keyword_to_journal,heavy metal,Frontiers In Public Health,3
+keyword_to_journal,adolescent,Sustainability,1
+keyword_to_journal,adolescent,Scientific Reports,6
+keyword_to_journal,adolescent,BMC Public Health,106
+keyword_to_journal,adolescent,Heliyon,7
+keyword_to_journal,adolescent,BMJ Open,71
+keyword_to_journal,adolescent,Int. J. Environmental Research and Public Health,48
+keyword_to_journal,adolescent,Pan African Medical Journal,38
+keyword_to_journal,adolescent,BMC Health Services Research,30
+keyword_to_journal,adolescent,Science of the Total Environment,1
+keyword_to_journal,adolescent,BMC Pregnancy and Childbirth,13
+keyword_to_journal,adolescent,Water,1
+keyword_to_journal,adolescent,Frontiers In Public Health,28
+keyword_to_journal,adolescent,Malaria Journal,2
+keyword_to_journal,conservation,Sustainability,14
+keyword_to_journal,conservation,Scientific Reports,4
+keyword_to_journal,conservation,Heliyon,13
+keyword_to_journal,conservation,Environmental Science and Pollution Research,3
+keyword_to_journal,conservation,Int. J. Environmental Research and Public Health,4
+keyword_to_journal,conservation,Science of the Total Environment,3
+keyword_to_journal,conservation,Water,2
+keyword_to_journal,conservation,Frontiers In Public Health,3
+keyword_to_journal,sars-cov-2,Sustainability,4
+keyword_to_journal,sars-cov-2,Scientific Reports,9
+keyword_to_journal,sars-cov-2,BMC Public Health,21
+keyword_to_journal,sars-cov-2,Heliyon,14
+keyword_to_journal,sars-cov-2,BMJ Open,1
+keyword_to_journal,sars-cov-2,Environmental Science and Pollution Research,4
+keyword_to_journal,sars-cov-2,Int. J. Environmental Research and Public Health,28
+keyword_to_journal,sars-cov-2,Pan African Medical Journal,54
+keyword_to_journal,sars-cov-2,BMC Health Services Research,5
+keyword_to_journal,sars-cov-2,Science of the Total Environment,16
+keyword_to_journal,sars-cov-2,BMC Pregnancy and Childbirth,1
+keyword_to_journal,sars-cov-2,Water,2
+keyword_to_journal,sars-cov-2,Frontiers In Public Health,29

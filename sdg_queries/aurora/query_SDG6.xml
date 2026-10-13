@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/">
+    <dc:identifier type="sdg">6</dc:identifier>
+    <dc:identifier type="uri">http://metadata.un.org/sdg/6</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-06.jpg</icon>
+    <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg6</dc:subject>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
+    <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+    <dc:title>SDG-06 clean water and sanitation</dc:title>
+    <dc:description>
+        Clean, accessible water for all is an essential part of the world we want to live in and there is
+        sufficient fresh water on the planet to achieve this. However, due to bad economics or poor infrastructure,
+        millions of people including children die every year from diseases associated with inadequate water supply,
+        sanitation and hygiene.
+        Water scarcity, poor water quality and inadequate sanitation negatively impact food security, livelihood choices
+        and educational opportunities for poor families across the world. At the current time, more than 2 billion
+        people are living with the risk of reduced access to freshwater resources and by 2050, at least one in four
+        people is likely to live in a country affected by chronic or recurring shortages of fresh water. Drought in
+        specific afflicts some of the world’s poorest countries, worsening hunger and malnutrition. Fortunately, there
+        has been great progress made in the past decade regarding drinking sources and sanitation, whereby over 90% of
+        the world’s population now has access to improved sources of drinking water.
+        To improve sanitation and access to drinking water, there needs to be increased investment in management of
+        freshwater ecosystems and sanitation facilities on a local level in several developing countries within
+        Sub-Saharan Africa, Central Asia, Southern Asia, Eastern Asia and South-Eastern Asia.
+    </dc:description>
+    <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
+    </dc:contributor>
+    <dc:date>2020-06-30</dc:date>
+    <aqd:query-definitions syntax="SCOPUS">
+        <aqd:query-definition>
+            <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/6.1</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, achieve universal and equitable access to safe and affordable drinking water for all
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    6.1.1
+                    Proportion of population using safely managed drinking water services
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "drinking"  W/3  "water" )  W/3  ( "access*"  OR  "afford*"  OR  "safe*"  OR  "secur*" )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition>
+            <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/6.2</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, achieve access to adequate and equitable sanitation and hygiene for all and end open
+                    defecation, paying special attention to the needs of women and girls and those in vulnerable
+                    situations
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    6.2.1
+                    Proportion of population using safely managed sanitation services, including a hand-washing facility
+                    with soap and water
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">( "sanitation" OR "toilet*" )  W/3  ( "access*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">( "sanitation management" OR "managed sanitation" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">( "end"  OR  "ending" )  W/3  ( "open defecation*"  OR  "open defaecation*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">( "hand washing"  OR  "handwashing" )  W/3  ( "facilit*" ) 
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">( "sewerage*" )  AND  ( "develop* countr*" ) 
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/6.3</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, improve water quality by reducing pollution, eliminating dumping and
+                    minimizing release of hazardous chemicals and materials, halving the proportion of untreated
+                    wastewater and substantially increasing recycling and safe reuse globally
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    6.3.1
+                    Proportion of wastewater safely treated
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    6.3.2
+                    Proportion of bodies of water with good ambient water quality
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">( "reduc*" )  W/3  ( "water*" )  W/3  ( "pollution"  OR  "contamination" )
+                </aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">( "increase*" )  W/3  ( "water*" )  W/3  ( "safe* reus*"  OR  "recycl*" )
+                </aqd:query-line>
+				<aqd:query-line field="TITLE-ABS-KEY">( "wastewater*"  OR  "waste water*"  OR  "sewage" )  W/3  ( "manage*"  OR  "treat*"  OR  "untreat*" )
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">( "good"  OR  "poor"  OR  "improve" )  W/3  ( "water quality" )  
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/6.4</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, substantially increase water-use efficiency across all sectors and
+                    ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially
+                    reduce the number of people suffering from water scarcity
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    6.4.1
+                    Change in water-use efficiency over time
+                    6.4.2
+                    Level of water stress: freshwater withdrawal as a proportion of available freshwater resources
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "efficien*"  W/3  ( "water*"  OR  "freshwater*" )  W/3  ( "use"  OR  "supply*"  OR  "availab*" ) )
+                </aqd:query-line>
+                  <aqd:query-line field="TITLE-ABS-KEY"> ( "water scarc*"  OR  "water short*" )
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/6.5</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, implement integrated water resources management at all levels,
+                    including through transboundary cooperation as appropriate
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    6.5.1
+                    Degree of integrated water resources management implementation (0-100)
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    6.5.2
+                    Proportion of transboundary basin area with an operational arrangement for water cooperation
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">( "water*" )  W/3  ( "resource* manage*"  OR  "cooperation*" )
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">( "address*" OR "coping" OR "polic*")  W/3  ( "water scarc*"  OR  "water short*" )
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/6.6</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2020, protect and restore water-related ecosystems, including mountains,
+                    forests, wetlands, rivers, aquifers and lakes
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    6.6.1
+                    Change in the extent of water-related ecosystems over time
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ("water*") W/3 ("ecosystem*")
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/6.a</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, expand international cooperation and capacity-building support to
+                    developing countries in water- and sanitation-related activities and programmes, including water
+                    harvesting, desalination, water efficiency, wastewater treatment, recycling and reuse technologies
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    6.a.1
+                    Amount of water- and sanitation-related official development assistance that is part of a
+                    government-coordinated spending plan
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY"> ( "water*"  OR  "sanitation*" )  W/3  (( "development*" )  W/3  ( "assist*"  OR  "support*"  OR  "program*" ) )
+                 </aqd:query-line>
+				 </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/6.b</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Support and strengthen the participation of local communities in improving
+                    water and sanitation management
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    6.b.1
+                    Proportion of local administrative units with established and operational policies and procedures
+                    for participation of local communities in water and sanitation management
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">( "water*"  OR  "sanitation*" )  W/3  ( "local"  W/3  ( "communit*"  OR  "administrat*" ) )
+                 </aqd:query-line>
+				 </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:filters>
+            <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
+            <aqd:timerange field="PUBYEAR">
+                <aqd:start>2009</aqd:start>
+                <aqd:end>2020</aqd:end>
+            </aqd:timerange>
+        </aqd:filters>
+    </aqd:query-definitions>
+</aqd:query>

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="queries.xsl"?>
+<aqd:query xmlns:dc="http://dublincore.org/documents/dcmi-namespace/"
+           xmlns:aqd="http://aurora-network.global/queries/namespace/">
+    <dc:identifier type="sdg">15</dc:identifier>
+	<dc:identifier type="uri">http://metadata.un.org/sdg/15</dc:identifier>
+    <icon>https://sustainabledevelopment.un.org/content/images/E_SDG_Icons-15.jpg</icon>
+    <dc:subject type="uri">https://sustainabledevelopment.un.org/sdg15</dc:subject>
+    <dc:identifier type="version">5.0</dc:identifier>
+    <dc:identifier type="doi">10.5281/zenodo.3817445</dc:identifier>
+    <dc:source type="doi">10.5281/zenodo.3817443</dc:source>
+    <dc:relation type="uri">https://sustainabledevelopment.un.org/sdgs</dc:relation>
+    <dc:title>SDG-15 life on land</dc:title>
+    <dc:description>
+        Forests cover 30.7 per cent of the Earth’s surface and, in addition to providing food security and
+        shelter, they are key to combating climate change, protecting biodiversity and the homes of the indigenous
+        population. By protecting forests, we will also be able to strengthen natural resource management and increase
+        land productivity.
+        At the current time, thirteen million hectares of forests are being lost every year while the persistent
+        degradation of drylands has led to the desertification of 3.6 billion hectares. Even though up to 15% of land is
+        currently under protection, biodiversity is still at risk. Deforestation and desertification – caused by human
+        activities and climate change – pose major challenges to sustainable development and have affected the lives and
+        livelihoods of millions of people in the fight against poverty.
+        Efforts are being made to manage forests and combat desertification. There are two international agreements
+        being implemented currently that promote the use of resources in an equitable way. Financial investments in
+        support of biodiversity are also being provided.
+    </dc:description>
+    <dc:rights href="http://creativecommons.org/licenses/by/4.0/">CC-BY v4 INT</dc:rights>
+    <dc:creator>Aurora Universities Network (AUR); René Otten (VUA); Eike Spielberg (UDE); Felix Schmidt (UDE); Maurice Vanderfeesten (VUA); Alessandro Arienzo (UNA); Roberto delle Donne (UNA); Ignasi Salvadó Estivill (URV); José Luis González Ugarte (URV); Didier Vercueil (UGA); Nykohla Strong (UAB); Eike Spielberg (UDE); Linda Hasse (UDE); Ane Sesma (UEA); Baldvin Zarioh (UIC); Friedrich Gaigg (UIN); Nicolien van der Grijp (VUA); Yasin Gunes (VUA); </dc:creator>
+    <dc:contributor>Eike Spielberg (UDE); Peter van den Besselaar (VUA)
+    </dc:contributor>
+    <dc:date>2020-06-30</dc:date>
+    <aqd:query-definitions syntax="SCOPUS">
+        <aqd:query-definition>
+            <aqd:subquery-identifier>1</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.1</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland
+                    freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands,
+                    in line with obligations under international agreements
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.1.1
+                    Forest area as a proportion of total land area
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.1.2
+                    Proportion of important sites for terrestrial and freshwater biodiversity that are covered by
+                    protected areas, by ecosystem type
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( ( "sustainab*"  OR  "conserv*"  OR  "restor*" )  
+				W/3  ( "ecosyst*"  OR  "terrestrial"  OR  "freshwater"  OR  "inland"  
+				OR  "forest*"  OR  "rainforest*"  OR  "agroforest*"  OR  "deforest*"  OR  "reforest*"  OR  "afforest*"  OR  "environment*"  OR  "soil"  OR  "land" ) )  
+				AND NOT  ( "marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR  "reef" )  
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition>
+            <aqd:subquery-identifier>2</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.2</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2020, promote the implementation of sustainable management of all types of forests, halt
+                    deforestation, restore degraded forests and substantially increase afforestation and reforestation
+                    globally
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.2.1
+                    Progress towards sustainable forest management
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ("sustainab*") AND ("management*") AND ("forest*")
+                 </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "halt*"  OR  "combat*" OR "reduc*")  W/3  ( "deforest*"  )  
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "restor*" )  W/3  ( "degraded forest*" )  
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                   ( "increas*" )  W/3  ( "reforest*"  OR  "afforest*" )  
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>3</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.3</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, combat desertification, restore degraded land and soil, including
+                    land affected by desertification, drought and floods, and strive to achieve a land
+                    degradation-neutral world
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.3.1
+                    Proportion of land that is degraded over total land area
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "halt*"  OR  "combat*"  OR  "reduc*" )  W/3  ( "desertification*" ) 
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "restor*" )  W/3  ( "degraded land*"  OR  "degraded dryland*"  OR  "degraded soil*" )    
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "proportion*"  OR  "percentage" )  AND  ( "degraded" )  W/3  ( "land*"  OR  "dryland*"  OR  "soil*" ) 
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>4</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.4</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2030, ensure the conservation of mountain ecosystems, including their
+                    biodiversity, in order to enhance their capacity to provide benefits that are essential for
+                    sustainable development
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.4.1
+                    Coverage by protected areas of important sites for mountain biodiversity
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.4.2
+                    Mountain Green Cover Index
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( "mountain*"  OR  "alpine" )  W/3  ( "ecosystem*"  OR  "biodiversity" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				"mountain green cover index"
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>5</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.5</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Take urgent and significant action to reduce the degradation of natural
+                    habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of
+                    threatened species
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.5.1
+                    Red List Index
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "halt*"  OR  "combat*"  OR  "reduc*" )  W/3  ( "degrad*"  OR  "loss*"  OR  "destruction"  OR  "fragmentation" )  
+				 W/3  ( "habitat"  OR  "land"  OR  "woodland*"  OR  "forest*" )
+                </aqd:query-line>
+                 <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "halt*"  OR  "combat*"  OR  "reduc*" )  W/3  ( "loss*" )  W/3  ( "biodiversity" ) 
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                ( "prevent*" )  W/3  ( "extinction" )  W/3  ( "species" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 "Red List Index" 
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>6</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.6</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Promote fair and equitable sharing of the benefits arising from the
+                    utilization of genetic resources and promote appropriate access to such resources, as
+                    internationally agreed
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.6.1
+                    Number of countries that have adopted legislative, administrative and policy frameworks to ensure
+                    fair and equitable sharing of benefits
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+				( ( "genetic"  OR  "gene*"  OR  "genes" )  W/3  ( "resource*" ) )  AND  ( "sharing" )  				
+				</aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>7</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.7</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Take urgent action to end poaching and trafficking of protected species of
+                    flora and fauna and address both demand and supply of illegal wildlife products
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.7.1
+                    Proportion of traded wildlife that was poached or illicitly trafficked
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "poaching" OR "trafficking") AND ("species" OR "flora" OR "fauna" OR "wildlife")    
+                 AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>8</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.8</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2020, introduce measures to prevent the introduction and significantly
+                    reduce the impact of invasive alien species on land and water ecosystems and control or eradicate
+                    the priority species
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.8.1
+                    Proportion of countries adopting relevant national legislation and adequately resourcing the
+                    prevention or control of invasive alien species
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+                <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                     ( "invas*" )  W/3  ( "alien"  OR  "nonnative"  OR  "non-native"  OR  "nonindigenous"  OR  "non-indigenous" )  W/3  ( "species"  OR  "animal*"  OR  "plant*" )  
+                    AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+		            ( "protect*" )  W/3  ( "threaten*"  OR  "endanger*" )  W/3  ( "species"  OR  "animal*"  OR  "plant*" )  
+                     AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
+					 </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+		            ( ( "prevent*" )  W/3  ( "extinct*" ) )  AND  ( ( "threaten*"  OR  "endanger*" )  W/3  ( "species"  OR  "animal*"  OR  "plant*" ) )  
+                     AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
+				</aqd:query-line>				
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>9</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.9</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    By 2020, integrate ecosystem and biodiversity values into national and local
+                    planning, development processes, poverty reduction strategies and accounts
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.9.1
+                    Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the
+                    Strategic Plan for Biodiversity 2011-2020
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( ( "ecosystem"  W/3  "biodiversity" )  OR  "species diversity" )  AND  ( "polic*"  OR  "strateg*"  OR  "plan"  OR  "plans"  OR  "planning" ) 
+                    AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                    ( "Aichi Biodiversity Target*" )  OR  ( "Strategic Plan for Biodiversity" )  
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>a</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.a</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Mobilize and significantly increase financial resources from all sources to
+                    conserve and sustainably use biodiversity and ecosystems
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.a.1
+                    Official development assistance and public expenditure on conservation and sustainable use of
+                    biodiversity and ecosystems
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				( "ecosystem"  W/3  "biodiversity" )  AND  ( "financ*" )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				( "ecosystem"  W/3  "biodiversity" )  AND  ( "develop*"  W/3  ( "assist*"  OR  "support*"  OR  "aid"  OR  "program*" ) )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				( "ecosystem"  W/3  "biodiversity" )  AND  ( "spending"  OR  "expenditure"  OR  "GDP"  OR  "gross domestic product" )  
+                </aqd:query-line>
+				</aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>b</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.b</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Mobilize significant resources from all sources and at all levels to finance
+                    sustainable forest management and provide adequate incentives to developing countries to advance
+                    such management, including for conservation and reforestation
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.b.1
+                    Official development assistance and public expenditure on conservation and sustainable use of
+                    biodiversity and ecosystems
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				("sustainab*") AND ("management*") AND ("forest*") 
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				( "ecosystem"  W/3  "biodiversity" )  AND  ( "develop*"  W/3  ( "assist*"  OR  "support*"  OR  "aid"  OR  "program*" ) )  
+                </aqd:query-line>
+                <aqd:query-line field="TITLE-ABS-KEY" >
+				( "ecosystem"  W/3  "biodiversity" )  AND  ( "spending"  OR  "expenditure"  OR  "GDP"  OR  "gross domestic product" )  
+                </aqd:query-line>
+				
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:query-definition syntax="SCOPUS">
+            <aqd:subquery-identifier>c</aqd:subquery-identifier>
+            <dc:identifier type="uri">http://metadata.un.org/sdg/15.c</dc:identifier>
+            <aqd:subquery-descriptions>
+                <aqd:subquery-description>
+                    Enhance global support for efforts to combat poaching and trafficking of
+                    protected species, including by increasing the capacity of local communities to pursue sustainable
+                    livelihood opportunities
+                </aqd:subquery-description>
+                <aqd:subquery-description>
+                    15.c.1
+                    Proportion of traded wildlife that was poached or illicitly trafficked
+                </aqd:subquery-description>
+            </aqd:subquery-descriptions>
+            <aqd:query-lines>
+                <aqd:query-line field="TITLE-ABS-KEY">
+                 ( "poaching" OR "trafficking") AND ("species" OR "flora" OR "fauna" OR "wildlife")    
+                 AND NOT ("marine" OR  "ocean*"  OR  "sea"  OR  "seas" OR "reef")
+                </aqd:query-line>
+            </aqd:query-lines>
+        </aqd:query-definition>
+        <aqd:filters>
+            <aqd:filter type="affilation" field="AF-ID"></aqd:filter>
+            <aqd:timerange field="PUBYEAR">
+                <aqd:start>2009</aqd:start>
+                <aqd:end>2020</aqd:end>
+            </aqd:timerange>
+        </aqd:filters>
+    </aqd:query-definitions>
+</aqd:query>

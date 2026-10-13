@@ -1,0 +1,37 @@
+"groups","words","name_full","n","centrality","density","rcentrality","rdensity","name","color","freq"
+1,"covid19 24
+sars-cov-2 4.3","covid19
+sars-cov-2",2,9.32278974114012e-05,0.0313053539835965,5,1,"covid19","#E41A1C80",13890
+2,"climate change 6.2
+sustainability 3.9
+food security 2.6
+sustainable development 1.8
+renewable energy 1.8
+gender 1.5
+conservation 1.5
+economic growth 1.4","climate change
+sustainability
+food security
+sustainable development
+renewable energy",8,0.000116448936746265,0.0376475514119421,6,2,"climate change","#377EB880",28969
+3,"human immunodeficiency virus 3.6
+public health 2.7
+children 2.6
+adolescent 2.2
+prevalence 2
+epidemiology 1.8
+women 1.8
+malaria 1.7","human immunodeficiency virus
+public health
+children
+adolescent
+prevalence",8,7.99282487907556e-05,0.0494061971100441,4,5,"human immunodeficiency virus","#4DAF4A80",18872
+4,"adsorption 3.9
+heavy metal 3.1
+wastewater 2.6","adsorption
+heavy metal
+wastewater",3,4.4891029412827e-06,0.0486459206544139,1,4,"adsorption","#984EA380",6906
+5,"machine learning 11.4
+remote sensing 8.6","machine learning
+remote sensing",2,2.0142396477855e-05,0.0442527312917197,2,3,"machine learning","#FF7F0080",4729
+6,"knowledge 14.2","knowledge",1,2.48009728017985e-05,0.0503778337531486,3,6,"knowledge","#A6562880",1985

@@ -1,0 +1,55 @@
+country_name,country_name_scopus,subregion,iso2,iso3,research_identifier,sdg_index_identifier,sdg_index_name,mapping_status,sdr2025_goal_scores_available,sdr2025_missing_goals,backdated_2024_goal_scores_available,notes
+Angola,Angola,Southern Africa,AO,AGO,au_countries ISO2 'AO',AGO,Angola,matched_iso3,17,,17,
+Burundi,Burundi,East Africa,BI,BDI,au_countries ISO2 'BI',BDI,Burundi,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Benin,Benin,West Africa,BJ,BEN,au_countries ISO2 'BJ',BEN,Benin,matched_iso3,17,,17,
+Burkina Faso,Burkina Faso,West Africa,BF,BFA,au_countries ISO2 'BF',BFA,Burkina Faso,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Botswana,Botswana,Southern Africa,BW,BWA,au_countries ISO2 'BW',BWA,Botswana,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Central African Republic,Central African Republic,Central Africa,CF,CAF,au_countries ISO2 'CF',CAF,Central African Republic,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Cote d'Ivoire,Cote d'Ivoire,West Africa,CI,CIV,au_countries ISO2 'CI',CIV,Cote d'Ivoire,matched_iso3,17,,17,
+Cameroon,Cameroon,Central Africa,CM,CMR,au_countries ISO2 'CM',CMR,Cameroon,matched_iso3,17,,17,
+Democratic Republic of the Congo,Democratic Republic Congo,Central Africa,CD,COD,au_countries ISO2 'CD',COD,"Congo, Dem. Rep.",matched_iso3,17,,17,
+Republic of the Congo,Congo,Central Africa,CG,COG,au_countries ISO2 'CG',COG,"Congo, Rep.",matched_iso3,17,,17,
+Comoros,Comoros,East Africa,KM,COM,au_countries ISO2 'KM',COM,Comoros,matched_iso3,17,,17,
+Cabo Verde,Cabo Verde,West Africa,CV,CPV,au_countries ISO2 'CV',CPV,Cabo Verde,matched_iso3,17,,17,
+Djibouti,Djibouti,East Africa,DJ,DJI,au_countries ISO2 'DJ',DJI,Djibouti,matched_iso3,16,4,16,missing 2025 goal(s): [4]
+Algeria,Algeria,North Africa,DZ,DZA,au_countries ISO2 'DZ',DZA,Algeria,matched_iso3,17,,17,
+Egypt,Egypt,North Africa,EG,EGY,au_countries ISO2 'EG',EGY,"Egypt, Arab Rep.",matched_iso3,17,,17,
+Eritrea,Eritrea,East Africa,ER,ERI,au_countries ISO2 'ER',ERI,Eritrea,matched_iso3,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17,16,listed in SDR 2025 without goal-level scores (insufficient data); backdated series has goal scores
+Ethiopia,Ethiopia,East Africa,ET,ETH,au_countries ISO2 'ET',ETH,Ethiopia,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Gabon,Gabon,Central Africa,GA,GAB,au_countries ISO2 'GA',GAB,Gabon,matched_iso3,17,,17,
+Ghana,Ghana,West Africa,GH,GHA,au_countries ISO2 'GH',GHA,Ghana,matched_iso3,17,,17,
+Guinea,Guinea,West Africa,GN,GIN,au_countries ISO2 'GN',GIN,Guinea,matched_iso3,17,,17,
+The Gambia,Gambia,West Africa,GM,GMB,au_countries ISO2 'GM',GMB,"Gambia, The",matched_iso3,17,,17,
+Guinea-Bissau,Guinea-Bissau,West Africa,GW,GNB,au_countries ISO2 'GW',GNB,Guinea-Bissau,matched_iso3,17,,17,
+Equatorial Guinea,Equatorial Guinea,Central Africa,GQ,GNQ,au_countries ISO2 'GQ',GNQ,Equatorial Guinea,matched_iso3,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17,15,listed in SDR 2025 without goal-level scores (insufficient data); backdated series has goal scores
+Kenya,Kenya,East Africa,KE,KEN,au_countries ISO2 'KE',KEN,Kenya,matched_iso3,17,,17,
+Liberia,Liberia,West Africa,LR,LBR,au_countries ISO2 'LR',LBR,Liberia,matched_iso3,17,,17,
+Libya,Libya,North Africa,LY,LBY,au_countries ISO2 'LY',LBY,Libya,matched_iso3,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17,14,listed in SDR 2025 without goal-level scores (insufficient data); backdated series has goal scores
+Lesotho,Lesotho,Southern Africa,LS,LSO,au_countries ISO2 'LS',LSO,Lesotho,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Morocco,Morocco,North Africa,MA,MAR,au_countries ISO2 'MA',MAR,Morocco,matched_iso3,17,,17,
+Madagascar,Madagascar,East Africa,MG,MDG,au_countries ISO2 'MG',MDG,Madagascar,matched_iso3,17,,17,
+Mali,Mali,West Africa,ML,MLI,au_countries ISO2 'ML',MLI,Mali,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Mozambique,Mozambique,East Africa,MZ,MOZ,au_countries ISO2 'MZ',MOZ,Mozambique,matched_iso3,17,,17,
+Mauritania,Mauritania,West Africa,MR,MRT,au_countries ISO2 'MR',MRT,Mauritania,matched_iso3,17,,17,
+Mauritius,Mauritius,East Africa,MU,MUS,au_countries ISO2 'MU',MUS,Mauritius,matched_iso3,17,,17,
+Malawi,Malawi,East Africa,MW,MWI,au_countries ISO2 'MW',MWI,Malawi,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Namibia,Namibia,Southern Africa,NA,NAM,au_countries ISO2 'NA',NAM,Namibia,matched_iso3,17,,17,
+Niger,Niger,West Africa,NE,NER,au_countries ISO2 'NE',NER,Niger,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Nigeria,Nigeria,West Africa,NG,NGA,au_countries ISO2 'NG',NGA,Nigeria,matched_iso3,17,,17,
+Rwanda,Rwanda,East Africa,RW,RWA,au_countries ISO2 'RW',RWA,Rwanda,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Sudan,Sudan,North Africa,SD,SDN,au_countries ISO2 'SD',SDN,Sudan,matched_iso3,17,,17,
+Senegal,Senegal,West Africa,SN,SEN,au_countries ISO2 'SN',SEN,Senegal,matched_iso3,17,,17,
+Sierra Leone,Sierra Leone,West Africa,SL,SLE,au_countries ISO2 'SL',SLE,Sierra Leone,matched_iso3,17,,17,
+Somalia,Somalia,East Africa,SO,SOM,au_countries ISO2 'SO',SOM,Somalia,matched_iso3,16,10,16,missing 2025 goal(s): [10]
+South Sudan,South Sudan,East Africa,SS,SSD,au_countries ISO2 'SS',SSD,South Sudan,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Sao Tome and Principe,Sao Tome and Principe,Central Africa,ST,STP,au_countries ISO2 'ST',STP,Sao Tome and Principe,matched_iso3,17,,17,
+Eswatini,Eswatini,Southern Africa,SZ,SWZ,au_countries ISO2 'SZ',SWZ,Eswatini,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Seychelles,Seychelles,East Africa,SC,SYC,au_countries ISO2 'SC',SYC,Seychelles,matched_iso3,0,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17,16,listed in SDR 2025 without goal-level scores (insufficient data); backdated series has goal scores
+Chad,Chad,Central Africa,TD,TCD,au_countries ISO2 'TD',TCD,Chad,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Togo,Togo,West Africa,TG,TGO,au_countries ISO2 'TG',TGO,Togo,matched_iso3,17,,17,
+Tunisia,Tunisia,North Africa,TN,TUN,au_countries ISO2 'TN',TUN,Tunisia,matched_iso3,17,,17,
+United Republic of Tanzania,Tanzania,East Africa,TZ,TZA,au_countries ISO2 'TZ',TZA,Tanzania,matched_iso3,17,,17,
+Uganda,Uganda,East Africa,UG,UGA,au_countries ISO2 'UG',UGA,Uganda,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+South Africa,South Africa,Southern Africa,ZA,ZAF,au_countries ISO2 'ZA',ZAF,South Africa,matched_iso3,17,,17,
+Zambia,Zambia,Southern Africa,ZM,ZMB,au_countries ISO2 'ZM',ZMB,Zambia,matched_iso3,16,14,16,missing 2025 goal(s): [14]
+Zimbabwe,Zimbabwe,Southern Africa,ZW,ZWE,au_countries ISO2 'ZW',ZWE,Zimbabwe,matched_iso3,16,14,16,missing 2025 goal(s): [14]

@@ -1,0 +1,210 @@
+{
+ "package_version": "2.0.0",
+ "scope": {
+  "countries": "54 African Union member states (country_lists/au54_countries.csv)",
+  "sdgs": 17,
+  "publication_years": [
+   2015,
+   2025
+  ],
+  "document_types": {
+   "ar": "Article",
+   "re": "Review"
+  },
+  "database": "Scopus",
+  "query_framework": "Aurora SDG Queries v5.0.3 (DOI 10.5281/zenodo.3817445)"
+ },
+ "stage01_deduplication": {
+  "passes": [
+   "exact EID",
+   "standardised DOI",
+   "fuzzy title (records without DOI)"
+  ],
+  "doi_lowercase": true,
+  "title_similarity_threshold": 0.95,
+  "title_similarity_measure": "rapidfuzz token_set_ratio on cleaned titles",
+  "year_window": 1,
+  "sdg_tags": "union of the SDG tags of merged records"
+ },
+ "stage01a_consolidation": {
+  "sdg2_assignment": "SDG 2 exports of 7 October 2026 (query AND ORIG-LOAD-DATE BEF 20260509)",
+  "matching": [
+   "exact EID",
+   "EID merged in Stage 01",
+   "standardised DOI",
+   "fuzzy title (records without DOI; Stage 01 threshold and year window)"
+  ],
+  "curated_fuzzy_title_groups_kept_separate": 5,
+  "records_kept_separate": 8,
+  "republication_groups_kept_merged": 7,
+  "record_pairs_not_merged": 3
+ },
+ "stage01b_eligibility": {
+  "publication_years": [
+   2015,
+   2025
+  ],
+  "document_types": [
+   "ar",
+   "re"
+  ],
+  "articles_in_press": "retained"
+ },
+ "stage02_affiliations": {
+  "country_attribution": "direct, from the Scopus affiliation text (code/utils/country_normalisation.py); ROR is not used for countries",
+  "ror_release": "v2.6-2026-04 (Zenodo record 19576723, DOI 10.5281/zenodo.19576723)",
+  "ror_subset": "data/external/ror/ror_africa_v2.json (organisations with a location in an AU member state)",
+  "fuzzy_threshold_partial_ratio": 92,
+  "fuzzy_min_gap_to_second_candidate": 5,
+  "fuzzy_acceptance": "institutional-core gates A-E (code/utils/institution_core.py)",
+  "manual_overrides": "provenance/stage3_manual_overrides.csv"
+ },
+ "stage03_keywords": {
+  "field": "author keywords",
+  "thesaurus": "provenance/stage4_thesaurus.csv",
+  "top_keywords_reported": 500
+ },
+ "stage04_indicators": {
+  "cagr": "((N2024/N2015)^(1/9) - 1) * 100",
+  "sdg_counting": "fractional, 1/k per tagged SDG",
+  "country_counting": "full counting by AU country unless stated otherwise"
+ },
+ "stage05_thematic": {
+  "software": "R 4.4.3, bibliometrix 5.4.0",
+  "geographic_filter_terms": 67,
+  "figure6_thematicMap": {
+   "field": "DE",
+   "n": "250",
+   "minfreq": "1725",
+   "ngrams": "1",
+   "stemming": "FALSE",
+   "size": "0.7",
+   "n.labels": "5",
+   "community.repulsion": "0.5",
+   "repel": "TRUE",
+   "cluster": "louvain"
+  },
+  "figure7_thematicEvolution": {
+   "field": "DE",
+   "years1": "2018",
+   "years2": "2022",
+   "n": "250",
+   "minFreq": "5",
+   "size": "0.5",
+   "ngrams": "1",
+   "stemming": "FALSE",
+   "n.labels": "3",
+   "repel": "TRUE",
+   "cluster": "louvain"
+  },
+  "random_seed": 1234,
+  "sensitivity_without_2025": "same parameters, publication years <= 2024; seeds 1234, 1, 2024"
+ },
+ "stage06_alignment": {
+  "sdg_fractionalisation": "1/k per tagged SDG (k unique valid SDG tags of the record)",
+  "primary_country_counting": "fractional: 1/(k*m), m = unique AU countries in au_countries (direct affiliation-text attribution, Stage 02)",
+  "sensitivity_country_counting": "full: 1/k to every involved AU country",
+  "research_share": "country SDG weight / country total over all 17 SDGs; true zeros retained",
+  "implementation_deficit": "100 - SDR 2025 goal score ('SDR2025 Data', 'Goal n Score'); no imputation",
+  "join_key": "ISO3 (SDR 'Country Code ISO3' = country_lists/au54_countries.csv iso3)",
+  "eligibility_research_min_positive_sdgs": 10,
+  "eligibility_implementation_min_goal_scores": 14,
+  "min_pairs_for_rho": 10,
+  "rho": "scipy.stats.spearmanr (average ranks for ties); p-value reported, not used for inference",
+  "bootstrap_unit": "country's paired (research share, deficit) SDG observations, resampled n with replacement",
+  "bootstrap_reps_primary": 1000,
+  "bootstrap_seed_primary": 42,
+  "bootstrap_stream": "numpy default_rng(SeedSequence([seed, int.from_bytes(ISO3,'big')])) per country (order-independent)",
+  "bootstrap_invalid": "replicates with constant resampled research or deficit vector have undefined rho; counted, excluded from percentiles, never replaced",
+  "bootstrap_ci": "2.5/97.5 percentiles (numpy linear) of valid replicate rhos",
+  "bootstrap_mc_reps": 10000,
+  "bootstrap_seed_sensitivity": [
+   1,
+   42,
+   2024
+  ],
+  "quadrant_primary": "SDG-specific medians among primary-eligible countries with a deficit for that SDG; 'high' = value >= median",
+  "quadrant_fixed_benchmark": {
+   "research_share": 0.058823529411764705,
+   "deficit": 50.0
+  },
+  "quadrant_legacy_diagnostic": {
+   "label": "legacy_0.08_50",
+   "research_share": 0.08,
+   "deficit": 50.0
+  },
+  "threshold_sensitive_flag": "SDG flagged threshold-sensitive when the LH count range across the three schemes exceeds 25% of countries with data for that SDG",
+  "eligibility_grid": {
+   "research_min": [
+    8,
+    10,
+    12
+   ],
+   "implementation_min": [
+    12,
+    14,
+    16
+   ]
+  },
+  "exclusion_2025_window": "2015-2024 research portfolio vs SDR 2025 deficits",
+  "temporal_backdated_years": [
+   2015,
+   2018,
+   2021,
+   2024
+  ]
+ },
+ "stage08_networks": {
+  "country_source": "utils/country_normalisation.py on raw Affiliations (identical implementation to Stage 02)",
+  "africa_definition": "African Union member states (AU-54, country_lists/au54_countries.csv); other African territories count as non-AU",
+  "international_collaboration": ">= 2 distinct countries on the record",
+  "full_pair_counting": "each unordered pair of distinct countries on a record = 1",
+  "fractional_pair_counting": "each of the p pairs on a record = 1/p (record total 1)",
+  "intra_african_link_share": "AA / (AA + AN)",
+  "keyword_source": "keywords_harmonised (Stage 03; identical to bibliometrix DE)",
+  "keyword_geo_filter": "67 terms parsed from code/05a_thematic_map_F6.R (Stage 05 validated list), case-insensitive exact term",
+  "keyword_edges_stored_for": "keywords with >= 2 document occurrences (pairs involving single-occurrence keywords cannot appear at any threshold >= 2; their count is reported)",
+  "institution_source": "ror_ids (Stage 02; African ROR subset; country-consistent, ambiguity-safe; fuzzy matches gated by institutional core)",
+  "display_cap_country": 50,
+  "display_cap_institution": 50,
+  "keyword_candidate_thresholds": [
+   250,
+   500,
+   750,
+   1000,
+   1250,
+   1500,
+   2000,
+   3000
+  ]
+ },
+ "vosviewer": {
+  "version": "1.6.21",
+  "normalisation": "association strength",
+  "clustering": {
+   "resolution": 1.0,
+   "minimum_cluster_size": 1,
+   "random_seed": 0
+  },
+  "figure8_keywords": {
+   "input": "results/vosviewer/F8_keyword_min1000_{map,network}.txt",
+   "minimum_occurrences": 1000,
+   "items": 67,
+   "attraction": 2,
+   "repulsion": -1
+  },
+  "figure9_countries": {
+   "input": "results/vosviewer/F9_country_africa_involved_top50_{map,network}.txt",
+   "items": 50,
+   "attraction": 2,
+   "repulsion": 0
+  },
+  "figure10_institutions": {
+   "input": "results/vosviewer/F10_institution_ror_top50_{map,network}.txt",
+   "display_labels": "results/vosviewer/F10_institution_ror_top50_map_shortlabels.txt",
+   "items": 50,
+   "attraction": 4,
+   "repulsion": -1
+  }
+ }
+}

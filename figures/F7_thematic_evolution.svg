@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='510.24pt' height='340.16pt' viewBox='0 0 510.24 340.16'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1MTAuMjR8MC4wMHwzNDAuMTY='>
+    <rect x='0.00' y='0.00' width='510.24' height='340.16' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1MTAuMjR8MC4wMHwzNDAuMTY=)'>
+<rect x='0.00' y='0.000000000000057' width='510.24' height='340.16' style='stroke-width: 1.12; stroke: none; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNS42N3w1MDQuNTd8NS42N3wzMjEuNTM='>
+    <rect x='5.67' y='5.67' width='498.90' height='315.86' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNS42N3w1MDQuNTd8NS42N3wzMjEuNTM=)'>
+<polyline points='5.67,308.18 504.57,308.18 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,285.94 504.57,285.94 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,263.69 504.57,263.69 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,241.45 504.57,241.45 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,219.21 504.57,219.21 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,196.96 504.57,196.96 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,174.72 504.57,174.72 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,152.48 504.57,152.48 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,130.23 504.57,130.23 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,107.99 504.57,107.99 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,85.75 504.57,85.75 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,63.50 504.57,63.50 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,41.26 504.57,41.26 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='5.67,19.02 504.57,19.02 ' style='stroke-width: 1.12; stroke: #EBEBEB; stroke-linecap: butt;' />
+<circle cx='51.72' cy='308.18' r='5.28' style='stroke-width: 0.74; stroke: #F8766D; stroke-opacity: 0.70; fill: #F8766D; fill-opacity: 0.70;' />
+<circle cx='51.72' cy='285.94' r='3.55' style='stroke-width: 0.74; stroke: #F8766D; stroke-opacity: 0.70; fill: #F8766D; fill-opacity: 0.70;' />
+<circle cx='51.72' cy='263.69' r='6.69' style='stroke-width: 0.74; stroke: #F8766D; stroke-opacity: 0.70; fill: #F8766D; fill-opacity: 0.70;' />
+<circle cx='51.72' cy='241.45' r='2.70' style='stroke-width: 0.74; stroke: #F8766D; stroke-opacity: 0.70; fill: #F8766D; fill-opacity: 0.70;' />
+<circle cx='205.23' cy='219.21' r='4.92' style='stroke-width: 0.74; stroke: #00BA38; stroke-opacity: 0.70; fill: #00BA38; fill-opacity: 0.70;' />
+<circle cx='205.23' cy='196.96' r='9.33' style='stroke-width: 0.74; stroke: #00BA38; stroke-opacity: 0.70; fill: #00BA38; fill-opacity: 0.70;' />
+<circle cx='205.23' cy='174.72' r='8.75' style='stroke-width: 0.74; stroke: #00BA38; stroke-opacity: 0.70; fill: #00BA38; fill-opacity: 0.70;' />
+<circle cx='205.23' cy='152.48' r='8.03' style='stroke-width: 0.74; stroke: #00BA38; stroke-opacity: 0.70; fill: #00BA38; fill-opacity: 0.70;' />
+<circle cx='205.23' cy='130.23' r='2.29' style='stroke-width: 0.74; stroke: #00BA38; stroke-opacity: 0.70; fill: #00BA38; fill-opacity: 0.70;' />
+<circle cx='358.74' cy='107.99' r='6.66' style='stroke-width: 0.74; stroke: #619CFF; stroke-opacity: 0.70; fill: #619CFF; fill-opacity: 0.70;' />
+<circle cx='358.74' cy='85.75' r='8.14' style='stroke-width: 0.74; stroke: #619CFF; stroke-opacity: 0.70; fill: #619CFF; fill-opacity: 0.70;' />
+<circle cx='358.74' cy='63.50' r='6.78' style='stroke-width: 0.74; stroke: #619CFF; stroke-opacity: 0.70; fill: #619CFF; fill-opacity: 0.70;' />
+<circle cx='358.74' cy='41.26' r='7.83' style='stroke-width: 0.74; stroke: #619CFF; stroke-opacity: 0.70; fill: #619CFF; fill-opacity: 0.70;' />
+<circle cx='358.74' cy='19.02' r='9.17' style='stroke-width: 0.74; stroke: #619CFF; stroke-opacity: 0.70; fill: #619CFF; fill-opacity: 0.70;' />
+<text x='62.12' y='311.94' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='70.66px' lengthAdjust='spacingAndGlyphs'>climate change</text>
+<text x='59.82' y='289.69' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='56.64px' lengthAdjust='spacingAndGlyphs'>heavy metal</text>
+<text x='63.99' y='267.45' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='144.20px' lengthAdjust='spacingAndGlyphs'>human immunodeficiency virus</text>
+<text x='58.69' y='245.21' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='34.45px' lengthAdjust='spacingAndGlyphs'>poverty</text>
+<text x='215.15' y='222.96' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='49.06px' lengthAdjust='spacingAndGlyphs'>adsorption</text>
+<text x='221.01' y='200.72' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='70.66px' lengthAdjust='spacingAndGlyphs'>climate change</text>
+<text x='220.23' y='178.48' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='36.20px' lengthAdjust='spacingAndGlyphs'>covid19</text>
+<text x='219.27' y='156.23' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='144.20px' lengthAdjust='spacingAndGlyphs'>human immunodeficiency virus</text>
+<text x='211.65' y='133.99' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='50.22px' lengthAdjust='spacingAndGlyphs'>knowledge</text>
+<text x='370.96' y='111.75' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='49.06px' lengthAdjust='spacingAndGlyphs'>adsorption</text>
+<text x='372.93' y='89.50' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='70.66px' lengthAdjust='spacingAndGlyphs'>climate change</text>
+<text x='371.13' y='67.26' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='80.00px' lengthAdjust='spacingAndGlyphs'>machine learning</text>
+<text x='372.51' y='45.02' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='60.12px' lengthAdjust='spacingAndGlyphs'>sustainability</text>
+<text x='374.30' y='22.77' style='font-size: 10.50px;fill: #1A1A1A; font-family: "Arial";' textLength='36.20px' lengthAdjust='spacingAndGlyphs'>covid19</text>
+</g>
+<g clip-path='url(#cpMC4wMHw1MTAuMjR8MC4wMHwzNDAuMTY=)'>
+<text x='51.72' y='334.91' text-anchor='middle' style='font-size: 11.50px;fill: #1A1A1A; font-family: "Arial";' textLength='57.52px' lengthAdjust='spacingAndGlyphs'>2015–2018</text>
+<text x='205.23' y='334.91' text-anchor='middle' style='font-size: 11.50px;fill: #1A1A1A; font-family: "Arial";' textLength='57.52px' lengthAdjust='spacingAndGlyphs'>2019–2022</text>
+<text x='358.74' y='334.91' text-anchor='middle' style='font-size: 11.50px;fill: #1A1A1A; font-family: "Arial";' textLength='57.52px' lengthAdjust='spacingAndGlyphs'>2023–2025</text>
+</g>
+</g>
+</svg>

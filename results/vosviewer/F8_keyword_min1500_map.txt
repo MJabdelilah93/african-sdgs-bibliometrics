@@ -1,0 +1,35 @@
+id	label	weight<Occurrences>
+1	covid19	11839
+2	climate change	8792
+3	sustainability	5501
+4	human immunodeficiency virus	3729
+5	food security	3522
+6	adsorption	2752
+7	public health	2712
+8	machine learning	2701
+9	children	2679
+10	renewable energy	2522
+11	sustainable development	2504
+12	heavy metal	2264
+13	adolescent	2232
+14	conservation	2196
+15	sars-cov-2	2051
+16	gender	2040
+17	prevalence	2034
+18	remote sensing	2028
+19	knowledge	1985
+20	economic growth	1892
+21	wastewater	1890
+22	malaria	1869
+23	epidemiology	1840
+24	women	1777
+25	mental health	1692
+26	pregnancy	1681
+27	artificial intelligence	1675
+28	education	1642
+29	optimization	1630
+30	poverty	1620
+31	agriculture	1583
+32	pandemic	1560
+33	wastewater treatment	1560
+34	resilience	1559
